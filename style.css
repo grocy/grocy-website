@@ -1,0 +1,168 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.text-row {
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.feature-row {
+	min-height: 100%;
+	display: block;
+	align-items: center;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.feature-row {
+		min-height: 100%;
+		display: flex;
+		align-items: center;
+	}
+}
+
+.primary-head {
+	border-radius: 0;
+	border: none;
+	background-color: #777;
+	color: #ffffff;
+}
+
+.container-fluid {
+	max-width: 1000px;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	letter-spacing: -2px;
+	font-size: 2.2em;
+	font-family: Arial, sans-serif;
+}
+
+a {
+	color: #5cb85c;
+}
+
+a:hover {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+a.discrete-link {
+	color: inherit;
+}
+
+a.discrete-link:hover {
+	color: #5cb85c;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: 500;
+}
+
+.feature-image {
+	height: auto;
+	width: 425px;
+	box-shadow: #777 0px 1px 6px 0px;
+}
+
+.feature-image-head {
+	width: 475px;
+}
+
+code {
+	font-family: 'Fira Mono', monospace;
+}
+
+.detail-info {
+	font-size: 0.7em;
+}
+
+.content-separator {
+	border-top: 1px solid #dededc;
+	padding-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	max-width: 290px;
+}
+
+.content-separator-2x {
+	border-top: 1px solid #dededc;
+	margin-top: 40px;
+	padding-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	max-width: 290px;
+}
+
+.discrete-content-separator {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.discrete-content-separator-2x {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.discrete-content-separator-3x {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer {
+	color: #a7a7a7;
+	font-size: 11px;
+	font-family: 'News Cycle', sans-serif;
+	padding-bottom: 10px;
+}
+
+.site-info {
+	padding-top: 15px;
+}
+
+.legal-navigation {
+	font-size: 10px;
+}
+
+.legal-navigation ul {
+	list-style-type: none;
+	margin: 0 0 0 0;
+	padding-left: 0;
+}
+
+.legal-navigation li {
+	display: inline;
+}
+
+.legal-navigation li:not(:first-child):before {
+	content: ' | ';
+}
+
+.site-icon {
+	width: 30px;
+	height: 30px;
+}
+
+.grandmajor-info {
+	font-size: 21px;
+}
+
+.major-info {
+	font-size: 18px;
+}
+
+.minor-info {
+	font-size: 14px;
+}

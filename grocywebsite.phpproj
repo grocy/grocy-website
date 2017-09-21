@@ -1,0 +1,37 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>grocywebsite</Name>
+    <ProjectGuid>8c8fa66f-fe2c-4e61-8c4b-56140711e4b8</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>grocywebsite</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="bower.json" />
+    <Content Include="build.bat" />
+    <Content Include="datenschutz.html" />
+    <Content Include="img\grocy.png" />
+    <Content Include="img\habitoverview.png" />
+    <Content Include="img\head.png" />
+    <Content Include="img\purchase.png" />
+    <Content Include="img\shoppinglist.png" />
+    <Content Include="img\stockoverview.png" />
+    <Content Include="impressum.html" />
+    <Content Include="de.html" />
+    <Content Include="index.html" />
+    <Content Include="sitemap.xml" />
+    <Content Include="style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
+  </ItemGroup>
+</Project>
