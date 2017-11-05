@@ -14,6 +14,10 @@ body {
 	text-align: center;
 }
 
+.text-row h2 {
+	margin-top: 0;
+}
+
 .feature-row {
 	min-height: 100%;
 	display: block;
@@ -44,7 +48,7 @@ body {
 	font-weight: bold;
 	letter-spacing: -2px;
 	font-size: 2.2em;
-	font-family: Arial, sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 a {
@@ -56,12 +60,22 @@ a:hover {
 	text-decoration: none;
 }
 
+a:focus {
+	color: #5bc0de;
+	text-decoration: none;
+}
+
 a.discrete-link {
 	color: inherit;
 }
 
 a.discrete-link:hover {
 	color: #5cb85c;
+	text-decoration: none;
+}
+
+a.discrete-link:focus {
+	color: #337ab7;
 	text-decoration: none;
 }
 
@@ -77,6 +91,10 @@ a.discrete-link:hover {
 
 .feature-image-head {
 	width: 475px;
+}
+
+.feature-image.img-responsive {
+	display: inline;
 }
 
 code {
@@ -100,6 +118,16 @@ code {
 	border-top: 1px solid #dededc;
 	margin-top: 40px;
 	padding-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	max-width: 290px;
+}
+
+.content-separator-3x {
+	border-top: 1px solid #dededc;
+	margin-top: 45px;
+	padding-bottom: 45px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 75%;
