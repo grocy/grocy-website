@@ -1,5 +1,5 @@
 {
-	"name": "asp.net",
+	"name": "grocywebsite",
 	"private": true,
 	"dependencies": {
 		"bootstrap": "^3.3.7",
