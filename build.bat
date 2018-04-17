@@ -12,7 +12,7 @@ xcopy "style.css" ".deploy\"
 
 xcopy "img\*.*" ".deploy\img\" /E
 
-xcopy "bower_components\*.*" ".deploy\bower_components\" /E
+xcopy "node_modules\*.*" ".deploy\node_modules\" /E
 xcopy "vendor_unmanaged\*.*" ".deploy\vendor_unmanaged\" /E
 
 popd
