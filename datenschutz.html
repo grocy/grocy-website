@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -23,85 +23,78 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
+	<nav class="navbar navbar-expand-md navbar-light mb-4">
+		<div class="container">
+			<a class="navbar-brand" href="/">grocy</a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#languageNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-			<div class="navbar-header">
-				<a class="navbar-brand" href="/">grocy</a>
-			</div>
-
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
+			<div class="collapse navbar-collapse" id="languageNavbar">
+				<ul class="navbar-nav ml-auto">
 					<li>
 						<a class="discrete-link" href="https://github.com/berrnd/grocy" target="_blank"><i class="fa fa-github"></i></a>
 					</li>
 				</ul>
 			</div>
-
 		</div>
 	</nav>
 
-	<div class="discrete-content-separator"></div>
+	<main class="text-center pt-3">
 
-	<div class="container-fluid">
+		<div class="container">
 
-		<div class="row text-row">
-			<div class="col-xs-12">
+			<section class="row align-items-center">
+				<div class="col">
+					<h1 class="bold pb-3">Datenschutz</h1>
 
-				<h1 class="bold">Datenschutz</h1>
+					<p class="lead major-info">
+						Diese Website benutzt <a title="Piwik" href="https://piwik.org/" target="_blank">Piwik</a>, eine Open-Source Webanalytik-Software auf einer selbst gehosteten Instanz.<br>
+						Das Tracking erfolgt absolut anonym und dient nur der üblichen statistischen Auswertung von Besucherzugriffen.<br>
+						<br>
+						Auf dieser Seite sind keinerlei externe Resourcen von Drittanbietern eingebunden.<br>
+						<br>
+						Bei Bedarf bzw. Fragen zum Datenschutz auf dieser Seite kontaktiere mich gerne einfach kurz.
+					</p>
+				</div>
+			</section>
 
-				<div class="discrete-content-separator-2x"></div>
-
-				<p class="lead major-info">
-					Diese Website benutzt <a title="Piwik" href="https://piwik.org/" target="_blank">Piwik</a>, eine Open-Source Webanalytik-Software auf einer selbst gehosteten Instanz.<br>
-					Das Tracking erfolgt absolut anonym und dient nur der üblichen statistischen Auswertung von Besucherzugriffen.<br>
-					<br>
-					Auf dieser Seite sind keinerlei externe Resourcen von Drittanbietern eingebunden.<br>
-					<br>
-					Bei Bedarf bzw. Fragen zum Datenschutz auf dieser Seite kontaktiere mich gerne einfach kurz.
-				</p>
-
-			</div>
 		</div>
 
-		<div class="content-separator"></div>
+	</main>
 
-		<div class="row text-row">
-			<div class="col-xs-12">
+	<footer class="container text-center pb-3">
+		<div class="row">
+			<div class="col">
 
-				<div class="footer">
+				<div class="legal-navigation">
+					<ul>
+						<li>
+							<a class="discrete-link" href="/impressum">Impressum</a>
+						</li>
+						<li>
+							<a class="discrete-link" href="/datenschutz">Datenschutz</a>
+						</li>
+					</ul>
+				</div>
 
-					<a href="/" class="btn btn-lg btn-default">&larr; Zurück</a>
-
-					<div class="discrete-content-separator-3x"></div>
-
-					<div class="legal-navigation">
-						<ul>
-							<li>
-								<a class="discrete-link" href="/impressum">Impressum</a>
-							</li>
-							<li>
-								<a class="discrete-link" href="/datenschutz">Datenschutz</a>
-							</li>
-						</ul>
-					</div>
-
-					<div class="site-info">
-						grocy is a project by <a class="discrete-link" href="https://berrnd.de" target="_blank">Bernd Bestel</a>
-						<br>
-						Created with passion since 2017
-						<br>
-						Life runs on code
-					</div>
-
+				<div class="pt-3">
+					grocy is a project by <a class="discrete-link" href="https://berrnd.de" target="_blank">Bernd Bestel</a>
+					<br>
+					Created with passion since 2017
+					<br>
+					Life runs on code
 				</div>
 
 			</div>
 		</div>
+	</footer>
 
-	</div>
+	<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="//kiwip.berrnd.org/js/ads/banner.js"></script>
-	<script type="text/javascript">
+	<script>
 		var _paq = _paq || [];
 		_paq.push(["setDomains", ["*.grocy.info"]]);
 		_paq.push(['trackPageView']);

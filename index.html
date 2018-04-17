@@ -25,171 +25,164 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
+	<nav class="navbar navbar-expand-md navbar-light mb-4">
+		<div class="container">
+			<a class="navbar-brand" href="/">grocy</a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#languageNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-			<div class="navbar-header">
-				<a class="navbar-brand" href="/">grocy</a>
-			</div>
-
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active">
-						<a href="https://grocy.info">EN</a>
-					</li>
-					<li>
-						<a href="https://grocy.info/de">DE</a>
+			<div class="collapse navbar-collapse" id="languageNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="https://grocy.info/de">Diese Seite ist auch auf Deutsch verfügbar</a>
 					</li>
 				</ul>
 			</div>
-
 		</div>
 	</nav>
 
-	<div class="discrete-content-separator"></div>
+	<main class="text-center">
 
-	<header class="well primary-head">
-		<div class="container-fluid">
+		<header class="jumbotron">
+			<div class="container">
+				<div class="row align-items-center">
 
-			<div class="row feature-row">
+					<div class="col">
+						<h1 class="bold">ERP beyond your fridge</h1>
+						<p class="lead grandmajor-info">grocy is a selfhosted groceries management (and more) solution for your home.</p>
+						<p class="lead major-info">Open Source. Built with passion.</p>
+						<p>
+							<a class="btn btn-primary btn-lg" href="https://github.com/berrnd/grocy/releases" target="_blank">Download</a>
+							<a class="btn btn-success btn-lg" href="https://demo.grocy.info" target="_blank">Try it</a>
+							<a class="btn btn-light btn-lg" href="https://github.com/berrnd/grocy" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+						</p>
+					</div>
 
-				<div class="col-md-6">
-					<h1 class="bold">ERP beyond your fridge</h1>
-					<p class="lead grandmajor-info">grocy is a selfhosted groceries management (and more) solution for your home.</p>
-					<p class="lead major-info">Open Source. Built with passion.</p>
-					<p>
-						<a class="btn btn-primary btn-lg" href="https://github.com/berrnd/grocy/releases" target="_blank">Download</a>
-						<a class="btn btn-success btn-lg" href="https://demo.grocy.info" target="_blank">Try it</a>
-						<a class="btn btn-default btn-lg" href="https://github.com/berrnd/grocy" target="_blank"><i class="fa fa-github"></i> GitHub</a>
-					</p>
+					<div class="col">
+						<img src="/img/stock-en.png" alt="grocy Dashboard" class="feature-image feature-image-head">
+					</div>
+
 				</div>
-
-				<div class="col-md-6">
-					<img src="/img/stock-en.png" alt="grocy Dashboard" class="feature-image feature-image-head img-responsive">
-				</div>
-
 			</div>
+		</header>
+
+		<div class="container">
+
+			<section class="row align-items-center">
+				<div class="col">
+					<img src="/img/purchase-en.png" alt="grocy purchase tracking form" class="feature-image">
+				</div>
+				<div class="col pt-4 pt-md-0">
+					<h3 class="bold">Track your purchases</h3>
+					<p class="lead major-info">A barcode reader ready interface makes this a easy and quick task and you always know what you currently have at home.</p>
+				</div>
+			</section>
+
+			<hr>
+
+			<section class="row align-items-center">
+				<div class="col">
+					<h3 class="bold">Automate your shopping list</h3>
+					<p class="lead major-info">Define minimum stock amounts of your loved products and never think about "do I need noodles or are there enough at home?".</p>
+				</div>
+				<div class="col">
+					<img src="/img/shoppinglist-en.png" alt="grocy shopping list" class="feature-image">
+				</div>
+			</section>
+
+			<hr>
+
+			<section class="row align-items-center">
+				<div class="col">
+					<img src="/img/products-en.png" alt="grocy stock overview" class="feature-image">
+				</div>
+				<div class="col pt-4 pt-md-0">
+					<h3 class="bold">Waste less</h3>
+					<p class="lead major-info">Always know what's expiring next.</p>
+				</div>
+			</section>
+
+			<hr>
+
+			<section class="row align-items-center">
+				<div class="col">
+					<h3 class="bold">Input forms made for productivity</h3>
+					<p class="lead major-info">One hand, 3 seconds, no problem - errors impossible.</p>
+				</div>
+				<div class="col">
+					<img src="/img/dateinput-en.gif" alt="grocy input productivity" class="feature-image">
+				</div>
+			</section>
+
+			<hr>
+
+			<section class="row align-items-center">
+				<div class="col">
+					<img src="/img/habits-en.png" alt="grocy shopping list" class="feature-image">
+				</div>
+				<div class="col pt-4 pt-md-0">
+					<h3 class="bold">Track your household habits</h3>
+					<p class="lead major-info">Think less about "oh, when have I done last...".</p>
+				</div>
+			</section>
+
+			<hr>
+
+			<section class="row align-items-center">
+				<div class="col">
+					<h3 class="bold">Manage your batteries</h3>
+					<p class="lead major-info">Use rechargable batteries for everything to protect our environment and keep them in a good shope by knowing when you charged them last.</p>
+				</div>
+				<div class="col">
+					<img src="/img/batteries-en.png" alt="grocy batteries overview" class="feature-image">
+				</div>
+			</section>
+
+			<hr>
+
+			<section class="row">
+				<div class="col">
+					<h2 class="bold">And so much more</h2>
+					<p class="lead major-info">grocy is constantly evolving. It's daily used in my and maybe also soon in your home.</p>
+					<p class="lead major-info">When you miss something, let me know or add it yourself - just fork the <a href="https://github.com/berrnd/grocy" target="_blank">project on GitHub.</a></p>
+				</div>
+			</section>
 
 		</div>
-	</header>
 
-	<div class="discrete-content-separator-2x"></div>
+	</main>
 
-	<main class="container-fluid">
+	<footer class="container text-center pb-3">
+		<div class="row">
+			<div class="col">
 
-		<section class="row feature-row">
-			<div class="col-md-6">
-				<img src="/img/purchase-en.png" alt="grocy purchase tracking form" class="feature-image img-responsive">
-			</div>
-			<div class="col-md-6">
-				<h3 class="bold">Track your purchases</h3>
-				<p class="lead major-info">A barcode reader ready interface makes this a easy and quick task and you always know what you currently have at home.</p>
-			</div>
-		</section>
+				<div class="legal-navigation">
+					<ul>
+						<li>
+							<a class="discrete-link" href="/impressum">Impressum</a>
+						</li>
+						<li>
+							<a class="discrete-link" href="/datenschutz">Datenschutz</a>
+						</li>
+					</ul>
+				</div>
 
-		<div class="content-separator-3x"></div>
-
-		<section class="row feature-row">
-			<div class="col-md-6">
-				<h3 class="bold">Automate your shopping list</h3>
-				<p class="lead major-info">Define minimum stock amounts of your loved products and never think about "do I need noodles or are there enough at home?".</p>
-			</div>
-			<div class="col-md-6">
-				<img src="/img/shoppinglist-en.png" alt="grocy shopping list" class="feature-image img-responsive">
-			</div>
-		</section>
-
-		<div class="content-separator-3x"></div>
-
-		<section class="row feature-row">
-			<div class="col-md-6">
-				<img src="/img/products-en.png" alt="grocy stock overview" class="feature-image img-responsive">
-			</div>
-			<div class="col-md-6">
-				<h3 class="bold">Waste less</h3>
-				<p class="lead major-info">Always know what's expiring next.</p>
-			</div>
-		</section>
-
-		<div class="content-separator-3x"></div>
-
-
-		<section class="row feature-row">
-			<div class="col-md-6">
-				<h3 class="bold">Input forms made for productivity</h3>
-				<p class="lead major-info">One hand, 3 seconds, no problem - errors impossible.</p>
-			</div>
-			<div class="col-md-6">
-				<img src="/img/dateinput-en.gif" alt="grocy input productivity" class="feature-image img-responsive">
-			</div>
-		</section>
-
-		<div class="content-separator-3x"></div>
-
-		<section class="row feature-row">
-			<div class="col-md-6">
-				<img src="/img/habits-en.png" alt="grocy shopping list" class="feature-image img-responsive">
-			</div>
-			<div class="col-md-6">
-				<h3 class="bold">Track your household habits</h3>
-				<p class="lead major-info">Think less about "oh, when have I done last...".</p>
-			</div>
-		</section>
-
-		<div class="content-separator-3x"></div>
-
-		<section class="row feature-row">
-			<div class="col-md-6">
-				<h3 class="bold">Manage your batteries</h3>
-				<p class="lead major-info">Use rechargable batteries for everything to protect our environment and keep them in a good shope by knowing when you charged them last.</p>
-			</div>
-			<div class="col-md-6">
-				<img src="/img/batteries-en.png" alt="grocy batteries overview" class="feature-image img-responsive">
-			</div>
-		</section>
-
-		<div class="content-separator-3x"></div>
-
-		<section class="row text-row">
-			<div class="col-xs-12">
-				<h2 class="bold">And so much more</h2>
-				<p class="lead major-info">grocy is constantly evolving. It's daily used in my and maybe also soon in your home.</p>
-				<p class="lead major-info">When you miss something, let me know or add it yourself - just fork the <a href="https://github.com/berrnd/grocy" target="_blank">project on GitHub.</a></p>
-			</div>
-		</section>
-
-		<div class="discrete-content-separator-3x"></div>
-
-		<footer class="row text-row">
-			<div class="col-xs-12">
-
-				<div class="footer">
-
-					<div class="legal-navigation">
-						<ul>
-							<li>
-								<a class="discrete-link" href="/impressum">Impressum</a>
-							</li>
-							<li>
-								<a class="discrete-link" href="/datenschutz">Datenschutz</a>
-							</li>
-						</ul>
-					</div>
-
-					<div class="site-info">
-						grocy is a project by <a class="discrete-link" href="https://berrnd.de" target="_blank">Bernd Bestel</a>
-						<br>
-						Created with passion since 2017
-						<br>
-						Life runs on code
-					</div>
-
+				<div class="pt-3">
+					grocy is a project by <a class="discrete-link" href="https://berrnd.de" target="_blank">Bernd Bestel</a>
+					<br>
+					Created with passion since 2017
+					<br>
+					Life runs on code
 				</div>
 
 			</div>
-		</footer>
+		</div>
+	</footer>
 
-	</main>
+	<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="//kiwip.berrnd.org/js/ads/banner.js"></script>
 	<script>
 		var _paq = _paq || [];
