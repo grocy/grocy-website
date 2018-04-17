@@ -4,4 +4,8 @@
 		<loc>https://grocy.info</loc>
 		<xhtml:link rel="alternate" hreflang="de" href="https://grocy.info/de" />
 	</url>
+	<url>
+		<loc>https://grocy.info/de</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://grocy.info" />
+	</url>
 </urlset>
