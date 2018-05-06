@@ -58,6 +58,10 @@ a.nav-link:focus {
 	text-decoration: none;
 }
 
+footer a {
+	color: #7d7d7d;
+}
+
 .bold {
 	font-weight: 500;
 }
