@@ -67,6 +67,13 @@ section .feature-image {
 	}
 }
 
+.sketch-underline {
+	background: url("/img/sketch_line.svg") 0 100% no-repeat;
+	background-size: 70% 0.25rem;
+	padding-bottom: 0.4rem;
+	background-position: center bottom;
+}
+
 main hr {
 	border-top: 1px solid #e5e5e5;
 	margin-top: 45px;
