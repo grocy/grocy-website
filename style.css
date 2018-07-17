@@ -2,6 +2,10 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+.flowtext {
+	font-family: 'Merriweather', serif;
+}
+
 .navbar-light {
 	background-color: #e5e5e5;
 	border-bottom: 2px solid;
@@ -13,6 +17,20 @@ body {
 	border: none;
 	background-color: #595555;
 	color: #ffffff;
+}
+
+.card {
+	border: 2px solid;
+	border-color: #d6d6d6;
+	border-radius: 0;
+}
+
+.card-header {
+	background-color: #e5e5e5;
+}
+
+.card-body {
+	flex-grow: 0;
 }
 
 a {
@@ -117,6 +135,10 @@ footer {
 
 .minor-info {
 	font-size: 14px;
+}
+
+.grandminor-info {
+	font-size: 12px;
 }
 
 :target {

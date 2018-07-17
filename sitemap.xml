@@ -8,4 +8,7 @@
 		<loc>https://grocy.info/de</loc>
 		<xhtml:link rel="alternate" hreflang="en" href="https://grocy.info" />
 	</url>
+	<url>
+		<loc>https://grocy.info/changelog</loc>
+	</url>
 </urlset>

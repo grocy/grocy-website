@@ -5,6 +5,7 @@ mkdir ".deploy"
 
 xcopy "index.html" ".deploy\"
 xcopy "de.html" ".deploy\"
+xcopy "changelog.html" ".deploy\"
 xcopy "datenschutz.html" ".deploy\"
 xcopy "impressum.html" ".deploy\"
 xcopy "sitemap.xml" ".deploy\"
