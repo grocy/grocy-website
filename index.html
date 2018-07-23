@@ -70,37 +70,61 @@
 
 	<main class="text-center">
 
-		<header class="jumbotron">
-			<div class="container">
-				<div class="row align-items-center">
+		<header>
+			<div class="jumbotron mb-1">
+				<div class="container">
+					<div class="row align-items-center d-flex">
+
+						<div class="cl-xs-12 col-lg-6">
+							<h1 class="bold">ERP beyond your fridge</h1>
+							<p class="lead grandmajor-info">grocy is a web-based selfhosted groceries management (and more) solution for your home.</p>
+							<p class="lead major-info">Open Source. Built with passion.</p>
+							<p>
+								<a class="btn btn-primary btn-lg" href="https://releases.grocy.info/latest" target="_blank">Download</a>
+								<a class="btn btn-success btn-lg" href="https://demo-en.grocy.info" target="_blank">Demo</a>
+							</p>
+							<p>
+								<a class="btn btn-secondary btn-sm" href="/changelog"><i class="fas fa-exchange-alt"></i> Changelog</a>
+								<a class="btn btn-secondary btn-sm" href="https://github.com/berrnd/grocy" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+							</p>
+							<p class="font-weight-light font-italic grandminor-info mb-lg-0">
+								A webserver with PHP 7.2 and SQLite (PDO) extension is required.<br>
+								Currently available localizations: English, German, Italian and Norwegian
+							</p>
+						</div>
+
+						<div class="cl-xs-12 col-lg-6">
+							<img src="/img/stock-en.png" alt="grocy Dashboard" class="feature-image img-fluid">
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="container alert alert-dark my-2">
+				<div class="row align-items-center d-flex">
 
 					<div class="cl-xs-12 col-lg-6">
-						<h1 class="bold">ERP beyond your fridge</h1>
-						<p class="lead grandmajor-info">grocy is a web-based selfhosted groceries management (and more) solution for your home.</p>
-						<p class="lead major-info">Open Source. Built with passion.</p>
+						<h1 class="bold">grocy-desktop <span class="badge badge-danger">New</span></h1>
+						<p class="lead major-info">Run grocy without having to manage a webserver, just like a normal (windows) desktop application.</p>
 						<p>
-							<a class="btn btn-primary btn-lg" href="https://releases.grocy.info/latest" target="_blank">Download</a>
-							<a class="btn btn-success btn-lg" href="https://demo-en.grocy.info" target="_blank">Demo</a>
-						</p>
-						<p>
-							<a class="btn btn-secondary btn-sm" href="/changelog"><i class="fas fa-exchange-alt"></i> Changelog</a>
-							<a class="btn btn-secondary btn-sm" href="https://github.com/berrnd/grocy" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+							<a class="btn btn-primary" href="https://releases.grocy.info/latest-desktop" target="_blank">Download</a>
+							<a class="btn btn-secondary" href="https://github.com/berrnd/grocy-desktop" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 						</p>
 						<p class="font-weight-light font-italic grandminor-info mb-lg-0">
-							A webserver with PHP 7.2 and SQLite (PDO) extension is required.<br>
-							Currently available localizations: English, German, Italian and Norwegian
+							.Net Framework required (normally already available on any Windows PC), grocy-desktop auto configures and manages a local PHP server and grocy - just execute the installer and you are ready.
 						</p>
 					</div>
 
 					<div class="cl-xs-12 col-lg-6">
-						<img src="/img/stock-en.png" alt="grocy Dashboard" class="feature-image img-fluid">
+						<img src="/img/grocy-desktop-en.png" alt="grocy-desktop" class="feature-image img-fluid">
 					</div>
 
 				</div>
 			</div>
 		</header>
 
-		<div class="container">
+		<div class="container mt-5">
 
 			<section class="row align-items-center d-flex">
 				<div class="cl-xs-12 col-lg-6">
