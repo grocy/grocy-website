@@ -12,6 +12,11 @@ body {
 	border-color: #d6d6d6;
 }
 
+.alert-dark {
+	background-color: #e5e5e5;
+	border-color: #d6d6d6;
+}
+
 .jumbotron {
 	border-radius: 0;
 	border: none;
