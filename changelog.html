@@ -58,6 +58,37 @@
 				<div class="col-xs-12 col-lg-8 offset-lg-2">
 					<div class="card">
 						<div class="card-header">
+							<a class="discrete-link" data-toggle="collapse-next" href="#">Version <span class="font-weight-bold">1.16.0</span> released on <span class="font-weight-bold">2018-07-25</span></a>
+						</div>
+						<div class="collapse show">
+							<div class="card-body text-left flowtext major-info pb-0 px-1">
+								<ul class="px-4">
+									<li>Replaced the single user (so far defined in <code>/data/config.php</code>) with a multi-user management</li>
+									<ul>
+										<li>The currently defined user will automatically be migrated, please remove <code>HTTP_USER</code> and <code>HTTP_PASSWORD</code> from your config file afterwards</li>
+										<li>For this it was necessary to delete all sessions and API keys during the migration</li>
+									</ul>
+									<li>Added an update script (<code>/update.sh</code>) to make updates (on Linux machines) easier</li>
+									<ul>
+										<li>See also <a href="https://github.com/berrnd/grocy#how-to-update" target="_blank">"How to update" in README</a></li>
+									</ul>
+									<li>Added the possibility to track who did a habit</li>
+									<li>Added a rudimentary habit analysis possibility</li>
+									<li>Different small UI, code and translation improvements</li>
+								</ul>
+							</div>
+							<div class="card-body pt-0">
+								<a href="https://releases.grocy.info/v?1.16.0" target="_blank" class="btn btn-primary">Download</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="row align-items-center d-flex my-3">
+				<div class="col-xs-12 col-lg-8 offset-lg-2">
+					<div class="card">
+						<div class="card-header">
 							<a class="discrete-link" data-toggle="collapse-next" href="#">Version <span class="font-weight-bold">1.15.0</span> released on <span class="font-weight-bold">2018-07-22</span></a>
 						</div>
 						<div class="collapse show">
@@ -181,7 +212,7 @@
 						<div class="card-header">
 							<a class="discrete-link" data-toggle="collapse-next" href="#">Version <span class="font-weight-bold">1.12.1</span> released on <span class="font-weight-bold">2018-07-08</span></a>
 						</div>
-						<div class="collapse show">
+						<div class="collapse">
 							<div class="card-body text-left flowtext major-info pb-0 px-1">
 								<ul class="px-4">
 									<li>Bug fix for location filtering on stock overview page did not work in all browsers</li>
