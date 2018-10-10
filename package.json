@@ -4,6 +4,7 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.1.0",
 		"bootstrap": "^4.1.2",
-		"jquery": "^3.3.1"
+		"jquery": "^3.3.1",
+		"simplelightbox": "^1.14.0"
 	}
 }

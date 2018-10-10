@@ -10,6 +10,7 @@ xcopy "datenschutz.html" ".deploy\"
 xcopy "impressum.html" ".deploy\"
 xcopy "sitemap.xml" ".deploy\"
 xcopy "style.css" ".deploy\"
+xcopy "site.js" ".deploy\"
 
 xcopy "img\*.*" ".deploy\img\" /E
 
