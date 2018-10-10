@@ -14,3 +14,10 @@ $(".lightbox").mouseover(function()
 {
 	$(this).find(".lightbox-magnifying-glass").addClass("d-none");
 });
+
+$(".lightbox").on("shown.simplelightbox", function(e)
+{
+	var imageTitle = $(e.currentTarget).find("img").attr("alt");
+	var piwikTracker = Piwik.getAsyncTracker();
+	piwikTracker.trackEvent("Screenshots", "Showed image in lightbox", imageTitle);
+});
