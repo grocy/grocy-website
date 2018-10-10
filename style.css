@@ -82,6 +82,7 @@ footer a {
 
 section .feature-image {
 	box-shadow: #d6d6d6 0px 1px 6px 0px;
+	max-height: 380px;
 }
 
 @media (min-width: 992px) {

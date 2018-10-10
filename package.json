@@ -2,8 +2,8 @@
 	"name": "grocywebsite",
 	"private": true,
 	"dependencies": {
-		"bootstrap": "^4.1.2",
 		"@fortawesome/fontawesome-free": "^5.1.0",
+		"bootstrap": "^4.1.2",
 		"jquery": "^3.3.1"
 	}
 }
