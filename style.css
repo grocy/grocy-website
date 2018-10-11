@@ -152,7 +152,8 @@ footer {
 	background-color: #feffe2;
 }
 
-a.lightbox:hover img {
+a.lightbox:hover img,
+.lightbox-magnifying-glass {
 	transform: scale(1.05);
 	transition-duration: 0.5s;
 }
@@ -163,8 +164,19 @@ a.lightbox:hover img {
 	left: 50%;
 	font-size: 2em;
 	pointer-events: none;
+	opacity: 0;
 }
 
 .sl-overlay {
 	background: #000
+}
+
+.anchor-link-icon {
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+h3:hover .anchor-link-icon,
+.lightbox:hover .lightbox-magnifying-glass {
+	opacity: 1;
 }
