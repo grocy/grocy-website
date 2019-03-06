@@ -58,6 +58,58 @@
 				<div class="col-xs-12 col-lg-8 offset-lg-2">
 					<div class="card">
 						<div class="card-header">
+							<a class="discrete-link" data-toggle="collapse-next" href="#">Version <span class="font-weight-bold">2.0.0</span> released on <span class="font-weight-bold">2019-03-06</span></a>
+						</div>
+						<div class="collapse show">
+							<div class="card-body text-left flowtext major-info pb-0 px-1">
+								<ul class="px-4">
+									<li>Breaking change: The API has been completely reworked, please review <a href="https://demo-en.grocy.info/api" target="_blank">the documentation</a> before updating when you are using the API</li>
+									<li>New feature: Tare weight handling</li>
+									<ul>
+										<li>An option per product</li>
+										<li>Imagine this: You have flour in jars, the jar weighs 500 grams, currently there are 1000 grams in stock, the new weight including the jar is 1100 grams - grocy can now calculate the used amount on consume automatically, you only have to enter the weighed amount including the jar (demo product to showcase this "Flour")</li>
+									</ul>
+									<li>Recipe improvements</li>
+									<ul>
+										<li>Recipes are now scalable - define per recipe for how much servings it is, change the desired servings on the fly when the recipe is displayed, ingredient amounts are scaled accordingly</li>
+										<li>The cost of a recipe is now displayed based on the last purchase price per ingredient (recipe scaling also applies)</li>
+										<li>When putting all missing recipe ingredients on the shopping list, it is now possible to ignore certain ingredients (in the popup when clicking the "Put missing items on shopping list" button)</li>
+										<li>A new option per recipe to not check against the amount already on the shopping list when putting all missing ingredients on it (by default, only the amount not already on the shopping list is added, when this is enabled, always the whole missing amount will be put on the shopping list)</li>
+										<li>On consume, there can now be tracked for which recipe it was, this is also tracked automatically when using the "Consume all ingredients needed by this recipe" button (for future statistical purposes)</li>
+										<li>Recipes can now have pictures</li>
+										<li>New "gallery view" for recipes (demo available at <a target="_blank" href="https://demo-en.grocy.info/recipes?tab=gallery">https://demo-en.grocy.info/recipes?tab=gallery</a></li>
+									</ul>
+									<li>Stock improvements</li>
+									<ul>
+										<li>It is now optional possible to have partial units in stock (option per product)</li>
+										<li>On purchase, a different location can now be assigned (imagine you have to freezers, by default you store your pizza there, but sometimes there)</li>
+									</ul>
+									<li>New translations: (thanks all the translators)</li>
+									<ul>
+										<li>Spanish (demo available at <a target="_blank" href="https://demo-es.grocy.info">https://demo-es.grocy.info</a>)</li>
+										<li>Turkish (demo available at <a target="_blank" href="https://demo-tr.grocy.info">https://demo-tr.grocy.info</a>)</li>
+									</ul>
+									<li>Other improvements</li>
+									<ul>
+										<li>The calendar can now be shared/integrated in iCal format (button in the header on the calendar page)</li>
+										<li>Added feature flags to hide/disable certain parts of grocy when you don't use them (for example hide "Chores" and all related UI elements, when you don't use it, see config-dist.php)</li>
+										<li>Added a "Apple Touch Icon" and a "Web App Manifest" which should improve grocy on mobile devices and also enables "Add to Home screen" on major mobile browsers</li>
+										<li>A lot of other minor small and bigger UI improvements</li>
+									</ul>
+								</ul>
+							</div>
+							<div class="card-body pt-0">
+								<a href="https://releases.grocy.info/v?2.0.0" target="_blank" class="btn btn-primary">Download</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="row align-items-center d-flex my-3">
+				<div class="col-xs-12 col-lg-8 offset-lg-2">
+					<div class="card">
+						<div class="card-header">
 							<a class="discrete-link" data-toggle="collapse-next" href="#">Version <span class="font-weight-bold">1.24.1</span> released on <span class="font-weight-bold">2019-01-10</span></a>
 						</div>
 						<div class="collapse show">
@@ -68,6 +120,7 @@
 									<li>Location edit form did not work (master data)</li>
 									<li>Quantity unit "purchase to stock factor" was not respected when putting a recipe on the shopping list or when comparing the already on the shopping list amount</li>
 									<li>Better API response for POST routes when there is no or invalid JSON request body content</li>
+								</ul>
 							</div>
 							<div class="card-body pt-0">
 								<a href="https://releases.grocy.info/v?1.24.1" target="_blank" class="btn btn-primary">Download</a>
@@ -87,6 +140,7 @@
 							<div class="card-body text-left flowtext major-info pb-0 px-1">
 								<ul class="px-4">
 									<li>All <code>config.php</code> settings can now also be set via environment variables (for <a href="https://github.com/grocy/grocy-docker" target="_blank">grocy-docker</a>)</li>
+								</ul>
 							</div>
 							<div class="card-body pt-0">
 								<a href="https://releases.grocy.info/v?1.24.0" target="_blank" class="btn btn-primary">Download</a>
@@ -107,6 +161,7 @@
 								<ul class="px-4">
 									<li>Added a skip button when adding all shopping list items in "Shopping list to stock workflow"</li>
 									<li>Fixed some minor UI related bugs</li>
+								</ul>
 							</div>
 							<div class="card-body pt-0">
 								<a href="https://releases.grocy.info/v?1.23.1" target="_blank" class="btn btn-primary">Download</a>
@@ -168,7 +223,7 @@
 						<div class="card-header">
 							<a class="discrete-link" data-toggle="collapse-next" href="#">Version <span class="font-weight-bold">1.22.0</span> released on <span class="font-weight-bold">2018-10-27</span></a>
 						</div>
-						<div class="collapse show">
+						<div class="collapse">
 							<div class="card-body text-left flowtext major-info pb-0 px-1">
 								<ul class="px-4">
 									<li>Added a journal for stock bookings, chore executions and battery charge cycles</li>
