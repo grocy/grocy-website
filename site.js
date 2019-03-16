@@ -19,3 +19,9 @@ $(".lightbox").on("shown.simplelightbox", function(e)
 	var piwikTracker = Piwik.getAsyncTracker();
 	piwikTracker.trackEvent("Screenshots", "Showed image in lightbox", imageTitle);
 });
+
+$('[data-toggle="collapse-next"]').on("click", function(e)
+{
+	e.preventDefault();
+	$(this).parent().next().collapse("toggle");
+});

@@ -1,76 +1,48 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="@yield('lang')">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<meta name="robots" content="noindex,nofollow,noodp,noydir">
+	@if(isset($noindex))
+		<meta name="robots" content="noindex,nofollow,noodp,noydir">
+	@else
+		<meta name="robots" content="noodp,noydir">
+	@endif
 	<meta name="format-detection" content="telephone=no">
 
 	<meta name="author" content="Bernd Bestel (bernd@berrnd.de)">
 	<link rel="icon" href="/img/grocy_icon.svg">
 
-	<title>Impressum | grocy</title>
-	<link rel="canonical" href="https://grocy.info/impressum">
+	<title>@yield('title')</title>
+
+	@yield('headerAdditional')
 
 	<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/node_modules/simplelightbox/dist/simplelightbox.min.css" rel="stylesheet">
 	<link href="/vendor_unmanaged/poppins-v1-latin/poppins-v1-latin.min.css" rel="stylesheet">
 	<link href="/vendor_unmanaged/news-cycle-v13-latin/news-cycle-v13-latin.min.css" rel="stylesheet">
+	<link href="/vendor_unmanaged/merriweather-v14-latin/merriweather-v14-latin.min.css" rel="stylesheet">
 	<link href="/style.css" rel="stylesheet">
 </head>
 
 <body>
 	<nav class="navbar navbar-expand-md navbar-light mb-4">
 		<div class="container">
-			<a class="navbar-brand py-2" href="/"><img src="/img/grocy_logo.svg" height="30"></a>
+			<a class="navbar-brand py-2" href="/"><img src="/img/grocy_logo.svg" alt="grocy logo" title="grocy logo" height="30"></a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#languageNavbar">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="languageNavbar">
-				<ul class="navbar-nav ml-auto">
-					<li>
-						<a class="discrete-link" href="https://github.com/berrnd/grocy" target="_blank"><i class="fab fa-github"></i></a>
-					</li>
-				</ul>
-			</div>
+			@yield('navAdditional')
 		</div>
 	</nav>
 
-	<main class="text-center pt-3">
+	<main class="text-center">
 
-		<div class="container">
-
-			<section class="row align-items-center">
-				<div class="col">
-					<h1 class="bold pb-3">Impressum</h1>
-
-					<p class="lead major-info">
-						Angaben gemäß § 5 TMG für die Webseiten unter den folgenden Domains:<br>
-						grocy.info<br>
-						demo-en.grocy.info<br>
-						demo-de.grocy.info<br>
-						demo-no.grocy.info<br>
-						demo-it.grocy.info
-						<br>
-						<br>
-						Bernd Bestel
-						<br>
-						Poststraße 23
-						<br>
-						86399 Bobingen
-						<br>
-						<br>
-						E-Mail: bernd@berrnd.de
-						<br>
-						Telefon: 08234/8071060
-					</p>
-				</div>
-			</section>
-
-		</div>
+		@yield('content')
 
 	</main>
 
@@ -104,6 +76,8 @@
 	<script src="/node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+	<script src="/node_modules/simplelightbox/dist/simple-lightbox.min.js"></script>
+	<script src="/site.js"></script>
 	<script src="//kiwip.berrnd.org/js/ads/banner.js"></script>
 	<script>
 		var _paq = _paq || [];

@@ -1,10 +1,10 @@
 {
-	"name": "grocywebsite",
+	"name": "grocy-website",
 	"private": true,
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.1.0",
-		"bootstrap": "^4.1.2",
+		"@fortawesome/fontawesome-free": "^5.7.2",
+		"bootstrap": "^4.3.1",
 		"jquery": "^3.3.1",
-		"simplelightbox": "^1.14.0"
+		"simplelightbox": "^1.16.3"
 	}
 }

@@ -1,0 +1,5 @@
+*
+!.gitignore
+!viewcache
+!grocyreleasesymlinks
+!static
