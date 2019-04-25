@@ -237,12 +237,13 @@
 
 	<section id="get-involved" class="row">
 		<div class="col">
-			<h2 class="bold sketch-underline">Get involved</h2>
+			<h2 class="bold sketch-underline">Mach mit</h2>
 			<p class="lead major-info">
-				Connect with other grocy users and follow the development on Github.
+				Unterhalte dich mit anderen grocy Benutzern und verfolge die Entwicklung auf GitHub.
 			</p>
 			<p class="lead major-info">
-				<a href="https://www.reddit.com/r/grocy/" target="_blank">Reddit</a> - <a href="https://github.com/grocy/grocy/" target="_blank">Github</a>
+				<a class="btn btn-danger" href="https://www.reddit.com/r/grocy" target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
+				<a class="btn btn-dark" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
 			</p>
 		</div>
 	</section>
