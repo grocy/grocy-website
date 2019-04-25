@@ -56,10 +56,16 @@
 		<div class="row align-items-center d-flex">
 
 			<div class="cl-xs-12 col-lg-6">
-				<h1 class="bold">grocy-desktop <span class="badge badge-danger">Neu</span></h1>
+				<h1 class="bold">grocy-desktop</h1>
 				<p class="lead major-info">Benutze grocy, ohne einen Webserver verwalten zu müssen - wie eine normale (Windows) Desktop-Anwendung.</p>
 				<p>
-					<a class="btn btn-primary" href="https://releases.grocy.info/latest-desktop" target="_blank">Download</a>
+					<a class="btn btn-primary" href="https://releases.grocy.info/latest-desktop" target="_blank">Download <span class="small">(klassische Installation)</span></a>
+					oder
+					<a href="https://www.microsoft.com/store/apps/9nwb1trnnksf?cid=storebadge&ocid=badge" target="_blank">
+						<img src="/img/microsoft-store-badge.png" class="img-fluid w-25" alt="grocy-desktop im Microsoft Store">
+					</a>
+				</p>
+				<p>
 					<a class="btn btn-secondary" href="https://github.com/grocy/grocy-desktop" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 				</p>
 				<p class="font-weight-light font-italic grandminor-info mb-lg-0">
