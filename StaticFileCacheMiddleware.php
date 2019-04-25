@@ -20,11 +20,7 @@ class StaticFileCacheMiddleware
 			$folder = '';
 		}
 		$folder = $this->CachePath . $folder;
-
-		if (!is_dir($this->CachePath))
-		{
-			mkdir($folder, 0777, true);
-		}
+		mkdir($folder, 0777, true);
 
 		$staticFilePath = $folder . '/index.html';
 		file_put_contents($staticFilePath, $response->getBody());
