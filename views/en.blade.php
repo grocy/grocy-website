@@ -109,6 +109,21 @@
 
 <div class="container mt-5">
 
+	<section id="getting-in-touch" class="row">
+		<div class="col">
+			<h2 class="bold sketch-underline">Getting in touch</h2>
+			<p class="lead major-info">
+				Connect with other grocy users via the subreddit or report something that does not work / new ideas in the GitHub issue tracker.
+			</p>
+			<p class="lead major-info">
+				<a class="btn btn-danger" href="https://www.reddit.com/r/grocy" target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
+				<a class="btn btn-dark" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
+			</p>
+		</div>
+	</section>
+
+	<hr>
+
 	<section id="purchase-form" class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/purchase-en.png"><img src="/img/purchase-en.png" alt="grocy purchase tracking form" title="grocy purchase tracking form" class="feature-image img-fluid"></a>
@@ -262,21 +277,6 @@
 			<h2 class="bold sketch-underline">And so much more</h2>
 			<p class="lead major-info">grocy is constantly evolving and daily used by me and many others.</p>
 			<p class="lead major-info">When you miss something, feel free to <a href="https://github.com/grocy/grocy/issues/new?title=Feature%20Request%3A%20" target="_blank">open a feature request</a> on GitHub - maybe it will be added within hours, because your ideas are my motivation. :)</p>
-		</div>
-	</section>
-
-	<hr>
-
-	<section id="get-involved" class="row">
-		<div class="col">
-			<h2 class="bold sketch-underline">Get involved</h2>
-			<p class="lead major-info">
-				Connect with other grocy users and follow the development on GitHub.
-			</p>
-			<p class="lead major-info">
-				<a class="btn btn-danger" href="https://www.reddit.com/r/grocy" target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
-				<a class="btn btn-dark" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
-			</p>
 		</div>
 	</section>
 

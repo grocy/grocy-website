@@ -83,6 +83,21 @@
 
 <div class="container mt-5">
 
+	<section id="getting-in-touch" class="row">
+		<div class="col">
+			<h2 class="bold sketch-underline">Mach mit / Kontakt</h2>
+			<p class="lead major-info">
+				Unterhalte dich mit anderen grocy Benutzern im subreddit oder melde Fehler / schlage neue Ideen im Issue Tracker auf GitHub vor.
+			</p>
+			<p class="lead major-info">
+				<a class="btn btn-danger" href="https://www.reddit.com/r/grocy" target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
+				<a class="btn btn-dark" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
+			</p>
+		</div>
+	</section>
+
+	<hr>
+
 	<section id="purchase-form" class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/purchase-de.png"><img src="/img/purchase-de.png" alt="grocy Einkaufs-Erfassungsformular" title="grocy Einkaufs-Erfassungsformular" class="feature-image img-fluid"></a>
@@ -236,21 +251,6 @@
 			<h2 class="bold sketch-underline">Und noch vieles mehr</h2>
 			<p class="lead major-info">grocy wird ständig weiterentwickelt täglich von mir und vielen anderen benutzt.</p>
 			<p class="lead major-info">Wenn dir etwas fehlt, erstelle gerne einfach einen <a href="https://github.com/grocy/grocy/issues/new?title=Feature%20Request%3A%20" target="_blank">Feature Request</a> auf GitHub - evtl. wird es innerhalb von Stunden umgesetzt, denn deine Ideen sind meine Motiviation. :)</p>
-		</div>
-	</section>
-
-	<hr>
-
-	<section id="get-involved" class="row">
-		<div class="col">
-			<h2 class="bold sketch-underline">Mach mit</h2>
-			<p class="lead major-info">
-				Unterhalte dich mit anderen grocy Benutzern und verfolge die Entwicklung auf GitHub.
-			</p>
-			<p class="lead major-info">
-				<a class="btn btn-danger" href="https://www.reddit.com/r/grocy" target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
-				<a class="btn btn-dark" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
-			</p>
 		</div>
 	</section>
 
