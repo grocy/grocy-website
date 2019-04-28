@@ -52,7 +52,7 @@
 		<div class="container">
 			<div class="row align-items-center d-flex">
 
-				<div class="cl-xs-12 col-lg-7">
+				<div class="col-xs-12 col-lg-7">
 					<h1 class="bold">ERP beyond your fridge</h1>
 					<p class="lead grandmajor-info">grocy is a web-based self-hosted groceries & household management solution for your home.</p>
 					<p class="lead major-info">Open Source. Built with passion.</p>
@@ -70,7 +70,7 @@
 					</p>
 				</div>
 
-				<div class="cl-xs-12 col-lg-5">
+				<div class="col-xs-12 col-lg-5">
 					<a class="lightbox" href="/img/stock-en.png"><img src="/img/stock-en.png" alt="grocy Dashboard" title="grocy Dashboard" class="feature-image img-fluid"></a>
 				</div>
 
@@ -81,7 +81,7 @@
 	<div id="grocy-desktop" class="container alert alert-dark my-2 rounded-0">
 		<div class="row align-items-center d-flex">
 
-			<div class="cl-xs-12 col-lg-6">
+			<div class="col-xs-12 col-lg-6">
 				<h1 class="bold">grocy-desktop</h1>
 				<p class="lead major-info">Run grocy without having to manage a webserver, just like a normal (windows) desktop application.</p>
 				<p>
@@ -99,7 +99,7 @@
 				</p>
 			</div>
 
-			<div class="cl-xs-12 col-lg-6">
+			<div class="col-xs-12 col-lg-6">
 				<a class="lightbox" href="/img/grocy-desktop-en.png"><img src="/img/grocy-desktop-en.png" alt="grocy-desktop" title="grocy-desktop" class="feature-image img-fluid"></a>
 			</div>
 
@@ -110,7 +110,7 @@
 <div class="container mt-5">
 
 	<section id="purchase-form" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/purchase-en.png"><img src="/img/purchase-en.png" alt="grocy purchase tracking form" title="grocy purchase tracking form" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -122,7 +122,7 @@
 	<hr>
 
 	<section id="shopping-list" class="row align-items-center d-flex flex-row-reverse">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/shoppinglist-en.png"><img src="/img/shoppinglist-en.png" alt="grocy shopping list" title="grocy shopping list" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -135,7 +135,7 @@
 	<hr>
 
 	<section id="products" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/products-en.png"><img src="/img/products-en.png" alt="grocy stock overview" title="grocy stock overview" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -147,7 +147,7 @@
 	<hr>
 
 	<section id="input-productivity" class="row align-items-center d-flex flex-row-reverse">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/dateinput-en.gif"><img src="/img/dateinput-en.gif" alt="grocy input productivity" title="grocy input productivity" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -159,7 +159,7 @@
 	<hr>
 
 	<section id="recipes" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/recipes-en.png"><img src="/img/recipes-en.png" alt="grocy recipes list" title="grocy recipes list" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -171,7 +171,7 @@
 	<hr>
 	
 	<section id="recipe-details" class="row align-items-center d-flex flex-row-reverse">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/recipedetail-en.png"><img src="/img/recipedetail-en.png" alt="grocy recipe detail" title="grocy recipe detail" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -183,7 +183,7 @@
 	<hr>
 
 	<section id="equipment" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/equipment-en.png"><img src="/img/equipment-en.png" alt="grocy equipment overview" title="grocy equipment overview" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -195,7 +195,7 @@
 	<hr>
 
 	<section id="chores" class="row align-items-center d-flex flex-row-reverse">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/chores-en.png"><img src="/img/chores-en.png" alt="grocy household chores overview" title="grocy household chores overview" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -207,7 +207,7 @@
 	<hr>
 
 	<section id="tasks" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/tasks-en.png"><img src="/img/tasks-en.png" alt="grocy tasks overview" title="grocy tasks overview" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -219,7 +219,7 @@
 	<hr>
 
 	<section id="batteries" class="row align-items-center d-flex flex-row-reverse">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/batteries-en.png"><img src="/img/batteries-en.png" alt="grocy batteries overview" title="grocy batteries overview" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -231,7 +231,7 @@
 	<hr>
 
 	<section id="night-mode" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/nightmode-en.png"><img src="/img/nightmode-en.png" alt="grocy in night mode" title="grocy in night mode" class="feature-image img-fluid mt-1"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -246,7 +246,7 @@
 		<div class="col">
 			<a class="lightbox" href="/img/smartphone-shopping-list-en.jpg"><img src="/img/smartphone-shopping-list-en.jpg" alt="grocy shopping list on a smartphone" title="grocy shopping list on a smartphone" class="feature-image feature-image-small img-fluid mt-1"></a>
 		</div>
-		<div class="cl-xs-12 col-lg-5 pt-4 pt-md-0">
+		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
 			<h3 class="bold sketch-underline">Made for every device</h3>
 			<p class="lead major-info">Whether on a smartphone or any other device, only a browser is needed - e. g. install any low-cost-low-power device in your kitchen and you have a very comfortable 24/7 grocy terminal.</p>
 		</div>

@@ -26,7 +26,7 @@
 		<div class="container">
 			<div class="row align-items-center d-flex">
 
-				<div class="cl-xs-12 col-lg-7">
+				<div class="col-xs-12 col-lg-7">
 					<h1 class="bold">ERP für deinen Kühlschrank</h1>
 					<p class="lead grandmajor-info">grocy ist eine selbst gehostete Webanwendung zur Lebensmittel- und Haushaltsverwaltung.</p>
 					<p class="lead major-info">Open Source. Built with passion.</p>
@@ -44,7 +44,7 @@
 					</p>
 				</div>
 
-				<div class="cl-xs-12 col-lg-5">
+				<div class="col-xs-12 col-lg-5">
 					<a class="lightbox" href="/img/stock-de.png"><img src="/img/stock-de.png" alt="grocy Dashboard" title="grocy Dashboard" class="feature-image img-fluid"></a>
 				</div>
 
@@ -55,7 +55,7 @@
 	<div id="grocy-desktop" class="container alert alert-dark my-2 rounded-0">
 		<div class="row align-items-center d-flex">
 
-			<div class="cl-xs-12 col-lg-6">
+			<div class="col-xs-12 col-lg-6">
 				<h1 class="bold">grocy-desktop</h1>
 				<p class="lead major-info">Benutze grocy, ohne einen Webserver verwalten zu müssen - wie eine normale (Windows) Desktop-Anwendung.</p>
 				<p>
@@ -73,7 +73,7 @@
 				</p>
 			</div>
 
-			<div class="cl-xs-12 col-lg-6">
+			<div class="col-xs-12 col-lg-6">
 				<a class="lightbox" href="/img/grocy-desktop-de.png"><img src="/img/grocy-desktop-de.png" alt="grocy-desktop" title="grocy-desktop" class="feature-image img-fluid"></a>
 			</div>
 
@@ -84,7 +84,7 @@
 <div class="container mt-5">
 
 	<section id="purchase-form" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/purchase-de.png"><img src="/img/purchase-de.png" alt="grocy Einkaufs-Erfassungsformular" title="grocy Einkaufs-Erfassungsformular" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -96,7 +96,7 @@
 	<hr>
 
 	<section id="shopping-list" class="row align-items-center d-flex flex-row-reverse">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/shoppinglist-de.png"><img src="/img/shoppinglist-de.png" alt="grocy Einkausfzettel" title="grocy Einkausfzettel" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -109,7 +109,7 @@
 	<hr>
 
 	<section id="products" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/products-de.png"><img src="/img/products-de.png" alt="grocy Bestandsübersicht" title="grocy Bestandsübersicht" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -121,7 +121,7 @@
 	<hr>
 
 	<section id="input-productivity" class="row align-items-center d-flex flex-row-reverse">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/dateinput-de.gif"><img src="/img/dateinput-de.gif" alt="grocy Eingabeformular" title="grocy Eingabeformular" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -133,7 +133,7 @@
 	<hr>
 
 	<section id="recipes" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/recipes-de.png"><img src="/img/recipes-de.png" alt="grocy Rezeptliste" title="grocy Rezeptliste" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -145,7 +145,7 @@
 	<hr>
 	
 	<section id="recipe-details" class="row align-items-center d-flex flex-row-reverse">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/recipedetail-de.png"><img src="/img/recipedetail-de.png" alt="grocy Rezeptansicht" title="grocy Rezeptansicht" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -157,7 +157,7 @@
 	<hr>
 
 	<section id="equipment" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/equipment-de.png"><img src="/img/equipment-de.png" alt="grocy Ausstattungsübersicht" title="grocy Ausstattungsübersicht" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -169,7 +169,7 @@
 	<hr>
 
 	<section id="chores" class="row align-items-center d-flex flex-row-reverse">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/chores-de.png"><img src="/img/chores-de.png" alt="grocy Hausarbeitenübersicht" title="grocy Hausarbeitenübersicht" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -181,7 +181,7 @@
 	<hr>
 
 	<section id="tasks" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/tasks-de.png"><img src="/img/tasks-de.png" alt="grocy Aufgabenübersicht" title="grocy Aufgabenübersicht" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -193,7 +193,7 @@
 	<hr>
 
 	<section id="batteries" class="row align-items-center d-flex flex-row-reverse">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/batteries-de.png"><img src="/img/batteries-de.png" alt="grocy Batterieübersicht" title="grocy Batterieübersicht" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -205,7 +205,7 @@
 	<hr>
 
 	<section id="night-mode" class="row align-items-center d-flex">
-		<div class="cl-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/nightmode-de.png"><img src="/img/nightmode-de.png" alt="grocy im Night-Mode" title="grocy im Night-Mode" class="feature-image img-fluid mt-1"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -220,7 +220,7 @@
 		<div class="col">
 			<a class="lightbox" href="/img/smartphone-shopping-list-de.jpg"><img src="/img/smartphone-shopping-list-de.jpg" alt="grocy Einkaufszettel auf einem Smartphone" title="grocy Einkaufszettel auf einem Smartphone" class="feature-image feature-image-small img-fluid mt-1"></a>
 		</div>
-		<div class="cl-xs-12 col-lg-5 pt-4 pt-md-0">
+		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
 			<h3 class="bold sketch-underline">Läuft auf jedem Gerät</h3>
 			<p class="lead major-info">Egal ob auf dem Smartphone oder jedem anderem Gerät, nur ein Browser wird benötigt - baue dir z. B. ein günstiges und sparsames Tablet in die Küche und du hast ein super komfortables 24/7 grocy Terminal.</p>
 		</div>
