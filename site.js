@@ -5,20 +5,23 @@ $("h3").each(function (i, el)
 
 $(".lightbox").append('<i class="lightbox-magnifying-glass text-primary fa fa-search"></i>');
 
-$(".lightbox").simpleLightbox({
-	"nav": false,
-	"showCounter": false,
-	"alertError": false,
-	"captionClass": "text-center"
-});
-
-$(".lightbox").on("shown.simplelightbox", function(e)
+if ($(".lightbox").length > 0)
 {
-	var imageTitle = $(e.currentTarget).find("img").attr("alt");
-	
-	var piwikTracker = Piwik.getAsyncTracker();
-	piwikTracker.trackEvent("Screenshots", "Showed image in lightbox", imageTitle);
-});
+	$(".lightbox").simpleLightbox({
+		"nav": false,
+		"showCounter": false,
+		"alertError": false,
+		"captionClass": "text-center"
+	});
+
+	$(".lightbox").on("shown.simplelightbox", function (e)
+	{
+		var imageTitle = $(e.currentTarget).find("img").attr("alt");
+
+		var piwikTracker = Piwik.getAsyncTracker();
+		piwikTracker.trackEvent("Screenshots", "Showed image in lightbox", imageTitle);
+	});
+}
 
 $('[data-toggle="collapse-next"]').on("click", function(e)
 {
