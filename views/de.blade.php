@@ -96,6 +96,28 @@
 		</div>
 	</section>
 
+	<section class="row">
+		<div id="getting-in-touch" class="col-xs-12 col-lg-6">
+			<h2 class="bold sketch-underline">Mach mit / Kontakt</h2>
+			<p class="lead major-info">
+				Unterhalte dich mit anderen grocy Benutzern im subreddit oder melde Fehler / schlage neue Ideen im Issue Tracker auf GitHub vor.
+			</p>
+			<p class="lead major-info">
+				<a class="btn btn-danger" href="https://www.reddit.com/r/grocy" target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
+				<a class="btn btn-dark" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
+			</p>
+		</div>
+		<div id="addons-intro" class="col-xs-12 col-lg-6">
+			<h2 class="bold sketch-underline">Add-ons / Tools</h2>
+			<p class="lead major-info">
+				Siehe unten für weitere von der Community beigesteuerte Tools, Integrationen und andere nützliche Helferlein, die grocy noch besser und produktiver machen.
+			</p>
+			<p class="lead major-info">
+				<a class="btn btn-info" href="#addons">Community contributions</a>
+			</p>
+		</div>
+	</section>
+
 	<hr>
 
 	<section id="purchase-form" class="row align-items-center d-flex">
@@ -241,6 +263,29 @@
 		</div>
 		<div class="col">
 			<a class="lightbox" href="/img/kitchen-terminal-de.jpg"><img src="/img/kitchen-terminal-de.jpg" alt="grocy Terminal in der Küche" title="grocy Terminal in der Küche" class="feature-image feature-image-small img-fluid mt-1"></a>
+		</div>
+	</section>
+
+	<hr>
+
+	<section id="addons" class="row">
+		<div class="col">
+			<h2 class="bold sketch-underline">Community contributions</h2>
+			<p class="lead major-info">
+				<h6 class="mb-0">addon-grocy</h6>
+				grocy community Hass.io Add-on for Home Assistant<br>
+				<a class="btn btn-secondary btn-sm" href="https://github.com/hassio-addons/addon-grocy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+			<p class="lead major-info">
+				<h6 class="mb-0">Barcode Buddy for grocy</h6>
+				A barcode scanning helper / lookup tool for grocy<br>
+				<a class="btn btn-secondary btn-sm" href="https://github.com/Forceu/barcodebuddy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+			<p class="lead major-info">
+				<h6 class="mb-0">grocy-pyscanner</h6>
+				A python based barcode scanning helper<br>
+				<a class="btn btn-secondary btn-sm" href="https://github.com/grocy/grocy-pyscanner" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
 		</div>
 	</section>
 
