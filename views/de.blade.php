@@ -40,7 +40,7 @@
 					</p>
 					<p class="font-weight-light font-italic grandminor-info mb-lg-0">
 						Ein Webserver mit PHP 7.2 und der SQLite (PDO) Erweiterung ist erforderlich.<br>
-						Aktuell übersetzt in: Englisch, Deutsch, Französisch, Norwegisch, Italienisch, Spanisch und Türkisch
+						Aktuell übersetzt in: Englisch, Deutsch, Französisch, Norwegisch, Dänisch, Niederländisch, Schwedisch, Italienisch, Spanisch, Türkisch, Polnisch und Russisch
 					</p>
 				</div>
 
