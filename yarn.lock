@@ -3,9 +3,9 @@
 
 
 "@fortawesome/fontawesome-free@^5.7.2":
-  version "5.8.1"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.8.1.tgz#cbafbfe8894c4e3e3c3a9da6774e249ac1f2da8b"
-  integrity sha512-GJtx6e55qLEOy2gPOsok2lohjpdWNGrYGtQx0FFT/++K4SYx+Z8LlPHdQBaFzKEwH5IbBB4fNgb//uyZjgYXoA==
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.9.0.tgz#1aa5c59efb1b8c6eb6277d1e3e8c8f31998b8c8e"
+  integrity sha512-g795BBEzM/Hq2SYNPm/NQTIp3IWd4eXSH0ds87Na2jnrAUFX3wkyZAI4Gwj9DOaWMuz2/01i8oWI7P7T/XLkhg==
 
 bootstrap@^4.3.1:
   version "4.3.1"
@@ -13,13 +13,13 @@ bootstrap@^4.3.1:
   integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
 
 jquery@>=1.7.0, jquery@^3.3.1:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.0.tgz#8de513fa0fa4b2c7d2e48a530e26f0596936efdf"
-  integrity sha512-ggRCXln9zEqv6OqAGXFEcshF5dSBvCkzj6Gm2gzuR5fWawaX8t7cxKVkkygKODrDAzKdoYw3l/e3pm3vlT4IbQ==
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+  integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
 
 simplelightbox@^1.16.3:
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-1.17.1.tgz#5c0b50cf38ad60a638b790232ff223d774ca7189"
-  integrity sha512-Cfc1B2kRqA0xJlN+erq7RIZVQv05VA45eQltp8uwKvtM+1Dv4h6xmDSkozHcEwnlQ7xEJLAzWdJ3RGZVq5fgnQ==
+  version "1.17.2"
+  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-1.17.2.tgz#a9fcf2185fa661a511a728513e34f348542c90f7"
+  integrity sha512-LbVFh5UPUacxu/8XupgJ3nMfLxl+o6JCY/EiF9KgTCltKoNZOzUAspElwYqJ3O4YfPmUEzlyEJZyfOKAXE7Bnw==
   dependencies:
     jquery ">=1.7.0"
