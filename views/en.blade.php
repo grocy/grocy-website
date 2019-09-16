@@ -288,6 +288,7 @@
 				<h6 class="mb-0">addon-grocy</h6>
 				grocy community Hass.io Add-on for Home Assistant<br>
 				<a class="btn btn-secondary btn-sm" href="https://github.com/hassio-addons/addon-grocy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+				<a class="btn btn-secondary btn-sm" href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422" target="_blank"><i class="fas fa-comment"></i> Home Assistant Community Forum Thread</a>
 			</p>
 			<p class="lead major-info">
 				<h6 class="mb-0">Barcode Buddy for grocy</h6>
