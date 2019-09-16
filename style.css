@@ -98,7 +98,7 @@ section .feature-image {
 
 .sketch-underline {
 	background: url("/img/sketch_line.svg") 0 100% no-repeat;
-	background-size: 70% 0.25rem;
+	background-size: 65% 0.2rem;
 	padding-bottom: 0.4rem;
 	background-position: center bottom;
 }
