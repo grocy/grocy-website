@@ -127,7 +127,7 @@
 			</p>
 			<p class="lead major-info">
 				<a class="btn btn-info" href="#addons"><i class="fas fa-tools"></i> Community contributions</a>
-				<a class="btn btn-info mt-2" href="https://grocy.info/links" target="_blank"><i class="fas fa-list"></i> List of community contributed help (and other) guides</a>
+				<a class="btn btn-info mt-2" href="https://grocy.info/links"><i class="fas fa-list"></i> List of community contributed help (and other) guides</a>
 			</p>
 		</div>
 	</section>
