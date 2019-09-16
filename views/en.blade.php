@@ -57,8 +57,8 @@
 					<p class="lead grandmajor-info">grocy is a web-based self-hosted groceries & household management solution for your home.</p>
 					<p class="lead major-info">Open Source. Built with passion.</p>
 					<p>
-						<a class="btn btn-primary btn-lg" href="https://releases.grocy.info/latest" target="_blank">Download</a>
-						<a class="btn btn-success btn-lg" href="https://demo-en.grocy.info" target="_blank">Demo</a>
+						<a class="btn btn-primary btn-lg" href="https://releases.grocy.info/latest" target="_blank"><i class="fas fa-download"></i> Download</a>
+						<a class="btn btn-success btn-lg" href="https://demo-en.grocy.info" target="_blank"><i class="fas fa-eye"></i> Demo</a>
 					</p>
 					<p>
 						<a class="btn btn-secondary btn-sm" href="/changelog"><i class="fas fa-exchange-alt"></i> Changelog</a>
@@ -85,7 +85,7 @@
 				<h1 class="bold">grocy-desktop</h1>
 				<p class="lead major-info">Run grocy without having to manage a webserver, just like a normal (windows) desktop application.</p>
 				<p>
-					<a class="btn btn-primary" href="https://releases.grocy.info/latest-desktop" target="_blank">Download <span class="small">(classic installer)</span></a>
+					<a class="btn btn-primary" href="https://releases.grocy.info/latest-desktop" target="_blank"><i class="fas fa-download"></i> Download <span class="small">(classic installer)</span></a>
 					or
 					<a href="https://www.microsoft.com/store/apps/9nwb1trnnksf?cid=storebadge&ocid=badge" target="_blank">
 						<img src="/img/microsoft-store-badge.png" class="img-fluid w-25" alt="grocy-desktop on the Microsoft Store">
