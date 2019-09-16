@@ -83,19 +83,6 @@
 
 <div class="container mt-5">
 
-	<section id="getting-in-touch" class="row">
-		<div class="col">
-			<h2 class="bold sketch-underline">Mach mit / Kontakt</h2>
-			<p class="lead major-info">
-				Unterhalte dich mit anderen grocy Benutzern im subreddit oder melde Fehler / schlage neue Ideen im Issue Tracker auf GitHub vor.
-			</p>
-			<p class="lead major-info">
-				<a class="btn btn-danger" href="https://www.reddit.com/r/grocy" target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
-				<a class="btn btn-dark" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
-			</p>
-		</div>
-	</section>
-
 	<section class="row">
 		<div id="getting-in-touch" class="col-xs-12 col-lg-6">
 			<h2 class="bold sketch-underline">Mach mit / Kontakt</h2>
