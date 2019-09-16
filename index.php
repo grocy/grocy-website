@@ -76,6 +76,11 @@ $app->group('', function()
 		]);
 	});
 
+	$this->get('/links', function(Request $request, Response $response, array $args)
+	{
+		return $this->view->render($response, 'links');
+	});
+
 	$this->get('/impressum', function(Request $request, Response $response, array $args)
 	{
 		return $this->view->render($response, 'impressum', [

@@ -95,12 +95,13 @@
 			</p>
 		</div>
 		<div id="addons-intro" class="col-xs-12 col-lg-6">
-			<h2 class="bold sketch-underline">Add-ons / Tools</h2>
+			<h2 class="bold sketch-underline">Add-ons / Tools / Guides</h2>
 			<p class="lead major-info">
-				Siehe unten für weitere von der Community beigesteuerte Tools, Integrationen und andere nützliche Helferlein, die grocy noch besser und produktiver machen.
+				Von der Community beigesteuerte Tools, Integrationen, Installations-/Fehlersuche-Guides und andere nützliche Helferlein, die grocy noch besser und produktiver machen.
 			</p>
 			<p class="lead major-info">
-				<a class="btn btn-info" href="#addons">Community contributions</a>
+				<a class="btn btn-info" href="#addons"><i class="fas fa-tools"></i> Community contributions</a>
+				<a class="btn btn-info mt-2" href="https://grocy.info/links" target="_blank"><i class="fas fa-list"></i> List of community contributed help (and other) guides</a>
 			</p>
 		</div>
 	</section>

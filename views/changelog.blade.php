@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'Changelog & release history | grocy')
-@section('lang', 'de')
+@section('lang', 'en')
 
 @section('headerAdditional')
 <link rel="canonical" href="https://grocy.info/changelog">
