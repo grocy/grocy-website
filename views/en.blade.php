@@ -4,7 +4,7 @@
 @section('lang', 'en')
 
 @section('headerAdditional')
-<meta name="description" content="ERP beyond your fridge - a selfhosted groceries management (and more) solution for your home. Created by Bernd Bestel.">
+<meta name="description" content="ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion. Created by Bernd Bestel.">
 
 <link rel="canonical" href="https://grocy.info">
 <link rel="alternate" hreflang="de" href="https://grocy.info/de">

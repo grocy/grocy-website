@@ -4,7 +4,7 @@
 @section('lang', 'de')
 
 @section('headerAdditional')
-<meta name="description" content="ERP für deinen Kühlschrank - eine selbst gehostete Lösung zur Lebensmittel- und Haushaltsverwaltung. Created by Bernd Bestel.">
+<meta name="description" content="ERP für deinen Kühlschrank - grocy ist eine selbst gehostete Webanwendung zur Lebensmittel- und Haushaltsverwaltung. Open Source. Built with passion. Created by Bernd Bestel.">
 
 <link rel="canonical" href="https://grocy.info/de">
 <link rel="alternate" hreflang="en" href="https://grocy.info">
