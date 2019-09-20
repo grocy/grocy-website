@@ -66,7 +66,7 @@
 					</p>
 					<p class="font-weight-light font-italic grandminor-info mb-lg-0">
 						A webserver with PHP 7.2 and SQLite (PDO) extension is required.<br>
-						Currently available localizations: English, German, French, Norwegian, Danish, Dutch, Swedish, Italian, Spanish, Turkish, Polish and Russian
+						Currently available localizations: English, German, Danish, Spanish, French, Italian, Dutch, Norwegian, Polish, Russian, Swedish and Turkish
 					</p>
 				</div>
 
