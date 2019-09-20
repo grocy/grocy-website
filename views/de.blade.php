@@ -288,5 +288,36 @@
 		</div>
 	</section>
 
+	<hr>
+
+	<section id="say-thanks" class="row">
+		<div class="col">
+			<h2 class="bold sketch-underline">Say thanks</h2>
+			<p class="lead major-info">
+				grocy ist ein tolles Projekt und ein Hobby, das ich liebe, allerdings ist es derzeit, neben kleineren Beiträgen, eine One-Man-Show, also ausschließlich in meiner Freizeit entstanden.
+				Es ist meine Leidenschaft, Software zu bauen, die andere hilfreich finden.
+			</p>
+			<p class="lead major-info mb-0">
+				Wenn du also Danke sagen möchtest, wäre meine erste Bitte, das zu tun, indem du grocy noch besser machst und das muss nicht Code sein - hier sind einige Ideen:
+				<ul class="minor-info list-unstyled">
+					<li>Fange an, an einem offenen Ticket zu arbeiten - siehe den <a href="https://github.com/grocy/grocy/issues" target="_blank">Issue Tracker</a></li>
+					<li>Bringe neue Ideen ein, lass uns diese auf dem <a href="https://www.reddit.com/r/grocy/" target="_blank">Subreddit</a> oder über den <a href="https://github.com/grocy/grocy/issues" target="_blank">Issue Tracker</a> diskutieren</li>
+					<li>Überdenke / verbessere aktuelle Funktionalität oder die Oberfläche</li>
+					<li>Erstelle Dokumentation (die es leider aktuell quasi nicht gibt)</li>
+					<li>Erzähle anderen von grocy, oder schreibe einen Artikel darüber</li>
+				</ul>
+			</p>
+			<p class="lead major-info mb-0">
+				Wenn du dich dennoch bedanken willst, indem du mich auf ein Bier einlädst, kannst du das gerne tun, hier sind einige Möglichkeiten dafür:
+				<ul class="minor-info list-unstyled">
+					<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPPXVE63EK3L2&source=https%3A%2F%2Fgrocy.info" target="_blank"><i class="fab fa-paypal"></i> PayPal</a></li>
+				</ul>
+			</p>
+			<p class="lead major-info">
+				Danke dir! <i class="fas fa-heart"></i>
+			</p>
+		</div>
+	</section>
+
 </div>
 @stop
