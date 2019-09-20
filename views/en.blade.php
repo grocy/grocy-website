@@ -111,7 +111,7 @@
 
 	<section class="row">
 		<div id="getting-in-touch" class="col-xs-12 col-lg-6">
-			<h2 class="bold sketch-underline">Getting in touch</h2>
+			<h2 class="bold d-inline-block sketch-underline">Getting in touch</h2>
 			<p class="lead major-info">
 				Connect with other grocy users via the subreddit or report something that does not work / new ideas in the GitHub issue tracker.
 			</p>
@@ -121,7 +121,7 @@
 			</p>
 		</div>
 		<div id="addons-intro" class="col-xs-12 col-lg-6">
-			<h2 class="bold sketch-underline">Add-ons / Tools / Guides</h2>
+			<h2 class="bold d-inline-block sketch-underline">Add-ons / Tools / Guides</h2>
 			<p class="lead major-info">
 				Community contributed tools, integrations, install/troubleshooting guides and other useful add-ons to make grocy even better and more productive.
 			</p>
@@ -139,7 +139,7 @@
 			<a class="lightbox" href="/img/purchase-en.png"><img src="/img/purchase-en.png" alt="grocy purchase tracking form" title="grocy purchase tracking form" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Track your purchases</h3>
+			<h3 class="bold d-inline-block sketch-underline">Track your purchases</h3>
 			<p class="lead major-info">A barcode reader ready interface makes this a easy and quick task and you always know what you currently have at home.</p>
 			<p class="lead major-info">
 				It's also possible to scan barcodes directly in the web browser using the device camera (<a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc" target="_blank"><i class="fab fa-youtube"></i> Quick video demo</a>).
@@ -154,7 +154,7 @@
 			<a class="lightbox" href="/img/shoppinglist-en.png"><img src="/img/shoppinglist-en.png" alt="grocy shopping list" title="grocy shopping list" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Automate & optimize your shopping list</h3>
+			<h3 class="bold d-inline-block sketch-underline">Automate & optimize your shopping list</h3>
 			<p class="lead major-info">Define minimum stock amounts of your loved products and never think about "do I need noodles or are there enough at home?".</p>
 			<p class="lead major-info">Group products by assortments to optimize your way in the supermarket - never jump from one end to the other again and again.</p>
 		</div>
@@ -167,7 +167,7 @@
 			<a class="lightbox" href="/img/products-en.png"><img src="/img/products-en.png" alt="grocy stock overview" title="grocy stock overview" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Waste less</h3>
+			<h3 class="bold d-inline-block sketch-underline">Waste less</h3>
 			<p class="lead major-info">Always know what's expiring next.</p>
 		</div>
 	</section>
@@ -179,7 +179,7 @@
 			<a class="lightbox" href="/img/dateinput-en.gif"><img src="/img/dateinput-en.gif" alt="grocy input productivity" title="grocy input productivity" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Input forms made for productivity</h3>
+			<h3 class="bold d-inline-block sketch-underline">Input forms made for productivity</h3>
 			<p class="lead major-info">One hand, 3 seconds, no problem - errors impossible.</p>
 		</div>
 	</section>
@@ -191,7 +191,7 @@
 			<a class="lightbox" href="/img/recipes-en.png"><img src="/img/recipes-en.png" alt="grocy recipes list" title="grocy recipes list" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Recipes with intelligence</h3>
+			<h3 class="bold d-inline-block sketch-underline">Recipes with intelligence</h3>
 			<p class="lead major-info">Maintain your recipes and see at a glance whether everything you need is in stock at home. Of course, everything that is not available can also be automatically added to the shopping list.</p>
 		</div>
 	</section>
@@ -203,7 +203,7 @@
 			<a class="lightbox" href="/img/recipedetail-en.png"><img src="/img/recipedetail-en.png" alt="grocy recipe detail" title="grocy recipe detail" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Cookbook is so 2016</h3>
+			<h3 class="bold d-inline-block sketch-underline">Cookbook is so 2016</h3>
 			<p class="lead major-info">Recipes clear and concise.</p>
 		</div>
 	</section>
@@ -215,7 +215,7 @@
 			<a class="lightbox" href="/img/equipment-en.png"><img src="/img/equipment-en.png" alt="grocy equipment overview" title="grocy equipment overview" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Manage your household equipment/devices</h3>
+			<h3 class="bold d-inline-block sketch-underline">Manage your household equipment/devices</h3>
 			<p class="lead major-info">Keep all the instruction manuals and important information about your devices in one place to have them at hand when needed.</p>
 		</div>
 	</section>
@@ -227,7 +227,7 @@
 			<a class="lightbox" href="/img/chores-en.png"><img src="/img/chores-en.png" alt="grocy household chores overview" title="grocy household chores overview" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Track your household chores</h3>
+			<h3 class="bold d-inline-block sketch-underline">Track your household chores</h3>
 			<p class="lead major-info">Think less about "oh, when have I done last..." and stay organized easier.</p>
 		</div>
 	</section>
@@ -239,7 +239,7 @@
 			<a class="lightbox" href="/img/tasks-en.png"><img src="/img/tasks-en.png" alt="grocy tasks overview" title="grocy tasks overview" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Keep track of your tasks</h3>
+			<h3 class="bold d-inline-block sketch-underline">Keep track of your tasks</h3>
 			<p class="lead major-info">Just another to do list.<br>How I (and maybe also you) like it.</p>
 		</div>
 	</section>
@@ -251,7 +251,7 @@
 			<a class="lightbox" href="/img/batteries-en.png"><img src="/img/batteries-en.png" alt="grocy batteries overview" title="grocy batteries overview" class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Manage your batteries</h3>
+			<h3 class="bold d-inline-block sketch-underline">Manage your batteries</h3>
 			<p class="lead major-info">Use rechargable batteries for everything to protect our environment and keep them in a good shape by knowing when you charged them last.</p>
 		</div>
 	</section>
@@ -263,7 +263,7 @@
 			<a class="lightbox" href="/img/nightmode-en.png"><img src="/img/nightmode-en.png" alt="grocy in night mode" title="grocy in night mode" class="feature-image img-fluid mt-1"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Night mode included</h3>
+			<h3 class="bold d-inline-block sketch-underline">Night mode included</h3>
 			<p class="lead major-info">Because we all love the eye friendly dark side which is perfect at night. Of course night mode can be also activated automatically when the sun sets (configurable time range).</p>
 		</div>
 	</section>
@@ -275,7 +275,7 @@
 			<a class="lightbox" href="/img/smartphone-shopping-list-en.jpg"><img src="/img/smartphone-shopping-list-en.jpg" alt="grocy shopping list on a smartphone" title="grocy shopping list on a smartphone" class="feature-image feature-image-small img-fluid mt-1"></a>
 		</div>
 		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
-			<h3 class="bold sketch-underline">Made for every device</h3>
+			<h3 class="bold d-inline-block sketch-underline">Made for every device</h3>
 			<p class="lead major-info">Whether on a smartphone or any other device, only a browser is needed - e. g. install any low-cost-low-power device in your kitchen and you have a very comfortable 24/7 grocy terminal.</p>
 		</div>
 		<div class="col">
@@ -287,7 +287,7 @@
 
 	<section id="addons" class="row">
 		<div class="col">
-			<h2 class="bold sketch-underline">Community contributions</h2>
+			<h2 class="bold d-inline-block sketch-underline">Community contributions</h2>
 			<p class="lead major-info">
 				<h6 class="mb-0">addon-grocy</h6>
 				grocy community Hass.io Add-on for Home Assistant<br>
@@ -311,7 +311,7 @@
 
 	<section id="more" class="row">
 		<div class="col">
-			<h2 class="bold sketch-underline">And so much more</h2>
+			<h2 class="bold d-inline-block sketch-underline">And so much more</h2>
 			<p class="lead major-info">grocy is constantly evolving and daily used by me and many others.</p>
 			<p class="lead major-info">When you miss something, feel free to <a href="https://github.com/grocy/grocy/issues/new?title=Feature%20Request%3A%20" target="_blank">open a feature request</a> on GitHub - maybe it will be added within hours, because your ideas are my motivation. :)</p>
 		</div>
@@ -321,7 +321,7 @@
 
 	<section id="say-thanks" class="row">
 		<div class="col">
-			<h2 class="bold sketch-underline">Say thanks</h2>
+			<h2 class="bold d-inline-block sketch-underline">Say thanks</h2>
 			<p class="lead major-info">
 				grocy is a great project and a hobby I enjoy working on, but it's currently, beside smaller contributions, a one-man-show, so created entirely in my free-time.
 				It's my passion to build great software.
