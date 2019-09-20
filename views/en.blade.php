@@ -324,7 +324,7 @@
 			<h2 class="bold sketch-underline">Say thanks</h2>
 			<p class="lead major-info">
 				grocy is a great project and a hobby I enjoy working on, but it's currently, beside smaller contributions, a one-man-show, so created entirely in my free-time.
-				It's my passion to create great software that people find useful for their lives.
+				It's my passion to build great software.
 			</p>
 			<p class="lead major-info mb-0">
 				So if you want to say thanks, I would first ask you to help making grocy even better, and this don't needs to be code. Everything is welcome, here are some ideas:

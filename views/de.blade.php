@@ -298,10 +298,10 @@
 			<h2 class="bold sketch-underline">Say thanks</h2>
 			<p class="lead major-info">
 				grocy ist ein tolles Projekt und ein Hobby, das ich liebe, allerdings ist es derzeit, neben kleineren Beiträgen, eine One-Man-Show, also ausschließlich in meiner Freizeit entstanden.
-				Es ist meine Leidenschaft, Software zu bauen, die andere hilfreich finden.
+				Es ist meine Leidenschaft, großartige Software zu bauen.
 			</p>
 			<p class="lead major-info mb-0">
-				Wenn du also Danke sagen möchtest, wäre meine erste Bitte, das zu tun, indem du grocy noch besser machst und das muss nicht Code sein - hier sind einige Ideen:
+				Wenn du also Danke sagen möchtest, wäre meine erste Bitte, dies zu tun, indem du grocy noch besser machst - und das muss nicht Code sein - hier sind einige Ideen:
 				<ul class="minor-info list-unstyled">
 					<li>Fange an, an einem offenen Ticket zu arbeiten - siehe den <a href="https://github.com/grocy/grocy/issues" target="_blank">Issue Tracker</a></li>
 					<li>Bringe neue Ideen ein, lass uns diese auf dem <a href="https://www.reddit.com/r/grocy/" target="_blank">Subreddit</a> oder über den <a href="https://github.com/grocy/grocy/issues" target="_blank">Issue Tracker</a> diskutieren</li>
