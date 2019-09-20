@@ -141,6 +141,9 @@
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold sketch-underline">Track your purchases</h3>
 			<p class="lead major-info">A barcode reader ready interface makes this a easy and quick task and you always know what you currently have at home.</p>
+			<p class="lead major-info">
+				It's also possible to scan barcodes directly in the web browser using the device camera (<a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc" target="_blank"><i class="fab fa-youtube"></i> Quick video demo</a>).
+			</p>
 		</div>
 	</section>
 

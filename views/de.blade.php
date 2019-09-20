@@ -115,6 +115,9 @@
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold sketch-underline">Einkäufe erfassen</h3>
 			<p class="lead major-info">Eine für Barcodescanner vorbereitete Oberfläche macht es einfach, Einkäufe einfach und vor allem schnell zu erfassen. Damit weißt du immer, was gerade Zuhause vorrätig ist.</p>
+			<p class="lead major-info">
+				Es ist auch möglich, Barcodes direkt im Webbrowser mit der Gerätekamera zu scannen (<a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc" target="_blank"><i class="fab fa-youtube"></i> Kurze Video-Demo</a>).
+			</p>
 		</div>
 	</section>
 
