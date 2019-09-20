@@ -307,6 +307,7 @@
 					<li>Bringe neue Ideen ein, lass uns diese auf dem <a href="https://www.reddit.com/r/grocy/" target="_blank">Subreddit</a> oder über den <a href="https://github.com/grocy/grocy/issues" target="_blank">Issue Tracker</a> diskutieren</li>
 					<li>Überdenke / verbessere aktuelle Funktionalität oder die Oberfläche</li>
 					<li>Erstelle Dokumentation (die es leider aktuell quasi nicht gibt)</li>
+					<li>Helfe bei der Übersetzung von grocy in deine Sprache, geht ganz einfach auf <a href="https://www.transifex.com/grocy/grocy" target="_blank">Transifex</a></li>
 					<li>Erzähle anderen von grocy, oder schreibe einen Artikel darüber</li>
 				</ul>
 			</p>

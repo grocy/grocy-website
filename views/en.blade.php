@@ -333,6 +333,7 @@
 					<li>Contribute new ideas, discuss them on the <a href="https://www.reddit.com/r/grocy/" target="_blank">subreddit</a> or on the <a href="https://github.com/grocy/grocy/issues" target="_blank">issue tracker</a></li>
 					<li>Rethink / improve current functionality or the UI</li>
 					<li>Contribute documentation (which is currently mostly non-existant, unfortunately)</li>
+					<li>Help to translate grocy into your language, can easily be done on <a href="https://www.transifex.com/grocy/grocy" target="_blank">Transifex</a></li>
 					<li>Talk to others about grocy, or write an article about it</li>
 				</ul>
 			</p>
