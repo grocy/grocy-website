@@ -34,11 +34,14 @@
 						<a class="btn btn-primary btn-lg" href="https://releases.grocy.info/latest" target="_blank"><i class="fas fa-download"></i> Download</a>
 						<a class="btn btn-success btn-lg" href="https://demo-de.grocy.info" target="_blank"><i class="fas fa-eye"></i> Demo</a>
 					</p>
-					<p>
+					<p class="mb-1">
 						<a class="btn btn-secondary btn-sm" href="/changelog"><i class="fas fa-exchange-alt"></i> Changelog</a>
 						<a class="btn btn-secondary btn-sm" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 					</p>
-					<p class="font-weight-light font-italic grandminor-info mb-lg-0">
+					<p class="font-weight-light font-italic grandminor-info">
+						Aktuelle Version: {{ $grocyVersionInfo->Version }} (veröffentlich am {{ date('d.m.Y', strtotime($grocyVersionInfo->ReleaseDate)) }})
+					</p>
+					<p class="font-weight-light font-italic grandminor-info mb-0">
 						Ein Webserver mit PHP 7.2 und der SQLite (PDO) Erweiterung ist erforderlich.<br>
 						Aktuell übersetzt in: Englisch, Deutsch, Dänisch, Spanisch, Französisch, Italienisch, Niederländisch, Norwegisch, Polnisch, Russisch, Schwedisch, Türkisch und Niederländisch
 					</p>

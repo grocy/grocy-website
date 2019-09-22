@@ -31,7 +31,9 @@ $app->group('', function()
 
 	$this->get('/de', function(Request $request, Response $response, array $args)
 	{
-		return $this->view->render($response, 'de');
+		return $this->view->render($response, 'de', [
+			'grocyVersionInfo' => json_decode(file_get_contents(__DIR__ . '/data/grocyreleasesymlinks/version.json', true))
+		]);
 	});
 
 	$this->get('/changelog', function(Request $request, Response $response, array $args)
