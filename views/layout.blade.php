@@ -19,6 +19,19 @@
 
 	@yield('headerAdditional')
 
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="@yield('title')">
+	<meta property="og:description" content="ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.">
+	<meta property="og:site_name" content="grocy">
+	<meta property="og:image" content="https://grocy.info/img/screenshot.png">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="@yield('title')">
+	<meta name="twitter:description" content="ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.">
+	<meta name="twitter:site" content="@grocy_erp">
+	<meta name="twitter:creator" content="@BerndBestel">
+	<meta name="twitter:image" content="https://grocy.info/img/screenshot.png">
+
 	<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/node_modules/simplelightbox/dist/simplelightbox.min.css" rel="stylesheet">
 	<link href="/vendor_unmanaged/poppins-v1-latin/poppins-v1-latin.min.css" rel="stylesheet">
