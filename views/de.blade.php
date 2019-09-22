@@ -32,7 +32,7 @@
 					<p class="lead major-info">Open Source. Built with passion.</p>
 					<p>
 						<a class="btn btn-primary btn-lg" href="https://releases.grocy.info/latest" target="_blank"><i class="fas fa-download"></i> Download</a>
-						<a class="btn btn-success btn-lg" href="https://de.demo.de.grocy.info" target="_blank"><i class="fas fa-eye"></i> Demo</a>
+						<a class="btn btn-success btn-lg" href="https://de.demo.grocy.info" target="_blank"><i class="fas fa-eye"></i> Demo</a>
 					</p>
 					<p class="mb-1">
 						<a class="btn btn-secondary btn-sm" href="/changelog"><i class="fas fa-exchange-alt"></i> Changelog</a>
