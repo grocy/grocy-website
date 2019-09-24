@@ -25,16 +25,16 @@
 	@if($changelogItem['version'] == "UNRELEASED")
 	<section id="preview" class="row align-items-center d-flex my-3">
 		<div class="col">
-			<div class="card">
-				<div class="card-header bg-warning">
+			<div class="card border-danger">
+				<div class="card-header bg-warning border-danger">
 					<a class="discrete-link" data-toggle="collapse-next" href="#">Preview version <span class="small">(<span class="font-italic">not yet released</span>)</span></a>
 				</div>
 				<div class="collapse">
-					<div class="card-body text-left major-info pb-0 px-3">
+					<div class="card-body text-left major-info pb-0 px-3 border-danger">
 						{!! $Parsedown->text($changelogItem['body']) !!}
 					</div>
 					<div class="card-body pt-0">
-						<a href="https://demo-prerelease.grocy.info" target="_blank" class="btn btn-warning">Pre-release demo</a>
+						<a href="https://demo-prerelease.grocy.info" target="_blank" class="btn btn-warning border-danger">Pre-release demo</a>
 					</div>
 				</div>
 			</div>
