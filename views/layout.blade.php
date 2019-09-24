@@ -34,6 +34,7 @@
 
 	<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/node_modules/simplelightbox/dist/simplelightbox.min.css" rel="stylesheet">
+	<link href="/node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
 	<link href="/vendor_unmanaged/poppins-v1-latin/poppins-v1-latin.min.css" rel="stylesheet">
 	<link href="/vendor_unmanaged/news-cycle-v13-latin/news-cycle-v13-latin.min.css" rel="stylesheet">
 	<link href="/vendor_unmanaged/merriweather-v14-latin/merriweather-v14-latin.min.css" rel="stylesheet">

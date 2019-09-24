@@ -13,8 +13,12 @@
 @section('navAdditional')
 <div class="collapse navbar-collapse" id="languageNavbar">
 	<ul class="navbar-nav ml-auto">
-		<li class="nav-item">
-			<a class="nav-link" href="https://grocy.info">This page is also available in English</a>
+		<li class=" nav-item dropdown ml-auto">
+			<a class="nav-link dropdown-toggle text-primary" href="#" data-toggle="dropdown"><i class="flag-icon flag-icon-de"></i> Deutsch</a>
+
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="https://grocy.info/"><i class="flag-icon flag-icon-us"></i> Englisch</a>
+			</div>
 		</li>
 	</ul>
 </div>

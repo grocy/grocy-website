@@ -12,6 +12,17 @@ body {
 	border-color: #d6d6d6;
 }
 
+.navbar-nav .dropdown-menu {
+	background-color: #e5e5e5 !important;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-nav .dropdown-divider {
+	border-top: 2px solid !important;
+	border-color: #d6d6d6 !important;
+}
+
 .alert-dark {
 	background-color: #e5e5e5;
 	border-color: #d6d6d6;

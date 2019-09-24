@@ -39,8 +39,12 @@
 @section('navAdditional')
 <div class="collapse navbar-collapse" id="languageNavbar">
 	<ul class="navbar-nav ml-auto">
-		<li class="nav-item">
-			<a class="nav-link" href="https://grocy.info/de">Diese Seite ist auch auf Deutsch verfügbar</a>
+		<li class=" nav-item dropdown ml-auto">
+			<a class="nav-link dropdown-toggle text-primary" href="#" data-toggle="dropdown"><i class="flag-icon flag-icon-us"></i> English</a>
+
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="https://grocy.info/de"><i class="flag-icon flag-icon-de"></i> German</a>
+			</div>
 		</li>
 	</ul>
 </div>

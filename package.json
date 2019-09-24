@@ -5,6 +5,7 @@
 		"@fortawesome/fontawesome-free": "^5.7.2",
 		"bootstrap": "^4.3.1",
 		"jquery": "^3.3.1",
-		"simplelightbox": "^1.16.3"
+		"simplelightbox": "^1.16.3",
+		"flag-icon-css": "^3.4.0"
 	}
 }
