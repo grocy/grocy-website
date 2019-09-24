@@ -30,7 +30,7 @@
 					<h1 class="bold">ERP für deinen Kühlschrank</h1>
 					<p class="lead grandmajor-info">grocy ist eine selbst gehostete Webanwendung zur Lebensmittel- und Haushaltsverwaltung.</p>
 					<p class="lead major-info">Open Source. Built with passion.</p>
-					<p>
+					<p class="mb-2">
 						<a class="btn btn-primary btn-lg" href="https://releases.grocy.info/latest" target="_blank"><i class="fas fa-download"></i> Download</a>
 						<a class="btn btn-success btn-lg" href="https://de.demo.grocy.info" target="_blank"><i class="fas fa-eye"></i> Demo</a>
 					</p>
@@ -42,7 +42,7 @@
 						Aktuelle Version: {{ $grocyVersionInfo->Version }} (veröffentlicht am {{ date('d.m.Y', strtotime($grocyVersionInfo->ReleaseDate)) }})
 					</p>
 					<p class="font-weight-light font-italic grandminor-info mb-0">
-						Ein Webserver mit PHP 7.2 und der SQLite (PDO) Erweiterung ist erforderlich.<br>
+						Ein Webserver mit PHP 7.2 (oder höher) und der SQLite (PDO) Erweiterung ist erforderlich.<br>
 						Aktuell übersetzt in: Englisch, Deutsch, Dänisch, Spanisch, Französisch, Italienisch, Niederländisch, Norwegisch, Polnisch, Russisch, Schwedisch, Türkisch und Niederländisch
 					</p>
 				</div>
@@ -61,7 +61,7 @@
 			<div class="col-xs-12 col-lg-6">
 				<h1 class="bold">grocy-desktop</h1>
 				<p class="lead major-info">Benutze grocy, ohne einen Webserver verwalten zu müssen - wie eine normale (Windows) Desktop-Anwendung.</p>
-				<p>
+				<p class="mb-2">
 					<a class="btn btn-primary" href="https://releases.grocy.info/latest-desktop" target="_blank"><i class="fas fa-download"></i> Download <span class="small">(klassische Installation)</span></a>
 					oder
 					<a href="https://www.microsoft.com/store/apps/9nwb1trnnksf?cid=storebadge&ocid=badge" target="_blank">
