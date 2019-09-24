@@ -17,7 +17,10 @@
 			<p class="lead major-info">
 				Angaben gemäß § 5 TMG für die Webseiten unter den folgenden Domains:<br>
 				grocy.info<br>
-				demo-*.grocy.info
+				demo.grocy.info<br>
+				*.demo.grocy.info<br>
+				demo-prerelease.grocy.info<br>
+				*.demo-prerelease.grocy.info
 				<br>
 				<br>
 				Bernd Bestel
