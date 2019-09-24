@@ -22,6 +22,25 @@
 
 	@php $Parsedown = new Parsedown(); @endphp
 	@foreach($changelog['changelog_items'] as $changelogItem)
+	@if($changelogItem['version'] == "UNRELEASED")
+	<section id="preview" class="row align-items-center d-flex my-3">
+		<div class="col">
+			<div class="card">
+				<div class="card-header bg-warning">
+					<a class="discrete-link" data-toggle="collapse-next" href="#">Preview version <span class="small">(<span class="font-italic">not yet released</span>)</span></a>
+				</div>
+				<div class="collapse">
+					<div class="card-body text-left major-info pb-0 px-3">
+						{!! $Parsedown->text($changelogItem['body']) !!}
+					</div>
+					<div class="card-body pt-0">
+						<a href="https://demo-prerelease.grocy.info" target="_blank" class="btn btn-warning">Pre-release demo</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	@else
 	<section id="v{{ $changelogItem['version'] }}" class="row align-items-center d-flex my-3">
 		<div class="col">
 			<div class="card">
@@ -39,6 +58,7 @@
 			</div>
 		</div>
 	</section>
+	@endif
 	@endforeach
 	
 </div>
