@@ -191,8 +191,20 @@
 	</section>
 
 	<hr>
+	
+	<section id="recipe-details" class="row align-items-center d-flex">
+		<div class="col-xs-12 col-lg-6">
+			<a class="lightbox" href="/img/mealplan-de.png"><img src="/img/mealplan-de.png" alt="grocy Speiseplan" title="grocy Speiseplan" class="feature-image img-fluid"></a>
+		</div>
+		<div class="col pt-4 pt-md-0">
+			<h3 class="bold d-inline-block sketch-underline">Speiseplan Like a Pro</h3>
+			<p class="lead major-info">Plane deine täglichen Mahlzeiten anhand deiner Rezepte und packe alles nicht vorhandene mit einem Klick auf den Einkaufszettel.</p>
+		</div>
+	</section>
 
-	<section id="equipment" class="row align-items-center d-flex">
+	<hr>
+
+	<section id="equipment" class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/equipment-de.png"><img src="/img/equipment-de.png" alt="grocy Ausstattungsübersicht" title="grocy Ausstattungsübersicht" class="feature-image img-fluid"></a>
 		</div>
@@ -204,7 +216,7 @@
 	
 	<hr>
 
-	<section id="chores" class="row align-items-center d-flex flex-row-reverse">
+	<section id="chores" class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/chores-de.png"><img src="/img/chores-de.png" alt="grocy Hausarbeitenübersicht" title="grocy Hausarbeitenübersicht" class="feature-image img-fluid"></a>
 		</div>
@@ -216,7 +228,7 @@
 
 	<hr>
 
-	<section id="tasks" class="row align-items-center d-flex">
+	<section id="tasks" class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/tasks-de.png"><img src="/img/tasks-de.png" alt="grocy Aufgabenübersicht" title="grocy Aufgabenübersicht" class="feature-image img-fluid"></a>
 		</div>
@@ -228,7 +240,7 @@
 
 	<hr>
 
-	<section id="batteries" class="row align-items-center d-flex flex-row-reverse">
+	<section id="batteries" class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/batteries-de.png"><img src="/img/batteries-de.png" alt="grocy Batterieübersicht" title="grocy Batterieübersicht" class="feature-image img-fluid"></a>
 		</div>
@@ -240,7 +252,7 @@
 
 	<hr>
 
-	<section id="user-defined-fields" class="row align-items-center d-flex">
+	<section id="user-defined-fields" class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/userobjects-de.png"><img src="/img/userobjects-de.png" alt="grocy Benutzerdefinierte Felder" title="grocy Benutzerdefinierte Felder" class="feature-image img-fluid"></a>
 		</div>
@@ -252,7 +264,7 @@
 
 	<hr>
 
-	<section id="night-mode" class="row align-items-center d-flex flex-row-reverse">
+	<section id="night-mode" class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/nightmode-de.png"><img src="/img/nightmode-de.png" alt="grocy im Night-Mode" title="grocy im Night-Mode" class="feature-image img-fluid mt-1"></a>
 		</div>
