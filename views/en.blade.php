@@ -218,7 +218,7 @@
 
 	<hr>
 	
-	<section id="recipe-details" class="row align-items-center d-flex">
+	<section id="meal-planning" class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/mealplan-en.png"><img src="/img/mealplan-en.png" alt="grocy meal planning" title="grocy meal planning" class="feature-image img-fluid"></a>
 		</div>
