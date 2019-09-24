@@ -62,6 +62,7 @@
 					</p>
 					<p class="mb-1">
 						<a class="btn btn-secondary btn-sm" href="/changelog"><i class="fas fa-exchange-alt"></i> Changelog</a>
+						<a class="btn btn-secondary btn-sm" href="https://github.com/grocy/grocy#how-to-install" target="_blank"><i class="fas fa-info"></i> Install guide</a>
 						<a class="btn btn-secondary btn-sm" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 					</p>
 					<p class="font-weight-light font-italic grandminor-info">
