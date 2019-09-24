@@ -59,7 +59,7 @@
 
 	</main>
 
-	<footer class="container text-center pb-3">
+	<footer class="container text-center py-3">
 		<div class="row">
 			<div class="col">
 

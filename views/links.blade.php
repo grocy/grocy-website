@@ -12,7 +12,7 @@
 	<div class="row align-items-center">
 
 		<div class="col">
-			<h1 class="bold sketch-underline">Links</h1>
+			<h1 class="bold d-inline-block sketch-underline">Links</h1>
 			<h5 class="text-muted pt-3">A list of community contributed help- and troubleshooting guides and other articles about grocy</h5>
 		</div>
 

@@ -236,13 +236,25 @@
 
 	<hr>
 
-	<section id="night-mode" class="row align-items-center d-flex">
+	<section id="user-defined-fields" class="row align-items-center d-flex">
+		<div class="col-xs-12 col-lg-6">
+			<a class="lightbox" href="/img/userobjects-de.png"><img src="/img/userobjects-de.png" alt="grocy Benutzerdefinierte Felder" title="grocy Benutzerdefinierte Felder" class="feature-image img-fluid"></a>
+		</div>
+		<div class="col pt-4 pt-md-0">
+			<h3 class="bold d-inline-block sketch-underline">Benutzerdefinierte Felder/Objekte/Listen</h3>
+			<p class="lead major-info">Zu jeder Entität (wie Produkte oder Hausarbeiten) können beliebige benutzerdefinierte Felder hinzugefügt werden. Du kannst sogar komplett eigene Objekte erstellen, um alles bequem zentral verwalten zu könnnen.</p>
+		</div>
+	</section>
+
+	<hr>
+
+	<section id="night-mode" class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/nightmode-de.png"><img src="/img/nightmode-de.png" alt="grocy im Night-Mode" title="grocy im Night-Mode" class="feature-image img-fluid mt-1"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Night-Mode inklusive</h3>
-			<p class="lead major-info">Weil wir alle auch manchmal eine dunkle Seite haben, oder weil das für die Nacht einfach augenschonender und angenehmer ist. Natürlich kann der Nachtmodus auch automatisch bei Sonnenuntergang aktiviert werden (konfigurierbarer Zeitbereich).</p>
+			<p class="lead major-info">Weil wir alle es lieben, zumindest manchmal. Natürlich kann der Nachtmodus auch automatisch bei Sonnenuntergang aktiviert werden (konfigurierbarer Zeitbereich).</p>
 		</div>
 	</section>
 

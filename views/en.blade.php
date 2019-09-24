@@ -262,13 +262,25 @@
 
 	<hr>
 
-	<section id="night-mode" class="row align-items-center d-flex">
+	<section id="user-defined-fields" class="row align-items-center d-flex">
+		<div class="col-xs-12 col-lg-6">
+			<a class="lightbox" href="/img/userobjects-en.png"><img src="/img/userobjects-en.png" alt="grocy user defined objects/lists" title="grocy user defined objects/lists" class="feature-image img-fluid"></a>
+		</div>
+		<div class="col pt-4 pt-md-0">
+			<h3 class="bold d-inline-block sketch-underline">Custom fields/objects/lists</h3>
+			<p class="lead major-info">To any entity (like products or chores) any custom fields can be attached. Ultimately, you can create completely own objects/lists to keep track of everyhting in one place.</p>
+		</div>
+	</section>
+
+	<hr>
+
+	<section id="night-mode" class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox" href="/img/nightmode-en.png"><img src="/img/nightmode-en.png" alt="grocy in night mode" title="grocy in night mode" class="feature-image img-fluid mt-1"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Night mode included</h3>
-			<p class="lead major-info">Because we all love the eye friendly dark side which is perfect at night. Of course night mode can be also activated automatically when the sun sets (configurable time range).</p>
+			<p class="lead major-info">Because we all love it, at least sometimes. Of course night mode can be also activated automatically when the sun sets (configurable time range).</p>
 		</div>
 	</section>
 

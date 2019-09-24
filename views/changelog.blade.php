@@ -12,7 +12,7 @@
 	<div class="row align-items-center">
 
 		<div class="col-xs-12 col-lg-8 offset-lg-2">
-			<h1 class="bold sketch-underline">Changelog & release history</h1>
+			<h1 class="bold d-inline-block sketch-underline">Changelog & release history</h1>
 		</div>
 
 	</div>
