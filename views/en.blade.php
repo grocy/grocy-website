@@ -100,7 +100,7 @@
 					</a>
 				</p>
 				<p>
-					<a class="btn btn-secondary" href="https://github.com/grocy/grocy-desktop" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+					<a class="btn btn-sm btn-secondary" href="https://github.com/grocy/grocy-desktop" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 				</p>
 				<p class="font-weight-light font-italic grandminor-info mb-lg-0">
 					.Net Framework required (normally already available on any Windows PC), grocy-desktop auto configures and manages a local PHP server and grocy - just execute the installer and you are ready.

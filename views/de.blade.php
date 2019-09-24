@@ -74,7 +74,7 @@
 					</a>
 				</p>
 				<p>
-					<a class="btn btn-secondary" href="https://github.com/grocy/grocy-desktop" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+					<a class="btn btn-sm btn-secondary" href="https://github.com/grocy/grocy-desktop" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 				</p>
 				<p class="font-weight-light font-italic grandminor-info mb-lg-0">
 					.Net Framework erforderlich (normalerweise bereits auf jedem Windows-PC vorhanden), grocy-desktop konfiguriert und verwaltet einen lokalen PHP-Server und grocy - einfach das Setup ausführen, fertig.
