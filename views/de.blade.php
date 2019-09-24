@@ -39,7 +39,7 @@
 						<a class="btn btn-secondary btn-sm" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 					</p>
 					<p class="font-weight-light font-italic grandminor-info">
-						Aktuelle Version: {{ $grocyVersionInfo->Version }} (veröffentlich am {{ date('d.m.Y', strtotime($grocyVersionInfo->ReleaseDate)) }})
+						Aktuelle Version: {{ $grocyVersionInfo->Version }} (veröffentlicht am {{ date('d.m.Y', strtotime($grocyVersionInfo->ReleaseDate)) }})
 					</p>
 					<p class="font-weight-light font-italic grandminor-info mb-0">
 						Ein Webserver mit PHP 7.2 und der SQLite (PDO) Erweiterung ist erforderlich.<br>
