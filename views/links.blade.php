@@ -46,6 +46,13 @@
 			<hr class="mt-0 pb-0">
 
 			<p>
+				<h5>Example nginx/PHP-FPM config from the official demo instance (incl. reverse proxy)</h5>
+				<a class="small" href="https://github.com/grocy/grocy-docker/issues/15#issuecomment-486579894" target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy-docker/issues/15#issuecomment-486579894</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
 				<h5>Automating your shopping list with Home Assistant and grocy</h5>
 				<a class="small" href="https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy" target="_blank"><i class="fas fa-external-link-alt"></i> https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy</a>
 			</p>
