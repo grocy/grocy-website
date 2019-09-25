@@ -53,6 +53,13 @@
 			<hr class="mt-0 pb-0">
 
 			<p>
+				<h5>Error message "Undefined function mime_content_type()"</h5>
+				<a class="small" href="https://github.com/grocy/grocy/issues/381" target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/381</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
 				<h5>Automating your shopping list with Home Assistant and grocy</h5>
 				<a class="small" href="https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy" target="_blank"><i class="fas fa-external-link-alt"></i> https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy</a>
 			</p>
