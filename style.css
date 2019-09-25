@@ -197,3 +197,7 @@ h3:hover .anchor-link-icon,
 .lightbox:hover .lightbox-magnifying-glass {
 	opacity: 1;
 }
+
+.dropdown-toggle.collapsed:after {
+	transform: rotate(-90deg) ;
+}

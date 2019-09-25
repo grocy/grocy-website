@@ -27,7 +27,7 @@
 		<div class="col">
 			<div class="card border-danger">
 				<div class="card-header bg-warning border-danger">
-					<a class="discrete-link" data-toggle="collapse-next" href="#">Preview version <span class="small">(<span class="font-italic">not yet released</span>)</span></a>
+					<a class="discrete-link dropdown-toggle collapsed" data-toggle="collapse-next" href="#">Preview version <span class="small">(<span class="font-italic">not yet released</span>)</span></a>
 				</div>
 				<div class="collapse">
 					<div class="card-body text-left major-info pb-0 px-3 border-danger">
@@ -45,7 +45,7 @@
 		<div class="col">
 			<div class="card">
 				<div class="card-header">
-					<a class="discrete-link" data-toggle="collapse-next" href="#">Version <span class="font-weight-bold">{{ $changelogItem['version'] }}</span> released on <span class="font-weight-bold">{{ $changelogItem['release_date'] }}</span></a>
+					<a class="discrete-link dropdown-toggle @if(!($changelogItem['release_number'] >= $changelog['newest_release_number'] - 4)) collapsed @endif" data-toggle="collapse-next" href="#">Version <span class="font-weight-bold">{{ $changelogItem['version'] }}</span> released on <span class="font-weight-bold">{{ $changelogItem['release_date'] }}</span></a>
 				</div>
 				<div class="collapse @if($changelogItem['release_number'] >= $changelog['newest_release_number'] - 4) show @endif">
 					<div class="card-body text-left major-info pb-0 px-3">

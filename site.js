@@ -26,5 +26,6 @@ if ($(".lightbox").length > 0)
 $('[data-toggle="collapse-next"]').on("click", function(e)
 {
 	e.preventDefault();
+	$(this).toggleClass("collapsed");
 	$(this).parent().next().collapse("toggle");
 });
