@@ -3,11 +3,13 @@
 		"php": ">=7.2",
 		"slim/slim": "^3.8",
 		"rubellum/slim-blade-view": "^0.1.1",
-		"erusev/parsedown": "^1.7.1"
+		"tovic/parsedown-extra-plugin": "v1.2.0-beta-2"
 	},
 	"autoload": {
 		"files": [
 			"StaticFileCacheMiddleware.php"
 		]
-	}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }

@@ -20,7 +20,6 @@
 
 <div class="container pb-3">
 
-	@php $Parsedown = new Parsedown(); @endphp
 	@foreach($changelog['changelog_items'] as $changelogItem)
 	@if($changelogItem['version'] == "UNRELEASED")
 	<section id="preview" class="row align-items-center d-flex my-3">

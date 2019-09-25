@@ -73,8 +73,22 @@ $app->group('', function()
 			'newest_release_number' => $changelogItems[0]['release_number']
 		);
 
+		$Parsedown = new ParsedownExtraPlugin();
+		$Parsedown->linkAttributes = function($Text, $Attributes, &$Element, $Internal)
+		{
+			if (!$Internal)
+			{
+				return [
+					'target' => '_blank'
+				];
+			}
+
+			return [];
+		};
+
 		return $this->view->render($response, 'changelog', [
-			'changelog' => $changelog
+			'changelog' => $changelog,
+			'Parsedown' => $Parsedown
 		]);
 	});
 
