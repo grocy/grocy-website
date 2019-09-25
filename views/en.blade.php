@@ -143,15 +143,18 @@
 	<hr>
 
 	<section id="purchase-form" class="row align-items-center d-flex">
-		<div class="col-xs-12 col-lg-6">
+		<div class="col">
 			<a class="lightbox" href="/img/purchase-en.png"><img src="/img/purchase-en.png" alt="grocy purchase tracking form" title="grocy purchase tracking form" class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Track your purchases</h3>
 			<p class="lead major-info">A barcode reader ready interface makes this a easy and quick task and you always know what you currently have at home.</p>
 			<p class="lead major-info">
 				It's also possible to scan barcodes directly in the web browser using the device camera (<a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc" target="_blank"><i class="fab fa-youtube"></i> Quick video demo</a>).
 			</p>
+		</div>
+		<div class="col">
+			<a class="lightbox" href="/img/browser-barcode-scanning.png"><img src="/img/browser-barcode-scanning.png" alt="grocy browser barcode scanning" title="grocy browser barcode scanning" class="feature-image img-fluid"></a>
 		</div>
 	</section>
 

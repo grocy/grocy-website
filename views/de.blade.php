@@ -117,15 +117,18 @@
 	<hr>
 
 	<section id="purchase-form" class="row align-items-center d-flex">
-		<div class="col-xs-12 col-lg-6">
+		<div class="col">
 			<a class="lightbox" href="/img/purchase-de.png"><img src="/img/purchase-de.png" alt="grocy Einkaufs-Erfassungsformular" title="grocy Einkaufs-Erfassungsformular" class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Einkäufe erfassen</h3>
 			<p class="lead major-info">Eine für Barcodescanner vorbereitete Oberfläche macht es einfach, Einkäufe einfach und vor allem schnell zu erfassen. Damit weißt du immer, was gerade Zuhause vorrätig ist.</p>
 			<p class="lead major-info">
 				Es ist auch möglich, Barcodes direkt im Webbrowser mit der Gerätekamera zu scannen (<a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc" target="_blank"><i class="fab fa-youtube"></i> Kurze Video-Demo</a>).
 			</p>
+		</div>
+		<div class="col">
+			<a class="lightbox" href="/img/browser-barcode-scanning.png"><img src="/img/browser-barcode-scanning.png" alt="grocy Barcode scannen im Browser" title="grocy Barcode scannen im Browser" class="feature-image img-fluid"></a>
 		</div>
 	</section>
 
