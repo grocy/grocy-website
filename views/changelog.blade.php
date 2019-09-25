@@ -4,6 +4,7 @@
 @section('lang', 'en')
 
 @section('headerAdditional')
+<link href="/vendor_unmanaged/fira-mono-v8-latin/fira-mono-v8-latin.min.css" rel="stylesheet">
 <link rel="canonical" href="https://grocy.info/changelog">
 @stop
 
