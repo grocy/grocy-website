@@ -73,22 +73,19 @@ $app->group('', function()
 			'newest_release_number' => $changelogItems[0]['release_number']
 		);
 
-		$Parsedown = new ParsedownExtraPlugin();
-		$Parsedown->linkAttributes = function($Text, $Attributes, &$Element, $Internal)
-		{
-			if (!$Internal)
-			{
-				return [
-					'target' => '_blank'
-				];
-			}
-
-			return [];
-		};
+		$commonMarkEnvironment = \League\CommonMark\Environment::createCommonMarkEnvironment();
+		$commonMarkEnvironment->addExtension(new \League\CommonMark\Ext\Autolink\AutolinkExtension());
+		$commonMarkEnvironment->addExtension(new \League\CommonMark\Ext\ExternalLink\ExternalLinkExtension());
+		$commonMarkEnvironment->addInlineParser(\League\CommonMark\Ext\Autolink\InlineMentionParser::createGithubHandleParser());
+		$commonMarkConverter = new \League\CommonMark\CommonMarkConverter([
+			'external_link' => [
+				'open_in_new_window' => true
+			],
+		], $commonMarkEnvironment);
 
 		return $this->view->render($response, 'changelog', [
 			'changelog' => $changelog,
-			'Parsedown' => $Parsedown
+			'commonMarkConverter' => $commonMarkConverter
 		]);
 	});
 

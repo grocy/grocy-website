@@ -31,7 +31,7 @@
 				</div>
 				<div class="collapse">
 					<div class="card-body text-left major-info pb-0 px-3 border-danger">
-						{!! $Parsedown->text($changelogItem['body']) !!}
+						{!! $commonMarkConverter->convertToHtml($changelogItem['body']) !!}
 					</div>
 					<div class="card-body pt-0">
 						<a href="https://demo-prerelease.grocy.info" target="_blank" class="btn btn-warning border-danger">Pre-release demo</a>
@@ -49,7 +49,7 @@
 				</div>
 				<div class="collapse @if($changelogItem['release_number'] >= $changelog['newest_release_number'] - 4) show @endif">
 					<div class="card-body text-left major-info pb-0 px-3">
-						{!! $Parsedown->text($changelogItem['body']) !!}
+						{!! $commonMarkConverter->convertToHtml($changelogItem['body']) !!}
 					</div>
 					<div class="card-body pt-0">
 						<a href="https://releases.grocy.info/v?{{ $changelogItem['version'] }}" target="_blank" class="btn btn-primary">Download</a>
