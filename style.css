@@ -198,6 +198,10 @@ h3:hover .anchor-link-icon,
 	opacity: 1;
 }
 
+.dropdown-toggle:after {
+	transition:all 0.25s ease-in-out;
+}
+
 .dropdown-toggle.collapsed:after {
 	transform: rotate(-90deg) ;
 }
