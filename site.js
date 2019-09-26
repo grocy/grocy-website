@@ -1,4 +1,4 @@
-$("h3").each(function (i, el)
+$(".feature-list h3").each(function (i, el)
 {
 	$(el).append($("<a />").addClass("anchor-link-icon").addClass("text-primary").attr("href", "#" + $(this).closest("section").attr("id")).html(' <i class="fa fa-link"></i>'));
 });

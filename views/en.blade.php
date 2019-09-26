@@ -115,7 +115,7 @@
 	</div>
 </header>
 
-<div class="container mt-5">
+<div class="container mt-5 feature-list">
 
 	<section class="row">
 		<div id="getting-in-touch" class="col-xs-12 col-lg-6">
