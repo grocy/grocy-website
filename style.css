@@ -191,11 +191,13 @@ a.lightbox:hover img,
 .anchor-link-icon {
 	opacity: 0;
 	transition: opacity 0.2s ease-in-out 0.1s;
+	display: none;
 }
 
 h3:hover .anchor-link-icon,
 .lightbox:hover .lightbox-magnifying-glass {
 	opacity: 1;
+	display: inline;
 }
 
 .dropdown-toggle:after {
