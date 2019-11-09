@@ -203,7 +203,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Recipes with intelligence</h3>
-			<p class="lead major-info">Maintain your recipes and see at a glance whether everything you need is in stock at home. Of course, everything that is not available can also be automatically added to the shopping list.</p>
+			<p class="lead major-info">Maintain your recipes and see at a glance whether thing you need is in stock at home. Of course, everything that is not available can also be automatically added to the shopping list.</p>
 		</div>
 	</section>
 	
@@ -227,7 +227,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Meal planning like a Pro</h3>
-			<p class="lead major-info">Plan your daily meals based on your recipes and put everyhting needed and not at home with one click on the shopping list.</p>
+			<p class="lead major-info">Plan your daily meals based on your recipes and put everything needed and not at home with one click on the shopping list.</p>
 		</div>
 	</section>
 
@@ -287,7 +287,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Custom fields/objects/lists</h3>
-			<p class="lead major-info">To any entity (like products or chores) any custom fields can be attached. Ultimately, you can create completely own objects/lists to keep track of everyhting in one place.</p>
+			<p class="lead major-info">To any entity (like products or chores) any custom fields can be attached. Ultimately, you can create completely own objects/lists to keep track of everything in one place.</p>
 		</div>
 	</section>
 
