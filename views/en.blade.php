@@ -203,7 +203,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Recipes with intelligence</h3>
-			<p class="lead major-info">Maintain your recipes and see at a glance whether thing you need is in stock at home. Of course, everything that is not available can also be automatically added to the shopping list.</p>
+			<p class="lead major-info">Maintain your recipes and see at a glance whether everything you need is in stock at home. Of course, everything that is not available can also be automatically added to the shopping list.</p>
 		</div>
 	</section>
 	
