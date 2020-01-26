@@ -62,4 +62,14 @@
 	@endforeach
 	
 </div>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function(event)
+	{ 
+		if (location.hash == "#preview")
+		{
+			$("#preview").find(".dropdown-toggle").click();
+		}
+	});
+</script>
 @stop
