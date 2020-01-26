@@ -6,6 +6,7 @@
 @section('headerAdditional')
 <link href="/vendor_unmanaged/fira-mono-v8-latin/fira-mono-v8-latin.min.css" rel="stylesheet">
 <link rel="canonical" href="https://grocy.info/changelog">
+<link rel="alternate" type="application/rss+xml" title="grocy Changelog & release history feed" href="https://grocy.info/changelog/feed">
 @stop
 
 @section('content')
