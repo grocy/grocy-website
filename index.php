@@ -55,39 +55,6 @@ $app->group('', function()
 		]);
 	});
 
-	$this->get('/changelog/feed', function(Request $request, Response $response, array $args)
-	{
-		$changelogItems = GetChangelogItems();
-		$commonMarkConverter = GetCommonMarkConverter();
-
-		$feed = new Feed();
-
-		$channel = new Channel();
-		$channel
-			->title("grocy Changelog & release history")
-			->description("grocy - ERP beyond your fridge")
-			->url('https://grocy.info')
-			->appendTo($feed);
-
-		foreach($changelogItems as $changelogItem)
-		{
-			if($changelogItem['version'] == "UNRELEASED")
-			{
-				continue;
-			}
-
-			$item = new Item();
-			$item
-				->title('Version ' . $changelogItem['version'])
-				->description($commonMarkConverter->convertToHtml($changelogItem['body']))
-				->url('https://grocy.info/changelog#' . $changelogItem['version'])
-				->pubDate(strtotime($changelogItem['release_date']))
-				->appendTo($channel);
-		}
-
-		return $response->write($feed)->withHeader('Content-Type', 'application/rss+xml');
-	});
-
 	$this->get('/links', function(Request $request, Response $response, array $args)
 	{
 		return $this->view->render($response, 'links');
@@ -107,6 +74,39 @@ $app->group('', function()
 		]);
 	});
 })->add(new StaticFileCacheMiddleware(__DIR__ . '/data/static/'));
+
+$app->get('/changelog/feed', function(Request $request, Response $response, array $args)
+{
+	$changelogItems = GetChangelogItems();
+	$commonMarkConverter = GetCommonMarkConverter();
+
+	$feed = new Feed();
+
+	$channel = new Channel();
+	$channel
+		->title("grocy Changelog & release history")
+		->description("grocy - ERP beyond your fridge")
+		->url('https://grocy.info')
+		->appendTo($feed);
+
+	foreach($changelogItems as $changelogItem)
+	{
+		if($changelogItem['version'] == "UNRELEASED")
+		{
+			continue;
+		}
+
+		$item = new Item();
+		$item
+			->title('Version ' . $changelogItem['version'])
+			->description($commonMarkConverter->convertToHtml($changelogItem['body']))
+			->url('https://grocy.info/changelog#' . $changelogItem['version'])
+			->pubDate(strtotime($changelogItem['release_date']))
+			->appendTo($channel);
+	}
+
+	return $response->write($feed)->withHeader('Content-Type', 'application/rss+xml');
+});
 
 $app->run();
 
