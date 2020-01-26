@@ -12,7 +12,7 @@ class StaticFileCacheMiddleware
 	public function __invoke(\Slim\Http\Request $request, \Slim\Http\Response $response, callable $next)
 	{
 		$response = $next($request, $response);
-		$response->write('<!-- Static page generated at ' . date('Y-m-d H:i:s', time()) . ' -->');
+		//$response->write('<!-- Static page generated at ' . date('Y-m-d H:i:s', time()) . ' -->');
 
 		$folder = $request->getUri()->getPath();
 		if (empty($folder) || $folder == '/')

@@ -4,7 +4,8 @@
 		"slim/slim": "^3.8",
 		"rubellum/slim-blade-view": "^0.1.1",
 		"league/commonmark-ext-autolink": "^1.1.0",
-		"league/commonmark-ext-external-link": "^1.0.0"
+		"league/commonmark-ext-external-link": "^1.0.0",
+		"bhaktaraz/php-rss-generator": "dev-master"
 	},
 	"autoload": {
 		"files": [

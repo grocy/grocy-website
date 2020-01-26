@@ -3,28 +3,35 @@
 
 
 "@fortawesome/fontawesome-free@^5.7.2":
-  version "5.11.2"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.11.2.tgz#8644bc25b19475779a7b7c1fc104bc0a794f4465"
-  integrity sha512-XiUPoS79r1G7PcpnNtq85TJ7inJWe0v+b5oZJZKb0pGHNIV6+UiNeQWiFGmuQ0aj7GEhnD/v9iqxIsjuRKtEnQ==
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.12.0.tgz#8ceb9f09edfb85ea18a6c7bf098f6f5dd5ffd62b"
+  integrity sha512-vKDJUuE2GAdBERaQWmmtsciAMzjwNrROXA5KTGSZvayAsmuTGjam5z6QNqNPCwDfVljLWuov1nEC3mEQf/n6fQ==
 
 bootstrap@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
-  integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.4.1.tgz#8582960eea0c5cd2bede84d8b0baf3789c3e8b01"
+  integrity sha512-tbx5cHubwE6e2ZG7nqM3g/FZ5PQEDMWmMGNrCUBVRPHXTJaH7CBDdsLeu3eCh3B1tzAxTnAbtmrzvWEvT2NNEA==
 
 flag-icon-css@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/flag-icon-css/-/flag-icon-css-3.4.0.tgz#7356dc73641a6406efd21783d73cabd589046f99"
-  integrity sha512-5W4a1QBmej8yTJKbr+hX2gwgk21Wd3Pe3sEHpLVBSfcfnxR/C7QGHq01zViW5JIsw2vbYroGAqbUFe8APEZygg==
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/flag-icon-css/-/flag-icon-css-3.4.5.tgz#584d618563034e69cb9a5b7a7c8477ec8c029a49"
+  integrity sha512-COo/PuJY/JddBLkdi7jL3gWF0z/hcvBRA4kfMXUjLeLglFf5IsyAzKZuXaXfCubVrkraVizmEp7Bn05upTXofA==
+  dependencies:
+    opencollective-postinstall "2.0.2"
 
 jquery@>=1.7.0, jquery@^3.3.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
   integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
 
+opencollective-postinstall@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
+  integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
+
 simplelightbox@^1.16.3:
-  version "1.17.2"
-  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-1.17.2.tgz#a9fcf2185fa661a511a728513e34f348542c90f7"
-  integrity sha512-LbVFh5UPUacxu/8XupgJ3nMfLxl+o6JCY/EiF9KgTCltKoNZOzUAspElwYqJ3O4YfPmUEzlyEJZyfOKAXE7Bnw==
+  version "1.17.3"
+  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-1.17.3.tgz#f886cc789c90568699ef92923a87a64ffc14f740"
+  integrity sha512-PMQteGjJAgcRuxaOLtmc9RHIIyoyLQUoT0PprzeRwJSmV6SqwsKKYE4yA6O9um5bJw7suf5BMos52C5HBEg5Eg==
   dependencies:
     jquery ">=1.7.0"
