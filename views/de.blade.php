@@ -319,6 +319,11 @@
 				<a class="btn btn-secondary btn-sm" href="https://github.com/Forceu/barcodebuddy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 			</p>
 			<p class="lead major-info">
+				<h6 class="mb-0">pygrocy</h6>
+				A grocy Python API client<br>
+				<a class="btn btn-secondary btn-sm" href="https://github.com/SebRut/pygrocy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+			<p class="lead major-info">
 				<h6 class="mb-0">grocy-pyscanner</h6>
 				A python based barcode scanning helper<br>
 				<a class="btn btn-secondary btn-sm" href="https://github.com/grocy/grocy-pyscanner" target="_blank"><i class="fab fa-github"></i> GitHub</a>
