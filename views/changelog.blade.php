@@ -15,6 +15,7 @@
 
 		<div class="col-xs-12 col-lg-8 offset-lg-2">
 			<h1 class="bold d-inline-block sketch-underline">Changelog & release history</h1>
+			<h5 class="bold d-block"><a href="https://grocy.info/changelog/feed"><i class="fas fa-rss"></i> Feed</h5></a>
 		</div>
 
 	</div>
