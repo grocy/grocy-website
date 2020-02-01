@@ -25,6 +25,13 @@
 		<div class="col-xs-12 col-lg-10 offset-lg-1">
 
 			<p>
+				<h5>How to install inside LXC container (Alpine Linux)</h5>
+				<a class="small" href="https://github.com/grocy/grocy/issues/523" target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/523</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
 				<h5>How to install on Ubuntu 16.04 using Apache</h5>
 				<a class="small" href="https://github.com/grocy/grocy/issues/357" target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/357</a>
 			</p>
