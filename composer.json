@@ -1,10 +1,12 @@
 {
 	"require": {
 		"php": ">=7.2",
-		"slim/slim": "^3.8",
+		"slim/slim": "^4.0",
+		"slim/psr7": "^1.0",
+		"php-di/php-di": "^6.0",
 		"rubellum/slim-blade-view": "^0.1.1",
-		"league/commonmark-ext-autolink": "^1.1.0",
-		"league/commonmark-ext-external-link": "^1.0.0",
+		"league/commonmark-ext-autolink": "^1.1",
+		"league/commonmark-ext-external-link": "^1.0",
 		"bhaktaraz/php-rss-generator": "dev-master"
 	},
 	"autoload": {

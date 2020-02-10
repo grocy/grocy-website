@@ -2,9 +2,9 @@
 	"name": "grocy-website",
 	"private": true,
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.7.2",
+		"@fortawesome/fontawesome-free": "^5.12.1",
 		"bootstrap": "^4.3.1",
-		"flag-icon-css": "^3.4.0",
+		"flag-icon-css": "^3.4.6",
 		"jquery": "^3.3.1",
 		"simplelightbox": "^1.16.3"
 	}

@@ -1,5 +1,9 @@
 <?php
 
+use Psr\Http\Message\ServerRequestInterface as Request;
+use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
+use Slim\Psr7\Response;
+
 class StaticFileCacheMiddleware
 {
 	public function __construct(string $cachePath)
@@ -9,10 +13,10 @@ class StaticFileCacheMiddleware
 
 	protected $CachePath;
 
-	public function __invoke(\Slim\Http\Request $request, \Slim\Http\Response $response, callable $next)
+	public function __invoke(Request $request, RequestHandler $handler): Response
 	{
-		$response = $next($request, $response);
-		//$response->write('<!-- Static page generated at ' . date('Y-m-d H:i:s', time()) . ' -->');
+		$response = $handler->handle($request);
+		$response->getBody()->write('<!-- Static page generated at ' . date('Y-m-d H:i:s', time()) . ' -->');
 
 		$folder = $request->getUri()->getPath();
 		if (empty($folder) || $folder == '/')
