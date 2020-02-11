@@ -33,7 +33,7 @@
 	<meta name="twitter:image" content="https://grocy.info/img/screenshot.png">
 
 	<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/node_modules/simplelightbox/dist/simplelightbox.min.css" rel="stylesheet">
+	<link href="/node_modules/simplelightbox/dist/simple-lightbox.min.css" rel="stylesheet">
 	<link href="/node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
 	<link href="/vendor_unmanaged/poppins-v8-latin/poppins-v8-latin.min.css" rel="stylesheet">
 	<link href="/vendor_unmanaged/news-cycle-v16-latin/news-cycle-v16-latin.min.css" rel="stylesheet">
@@ -89,7 +89,7 @@
 	<script src="/node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
-	<script src="/node_modules/simplelightbox/dist/simple-lightbox.min.js"></script>
+	<script src="/node_modules/simplelightbox/dist/simple-lightbox.jquery.min.js"></script>
 	<script src="/site.js"></script>
 	<script src="//kiwip.berrnd.org/js/ads/banner.js"></script>
 	<script>

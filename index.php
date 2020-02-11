@@ -1,8 +1,10 @@
 <?php
 
-use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
+use Psr\Http\Message\ResponseInterface as Response;
+use Psr\Container\ContainerInterface as Container;
 use Slim\Factory\AppFactory;
+use Slim\Routing\RouteCollectorProxy;
 
 use Bhaktaraz\RSSGenerator\Feed;
 use Bhaktaraz\RSSGenerator\Channel;
@@ -14,17 +16,15 @@ require_once __DIR__ . '/vendor/autoload.php';
 // Setup base application
 AppFactory::setContainer(new DI\Container());
 $app = AppFactory::create();
-$app->addRoutingMiddleware();
-$app->addErrorMiddleware(false, false, false);
 
 $container = $app->getContainer();
-$container->set('view', function(Psr\Container\ContainerInterface $container)
+$container->set('view', function(Container $container)
 {
 	return new Slim\Views\Blade(__DIR__ . '/views', __DIR__ . '/data/viewcache');
 });
 
 // Routes
-$app->group('', function(Slim\Routing\RouteCollectorProxy $group)
+$app->group('', function(RouteCollectorProxy $group)
 {
 	$view = $this->get('view');
 
@@ -110,6 +110,10 @@ $app->get('/changelog/feed', function(Request $request, Response $response, arra
 	$response->getBody()->write(strval($feed));
 	return $response->withHeader('Content-Type', 'application/rss+xml');
 });
+
+// Add default middleware
+$app->addRoutingMiddleware();
+$app->addErrorMiddleware(true, false, false);
 
 $app->run();
 

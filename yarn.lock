@@ -17,14 +17,12 @@ flag-icon-css@^3.4.6:
   resolved "https://registry.yarnpkg.com/flag-icon-css/-/flag-icon-css-3.4.6.tgz#7e51099c85648c65f86d9ebb9c0ec6f5d8826714"
   integrity sha512-rF69rt19Hr63SRQTiPBzQABaYB20LAgZhDkr/AxqSdgmCIN+tC5PRMz56Y0gxehFXJmdRwv55+GMi7R1fCRTwg==
 
-jquery@>=1.7.0, jquery@^3.3.1:
+jquery@^3.3.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
   integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
 
-simplelightbox@^1.16.3:
-  version "1.17.3"
-  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-1.17.3.tgz#f886cc789c90568699ef92923a87a64ffc14f740"
-  integrity sha512-PMQteGjJAgcRuxaOLtmc9RHIIyoyLQUoT0PprzeRwJSmV6SqwsKKYE4yA6O9um5bJw7suf5BMos52C5HBEg5Eg==
-  dependencies:
-    jquery ">=1.7.0"
+simplelightbox@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.0.0.tgz#5f31b1c26dd60672dd0eb339b0c718183e3a5004"
+  integrity sha512-zpL+abz2X9QwrfyAMZaq37aR5y8x00RyiFdh3wHK3ACsXlqSs8+4N3bQkDSd7rUaUAxRuo7Q9Ovyx/iEulsOgw==
