@@ -324,6 +324,11 @@
 				<a class="btn btn-secondary btn-sm" href="https://github.com/SebRut/pygrocy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 			</p>
 			<p class="lead major-info">
+				<h6 class="mb-0">pygrocydm</h6>
+				A python client for grocy (data management only) <br>
+				<a class="btn btn-secondary btn-sm" href="https://github.com/BlueBlueBlob/pygrocydm" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+			<p class="lead major-info">
 				<h6 class="mb-0">grocy-pyscanner</h6>
 				A python based barcode scanning helper<br>
 				<a class="btn btn-secondary btn-sm" href="https://github.com/grocy/grocy-pyscanner" target="_blank"><i class="fab fa-github"></i> GitHub</a>
