@@ -46,8 +46,8 @@
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>Install grocy with nginx, PHP, SQLite on minimal system</h5>
-				<a class="small" href="https://github.com/grocy/grocy/issues/201#issuecomment-487074462" target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/201#issuecomment-487074462</a>
+				<h5>Minimal Ubuntu 20.04 system setup with nginx, grocy > 2.6.0, php 7.4</h5>
+				<a class="small" href="https://github.com/grocy/grocy/issues/649" target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/649</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
