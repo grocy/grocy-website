@@ -320,6 +320,17 @@
 
 	<hr>
 
+	<section id="integration-and-customization" class="row align-items-center d-flex">
+		<div class="col">
+			<h3 class="bold d-inline-block sketch-underline">Integration and customization</h3>
+			<p class="lead major-info">A (RESTful) API for everything, see the <a href="https://demo.grocy.info/api" target="_blank">integrated Swagger UI on /api</a></p>
+			<p class="lead major-info">Feature flags to disable/hide things you don't need (e. g. hide chores, everything related to price tracking, etc.)</p>
+			<p class="lead major-info"><a href="https://github.com/grocy/grocy#adding-your-own-css-or-js-without-to-have-to-modify-the-application-itself" target="_blank">Custom CSS and JS</a> to ultimately customize everything down to the smallest detail</p>
+		</div>
+	</section>
+
+	<hr>
+
 	<section id="addons" class="row">
 		<div class="col">
 			<h2 class="bold d-inline-block sketch-underline">Community contributions</h2>
