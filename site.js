@@ -1,6 +1,8 @@
 $(".feature-list h3").each(function (i, el)
 {
-	$(el).append($("<a />").addClass("anchor-link-icon").addClass("text-primary").attr("href", "#" + $(this).closest("section").attr("id")).html(' <i class="fa fa-link"></i>'));
+	var h3 = $(el);
+	h3.append(' <i class="fa fa-link anchor-link-icon"></i>');
+	h3.wrap($("<a />").addClass("discrete-link").attr("href", "#" + $(this).closest("section").attr("id")));
 });
 
 $(".lightbox").append('<i class="lightbox-magnifying-glass text-primary fa fa-search"></i>');
