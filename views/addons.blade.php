@@ -74,7 +74,7 @@
 
 			<p>
 				<h5>Home Assistant Add-On</h5>
-				 grocy community Hass.io Add-on for Home Assistant<br>
+				 Home Assistant add-on for grocy<br>
 				<a class="btn btn-secondary btn-sm" href="https://github.com/hassio-addons/addon-grocy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 			</p>
 
