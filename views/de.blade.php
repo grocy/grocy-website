@@ -175,7 +175,7 @@
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
 								<h1 class="bold">Home Assistant Add-On for grocy</h1>
-								<p class="lead major-info">Use grocy full integrated into Hass.io.</p>
+								<p class="lead major-info">Use grocy fully integrated into Hass.io.</p>
 								<p class="mb-2">
 									<a class="btn btn-sm btn-secondary" href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422" target="_blank"><i class="fas fa-external-link-alt"></i>  Home Assistant Community Forum Thread</a>
 									<a class="btn btn-sm btn-secondary" href="https://github.com/hassio-addons/addon-grocy/blob/master/grocy/DOCS.md" target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
