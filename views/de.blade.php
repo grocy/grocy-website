@@ -60,32 +60,144 @@
 		</div>
 	</div>
 
-	<div id="grocy-desktop" class="container alert alert-dark my-2 rounded-0">
-		<div class="row align-items-center d-flex">
+	<div id="top-addons-carousel" class="carousel slide my-2" data-ride="carousel" data-interval="8000">
+		<ol class="carousel-indicators">
+			<li data-target="#top-addons-carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#top-addons-carousel" data-slide-to="1"></li>
+			<li data-target="#top-addons-carousel" data-slide-to="2"></li>
+			<li data-target="#top-addons-carousel" data-slide-to="3"></li>
+			<li data-target="#top-addons-carousel" data-slide-to="4"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="container alert alert-dark rounded-0">
+				<div class="row align-items-center d-flex">
+					<div id="grocy-desktop" class="carousel-item active">
+						<div class="row align-items-center d-flex">
+							<div class="col-xs-12 col-lg-6">
+								<h1 class="bold">grocy-desktop</h1>
+								<p class="lead major-info">Benutze grocy ohne einen Webserver verwalten zu müssen - wie eine normale (Windows) Desktop-Anwendung.</p>
+								<p class="mb-2">
+									<a class="btn btn-primary" href="https://releases.grocy.info/latest-desktop" target="_blank"><i class="fas fa-download"></i> Download <span class="small">(klassische Installation)</span></a>
+									oder
+									<a href="https://www.microsoft.com/store/apps/9nwb1trnnksf?cid=storebadge&ocid=badge" target="_blank">
+										<img src="/img/microsoft-store-badge.png" class="img-fluid w-25" alt="grocy-desktop im Microsoft Store">
+									</a>
+								</p>
+								<p>
+									<a class="btn btn-sm btn-secondary" href="https://github.com/grocy/grocy-desktop" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+								</p>
+								<p class="font-weight-light font-italic grandminor-info mb-lg-0">
+									.Net Framework erforderlich (normalerweise bereits auf jedem Windows-PC vorhanden), grocy-desktop konfiguriert und verwaltet einen lokalen PHP-Server und grocy - einfach das Setup ausführen, fertig.
+								</p>
+							</div>
 
-			<div class="col-xs-12 col-lg-6">
-				<h1 class="bold">grocy-desktop</h1>
-				<p class="lead major-info">Benutze grocy, ohne einen Webserver verwalten zu müssen - wie eine normale (Windows) Desktop-Anwendung.</p>
-				<p class="mb-2">
-					<a class="btn btn-primary" href="https://releases.grocy.info/latest-desktop" target="_blank"><i class="fas fa-download"></i> Download <span class="small">(klassische Installation)</span></a>
-					oder
-					<a href="https://www.microsoft.com/store/apps/9nwb1trnnksf?cid=storebadge&ocid=badge" target="_blank">
-						<img src="/img/microsoft-store-badge.png" class="img-fluid w-25" alt="grocy-desktop im Microsoft Store">
-					</a>
-				</p>
-				<p>
-					<a class="btn btn-sm btn-secondary" href="https://github.com/grocy/grocy-desktop" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
-				</p>
-				<p class="font-weight-light font-italic grandminor-info mb-lg-0">
-					.Net Framework erforderlich (normalerweise bereits auf jedem Windows-PC vorhanden), grocy-desktop konfiguriert und verwaltet einen lokalen PHP-Server und grocy - einfach das Setup ausführen, fertig.
-				</p>
+							<div class="col-xs-12 col-lg-6">
+								<a class="lightbox" href="/img/grocy-desktop-de.png"><img src="/img/grocy-desktop-de.png" alt="grocy-desktop" title="grocy-desktop" class="feature-image img-fluid"></a>
+							</div>
+						</div>
+					</div>
+
+					<div id="grocy-android" class="carousel-item">
+						<div class="row align-items-center d-flex">
+							<div class="col-xs-12 col-lg-6">
+								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
+								<h1 class="bold">grocy-android</h1>
+								<p class="lead major-info">grocy on your smartphone - with barcode scanning and batch processing.</p>
+								<p class="mb-2">
+									<a href="https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy" target="_blank">
+										<img src="/img/play-store-badge.png" class="img-fluid w-25" alt="grocy-android on Google Play">
+									</a>
+									<a href="https://apt.izzysoft.de/fdroid/index/apk/xyz.zedler.patrick.grocy" target="_blank">
+										<img src="/img/izzyondroid-badge.png" class="img-fluid w-25" alt="grocy-android on IzzyOnDroid">
+									</a>
+								</p>
+								<p>
+									<a class="btn btn-sm btn-secondary" href="https://github.com/patzly/grocy-android" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+								</p>
+							</div>
+
+							<div class="col-xs-12 col-lg-6">
+								<a class="lightbox" href="/img/grocy-android.png"><img src="/img/grocy-android.png" alt="grocy-android" title="grocy-android" class="feature-image img-fluid"></a>
+							</div>
+						</div>
+					</div>
+
+					<div id="pantryparty" class="carousel-item">
+						<div class="row align-items-center d-flex">
+							<div class="col-xs-12 col-lg-6">
+								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
+								<h1 class="bold">Pantry Party</h1>
+								<p class="lead major-info">grocy on your smartphone - multiple barcode lookup sources, text-to-speech and more.</p>
+								<p class="mb-2">
+									<a href="https://play.google.com/store/apps/details?id=org.nativescript.PantryParty" target="_blank">
+										<img src="/img/play-store-badge.png" class="img-fluid w-25" alt="Pantry Party on Google Play">
+									</a>
+									<a href="https://apps.apple.com/app/pantry-party/id1510485755" target="_blank">
+										<img src="/img/apple-app-store-badge.png" class="img-fluid w-25" alt="Pantry Party on the App Store">
+									</a>
+								</p>
+								<p>
+									<a class="btn btn-sm btn-secondary" href="https://pantryparty.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+									<a class="btn btn-sm btn-secondary" href="https://github.com/PantryParty/pantry_party" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+								</p>
+							</div>
+
+							<div class="col-xs-12 col-lg-6">
+								<a class="lightbox" href="/img/pantry-party.png"><img src="/img/pantry-party.png" alt="Pantry Party" title="Pantry Party" class="feature-image img-fluid w-50"></a>
+							</div>
+						</div>
+					</div>
+
+					<div id="barcodebuddy" class="carousel-item">
+						<div class="row align-items-center d-flex">
+							<div class="col-xs-12 col-lg-6">
+								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
+								<h1 class="bold">Barcode Buddy</h1>
+								<p class="lead major-info">A barcode scanning helper / lookup tool for grocy.</p>
+								<p class="mb-2">
+									<a href="https://play.google.com/store/apps/details?id=de.bulling.barcodebuddyscanner" target="_blank">
+										<img src="/img/play-store-badge.png" class="img-fluid w-25" alt="Barcode Buddy on Google Play">
+									</a>
+								</p>
+								<p>
+									<a class="btn btn-sm btn-secondary" href="https://github.com/Forceu/barcodebuddy" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+								</p>
+							</div>
+
+							<div class="col-xs-12 col-lg-6">
+								<a class="lightbox" href="/img/barcode-buddy.png"><img src="/img/barcode-buddy.png" alt="Barcode Buddy" title="Barcode Buddy" class="feature-image img-fluid w-50"></a>
+							</div>
+						</div>
+					</div>
+
+					<div id="homeassistant" class="carousel-item">
+						<div class="row align-items-center d-flex">
+							<div class="col-xs-12 col-lg-6">
+								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
+								<h1 class="bold">Home Assistant Add-On for grocy</h1>
+								<p class="lead major-info">Use grocy full integrated into Hass.io.</p>
+								<p class="mb-2">
+									<a class="btn btn-sm btn-secondary" href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422" target="_blank"><i class="fas fa-external-link-alt"></i>  Home Assistant Community Forum Thread</a>
+									<a class="btn btn-sm btn-secondary" href="https://github.com/hassio-addons/addon-grocy/blob/master/grocy/DOCS.md" target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+									<a class="btn btn-sm btn-secondary mt-1" href="https://github.com/hassio-addons/addon-grocy" target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+								</p>
+							</div>
+
+							<div class="col-xs-12 col-lg-6">
+								<a class="lightbox" href="/img/hassio-addon.gif"><img src="/img/hassio-addon.gif" alt="Home Assistant Add-On" title="Home Assistant Add-On" class="feature-image img-fluid"></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
 			</div>
-
-			<div class="col-xs-12 col-lg-6">
-				<a class="lightbox" href="/img/grocy-desktop-de.png"><img src="/img/grocy-desktop-de.png" alt="grocy-desktop" title="grocy-desktop" class="feature-image img-fluid"></a>
-			</div>
-
 		</div>
+		<a class="carousel-control-prev ml-lg-5 pl-lg-5" href="#top-addons-carousel" data-slide="prev">
+			<span class="carousel-control-prev-icon ml-lg-5 pl-lg-5"></span>
+		</a>
+		<a class="carousel-control-next mr-lg-5 pr-lg-5" href="#top-addons-carousel" data-slide="next">
+			<span class="carousel-control-next-icon mr-lg-5 pr-lg-5"></span>
+		</a>
 	</div>
 </header>
 

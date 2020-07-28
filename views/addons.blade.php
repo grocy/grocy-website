@@ -44,15 +44,38 @@
 				<h5>k8s-grocy</h5>
 				Run grocy on a Kubernetes Cluster<br>
 				<a class="btn btn-secondary btn-sm" href="https://git.sr.ht/~johnhamelink/k8s-grocy/" target="_blank"><i class="fas fa-external-link-alt"></i> Source</a>
-				<a class="btn btn-danger btn-sm" href="https://www.reddit.com/r/grocy/comments/hzglf6/kubernetes_resources/" target="_blank"><i class="fab fa-reddit"></i> r/grocy thread</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>Barcode Buddy for grocy</h5>
+				<h5>grocy-android</h5>
+				grocy on your smartphone - with barcode scanning and batch processing<br>
+				<a class="btn btn-secondary btn-sm" href="https://github.com/patzly/grocy-android" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
+				<h5>Pantry Party</h5>
+				grocy on your smartphone - multiple barcode lookup sources, text-to-speech and more<br>
+				<a class="btn btn-secondary btn-sm" href="https://github.com/PantryParty/pantry_party" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
+				<h5>Barcode Buddy</h5>
 				A barcode scanning helper / lookup tool for grocy<br>
 				<a class="btn btn-secondary btn-sm" href="https://github.com/Forceu/barcodebuddy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
+				<h5>Home Assistant Add-On</h5>
+				 grocy community Hass.io Add-on for Home Assistant<br>
+				<a class="btn btn-secondary btn-sm" href="https://github.com/hassio-addons/addon-grocy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 			</p>
 
 			<hr class="mt-0 pb-0">

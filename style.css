@@ -207,3 +207,9 @@ h3:hover .anchor-link-icon,
 .dropdown-toggle.collapsed:after {
 	transform: rotate(-90deg) ;
 }
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+	filter: invert(100%);
+}
