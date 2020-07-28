@@ -91,6 +91,13 @@
 				<h5>Automating your shopping list with Home Assistant and grocy</h5>
 				<a class="small" href="https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy" target="_blank"><i class="fas fa-external-link-alt"></i> https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy</a>
 			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
+				<h5>Nie wieder Lebensmittel wegschmeißen – dank grocy</h5>
+				<a class="small" href="https://www.nerd-o-mania.de/wordpress/2020/07/28/nie-wieder-lebensmittel-wegschmeien-dank-grocy/" target="_blank"><i class="fas fa-external-link-alt"></i> https://www.nerd-o-mania.de/wordpress/2020/07/28/nie-wieder-lebensmittel-wegschmeien-dank-grocy/</a>
+			</p>
 		</div>
 
 	</div>	
