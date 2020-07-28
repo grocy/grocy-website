@@ -99,7 +99,7 @@
 			</p>
 			<p class="lead major-info">
 				<a class="btn btn-danger" href="https://www.reddit.com/r/grocy" target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
-				<a class="btn btn-dark" href="https://github.com/grocy/grocy" target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
+				<a class="btn btn-dark" href="https://github.com/grocy/grocy/issues" target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
 			</p>
 		</div>
 		<div id="addons-intro" class="col-xs-12 col-lg-6">
@@ -108,8 +108,8 @@
 				Von der Community beigesteuerte Tools, Integrationen, Installations-/Fehlersuche-Guides und andere nützliche Helferlein, die grocy noch besser und produktiver machen.
 			</p>
 			<p class="lead major-info">
-				<a class="btn btn-info" href="#addons"><i class="fas fa-tools"></i> Community contributions</a>
-				<a class="btn btn-info mt-2" href="https://grocy.info/links"><i class="fas fa-list"></i> List of community contributed help (and other) guides</a>
+				<a class="btn btn-info" href="https://grocy.info/addons"><i class="fas fa-tools"></i> Community contributed Add-ons and other tools</a>
+				<a class="btn btn-info mt-2" href="https://grocy.info/links"><i class="fas fa-list"></i> Community contributed help (and other) guides</a>
 			</p>
 		</div>
 	</section>
@@ -300,50 +300,6 @@
 			<p class="lead major-info">Ein (RESTful) API für alles, siehe das <a href="https://demo.grocy.info/api" target="_blank">integrierte Swagger UI  (/api)</a></p>
 			<p class="lead major-info">Feature flags um alles, was du nicht brauchst, ausschalten bzw. ausblenden zu können (z. B. Hausarbeiten, alles was zu zum Preis tracking gehört, etc.)</p>
 			<p class="lead major-info"><a href="https://github.com/grocy/grocy#adding-your-own-css-or-js-without-to-have-to-modify-the-application-itself" target="_blank">Eigenes CSS and JS</a> um wirklich alles bis ins kleinste Detail anpassen zu können</p>
-		</div>
-	</section>
-
-	<hr>
-
-	<section id="addons" class="row">
-		<div class="col">
-			<h2 class="bold d-inline-block sketch-underline">Community contributions</h2>
-			<p class="lead major-info">
-				<h6 class="mb-0">grocy-docker</h6>
-				ERP beyond your fridge - now containerized<br>
-				<a class="btn btn-secondary btn-sm" href="https://github.com/grocy/grocy-docker" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-			</p>
-			<p class="lead major-info">
-				<h6 class="mb-0">linuxserver/docker-grocy (LinuxServer.io)</h6>
-				A container for grocy - the ERP application for your kitchen<br>
-				<a class="btn btn-secondary btn-sm" href="https://github.com/linuxserver/docker-grocy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-			</p>
-			<p class="lead major-info">
-				<h6 class="mb-0">addon-grocy</h6>
-				grocy community Hass.io Add-on for Home Assistant<br>
-				<a class="btn btn-secondary btn-sm" href="https://github.com/hassio-addons/addon-grocy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-				<a class="btn btn-secondary btn-sm" href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422" target="_blank"><i class="fas fa-comment"></i> Home Assistant Community Forum Thread</a>
-			</p>
-			<p class="lead major-info">
-				<h6 class="mb-0">Barcode Buddy for grocy</h6>
-				A barcode scanning helper / lookup tool for grocy<br>
-				<a class="btn btn-secondary btn-sm" href="https://github.com/Forceu/barcodebuddy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-			</p>
-			<p class="lead major-info">
-				<h6 class="mb-0">pygrocy</h6>
-				A grocy Python API client<br>
-				<a class="btn btn-secondary btn-sm" href="https://github.com/SebRut/pygrocy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-			</p>
-			<p class="lead major-info">
-				<h6 class="mb-0">pygrocydm</h6>
-				A python client for grocy (data management only) <br>
-				<a class="btn btn-secondary btn-sm" href="https://github.com/BlueBlueBlob/pygrocydm" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-			</p>
-			<p class="lead major-info">
-				<h6 class="mb-0">grocy-pyscanner</h6>
-				A python based barcode scanning helper<br>
-				<a class="btn btn-secondary btn-sm" href="https://github.com/grocy/grocy-pyscanner" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-			</p>
 		</div>
 	</section>
 

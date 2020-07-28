@@ -57,6 +57,11 @@ $app->group('', function(RouteCollectorProxy $group)
 		]);
 	});
 
+	$group->get('/addons', function(Request $request, Response $response, array $args) use($view)
+	{
+		return $view->render($response, 'addons');
+	});
+
 	$group->get('/links', function(Request $request, Response $response, array $args) use($view)
 	{
 		return $view->render($response, 'links');
