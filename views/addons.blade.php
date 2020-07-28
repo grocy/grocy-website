@@ -41,6 +41,15 @@
 			<hr class="mt-0 pb-0">
 
 			<p>
+				<h5>k8s-grocy</h5>
+				Run grocy on a Kubernetes Cluster<br>
+				<a class="btn btn-secondary btn-sm" href="https://git.sr.ht/~johnhamelink/k8s-grocy/" target="_blank"><i class="fas fa-external-link-alt"></i> Source</a>
+				<a class="btn btn-danger btn-sm" href="https://www.reddit.com/r/grocy/comments/hzglf6/kubernetes_resources/" target="_blank"><i class="fab fa-reddit"></i> r/grocy thread</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
 				<h5>Barcode Buddy for grocy</h5>
 				A barcode scanning helper / lookup tool for grocy<br>
 				<a class="btn btn-secondary btn-sm" href="https://github.com/Forceu/barcodebuddy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
