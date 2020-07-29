@@ -107,7 +107,7 @@
 									<a class="btn btn-primary" href="https://releases.grocy.info/latest-desktop" target="_blank"><i class="fas fa-download"></i> Download <span class="small">(classic installer)</span></a>
 									or
 									<a href="https://www.microsoft.com/store/apps/9nwb1trnnksf?cid=storebadge&ocid=badge" target="_blank">
-										<img src="/img/microsoft-store-badge.png" class="img-fluid w-25" alt="grocy-desktop on the Microsoft Store">
+										<img src="/img/microsoft-store-badge-en.png" class="img-fluid w-25" alt="grocy-desktop on the Microsoft Store">
 									</a>
 								</p>
 								<p>
@@ -132,7 +132,7 @@
 								<p class="lead major-info">grocy on your smartphone - with barcode scanning and batch processing.</p>
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy" target="_blank">
-										<img src="/img/play-store-badge.png" class="img-fluid w-25" alt="grocy-android on Google Play">
+										<img src="/img/play-store-badge-en.png" class="img-fluid w-25" alt="grocy-android on Google Play">
 									</a>
 									<a href="https://apt.izzysoft.de/fdroid/index/apk/xyz.zedler.patrick.grocy" target="_blank">
 										<img src="/img/izzyondroid-badge.png" class="img-fluid w-25" alt="grocy-android on IzzyOnDroid">
@@ -157,10 +157,10 @@
 								<p class="lead major-info">grocy on your smartphone - multiple barcode lookup sources, text-to-speech and more.</p>
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=org.nativescript.PantryParty" target="_blank">
-										<img src="/img/play-store-badge.png" class="img-fluid w-25" alt="Pantry Party on Google Play">
+										<img src="/img/play-store-badge-en.png" class="img-fluid w-25" alt="Pantry Party on Google Play">
 									</a>
 									<a href="https://apps.apple.com/app/pantry-party/id1510485755" target="_blank">
-										<img src="/img/apple-app-store-badge.png" class="img-fluid w-25" alt="Pantry Party on the App Store">
+										<img src="/img/app-store-badge-en.png" class="img-fluid w-25" alt="Pantry Party on the App Store">
 									</a>
 								</p>
 								<p>
@@ -183,7 +183,7 @@
 								<p class="lead major-info">A barcode scanning helper / lookup tool for grocy.</p>
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=de.bulling.barcodebuddyscanner" target="_blank">
-										<img src="/img/play-store-badge.png" class="img-fluid w-25" alt="Barcode Buddy on Google Play">
+										<img src="/img/play-store-badge-en.png" class="img-fluid w-25" alt="Barcode Buddy on Google Play">
 									</a>
 								</p>
 								<p>
@@ -201,7 +201,7 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1 class="bold">Home Assistant Add-On for grocy</h1>
+								<h1 class="bold">Home Assistant Add-On</h1>
 								<p class="lead major-info">Use grocy fully integrated into Home Assistant.</p>
 								<p class="mb-2">
 									<a class="btn btn-sm btn-secondary" href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422" target="_blank"><i class="fas fa-external-link-alt"></i>  Home Assistant Community Forum Thread</a>
@@ -247,8 +247,8 @@
 				Community contributed tools, integrations, install/troubleshooting guides and other useful add-ons to make grocy even better and more productive.
 			</p>
 			<p class="lead major-info">
-				<a class="btn btn-info" href="https://grocy.info/addons"><i class="fas fa-tools"></i> Community contributed Add-ons and other tools</a>
-				<a class="btn btn-info mt-2" href="https://grocy.info/links"><i class="fas fa-list"></i> Community contributed help (and other) guides</a>
+				<a class="btn btn-info" href="https://grocy.info/addons"><i class="fas fa-puzzle-piece"></i> Community contributed Add-ons and other tools</a>
+				<a class="btn btn-info mt-2" href="https://grocy.info/links"><i class="fas fa-list"></i> Community contributed help and other guides</a>
 			</p>
 		</div>
 	</section>
