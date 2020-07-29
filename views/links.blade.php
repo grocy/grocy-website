@@ -103,7 +103,7 @@
 
 			<p>
 				<h5>Manage your home stocks like a pro with grocy and a Raspberry Pi</h5>
-				<a class="small" href="https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/" target="_blank"><i class="fas fa-external-link-alt"></i> https://www.nerd-o-mania.de/wordpress/2020/07/28/nie-wieder-lebensmittel-wegschmeien-dank-grocy/</a>
+				<a class="small" href="https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/" target="_blank"><i class="fas fa-external-link-alt"></i> https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/</a>
 			</p>
 		</div>
 
