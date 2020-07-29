@@ -213,3 +213,38 @@ h3:hover .anchor-link-icon,
 .carousel-indicators {
 	filter: invert(100%);
 }
+
+.carousel-indicators {
+	bottom: -1.5em;
+}
+
+.carousel-control-prev {
+	justify-content: left;
+}
+
+.carousel-control-next {
+	justify-content: right;
+}
+
+.coursel-inner-container {
+	height: 600px;
+}
+
+@media (min-width: 992px) {
+	.coursel-inner-container {
+		height: 323px;
+	}
+
+	.carousel-control-prev {
+		justify-content: right;
+	}
+
+	.carousel-control-next {
+		justify-content: left;
+	}
+}
+
+.carousel-item .img-fluid {
+    width: auto;
+    max-height: 320px;
+}

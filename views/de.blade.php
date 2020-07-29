@@ -26,7 +26,7 @@
 
 @section('content')
 <header>
-	<div class="jumbotron mb-1">
+	<div class="jumbotron mb-1 py-5">
 		<div class="container">
 			<div class="row align-items-center d-flex">
 
@@ -52,7 +52,7 @@
 					</p>
 				</div>
 
-				<div class="col-xs-12 col-lg-5">
+				<div class="col-xs-12 col-lg-5 mt-3 mt-lg-0">
 					<a class="lightbox" href="/img/stock-de.png"><img src="/img/stock-de.png" alt="grocy Dashboard" title="grocy Dashboard" class="feature-image img-fluid"></a>
 				</div>
 
@@ -60,7 +60,7 @@
 		</div>
 	</div>
 
-	<div id="top-addons-carousel" class="carousel slide my-2" data-ride="carousel" data-interval="8000">
+	<div id="top-addons-carousel" class="carousel slide mt-2" data-ride="carousel" data-interval="8000">
 		<ol class="carousel-indicators">
 			<li data-target="#top-addons-carousel" data-slide-to="0" class="active"></li>
 			<li data-target="#top-addons-carousel" data-slide-to="1"></li>
@@ -70,7 +70,8 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="container alert alert-dark rounded-0">
-				<div class="row align-items-center d-flex">
+				<div class="row align-items-center d-flex my-3 coursel-inner-container">
+
 					<div id="grocy-desktop" class="carousel-item active">
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
@@ -143,7 +144,7 @@
 							</div>
 
 							<div class="col-xs-12 col-lg-6">
-								<a class="lightbox" href="/img/pantry-party.png"><img src="/img/pantry-party.png" alt="Pantry Party" title="Pantry Party" class="feature-image img-fluid w-50"></a>
+								<a class="lightbox" href="/img/pantry-party.png"><img src="/img/pantry-party.png" alt="Pantry Party" title="Pantry Party" class="feature-image img-fluid"></a>
 							</div>
 						</div>
 					</div>
@@ -165,7 +166,7 @@
 							</div>
 
 							<div class="col-xs-12 col-lg-6">
-								<a class="lightbox" href="/img/barcode-buddy.png"><img src="/img/barcode-buddy.png" alt="Barcode Buddy" title="Barcode Buddy" class="feature-image img-fluid w-50"></a>
+								<a class="lightbox" href="/img/barcode-buddy.png"><img src="/img/barcode-buddy.png" alt="Barcode Buddy" title="Barcode Buddy" class="feature-image img-fluid"></a>
 							</div>
 						</div>
 					</div>
@@ -192,11 +193,11 @@
 				</div>
 			</div>
 		</div>
-		<a class="carousel-control-prev ml-lg-5 pl-lg-5" href="#top-addons-carousel" data-slide="prev">
-			<span class="carousel-control-prev-icon ml-lg-5 pl-lg-5"></span>
+		<a class="carousel-control-prev" href="#top-addons-carousel" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
 		</a>
-		<a class="carousel-control-next mr-lg-5 pr-lg-5" href="#top-addons-carousel" data-slide="next">
-			<span class="carousel-control-next-icon mr-lg-5 pr-lg-5"></span>
+		<a class="carousel-control-next" href="#top-addons-carousel" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
 		</a>
 	</div>
 </header>

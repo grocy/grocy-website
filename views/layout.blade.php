@@ -41,7 +41,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-md navbar-light mb-4">
+	<nav class="navbar navbar-expand-md navbar-light mb-2">
 		<div class="container">
 			<a class="navbar-brand py-2" href="/"><img src="/img/grocy_logo.svg" alt="grocy logo" title="grocy logo" height="30"></a>
 			
