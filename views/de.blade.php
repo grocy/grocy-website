@@ -108,8 +108,8 @@
 									<a href="https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy" target="_blank">
 										<img src="/img/play-store-badge-de.png" class="img-fluid w-25" alt="grocy-android on Google Play">
 									</a>
-									<a href="https://apt.izzysoft.de/fdroid/index/apk/xyz.zedler.patrick.grocy" target="_blank">
-										<img src="/img/izzyondroid-badge.png" class="img-fluid w-25" alt="grocy-android on IzzyOnDroid">
+									<a href="https://f-droid.org/de/packages/xyz.zedler.patrick.grocy/" target="_blank">
+										<img src="/img/fdroid-badge.png" class="img-fluid w-25" alt="grocy-android on F-Droid">
 									</a>
 								</p>
 								<p>
