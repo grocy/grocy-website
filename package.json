@@ -3,9 +3,9 @@
 	"private": true,
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.15.1",
-		"bootstrap": "^4.5.2",
+		"bootstrap": "^4.5.3",
 		"flag-icon-css": "^3.5.0",
 		"jquery": "^3.5.1",
-		"simplelightbox": "^2.2.2"
+		"simplelightbox": "^2.7.0"
 	}
 }
