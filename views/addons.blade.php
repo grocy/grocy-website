@@ -133,6 +133,15 @@
 					target="_blank"><i class="fab fa-github"></i> GitHub</a>
 			</p>
 
+			<hr class="mt-0 pb-0">
+
+			<p>
+				<h5>grocy for YunoHost</h5>
+				<a class="btn btn-secondary btn-sm"
+					href="https://github.com/YunoHost-Apps/grocy_ynh"
+					target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+
 		</div>
 
 	</div>
