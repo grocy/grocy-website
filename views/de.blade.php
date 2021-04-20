@@ -398,7 +398,7 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold d-inline-block sketch-underline">Durchdachte Eingeformulare</h3>
+			<h3 class="bold d-inline-block sketch-underline">Durchdachte Eingabeformulare</h3>
 			<p class="lead major-info">Eine Hand, 3 Sekunden, kein Problem - Eingabefehler ausgeschlossen.</p>
 		</div>
 	</section>
