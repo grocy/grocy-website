@@ -224,7 +224,7 @@
 								<p class="mb-2">
 									<a href="https://apps.apple.com/app/grocy-mobile/id1567803209"
 										target="_blank">
-										<img src="/img/app-store-badge-en.png"
+										<img src="/img/app-store-badge-de.png"
 											class="img-fluid w-25"
 											alt="Grocy Mobile on the App Store">
 									</a>
