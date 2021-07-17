@@ -266,7 +266,7 @@
 								<a class="lightbox"
 									href="/img/grocy-swiftui.png"><img src="/img/grocy-swiftui.png"
 										alt="Grocy Mobile"
-										title="Grocy Mobiley"
+										title="Grocy Mobile"
 										class="feature-image img-fluid"></a>
 							</div>
 						</div>
