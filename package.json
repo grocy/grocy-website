@@ -2,6 +2,9 @@
 	"name": "grocy-website",
 	"private": true,
 	"dependencies": {
+		"@fontsource/fira-mono": "^4.5.0",
+		"@fontsource/news-cycle": "^4.5.0",
+		"@fontsource/poppins": "^4.5.0",
 		"@fortawesome/fontawesome-free": "^5.15.1",
 		"bootstrap": "^4.5.3",
 		"flag-icon-css": "^3.5.0",

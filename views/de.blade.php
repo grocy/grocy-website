@@ -60,7 +60,7 @@
 							href="https://github.com/grocy/grocy"
 							target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 					</p>
-					<p class="font-weight-light font-italic grandminor-info">
+					<p class="font-weight-light font-italic grandminor-info pt-1">
 						Aktuelle Version: {{ $grocyVersionInfo->Version }} (veröffentlicht am {{ date('d.m.Y', strtotime($grocyVersionInfo->ReleaseDate)) }})
 					</p>
 				</div>

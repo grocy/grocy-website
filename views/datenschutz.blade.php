@@ -4,7 +4,8 @@
 @section('lang', 'de')
 
 @section('headerAdditional')
-<link rel="canonical" href="https://grocy.info/datenschutz">
+<link rel="canonical"
+	href="https://grocy.info/datenschutz">
 @stop
 
 @section('content')
@@ -15,7 +16,8 @@
 			<h1 class="bold pb-3">Datenschutz</h1>
 
 			<div class="lead minor-info pb-3">
-				<section id="allgemein" class="major-info">
+				<section id="allgemein"
+					class="major-info">
 					<p>
 						Die Nutzung dieser Seite ist generell ohne Angabe von personenbezogenen Daten möglich.
 						Teilweise technisch bedingt können personenbezogene Daten verarbeitet werden.
@@ -30,7 +32,8 @@
 				<section id="anbieter">
 					<h3>Anbieter, Ansprechpartner für Datenschutz</h3>
 					<p>
-						Anbieterinformationen und Kontaktmöglichkeiten kannst du dem <a href="/impressum" title="Impressum">Impressum</a> entnehmen.
+						Anbieterinformationen und Kontaktmöglichkeiten kannst du dem <a href="/impressum"
+							title="Impressum">Impressum</a> entnehmen.
 					</p>
 				</section>
 				<section id="tls">
@@ -73,7 +76,10 @@
 				<section id="analytics">
 					<h3>Statistische Auswertung von Besucherzugriffen</h3>
 					<p>
-						Diese Seite benutzt <a href="https://matomo.org" target="_blank" rel="noopener noreferrer" title="Matomo">Matomo</a>, eine Open Source Software
+						Diese Seite benutzt <a href="https://matomo.org"
+							target="_blank"
+							rel="noopener noreferrer"
+							title="Matomo">Matomo</a>, eine Open Source Software
 						zur statistischen Auswertung von Besucherzugriffen, die ebenfalls selbst betrieben wird.
 						Auch hierbei werden selbstverständlich keinerlei Daten extern weitergegeben. Technisch bedingt werden hierbei zur
 						Erkennung wiederkehrender Besuche Cookies eingesetzt. Es werden keinerlei personenbezogene Daten gespeichert,

@@ -4,7 +4,8 @@
 @section('lang', 'de')
 
 @section('headerAdditional')
-<link rel="canonical" href="https://grocy.info/impressum">
+<link rel="canonical"
+	href="https://grocy.info/impressum">
 @stop
 
 @section('content')
@@ -34,7 +35,7 @@
 				<br>
 				Telefon: 08234/8071060
 			</p>
-			
+
 		</div>
 	</section>
 
