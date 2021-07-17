@@ -14,7 +14,7 @@
 
 		<div class="col">
 			<h1 class="bold d-inline-block sketch-underline">Add-ons</h1>
-			<h5 class="text-muted pt-3">A list of community contributed add-ons, integrations and other tools for grocy</h5>
+			<h5 class="text-muted pt-3">A list of community contributed Add-ons, integrations and other tools for grocy</h5>
 		</div>
 
 	</div>
@@ -24,6 +24,16 @@
 	<div class="row align-items-center">
 
 		<div class="col-xs-12 col-lg-10 offset-lg-1">
+
+			<p>
+				<h5>grocy-desktop</h5>
+				Run grocy without having to manage a webserver, just like a normal (windows) desktop application<br>
+				<a class="btn btn-secondary btn-sm"
+					href="https://github.com/grocy/grocy-desktop"
+					target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
 
 			<p>
 				<h5>grocy-docker</h5>
@@ -70,6 +80,16 @@
 				grocy on your smartphone - multiple barcode lookup sources, text-to-speech and more<br>
 				<a class="btn btn-secondary btn-sm"
 					href="https://github.com/PantryParty/pantry_party"
+					target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
+				<h5>Grocy Mobile</h5>
+				Native interface for grocy on Apple devices (iOS, macOS)<br>
+				<a class="btn btn-secondary btn-sm"
+					href="https://github.com/supergeorg/Grocy-SwiftUI"
 					target="_blank"><i class="fab fa-github"></i> GitHub</a>
 			</p>
 
