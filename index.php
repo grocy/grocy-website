@@ -146,7 +146,7 @@ function GetChangelogItems()
 function GetCommonMarkConverter()
 {
     $commonMarkEnvironment = League\CommonMark\Environment::createCommonMarkEnvironment();
-    $commonMarkEnvironment->addExtension(new League\CommonMark\Extension\AutoLink\AutoLinkExtension());
+    $commonMarkEnvironment->addExtension(new League\CommonMark\Extension\AutoLink\AutolinkExtension());
     $commonMarkEnvironment->addExtension(new League\CommonMark\Extension\ExternalLink\ExternalLinkExtension());
     $commonMarkEnvironment->addExtension(new League\CommonMark\Extension\Mention\MentionExtension());
     $commonMarkEnvironment->mergeConfig([
