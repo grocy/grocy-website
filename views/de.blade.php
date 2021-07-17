@@ -93,6 +93,8 @@
 				data-slide-to="3"></li>
 			<li data-target="#top-addons-carousel"
 				data-slide-to="4"></li>
+			<li data-target="#top-addons-carousel"
+				data-slide-to="5"></li>
 		</ol>
 		<div class="carousel-inner">
 			<div class="container alert alert-dark rounded-0">
@@ -207,6 +209,38 @@
 									href="/img/pantry-party.png"><img src="/img/pantry-party.png"
 										alt="Pantry Party"
 										title="Pantry Party"
+										class="feature-image img-fluid"></a>
+							</div>
+						</div>
+					</div>
+
+					<div id="grocy-swiftui"
+						class="carousel-item">
+						<div class="row align-items-center d-flex">
+							<div class="col-xs-12 col-lg-6">
+								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
+								<h1 class="bold">Grocy Mobile</h1>
+								<p class="lead major-info">Native interface for grocy on Apple devices (iOS, macOS).</p>
+								<p class="mb-2">
+									<a href="https://apps.apple.com/app/grocy-mobile/id1567803209"
+										target="_blank">
+										<img src="/img/app-store-badge-en.png"
+											class="img-fluid w-25"
+											alt="Grocy Mobile on the App Store">
+									</a>
+								</p>
+								<p>
+									<a class="btn btn-sm btn-secondary"
+										href="https://github.com/supergeorg/Grocy-SwiftUI"
+										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+								</p>
+							</div>
+
+							<div class="col-xs-12 col-lg-6">
+								<a class="lightbox"
+									href="/img/grocy-swiftui.png"><img src="/img/grocy-swiftui.png"
+										alt="Grocy Mobile"
+										title="Grocy Mobiley"
 										class="feature-image img-fluid"></a>
 							</div>
 						</div>
