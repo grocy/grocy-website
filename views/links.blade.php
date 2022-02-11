@@ -26,118 +26,118 @@
 		<div class="col-xs-12 col-lg-10 offset-lg-1">
 
 			<p>
-				<h5>How to install grocy on FreeNas FreeBSD 11.3 Jail using nginx</h5>
-				<a class="small"
-					href="https://github.com/grocy/grocy/issues/715#issue-597535439"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/715#issue-597535439</a>
+			<h5>How to install grocy on FreeNas FreeBSD 11.3 Jail using nginx</h5>
+			<a class="small"
+				href="https://github.com/grocy/grocy/issues/715#issue-597535439"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/715#issue-597535439</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>grocy >= 2.6.1 subdirectory installation (Apache)</h5>
-				<a class="small"
-					href="https://github.com/grocy/grocy/issues/694#issue-592850273"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/694#issue-592850273</a>
+			<h5>grocy >= 2.6.1 subdirectory installation (Apache)</h5>
+			<a class="small"
+				href="https://github.com/grocy/grocy/issues/694#issue-592850273"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/694#issue-592850273</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>grocy >= 2.6.1 subdirectory installation (nginx)</h5>
-				<a class="small"
-					href="https://github.com/grocy/grocy/issues/694#issuecomment-609079721"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/694#issuecomment-609079721</a>
+			<h5>grocy >= 2.6.1 subdirectory installation (nginx)</h5>
+			<a class="small"
+				href="https://github.com/grocy/grocy/issues/694#issuecomment-609079721"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/694#issuecomment-609079721</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>How to install inside LXC container (Alpine Linux)</h5>
-				<a class="small"
-					href="https://github.com/grocy/grocy/issues/523"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/523</a>
+			<h5>How to install inside LXC container (Alpine Linux)</h5>
+			<a class="small"
+				href="https://github.com/grocy/grocy/issues/523"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/523</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>Securing grocy-desktop for the internet with a nginx reverse proxy</h5>
-				<a class="small"
-					href="https://github.com/grocy/grocy-desktop/issues/17#issuecomment-668591402"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy-desktop/issues/17#issuecomment-668591402</a>
+			<h5>Securing grocy-desktop for the internet with a nginx reverse proxy</h5>
+			<a class="small"
+				href="https://github.com/grocy/grocy-desktop/issues/17#issuecomment-668591402"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy-desktop/issues/17#issuecomment-668591402</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>How to install on Ubuntu 16.04 using Apache</h5>
-				<a class="small"
-					href="https://github.com/grocy/grocy/issues/357"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/357</a>
+			<h5>How to install on Ubuntu 16.04 using Apache</h5>
+			<a class="small"
+				href="https://github.com/grocy/grocy/issues/357"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/357</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>Install grocy in cPanel</h5>
-				<a class="small"
-					href="https://github.com/grocy/grocy/issues/354"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/354</a>
+			<h5>Install grocy in cPanel</h5>
+			<a class="small"
+				href="https://github.com/grocy/grocy/issues/354"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/354</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>Minimal Ubuntu 20.04 system setup with nginx, grocy > 2.6.0, php 7.4</h5>
-				<a class="small"
-					href="https://github.com/grocy/grocy/issues/649"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/649</a>
+			<h5>Minimal Ubuntu 20.04 system setup with nginx, grocy > 2.6.0, php 7.4</h5>
+			<a class="small"
+				href="https://github.com/grocy/grocy/issues/649"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/649</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>Example nginx/PHP-FPM config from the official demo instance (incl. reverse proxy)</h5>
-				<a class="small"
-					href="https://github.com/grocy/grocy-docker/issues/15#issuecomment-486579894"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy-docker/issues/15#issuecomment-486579894</a>
+			<h5>Example nginx/PHP-FPM config from the official demo instance (incl. reverse proxy)</h5>
+			<a class="small"
+				href="https://github.com/grocy/grocy-docker/issues/15#issuecomment-486579894"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy-docker/issues/15#issuecomment-486579894</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>Error message "Undefined function mime_content_type()"</h5>
-				<a class="small"
-					href="https://github.com/grocy/grocy/issues/381"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/381</a>
+			<h5>Error message "Undefined function mime_content_type()"</h5>
+			<a class="small"
+				href="https://github.com/grocy/grocy/issues/381"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/grocy/grocy/issues/381</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>Automating your shopping list with Home Assistant and grocy</h5>
-				<a class="small"
-					href="https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy</a>
+			<h5>Automating your shopping list with Home Assistant and grocy</h5>
+			<a class="small"
+				href="https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>Nie wieder Lebensmittel wegschmeißen – dank grocy</h5>
-				<a class="small"
-					href="https://www.nerd-o-mania.de/wordpress/2020/07/28/nie-wieder-lebensmittel-wegschmeien-dank-grocy/"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://www.nerd-o-mania.de/wordpress/2020/07/28/nie-wieder-lebensmittel-wegschmeien-dank-grocy/</a>
+			<h5>Nie wieder Lebensmittel wegschmeißen – dank grocy</h5>
+			<a class="small"
+				href="https://www.nerd-o-mania.de/wordpress/2020/07/28/nie-wieder-lebensmittel-wegschmeien-dank-grocy/"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://www.nerd-o-mania.de/wordpress/2020/07/28/nie-wieder-lebensmittel-wegschmeien-dank-grocy/</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
 
 			<p>
-				<h5>Manage your home stocks like a pro with grocy and a Raspberry Pi</h5>
-				<a class="small"
-					href="https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/"
-					target="_blank"><i class="fas fa-external-link-alt"></i> https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/</a>
+			<h5>Manage your home stocks like a pro with grocy and a Raspberry Pi</h5>
+			<a class="small"
+				href="https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/</a>
 			</p>
 		</div>
 

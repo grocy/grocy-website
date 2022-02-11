@@ -678,25 +678,25 @@
 			</p>
 			<p class="lead major-info mb-0">
 				So if you want to say thanks, I would first ask you to help making grocy even better, and this don't needs to be code. Everything is welcome, here are some ideas:
-				<ul class="minor-info list-unstyled">
-					<li>Start working on any open ticket on the <a href="https://github.com/grocy/grocy/issues"
-							target="_blank">issue tracker</a></li>
-					<li>Contribute new ideas, discuss them on the <a href="https://www.reddit.com/r/grocy/"
-							target="_blank">subreddit</a> or on the <a href="https://github.com/grocy/grocy/issues"
-							target="_blank">issue tracker</a></li>
-					<li>Rethink / improve current functionality or the UI</li>
-					<li>Contribute documentation (which is currently mostly non-existant, unfortunately)</li>
-					<li>Help to translate grocy into your language, can easily be done on <a href="https://www.transifex.com/grocy/grocy"
-							target="_blank">Transifex</a></li>
-					<li>Talk to others about grocy, or write an article about it</li>
-				</ul>
+			<ul class="minor-info list-unstyled">
+				<li>Start working on any open ticket on the <a href="https://github.com/grocy/grocy/issues"
+						target="_blank">issue tracker</a></li>
+				<li>Contribute new ideas, discuss them on the <a href="https://www.reddit.com/r/grocy/"
+						target="_blank">subreddit</a> or on the <a href="https://github.com/grocy/grocy/issues"
+						target="_blank">issue tracker</a></li>
+				<li>Rethink / improve current functionality or the UI</li>
+				<li>Contribute documentation (which is currently mostly non-existant, unfortunately)</li>
+				<li>Help to translate grocy into your language, can easily be done on <a href="https://www.transifex.com/grocy/grocy"
+						target="_blank">Transifex</a></li>
+				<li>Talk to others about grocy, or write an article about it</li>
+			</ul>
 			</p>
 			<p class="lead major-info mb-0">
 				If you still want to say thanks by buying me a beer instead, feel free to do so, here are some options:
-				<ul class="minor-info list-unstyled">
-					<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VPYJD5SL488PS&source=https%3A%2F%2Fgrocy.info"
-							target="_blank"><i class="fab fa-paypal"></i> PayPal</a></li>
-				</ul>
+			<ul class="minor-info list-unstyled">
+				<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VPYJD5SL488PS&source=https%3A%2F%2Fgrocy.info"
+						target="_blank"><i class="fab fa-paypal"></i> PayPal</a></li>
+			</ul>
 			</p>
 			<p class="lead major-info">
 				Thank you! <i class="fas fa-heart"></i>

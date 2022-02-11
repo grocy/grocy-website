@@ -652,25 +652,25 @@
 			</p>
 			<p class="lead major-info mb-0">
 				Wenn du also Danke sagen möchtest, wäre meine erste Bitte, dies zu tun, indem du grocy noch besser machst - und das muss nicht Code sein - hier sind einige Ideen:
-				<ul class="minor-info list-unstyled">
-					<li>Fange an, an einem offenen Ticket zu arbeiten - siehe den <a href="https://github.com/grocy/grocy/issues"
-							target="_blank">Issue Tracker</a></li>
-					<li>Bringe neue Ideen ein, lass uns diese auf dem <a href="https://www.reddit.com/r/grocy/"
-							target="_blank">Subreddit</a> oder über den <a href="https://github.com/grocy/grocy/issues"
-							target="_blank">Issue Tracker</a> diskutieren</li>
-					<li>Überdenke / verbessere aktuelle Funktionalität oder die Oberfläche</li>
-					<li>Erstelle Dokumentation (die es leider aktuell quasi nicht gibt)</li>
-					<li>Helfe bei der Übersetzung von grocy in deine Sprache, geht ganz einfach auf <a href="https://www.transifex.com/grocy/grocy"
-							target="_blank">Transifex</a></li>
-					<li>Erzähle anderen von grocy, oder schreibe einen Artikel darüber</li>
-				</ul>
+			<ul class="minor-info list-unstyled">
+				<li>Fange an, an einem offenen Ticket zu arbeiten - siehe den <a href="https://github.com/grocy/grocy/issues"
+						target="_blank">Issue Tracker</a></li>
+				<li>Bringe neue Ideen ein, lass uns diese auf dem <a href="https://www.reddit.com/r/grocy/"
+						target="_blank">Subreddit</a> oder über den <a href="https://github.com/grocy/grocy/issues"
+						target="_blank">Issue Tracker</a> diskutieren</li>
+				<li>Überdenke / verbessere aktuelle Funktionalität oder die Oberfläche</li>
+				<li>Erstelle Dokumentation (die es leider aktuell quasi nicht gibt)</li>
+				<li>Helfe bei der Übersetzung von grocy in deine Sprache, geht ganz einfach auf <a href="https://www.transifex.com/grocy/grocy"
+						target="_blank">Transifex</a></li>
+				<li>Erzähle anderen von grocy, oder schreibe einen Artikel darüber</li>
+			</ul>
 			</p>
 			<p class="lead major-info mb-0">
 				Wenn du dich dennoch bedanken willst, indem du mich auf ein Bier einlädst, kannst du das gerne tun, hier sind einige Möglichkeiten dafür:
-				<ul class="minor-info list-unstyled">
-					<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPPXVE63EK3L2&source=https%3A%2F%2Fgrocy.info"
-							target="_blank"><i class="fab fa-paypal"></i> PayPal</a></li>
-				</ul>
+			<ul class="minor-info list-unstyled">
+				<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPPXVE63EK3L2&source=https%3A%2F%2Fgrocy.info"
+						target="_blank"><i class="fab fa-paypal"></i> PayPal</a></li>
+			</ul>
 			</p>
 			<p class="lead major-info">
 				Danke dir! <i class="fas fa-heart"></i>
