@@ -127,26 +127,25 @@
 	<script src="/node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
 	<script src="/node_modules/simplelightbox/dist/simple-lightbox.jquery.min.js"></script>
 	<script src="/site.js"></script>
-	<script src="//kiwip.berrnd.org/js/ads/banner.js"></script>
 	<script>
-		var _paq = _paq || [];
-		_paq.push(["setDomains", ["*.grocy.info"]]);
+		var _paq = window._paq = window._paq || [];
 		_paq.push(['trackPageView']);
 		_paq.push(['enableLinkTracking']);
 		_paq.push(['enableHeartBeatTimer', 10]);
-		if (typeof window.PIWIK_NO_ADBLOCKER_RECOGNIZED == 'undefined') { _paq.push(['setCustomVariable', '1', 'Adblocker recognized', 'true']); } else { _paq.push(['setCustomVariable', '1', 'Adblocker recognized', 'false']); }
-		(function() {
-		var u="//kiwip.berrnd.org/";
-		_paq.push(['setTrackerUrl', u+'js/']);
-		_paq.push(['setSiteId', 17]);
-		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+		(function()
+		{
+			var u = "//m4o.berrnd.org/";
+			_paq.push(['setTrackerUrl', u + 'js/']);
+			_paq.push(['setAPIUrl', u]);
+			_paq.push(['setSiteId', '17']);
+			var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+			g.async = true; g.src = u + 'js/'; s.parentNode.insertBefore(g, s);
 		})();
 	</script>
 	<noscript>
-		<p><img src="//kiwip.berrnd.org/kiwip.php?idsite=17&rec=1"
+		<p><img src="//m4o.berrnd.org/t.php?idsite=17&amp;rec=1"
 				style="border:0;"
-				alt=""></p>
+				alt="" /></p>
 	</noscript>
 </body>
 
