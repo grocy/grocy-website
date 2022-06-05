@@ -10,7 +10,7 @@
 
 @section('content')
 <header class="container pt-3 pb-3">
-	<div class="row align-items-center">
+	<div class="row">
 
 		<div class="col">
 			<h1 class="bold d-inline-block sketch-underline">Add-ons</h1>
@@ -21,7 +21,7 @@
 </header>
 
 <div class="container pb-3">
-	<div class="row align-items-center">
+	<div class="row">
 
 		<div class="col-xs-12 col-lg-10 offset-lg-1">
 
@@ -150,6 +150,16 @@
 			A python based barcode scanning helper<br>
 			<a class="btn btn-secondary btn-sm"
 				href="https://github.com/grocy/grocy-pyscanner"
+				target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
+			<h5>grocy Pad</h5>
+			A magnetic shopping list interface<br>
+			<a class="btn btn-secondary btn-sm"
+				href="https://github.com/tjhowse/grocy_pad"
 				target="_blank"><i class="fab fa-github"></i> GitHub</a>
 			</p>
 

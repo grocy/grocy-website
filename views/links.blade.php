@@ -21,9 +21,18 @@
 </header>
 
 <div class="container pb-3">
-	<div class="row align-items-center">
+	<div class="row">
 
-		<div class="col-xs-12 col-lg-10 offset-lg-1">
+		<div class="col-xs-12 col-lg-6">
+
+			<h2 class="bold d-inline-block sketch-underline">Articles / written tutorials</h2>
+
+			<p>
+			<h5>Arch Linux installation script</h5>
+			<a class="small"
+				href="https://github.com/TheHellSite/archlinux_lxc/tree/main/grocy"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://github.com/TheHellSite/archlinux_lxc/tree/main/grocy</a>
+			</p>
 
 			<p>
 			<h5>How to install grocy on FreeNas FreeBSD 11.3 Jail using nginx</h5>
@@ -139,6 +148,44 @@
 				href="https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/"
 				target="_blank"><i class="fas fa-external-link-alt"></i> https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/</a>
 			</p>
+		</div>
+
+		<div class="col-xs-12 col-lg-6">
+
+			<h2 class="bold d-inline-block sketch-underline">Video tutorials</h2>
+
+			<p>
+			<h5>BitBastelei #485 - grocy: Übersicht im Kühlschrank</h5>
+			<a class="small"
+				href="https://www.youtube.com/watch?v=q0U--z_1vio"
+				target="_blank"><i class="fab fa-youtube"></i> https://www.youtube.com/watch?v=q0U--z_1vio</a>
+			</p>
+
+			<p>
+			<h5>grocy - a Web-Based Self-Hosted Groceries and Household Management Solution for your Home</h5>
+			<a class="small"
+				href="https://www.youtube.com/watch?v=kMpui1hw-gM"
+				target="_blank"><i class="fab fa-youtube"></i> https://www.youtube.com/watch?v=kMpui1hw-gM</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
+			<h5>How to Install Grocy on Docker Using Portainer</h5>
+			<a class="small"
+				href="https://www.youtube.com/watch?v=cm8oaHYdoR4"
+				target="_blank"><i class="fab fa-youtube"></i> https://www.youtube.com/watch?v=cm8oaHYdoR4</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
+			<h5>grocy Übersicht</h5>
+			<a class="small"
+				href="https://www.youtube.com/watch?v=82xtwjKIei0"
+				target="_blank"><i class="fab fa-youtube"></i> https://www.youtube.com/watch?v=82xtwjKIei0</a>
+			</p>
+
 		</div>
 
 	</div>
