@@ -3,19 +3,19 @@
 
 
 "@fontsource/fira-mono@^4.5.0":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-4.5.2.tgz#a055db1898a56765974376993a94566f16736f44"
-  integrity sha512-0R6s18VVU07z883ecmsaGSpB81LVCorxuJzNNIjR+oLYfCs9d7AJ3+5Yfni39+OfIz0gqPRLWm+826jp7So1UA==
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-4.5.8.tgz#e17123b88459d5dd459ba06a7d3b3e6d7e8f7b42"
+  integrity sha512-sFuSPB/Km8B1fy3CH0NqO5Nb4GmVMzp3XFaw6MwK293xhm3OnB68QJawwTTjLewcrS78wOTAhTUB058qxurJoQ==
 
 "@fontsource/news-cycle@^4.5.0":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-4.5.1.tgz#91d53d7c08058dd1ae5e1902501077985e7018e7"
-  integrity sha512-TnkgE0USmaeipT/Gwhh3Jbnapc4r8P3Ob7eFiduZL4ZMiLcNeDOqE0FJ9HAAc/N1gaAeM/M0u1o0qiSd/nQmzQ==
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-4.5.7.tgz#066af534db5264522a3ba1551876b144916e5562"
+  integrity sha512-mVWzuH0/5Kb5QWCJcJr+xQQDwE37DQK2U5FdKKVW7tcjOL+lKQQYSL/fh0TVdyhTTECEPMZ3DzWv+1TCVvK79A==
 
 "@fontsource/poppins@^4.5.0":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-4.5.1.tgz#0e2f112dff4319cd04a6622473f23496086a9587"
-  integrity sha512-7GlOGkOElhBVE5RHT33p7w9YDgiXHwx6W5TfBx2UDba8sydY17CRcAnY912/SfaAfkoDU71i+RbIwGfQMQxNlw==
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-4.5.8.tgz#65ce9b32f31bda5a25c23001bcebf1c66e440320"
+  integrity sha512-HE9yLDxYJEcxooVrYvvEhtyxaYU32hQIx1+npKegVefceE0l0zi0ePqKWWxYxkFpyy6WuZSQ+9rai3INnYKEJA==
 
 "@fortawesome/fontawesome-free@^5.15.1":
   version "5.15.4"
@@ -38,6 +38,6 @@ jquery@^3.5.1:
   integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
 
 simplelightbox@^2.7.0:
-  version "2.10.2"
-  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.10.2.tgz#af1d0d6443c2b937527c5478191879df86053dba"
-  integrity sha512-mH+3q8kfciK5bIWsTcUa/nGruV2Hnq3hOrJLEpC7JtcdgNjEX6ZqqcBN1ccRNYZvG3saac4Hw0ya4z2aUXiWQQ==
+  version "2.10.3"
+  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.10.3.tgz#122dd5044279b95596b82103351ddba40dae8917"
+  integrity sha512-EvBmxVG5YQGKsaYijyky5J22h4OsOKnv8kWJxUZR9fxWTpxkTj0rbbflZiFJ61F+OEb6cPUFzxUjLoOZF8W2gg==
