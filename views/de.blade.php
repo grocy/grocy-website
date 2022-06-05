@@ -647,29 +647,22 @@
 		<div class="col">
 			<h2 class="bold d-inline-block sketch-underline">Sag Danke</h2>
 			<p class="lead major-info">
-				grocy ist ein tolles Projekt und ein Hobby, das ich liebe, allerdings ist es derzeit, neben kleineren Beiträgen, eine One-Man-Show, also ausschließlich in meiner Freizeit entstanden.
-				Es ist meine Leidenschaft, großartige Software zu bauen.
+				grocy ist eines meiner Hobbys und ich arbeite gerne daran. Es ist allerdings größtenteils eine One-Man-Show und Freizeit ist ja oft auch nur eingeschränkt verfügbar.
 			</p>
 			<p class="lead major-info mb-0">
-				Wenn du also Danke sagen möchtest, wäre meine erste Bitte, dies zu tun, indem du grocy noch besser machst - und das muss nicht Code sein - hier sind einige Ideen:
-			<ul class="minor-info list-unstyled">
-				<li>Fange an, an einem offenen Ticket zu arbeiten - siehe den <a href="https://github.com/grocy/grocy/issues"
-						target="_blank">Issue Tracker</a></li>
-				<li>Bringe neue Ideen ein, lass uns diese auf dem <a href="https://www.reddit.com/r/grocy/"
-						target="_blank">Subreddit</a> oder über den <a href="https://github.com/grocy/grocy/issues"
-						target="_blank">Issue Tracker</a> diskutieren</li>
-				<li>Überdenke / verbessere aktuelle Funktionalität oder die Oberfläche</li>
-				<li>Erstelle Dokumentation (die es leider aktuell quasi nicht gibt)</li>
-				<li>Helfe bei der Übersetzung von grocy in deine Sprache, geht ganz einfach auf <a href="https://www.transifex.com/grocy/grocy"
-						target="_blank">Transifex</a></li>
-				<li>Erzähle anderen von grocy, oder schreibe einen Artikel darüber</li>
-			</ul>
+				Mitarbeit beim Projekt wäre also das, was grocy am meisten hilft.
+			</p>
+			<p class="lead minor-info">
+				Das muss nicht unbedingt Code sein - das Erstellen von Dokumentation / Tutorials für grocy, Hilfe bei der Übersetzung von grocy in deine Sprache (kann auf <a href="https://www.transifex.com/grocy/grocy"
+					target="_blank">Transifex</a> gemacht werden) oder helfen grocy zu verbreiten (z. B. indem du einen Artikel darüber schreibst) ist genauso hilfreich.
 			</p>
 			<p class="lead major-info mb-0">
-				Wenn du dich dennoch bedanken willst, indem du mich auf ein Bier einlädst, kannst du das gerne tun, hier sind einige Möglichkeiten dafür:
-			<ul class="minor-info list-unstyled">
-				<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPPXVE63EK3L2&source=https%3A%2F%2Fgrocy.info"
-						target="_blank"><i class="fab fa-paypal"></i> PayPal</a></li>
+				Wenn du dich dennoch bedanken willst, indem du mich auf einen Kaffee, ein Bier oder eine Pizza einlädst, kannst du das natürlich gerne tun - hier sind einige Möglichkeiten dafür:
+			<ul class="major-info list-unstyled">
+				<li class="my-2">
+					<a href="https://www.paypal.com/donate/?hosted_button_id=UPPXVE63EK3L2"
+						target="_blank"><i class="fab fa-paypal"></i> PayPal</a>
+				</li>
 			</ul>
 			</p>
 			<p class="lead major-info">
