@@ -106,6 +106,16 @@
 			<hr class="mt-0 pb-0">
 
 			<p>
+			<h5>Recipe Buddy</h5>
+			Recipe Buddy is a tool that enables the easy adding of recipes to grocy through web scraping<br>
+			<a class="btn btn-secondary btn-sm"
+				href="https://github.com/georgegebbett/recipe-buddy"
+				target="_blank"><i class="fab fa-github"></i> GitHub</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
+
+			<p>
 			<h5>Home Assistant Add-On</h5>
 			Home Assistant add-on for grocy<br>
 			<a class="btn btn-secondary btn-sm"
@@ -130,16 +140,6 @@
 			A grocy Python API client<br>
 			<a class="btn btn-secondary btn-sm"
 				href="https://github.com/SebRut/pygrocy"
-				target="_blank"><i class="fab fa-github"></i> GitHub</a>
-			</p>
-
-			<hr class="mt-0 pb-0">
-
-			<p>
-			<h5>pygrocydm</h5>
-			A python client for grocy (data management only) <br>
-			<a class="btn btn-secondary btn-sm"
-				href="https://github.com/BlueBlueBlob/pygrocydm"
 				target="_blank"><i class="fab fa-github"></i> GitHub</a>
 			</p>
 
