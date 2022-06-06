@@ -139,7 +139,7 @@
 			<h5>pygrocydm</h5>
 			A python client for grocy (data management only) <br>
 			<a class="btn btn-secondary btn-sm"
-				href="https://github.com/BlueBlueBlob/pygrocydm"
+				href="https://github.com/fossabot/pygrocydm"
 				target="_blank"><i class="fab fa-github"></i> GitHub</a>
 			</p>
 
