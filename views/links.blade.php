@@ -26,6 +26,15 @@
 		<div class="col-xs-12 col-lg-6">
 
 			<h2 class="bold d-inline-block sketch-underline">Articles / written tutorials</h2>
+			
+			<p>
+			<h5>Installing Bleeding Edge grocy on Raspberry Pi OS (Debian 11)</h5>
+			<a class="small"
+				href="https://othmanempire.github.io/installing-grocy-on-a-raspberry-pi-with-apache"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://othmanempire.github.io/installing-grocy-on-a-raspberry-pi-with-apache</a>
+			</p>
+
+			<hr class="mt-0 pb-0">
 
 			<p>
 			<h5>Arch Linux installation script</h5>
