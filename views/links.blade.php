@@ -30,8 +30,8 @@
 			<p>
 			<h5>Installing Bleeding Edge grocy on Raspberry Pi OS (Debian 11)</h5>
 			<a class="small"
-				href="https://othmanempire.github.io/installing-grocy-on-a-raspberry-pi-with-apache"
-				target="_blank"><i class="fas fa-external-link-alt"></i> https://othmanempire.github.io/installing-grocy-on-a-raspberry-pi-with-apache</a>
+				href="https://othmanalikhan.github.io/installing-grocy-on-a-raspberry-pi-with-apache"
+				target="_blank"><i class="fas fa-external-link-alt"></i> https://othmanalikhan.github.io/installing-grocy-on-a-raspberry-pi-with-apache</a>
 			</p>
 
 			<hr class="mt-0 pb-0">
