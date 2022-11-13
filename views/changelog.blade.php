@@ -83,9 +83,9 @@
 <script>
 	document.addEventListener("DOMContentLoaded", function(event)
 	{
-		if (location.hash == "#preview")
+		if (location.hash.startsWith("#v") || location.hash == "#preview")
 		{
-			$("#preview").find(".dropdown-toggle").click();
+			$(location.hash.replaceAll(".", "\\.")).find(".dropdown-toggle.collapsed").click();
 		}
 	});
 </script>
