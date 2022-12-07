@@ -7,7 +7,8 @@
 		"php-di/php-di": "^6.0",
 		"berrnd/slim-blade-view": "^1.0.0",
 		"league/commonmark": "^1.6.5",
-		"bhaktaraz/php-rss-generator": "dev-master"
+		"bhaktaraz/php-rss-generator": "dev-master",
+		"wyrihaximus/html-compress": "^4.2"
 	},
 	"autoload": {
 		"files": [

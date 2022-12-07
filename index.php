@@ -26,6 +26,9 @@ $container->set('view', function (Container $container) {
 $app->group('', function (RouteCollectorProxy $group) {
 	$view = $this->get('view');
 
+	$version = str_replace(["\r", "\n"], '', file_get_contents(__DIR__ . '/version.txt'));
+	$view->set('version', $version);
+
 	$group->get('/', function (Request $request, Response $response, array $args) use ($view) {
 		return $view->render($response, 'en', [
 			'grocyVersionInfo' => json_decode(file_get_contents(__DIR__ . '/data/grocyreleasesymlinks/version.json', true))

@@ -38,6 +38,6 @@ jquery@^3.5.1:
   integrity sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==
 
 simplelightbox@^2.7.0:
-  version "2.10.4"
-  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.10.4.tgz#08d7b6ddb7290f1b1f52e0ff1c091922787fc26e"
-  integrity sha512-1sPONJV5wpzLhVCmZjkqa146mYy2kzZfvsljJ11acjMXOX2wL/KJ9Q2uanMsJUh09Ljq/pHEcTt9mCFWM7d/AQ==
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.11.0.tgz#9f9891349d635244719e2af4b8baee00f13cd77e"
+  integrity sha512-+ylze7HQqnksITf2egX7/6XjsMdFMz80j70oFrKwlac2lQ2InO6JcE+75aGaAh8uG3O3rClJyE4hcQpgKQZ2Ig==

@@ -51,17 +51,17 @@
 	<meta name="twitter:image"
 		content="https://grocy.info/img/screenshot.png">
 
-	<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+	<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/node_modules/simplelightbox/dist/simple-lightbox.min.css"
+	<link href="/node_modules/simplelightbox/dist/simple-lightbox.min.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/node_modules/flag-icon-css/css/flag-icon.min.css"
+	<link href="/node_modules/flag-icon-css/css/flag-icon.min.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/node_modules/@fontsource/poppins/latin.css"
+	<link href="/node_modules/@fontsource/poppins/latin.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/node_modules/@fontsource/news-cycle/latin.css"
+	<link href="/node_modules/@fontsource/news-cycle/latin.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/style.css"
+	<link href="/site.css?v={{ $version }}"
 		rel="stylesheet">
 </head>
 
@@ -122,11 +122,11 @@
 		</div>
 	</footer>
 
-	<script src="/node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="/node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
-	<script src="/node_modules/simplelightbox/dist/simple-lightbox.jquery.min.js"></script>
-	<script src="/site.js"></script>
+	<script src="/node_modules/jquery/dist/jquery.min.js?v={{ $version }}"></script>
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js?v={{ $version }}"></script>
+	<script src="/node_modules/@fortawesome/fontawesome-free/js/all.js?v={{ $version }}"></script>
+	<script src="/node_modules/simplelightbox/dist/simple-lightbox.jquery.min.js?v={{ $version }}"></script>
+	<script src="/site.js?v={{ $version }}"></script>
 	<script>
 		var _paq = window._paq = window._paq || [];
 		_paq.push(['trackPageView']);
