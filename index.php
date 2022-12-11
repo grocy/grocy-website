@@ -6,10 +6,6 @@ use Psr\Container\ContainerInterface as Container;
 use Slim\Factory\AppFactory;
 use Slim\Routing\RouteCollectorProxy;
 
-use Bhaktaraz\RSSGenerator\Feed;
-use Bhaktaraz\RSSGenerator\Channel;
-use Bhaktaraz\RSSGenerator\Item;
-
 // Load composer dependencies
 require_once __DIR__ . '/vendor/autoload.php';
 
@@ -80,14 +76,11 @@ $app->get('/changelog/feed', function (Request $request, Response $response, arr
 	$changelogItems = GetChangelogItems();
 	$commonMarkConverter = GetCommonMarkConverter();
 
-	$feed = new Feed();
+	$feed = new Laminas\Feed\Writer\Feed();
 
-	$channel = new Channel();
-	$channel
-		->title('grocy Changelog & release history')
-		->description('grocy - ERP beyond your fridge')
-		->url('https://grocy.info')
-		->appendTo($feed);
+	$feed->setTitle('grocy Changelog & Release History');
+	$feed->setDescription('grocy - ERP beyond your fridge');
+	$feed->setLink('https://grocy.info');
 
 	foreach ($changelogItems as $changelogItem)
 	{
@@ -96,16 +89,15 @@ $app->get('/changelog/feed', function (Request $request, Response $response, arr
 			continue;
 		}
 
-		$item = new Item();
-		$item
-			->title('Version ' . $changelogItem['version'])
-			->description($commonMarkConverter->convertToHtml($changelogItem['body']))
-			->url('https://grocy.info/changelog#' . $changelogItem['version'])
-			->pubDate(strtotime($changelogItem['release_date']))
-			->appendTo($channel);
+		$item = $feed->createEntry();
+		$item->setTitle('Version ' . $changelogItem['version']);
+		$item->setDescription(strval($commonMarkConverter->convert($changelogItem['body'])));
+		$item->setLink('https://grocy.info/changelog#' . $changelogItem['version']);
+		$item->setDateCreated(strtotime($changelogItem['release_date']));
+		$feed->addEntry($item);
 	}
 
-	$response->getBody()->write(strval($feed));
+	$response->getBody()->write($feed->export('rss'));
 	return $response->withHeader('Content-Type', 'application/rss+xml');
 });
 
@@ -157,11 +149,7 @@ function GetChangelogItems()
 
 function GetCommonMarkConverter()
 {
-	$commonMarkEnvironment = League\CommonMark\Environment::createCommonMarkEnvironment();
-	$commonMarkEnvironment->addExtension(new League\CommonMark\Extension\Autolink\AutolinkExtension());
-	$commonMarkEnvironment->addExtension(new League\CommonMark\Extension\ExternalLink\ExternalLinkExtension());
-	$commonMarkEnvironment->addExtension(new League\CommonMark\Extension\Mention\MentionExtension());
-	$commonMarkEnvironment->mergeConfig([
+	$commonMarkEnvironment = new League\CommonMark\Environment\Environment([
 		'external_link' => [
 			'open_in_new_window' => true
 		],
@@ -178,7 +166,11 @@ function GetCommonMarkConverter()
 			],
 		]
 	]);
-	$commonMarkConverter = new League\CommonMark\MarkdownConverter($commonMarkEnvironment);
 
-	return $commonMarkConverter;
+	$commonMarkEnvironment->addExtension(new League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension());
+	$commonMarkEnvironment->addExtension(new League\CommonMark\Extension\Autolink\AutolinkExtension());
+	$commonMarkEnvironment->addExtension(new League\CommonMark\Extension\ExternalLink\ExternalLinkExtension());
+	$commonMarkEnvironment->addExtension(new League\CommonMark\Extension\Mention\MentionExtension());
+
+	return new League\CommonMark\MarkdownConverter($commonMarkEnvironment);
 }

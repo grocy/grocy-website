@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Changelog & release history | grocy')
+@section('title', 'Changelog & Release History | grocy')
 @section('lang', 'en')
 
 @section('headerAdditional')
@@ -10,7 +10,7 @@
 	href="https://grocy.info/changelog">
 <link rel="alternate"
 	type="application/rss+xml"
-	title="grocy Changelog & release history feed"
+	title="grocy Changelog & Release History feed"
 	href="https://grocy.info/changelog/feed">
 @stop
 
@@ -19,7 +19,7 @@
 	<div class="row align-items-center">
 
 		<div class="col-xs-12 col-lg-8 offset-lg-2">
-			<h1 class="bold d-inline-block sketch-underline">Changelog & release history</h1>
+			<h1 class="bold d-inline-block sketch-underline">Changelog & Release History</h1>
 			<h5 class="bold d-block"><a href="https://grocy.info/changelog/feed"><i class="fas fa-rss"></i> Feed</h5></a>
 		</div>
 
@@ -41,7 +41,7 @@
 				</div>
 				<div class="collapse">
 					<div class="card-body text-left major-info pb-0 px-3 border-danger">
-						{!! $commonMarkConverter->convertToHtml($changelogItem['body']) !!}
+						{!! $commonMarkConverter->convert($changelogItem['body']) !!}
 					</div>
 					<div class="card-body pt-0">
 						<a href="https://demo-prerelease.grocy.info"
@@ -64,7 +64,7 @@
 				</div>
 				<div class="collapse @if($changelogItem['release_number'] >= $changelog['newest_release_number'] - 4) show @endif">
 					<div class="card-body text-left major-info pb-0 px-3">
-						{!! $commonMarkConverter->convertToHtml($changelogItem['body']) !!}
+						{!! $commonMarkConverter->convert($changelogItem['body']) !!}
 					</div>
 					<div class="card-body pt-0">
 						<a href="https://releases.grocy.info/v?{{ $changelogItem['version'] }}"
