@@ -5,9 +5,9 @@
 		"@fontsource/fira-mono": "^4.5.0",
 		"@fontsource/news-cycle": "^4.5.0",
 		"@fontsource/poppins": "^4.5.0",
-		"@fortawesome/fontawesome-free": "^5.15.1",
+		"@fortawesome/fontawesome-free": "^6.2.1",
 		"bootstrap": "^4.5.3",
-		"flag-icon-css": "^3.5.0",
+		"flag-icon-css": "^4.1.7",
 		"jquery": "^3.5.1",
 		"simplelightbox": "^2.7.0"
 	}

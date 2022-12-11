@@ -55,7 +55,7 @@
 		rel="stylesheet">
 	<link href="/node_modules/simplelightbox/dist/simple-lightbox.min.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/node_modules/flag-icon-css/css/flag-icon.min.css?v={{ $version }}"
+	<link href="/node_modules/flag-icon-css/css/flag-icons.min.css?v={{ $version }}"
 		rel="stylesheet">
 	<link href="/node_modules/@fontsource/poppins/latin.css?v={{ $version }}"
 		rel="stylesheet">

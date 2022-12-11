@@ -71,20 +71,20 @@
 					<p class="mb-2">
 						<a class="btn btn-primary btn-lg"
 							href="https://releases.grocy.info/latest"
-							target="_blank"><i class="fas fa-download"></i> Download</a>
+							target="_blank"><i class="fa-solid fa-download"></i> Download</a>
 						<a class="btn btn-success btn-lg"
 							href="https://en.demo.grocy.info"
-							target="_blank"><i class="fas fa-eye"></i> Demo</a>
+							target="_blank"><i class="fa-solid fa-eye"></i> Demo</a>
 					</p>
 					<p class="mb-1">
 						<a class="btn btn-secondary btn-sm"
-							href="/changelog"><i class="fas fa-exchange-alt"></i> Changelog</a>
+							href="/changelog"><i class="fa-solid fa-right-left"></i> Changelog</a>
 						<a class="btn btn-secondary btn-sm"
 							href="https://github.com/grocy/grocy#how-to-install"
-							target="_blank"><i class="fas fa-info"></i> Install guide</a>
+							target="_blank"><i class="fa-solid fa-info"></i> Install guide</a>
 						<a class="btn btn-secondary btn-sm"
 							href="https://github.com/grocy/grocy"
-							target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+							target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 					</p>
 					<p class="font-weight-light font-italic grandminor-info pt-1">
 						Current version: {{ $grocyVersionInfo->Version }} (released on {{ date('m/d/Y', strtotime($grocyVersionInfo->ReleaseDate)) }})
@@ -135,7 +135,7 @@
 								<p class="mb-2">
 									<a class="btn btn-primary"
 										href="https://releases.grocy.info/latest-desktop"
-										target="_blank"><i class="fas fa-download"></i> Download <span class="small">(classic installer)</span></a>
+										target="_blank"><i class="fa-solid fa-download"></i> Download <span class="small">(classic installer)</span></a>
 									or
 									<a href="https://www.microsoft.com/store/apps/9nwb1trnnksf?cid=storebadge&ocid=badge"
 										target="_blank">
@@ -147,7 +147,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/grocy/grocy-desktop"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -185,7 +185,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/patzly/grocy-android"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -223,10 +223,10 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://pantryparty.app/"
-										target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Documentation</a>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/PantryParty/pantry_party"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -258,7 +258,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/supergeorg/Grocy-SwiftUI"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -290,7 +290,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/Forceu/barcodebuddy"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -314,13 +314,13 @@
 								<p class="mb-2">
 									<a class="btn btn-sm btn-secondary"
 										href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422"
-										target="_blank"><i class="fas fa-external-link-alt"></i> Home Assistant Community Forum Thread</a>
+										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Home Assistant Community Forum Thread</a>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/hassio-addons/addon-grocy/blob/master/grocy/DOCS.md"
-										target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Documentation</a>
 									<a class="btn btn-sm btn-secondary mt-1"
 										href="https://github.com/hassio-addons/addon-grocy"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -362,10 +362,10 @@
 			<p class="lead major-info">
 				<a class="btn btn-danger"
 					href="https://www.reddit.com/r/grocy"
-					target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
+					target="_blank"><i class="fa-brands fa-reddit"></i> r/grocy</a>
 				<a class="btn btn-dark"
 					href="https://github.com/grocy/grocy/issues"
-					target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
+					target="_blank"><i class="fa-brands fa-github"></i> grocy/grocy</a>
 			</p>
 		</div>
 		<div id="addons-intro"
@@ -376,9 +376,9 @@
 			</p>
 			<p class="lead major-info">
 				<a class="btn btn-info"
-					href="https://grocy.info/addons"><i class="fas fa-puzzle-piece"></i> Community contributed Add-ons and other tools</a>
+					href="https://grocy.info/addons"><i class="fa-solid fa-puzzle-piece"></i> Community contributed Add-ons and other tools</a>
 				<a class="btn btn-info mt-2"
-					href="https://grocy.info/links"><i class="fas fa-list"></i> Community contributed help and other guides</a>
+					href="https://grocy.info/links"><i class="fa-solid fa-list"></i> Community contributed help and other guides</a>
 			</p>
 		</div>
 	</section>
@@ -399,7 +399,7 @@
 			<p class="lead major-info">A barcode reader ready interface makes this a easy and quick task and you always know what you currently have at home.</p>
 			<p class="lead major-info">
 				It's also possible to scan barcodes directly in the web browser using the device camera (<a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc"
-					target="_blank"><i class="fab fa-youtube"></i> Quick video demo</a>).
+					target="_blank"><i class="fa-brands fa-youtube"></i> Quick video demo</a>).
 			</p>
 		</div>
 		<div class="col">
@@ -687,12 +687,12 @@
 			<ul class="major-info list-unstyled">
 				<li class="my-2">
 					<a href="https://www.paypal.com/donate/?hosted_button_id=VPYJD5SL488PS"
-						target="_blank"><i class="fab fa-paypal"></i> PayPal</a>
+						target="_blank"><i class="fa-brands fa-paypal"></i> PayPal</a>
 				</li>
 			</ul>
 			</p>
 			<p class="lead major-info">
-				Thank you! <i class="fas fa-heart"></i>
+				Thank you! <i class="fa-solid fa-heart"></i>
 			</p>
 		</div>
 	</section>
