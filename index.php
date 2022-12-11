@@ -51,6 +51,46 @@ $app->group('', function (RouteCollectorProxy $group) {
 		]);
 	});
 
+	$group->get('/changelog/feed', function (Request $request, Response $response, array $args) {
+		$feedCacheFilePath = __DIR__ . '/data/static/changelog/feed/index.html';
+
+		if (file_exists($feedCacheFilePath))
+		{
+			$response->getBody()->write(file_get_contents($feedCacheFilePath));
+		}
+		else
+		{
+			$changelogItems = GetChangelogItems();
+			$commonMarkConverter = GetCommonMarkConverter();
+
+			$feed = new Laminas\Feed\Writer\Feed();
+
+			$feed->setTitle('grocy Changelog & Release History');
+			$feed->setDescription('grocy - ERP beyond your fridge');
+			$feed->setLink('https://grocy.info');
+			$feed->setGenerator('grocy-website');
+
+			foreach ($changelogItems as $changelogItem)
+			{
+				if ($changelogItem['version'] == 'UNRELEASED')
+				{
+					continue;
+				}
+
+				$item = $feed->createEntry();
+				$item->setTitle('Version ' . $changelogItem['version']);
+				$item->setDescription(strval($commonMarkConverter->convert($changelogItem['body'])));
+				$item->setLink('https://grocy.info/changelog#' . $changelogItem['version']);
+				$item->setDateCreated(strtotime($changelogItem['release_date']));
+				$feed->addEntry($item);
+			}
+
+			$response->getBody()->write($feed->export('rss'));
+		}
+
+		return $response->withHeader('Content-Type', 'application/rss+xml');
+	});
+
 	$group->get('/addons', function (Request $request, Response $response, array $args) use ($view) {
 		return $view->render($response, 'addons');
 	});
@@ -71,35 +111,6 @@ $app->group('', function (RouteCollectorProxy $group) {
 		]);
 	});
 })->add(new StaticFileCacheMiddleware(__DIR__ . '/data/static/'));
-
-$app->get('/changelog/feed', function (Request $request, Response $response, array $args) {
-	$changelogItems = GetChangelogItems();
-	$commonMarkConverter = GetCommonMarkConverter();
-
-	$feed = new Laminas\Feed\Writer\Feed();
-
-	$feed->setTitle('grocy Changelog & Release History');
-	$feed->setDescription('grocy - ERP beyond your fridge');
-	$feed->setLink('https://grocy.info');
-
-	foreach ($changelogItems as $changelogItem)
-	{
-		if ($changelogItem['version'] == 'UNRELEASED')
-		{
-			continue;
-		}
-
-		$item = $feed->createEntry();
-		$item->setTitle('Version ' . $changelogItem['version']);
-		$item->setDescription(strval($commonMarkConverter->convert($changelogItem['body'])));
-		$item->setLink('https://grocy.info/changelog#' . $changelogItem['version']);
-		$item->setDateCreated(strtotime($changelogItem['release_date']));
-		$feed->addEntry($item);
-	}
-
-	$response->getBody()->write($feed->export('rss'));
-	return $response->withHeader('Content-Type', 'application/rss+xml');
-});
 
 // Add default middleware
 $app->addRoutingMiddleware();

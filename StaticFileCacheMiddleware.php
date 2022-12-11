@@ -18,7 +18,8 @@ class StaticFileCacheMiddleware
 	{
 		$response = $handler->handle($request);
 
-		$folder = $request->getUri()->getPath();
+		$path = $request->getUri()->getPath();
+		$folder = $path;
 		if (empty($folder) || $folder == '/')
 		{
 			$folder = '';
@@ -28,7 +29,14 @@ class StaticFileCacheMiddleware
 
 		$staticFilePath = $folder . '/index.html';
 		$htmlCompressor = Factory::constructSmallest();
-		file_put_contents($staticFilePath, $htmlCompressor->compress($response->getBody()));
+
+		// Don't compress the changelog feed (RSS/XML)
+		$data = $response->getBody();
+		if ($path != '/changelog/feed')
+		{
+			$data = $htmlCompressor->compress($data);
+		}
+		file_put_contents($staticFilePath, $data);
 
 		return $response;
 	}
