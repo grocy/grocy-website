@@ -76,16 +76,6 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>Pantry Party</h5>
-				grocy on your smartphone - multiple barcode lookup sources, text-to-speech and more<br>
-				<a class="btn btn-secondary btn-sm"
-					href="https://github.com/PantryParty/pantry_party"
-					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-			</div>
-
-			<hr class="my-3 py-0">
-
-			<div>
 				<h5>Grocy Mobile</h5>
 				Native interface for grocy on Apple devices (iOS, macOS)<br>
 				<a class="btn btn-secondary btn-sm"

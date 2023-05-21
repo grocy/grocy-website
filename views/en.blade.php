@@ -119,8 +119,6 @@
 				data-slide-to="3"></li>
 			<li data-target="#top-addons-carousel"
 				data-slide-to="4"></li>
-			<li data-target="#top-addons-carousel"
-				data-slide-to="5"></li>
 		</ol>
 		<div class="carousel-inner">
 			<div class="container alert alert-dark rounded-0">
@@ -194,47 +192,6 @@
 									href="/img/grocy-android.png"><img src="/img/grocy-android.png"
 										alt="grocy-android"
 										title="grocy-android"
-										class="feature-image img-fluid"></a>
-							</div>
-						</div>
-					</div>
-
-					<div id="pantryparty"
-						class="carousel-item">
-						<div class="row align-items-center d-flex">
-							<div class="col-xs-12 col-lg-6">
-								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1 class="bold">Pantry Party</h1>
-								<p class="lead major-info">grocy on your smartphone - multiple barcode lookup sources, text-to-speech and more.</p>
-								<p class="mb-2">
-									<a href="https://play.google.com/store/apps/details?id=org.nativescript.PantryParty"
-										target="_blank">
-										<img src="/img/play-store-badge-en.png"
-											class="img-fluid w-25"
-											alt="Pantry Party on Google Play">
-									</a>
-									<a href="https://apps.apple.com/app/pantry-party/id1510485755"
-										target="_blank">
-										<img src="/img/app-store-badge-en.png"
-											class="img-fluid w-25"
-											alt="Pantry Party on the App Store">
-									</a>
-								</p>
-								<p>
-									<a class="btn btn-sm btn-secondary"
-										href="https://pantryparty.app/"
-										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Documentation</a>
-									<a class="btn btn-sm btn-secondary"
-										href="https://github.com/PantryParty/pantry_party"
-										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
-								</p>
-							</div>
-
-							<div class="col-xs-12 col-lg-6">
-								<a class="lightbox"
-									href="/img/pantry-party.png"><img src="/img/pantry-party.png"
-										alt="Pantry Party"
-										title="Pantry Party"
 										class="feature-image img-fluid"></a>
 							</div>
 						</div>
