@@ -159,6 +159,15 @@
 					href="https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/</a>
 			</div>
+
+			<hr class="my-3 py-0">
+
+			<div>
+				<h5>Setting up Grocy on Caddy with Let’s Encrypt Support</h5>
+				<a class="small"
+					href="https://srp.life/2023/05/23/setting-up-grocy-on-caddy-with-lets-encrypt-support/"
+					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://srp.life/2023/05/23/setting-up-grocy-on-caddy-with-lets-encrypt-support/</a>
+			</div>
 		</div>
 
 		<div class="col-xs-12 col-lg-6">
