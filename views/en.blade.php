@@ -1,11 +1,11 @@
 @extends('layout')
 
-@section('title', 'grocy - ERP beyond your fridge')
+@section('title', 'Grocy - ERP beyond your fridge')
 @section('lang', 'en')
 
 @section('headerAdditional')
 <meta name="description"
-	content="ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion. Created by Bernd Bestel.">
+	content="ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion. Created by Bernd Bestel.">
 
 <link rel="canonical"
 	href="https://grocy.info">
@@ -31,7 +31,7 @@
 		"@type": "ImageObject",
 		"contentUrl": "https://grocy.info/img/screenshot.png"
 	},
-	"name": "grocy",
+	"name": "Grocy",
 	"sameAs": {
 		"@type": "Thing",
 		"mainEntityOfPage": "https://github.com/grocy/grocy"
@@ -66,7 +66,7 @@
 
 				<div class="col-xs-12 col-lg-7">
 					<h1 class="bold">ERP beyond your fridge</h1>
-					<p class="lead grandmajor-info">grocy is a web-based self-hosted groceries & household management solution for your home.</p>
+					<p class="lead grandmajor-info">Grocy is a web-based self-hosted groceries & household management solution for your home.</p>
 					<p class="lead major-info">Open Source. Built with passion.</p>
 					<p class="mb-2">
 						<a class="btn btn-primary btn-lg"
@@ -94,8 +94,8 @@
 				<div class="col-xs-12 col-lg-5 mt-3 mt-lg-0">
 					<a class="lightbox"
 						href="/img/stock-en.png"><img src="/img/stock-en.png"
-							alt="grocy Dashboard"
-							title="grocy Dashboard"
+							alt="Grocy Dashboard"
+							title="Grocy Dashboard"
 							class="feature-image img-fluid"></a>
 				</div>
 
@@ -129,7 +129,7 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h1 class="bold">grocy-desktop</h1>
-								<p class="lead major-info">Run grocy without having to manage a webserver, just like a normal (windows) desktop application.</p>
+								<p class="lead major-info">Run Grocy without having to manage a webserver, just like a normal (windows) desktop application.</p>
 								<p class="mb-2">
 									<a class="btn btn-primary"
 										href="https://releases.grocy.info/latest-desktop"
@@ -165,7 +165,7 @@
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
 								<h1 class="bold">grocy-android</h1>
-								<p class="lead major-info">grocy on your smartphone - with barcode scanning and batch processing.</p>
+								<p class="lead major-info">Grocy on your smartphone - with barcode scanning and batch processing.</p>
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy"
 										target="_blank">
@@ -203,7 +203,7 @@
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
 								<h1 class="bold">Grocy Mobile</h1>
-								<p class="lead major-info">Native interface for grocy on Apple devices (iOS, macOS).</p>
+								<p class="lead major-info">Native interface for Grocy on Apple devices (iOS, macOS).</p>
 								<p class="mb-2">
 									<a href="https://apps.apple.com/app/grocy-mobile/id1567803209"
 										target="_blank">
@@ -235,7 +235,7 @@
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
 								<h1 class="bold">Barcode Buddy</h1>
-								<p class="lead major-info">A barcode scanning helper / lookup tool for grocy.</p>
+								<p class="lead major-info">A barcode scanning helper / lookup tool for Grocy.</p>
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=de.bulling.barcodebuddyscanner"
 										target="_blank">
@@ -267,7 +267,7 @@
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
 								<h1 class="bold">Home Assistant Add-On</h1>
-								<p class="lead major-info">Use grocy fully integrated into Home Assistant.</p>
+								<p class="lead major-info">Use Grocy fully integrated into Home Assistant.</p>
 								<p class="mb-2">
 									<a class="btn btn-sm btn-secondary"
 										href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422"
@@ -314,7 +314,7 @@
 			class="col-xs-12 col-lg-6">
 			<h2 class="bold d-inline-block sketch-underline">Getting in touch</h2>
 			<p class="lead major-info">
-				Connect with other grocy users via the subreddit or report something that does not work / new ideas in the GitHub issue tracker.
+				Connect with other Grocy users via the subreddit or report something that does not work / new ideas in the GitHub issue tracker.
 			</p>
 			<p class="lead major-info">
 				<a class="btn btn-danger"
@@ -329,7 +329,7 @@
 			class="col-xs-12 col-lg-6">
 			<h2 class="bold d-inline-block sketch-underline">Add-ons / Tools / Guides</h2>
 			<p class="lead major-info">
-				Community contributed tools, integrations, install/troubleshooting guides and other useful add-ons to make grocy even better and more productive.
+				Community contributed tools, integrations, install/troubleshooting guides and other useful add-ons to make Grocy even better and more productive.
 			</p>
 			<p class="lead major-info">
 				<a class="btn btn-info"
@@ -347,8 +347,8 @@
 		<div class="col">
 			<a class="lightbox"
 				href="/img/purchase-en.png"><img src="/img/purchase-en.png"
-					alt="grocy purchase tracking form"
-					title="grocy purchase tracking form"
+					alt="Grocy purchase tracking form"
+					title="Grocy purchase tracking form"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
@@ -362,8 +362,8 @@
 		<div class="col">
 			<a class="lightbox"
 				href="/img/browser-barcode-scanning.png"><img src="/img/browser-barcode-scanning.png"
-					alt="grocy browser barcode scanning"
-					title="grocy browser barcode scanning"
+					alt="Grocy browser barcode scanning"
+					title="Grocy browser barcode scanning"
 					class="feature-image img-fluid"></a>
 		</div>
 	</section>
@@ -375,8 +375,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/shoppinglist-en.png"><img src="/img/shoppinglist-en.png"
-					alt="grocy shopping list"
-					title="grocy shopping list"
+					alt="Grocy shopping list"
+					title="Grocy shopping list"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -393,8 +393,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/products-en.png"><img src="/img/products-en.png"
-					alt="grocy stock overview"
-					title="grocy stock overview"
+					alt="Grocy stock overview"
+					title="Grocy stock overview"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -410,8 +410,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/dateinput-en.gif"><img src="/img/dateinput-en.gif"
-					alt="grocy input productivity"
-					title="grocy input productivity"
+					alt="Grocy input productivity"
+					title="Grocy input productivity"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -427,8 +427,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/recipes-en.png"><img src="/img/recipes-en.png"
-					alt="grocy recipes list"
-					title="grocy recipes list"
+					alt="Grocy recipes list"
+					title="Grocy recipes list"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -444,8 +444,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/recipedetail-en.png"><img src="/img/recipedetail-en.png"
-					alt="grocy recipe detail"
-					title="grocy recipe detail"
+					alt="Grocy recipe detail"
+					title="Grocy recipe detail"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -461,8 +461,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/mealplan-en.png"><img src="/img/mealplan-en.png"
-					alt="grocy meal planning"
-					title="grocy meal planning"
+					alt="Grocy meal planning"
+					title="Grocy meal planning"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -478,8 +478,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/equipment-en.png"><img src="/img/equipment-en.png"
-					alt="grocy equipment overview"
-					title="grocy equipment overview"
+					alt="Grocy equipment overview"
+					title="Grocy equipment overview"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -495,8 +495,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/chores-en.png"><img src="/img/chores-en.png"
-					alt="grocy household chores overview"
-					title="grocy household chores overview"
+					alt="Grocy household chores overview"
+					title="Grocy household chores overview"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -512,8 +512,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/tasks-en.png"><img src="/img/tasks-en.png"
-					alt="grocy tasks overview"
-					title="grocy tasks overview"
+					alt="Grocy tasks overview"
+					title="Grocy tasks overview"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -529,8 +529,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/batteries-en.png"><img src="/img/batteries-en.png"
-					alt="grocy batteries overview"
-					title="grocy batteries overview"
+					alt="Grocy batteries overview"
+					title="Grocy batteries overview"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -546,8 +546,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/userobjects-en.png"><img src="/img/userobjects-en.png"
-					alt="grocy user defined objects/lists"
-					title="grocy user defined objects/lists"
+					alt="Grocy user defined objects/lists"
+					title="Grocy user defined objects/lists"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -563,8 +563,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/nightmode-en.png"><img src="/img/nightmode-en.png"
-					alt="grocy in night mode"
-					title="grocy in night mode"
+					alt="Grocy in night mode"
+					title="Grocy in night mode"
 					class="feature-image img-fluid mt-1"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
@@ -580,19 +580,19 @@
 		<div class="col">
 			<a class="lightbox"
 				href="/img/smartphone-shopping-list-en.jpg"><img src="/img/smartphone-shopping-list-en.jpg"
-					alt="grocy shopping list on a smartphone"
-					title="grocy shopping list on a smartphone"
+					alt="Grocy shopping list on a smartphone"
+					title="Grocy shopping list on a smartphone"
 					class="feature-image feature-image-small img-fluid mt-1"></a>
 		</div>
 		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Made for every device</h3>
-			<p class="lead major-info">Whether on a smartphone or any other device, only a browser is needed - e. g. install any low-cost-low-power device in your kitchen and you have a very comfortable 24/7 grocy terminal.</p>
+			<p class="lead major-info">Whether on a smartphone or any other device, only a browser is needed - e. g. install any low-cost-low-power device in your kitchen and you have a very comfortable 24/7 Grocy terminal.</p>
 		</div>
 		<div class="col">
 			<a class="lightbox"
 				href="/img/kitchen-terminal-en.jpg"><img src="/img/kitchen-terminal-en.jpg"
-					alt="grocy terminal in the kitchen"
-					title="grocy terminal in the kitchen"
+					alt="Grocy terminal in the kitchen"
+					title="Grocy terminal in the kitchen"
 					class="feature-image feature-image-small img-fluid mt-1"></a>
 		</div>
 	</section>
@@ -617,7 +617,7 @@
 		class="row">
 		<div class="col">
 			<h2 class="bold d-inline-block sketch-underline">And so much more</h2>
-			<p class="lead major-info">grocy is constantly evolving and daily used by me and many others.</p>
+			<p class="lead major-info">Grocy is constantly evolving and daily used by me and many others.</p>
 			<p class="lead major-info">When you miss something, feel free to <a href="https://github.com/grocy/grocy/issues/new?title=Feature%20Request%3A%20"
 					target="_blank">open a feature request</a> on GitHub - maybe it will be added within hours, because your ideas are my motivation. :)</p>
 		</div>
@@ -630,13 +630,13 @@
 		<div class="col">
 			<h2 class="bold d-inline-block sketch-underline">Say thanks</h2>
 			<p class="lead major-info">
-				grocy is one of my hobbies and I enjoy working on it. It's mostly a one-man-show and free-time is often a rare resource.
+				Grocy is one of my hobbies and I enjoy working on it. It's mostly a one-man-show and free-time is often a rare resource.
 			</p>
 			<p class="lead major-info mb-0">
-				So contributing to the project would be the thing which helps grocy most.
+				So contributing to the project would be the thing which helps Grocy most.
 			</p>
 			<p class="lead minor-info">
-				This doesn't have to be code - creating documentation / tutorials for grocy, helping translate grocy into your language (can be done on <a href="https://www.transifex.com/grocy/grocy"
+				This doesn't have to be code - creating documentation / tutorials for Grocy, helping translate Grocy into your language (can be done on <a href="https://www.transifex.com/grocy/grocy"
 					target="_blank">Transifex</a>) or helping spread the word (e.g. by writing an article about it) is just as helpful.
 			</p>
 			<p class="lead major-info mb-0">

@@ -32,9 +32,9 @@
 	<meta property="og:title"
 		content="@yield('title')">
 	<meta property="og:description"
-		content="ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.">
+		content="ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.">
 	<meta property="og:site_name"
-		content="grocy">
+		content="Grocy">
 	<meta property="og:image"
 		content="https://grocy.info/img/screenshot.png">
 
@@ -43,7 +43,7 @@
 	<meta name="twitter:title"
 		content="@yield('title')">
 	<meta name="twitter:description"
-		content="ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.">
+		content="ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.">
 	<meta name="twitter:site"
 		content="@grocy_erp">
 	<meta name="twitter:creator"
@@ -70,8 +70,8 @@
 		<div class="container">
 			<a class="navbar-brand py-2"
 				href="/"><img src="/img/grocy_logo.svg"
-					alt="grocy logo"
-					title="grocy logo"
+					alt="Grocy logo"
+					title="Grocy logo"
 					height="30"></a>
 
 			<button class="navbar-toggler"
@@ -109,7 +109,7 @@
 				</div>
 
 				<div class="pt-3">
-					grocy is a project by <a href="https://berrnd.de"
+					Grocy is a project by <a href="https://berrnd.de"
 						target="_blank">Bernd Bestel</a>
 					<br>
 					Created with passion since 2017 and hosted on <a href="https://berrnd.net"

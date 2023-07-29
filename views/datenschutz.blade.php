@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Datenschutz | grocy')
+@section('title', 'Datenschutz | Grocy')
 @section('lang', 'de')
 
 @section('headerAdditional')

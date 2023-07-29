@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Changelog & Release History | grocy')
+@section('title', 'Changelog & Release History | Grocy')
 @section('lang', 'en')
 
 @section('headerAdditional')
@@ -10,7 +10,7 @@
 	href="https://grocy.info/changelog">
 <link rel="alternate"
 	type="application/rss+xml"
-	title="grocy Changelog & Release History feed"
+	title="Grocy Changelog & Release History feed"
 	href="https://grocy.info/changelog/feed">
 @stop
 

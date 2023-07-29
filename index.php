@@ -65,8 +65,8 @@ $app->group('', function (RouteCollectorProxy $group) {
 
 			$feed = new Laminas\Feed\Writer\Feed();
 
-			$feed->setTitle('grocy Changelog & Release History');
-			$feed->setDescription('grocy - ERP beyond your fridge');
+			$feed->setTitle('Grocy Changelog & Release History');
+			$feed->setDescription('Grocy - ERP beyond your fridge');
 			$feed->setLink('https://grocy.info');
 			$feed->setGenerator('grocy-website');
 

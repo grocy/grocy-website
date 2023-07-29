@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Impressum | grocy')
+@section('title', 'Impressum | Grocy')
 @section('lang', 'de')
 
 @section('headerAdditional')

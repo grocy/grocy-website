@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Links | grocy')
+@section('title', 'Links | Grocy')
 @section('lang', 'en')
 
 @section('headerAdditional')
@@ -14,7 +14,7 @@
 
 		<div class="col">
 			<h1 class="bold d-inline-block sketch-underline">Links</h1>
-			<h5 class="text-muted pt-3">A list of community contributed help- and troubleshooting guides and other articles about grocy</h5>
+			<h5 class="text-muted pt-3">A list of community contributed help- and troubleshooting guides and other articles about Grocy</h5>
 		</div>
 
 	</div>
@@ -28,7 +28,7 @@
 			<h2 class="bold d-inline-block sketch-underline">Articles / written tutorials</h2>
 
 			<div>
-				<h5>Installing Bleeding Edge grocy on Raspberry Pi OS (Debian 11)</h5>
+				<h5>Installing Bleeding Edge Grocy on Raspberry Pi OS (Debian 11)</h5>
 				<a class="small"
 					href="https://othmanalikhan.github.io/installing-grocy-on-a-raspberry-pi-with-apache"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://othmanalikhan.github.io/installing-grocy-on-a-raspberry-pi-with-apache</a>
@@ -46,7 +46,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>How to install grocy on FreeNas FreeBSD 11.3 Jail using nginx</h5>
+				<h5>How to install Grocy on FreeNas FreeBSD 11.3 Jail using nginx</h5>
 				<a class="small"
 					href="https://github.com/grocy/grocy/issues/715#issue-597535439"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://github.com/grocy/grocy/issues/715#issue-597535439</a>
@@ -55,7 +55,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>grocy >= 2.6.1 subdirectory installation (Apache)</h5>
+				<h5>Grocy >= 2.6.1 subdirectory installation (Apache)</h5>
 				<a class="small"
 					href="https://github.com/grocy/grocy/issues/694#issue-592850273"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://github.com/grocy/grocy/issues/694#issue-592850273</a>
@@ -64,7 +64,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>grocy >= 2.6.1 subdirectory installation (nginx)</h5>
+				<h5>Grocy >= 2.6.1 subdirectory installation (nginx)</h5>
 				<a class="small"
 					href="https://github.com/grocy/grocy/issues/694#issuecomment-609079721"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://github.com/grocy/grocy/issues/694#issuecomment-609079721</a>
@@ -100,7 +100,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>Install grocy in cPanel</h5>
+				<h5>Install Grocy in cPanel</h5>
 				<a class="small"
 					href="https://github.com/grocy/grocy/issues/354"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://github.com/grocy/grocy/issues/354</a>
@@ -109,7 +109,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>Minimal Ubuntu 20.04 system setup with nginx, grocy > 2.6.0, php 7.4</h5>
+				<h5>Minimal Ubuntu 20.04 system setup with nginx, Grocy > 2.6.0, php 7.4</h5>
 				<a class="small"
 					href="https://github.com/grocy/grocy/issues/649"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://github.com/grocy/grocy/issues/649</a>
@@ -136,7 +136,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>Automating your shopping list with Home Assistant and grocy</h5>
+				<h5>Automating your shopping list with Home Assistant and Grocy</h5>
 				<a class="small"
 					href="https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://philhawthorne.com/automating-your-shopping-list-with-home-assistant-and-grocy</a>
@@ -145,7 +145,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>Nie wieder Lebensmittel wegschmeißen – dank grocy</h5>
+				<h5>Nie wieder Lebensmittel wegschmeißen – dank Grocy</h5>
 				<a class="small"
 					href="https://www.nerd-o-mania.de/wordpress/2020/07/28/nie-wieder-lebensmittel-wegschmeien-dank-grocy/"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://www.nerd-o-mania.de/wordpress/2020/07/28/nie-wieder-lebensmittel-wegschmeien-dank-grocy/</a>
@@ -154,7 +154,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>Manage your home stocks like a pro with grocy and a Raspberry Pi</h5>
+				<h5>Manage your home stocks like a pro with Grocy and a Raspberry Pi</h5>
 				<a class="small"
 					href="https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://peppe8o.com/manage-your-home-stocks-like-a-pro-with-grocy-and-raspberry-pi/</a>
@@ -175,7 +175,7 @@
 			<h2 class="bold d-inline-block sketch-underline">Video tutorials</h2>
 
 			<div>
-				<h5>BitBastelei #485 - grocy: Übersicht im Kühlschrank</h5>
+				<h5>BitBastelei #485 - Grocy: Übersicht im Kühlschrank</h5>
 				<a class="small"
 					href="https://www.youtube.com/watch?v=q0U--z_1vio"
 					target="_blank"><i class="fa-brands fa-youtube"></i> https://www.youtube.com/watch?v=q0U--z_1vio</a>
@@ -184,7 +184,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>grocy - a Web-Based Self-Hosted Groceries and Household Management Solution for your Home</h5>
+				<h5>Grocy - a Web-Based Self-Hosted Groceries and Household Management Solution for your Home</h5>
 				<a class="small"
 					href="https://www.youtube.com/watch?v=kMpui1hw-gM"
 					target="_blank"><i class="fa-brands fa-youtube"></i> https://www.youtube.com/watch?v=kMpui1hw-gM</a>
@@ -202,7 +202,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>grocy Übersicht</h5>
+				<h5>Grocy Übersicht</h5>
 				<a class="small"
 					href="https://www.youtube.com/watch?v=82xtwjKIei0"
 					target="_blank"><i class="fa-brands fa-youtube"></i> https://www.youtube.com/watch?v=82xtwjKIei0</a>
