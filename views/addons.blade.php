@@ -26,8 +26,8 @@
 		<div class="col-xs-12 col-lg-10 offset-lg-1">
 
 			<div>
-				<h5>grocy-desktop</h5>
-				Run Grocy without having to manage a webserver, just like a normal (windows) desktop application<br>
+				<h5>Grocy Desktop</h5>
+				Run Grocy without having to manage a webserver, just like a normal (Windows) desktop application<br>
 				<a class="btn btn-secondary btn-sm"
 					href="https://github.com/grocy/grocy-desktop"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>

@@ -102,7 +102,7 @@
 						class="carousel-item active">
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
-								<h1 class="bold">grocy-desktop</h1>
+								<h1 class="bold">Grocy Desktop</h1>
 								<p class="lead major-info">Benutze Grocy ohne einen Webserver verwalten zu müssen - wie eine normale (Windows) Desktop-Anwendung.</p>
 								<p class="mb-2">
 									<a class="btn btn-primary"
@@ -113,7 +113,7 @@
 										target="_blank">
 										<img src="/img/microsoft-store-badge-de.png"
 											class="img-fluid w-25"
-											alt="grocy-desktop im Microsoft Store">
+											alt="Grocy Desktop im Microsoft Store">
 									</a>
 								</p>
 								<p>
@@ -126,8 +126,8 @@
 							<div class="col-xs-12 col-lg-6">
 								<a class="lightbox"
 									href="/img/grocy-desktop-de.png"><img src="/img/grocy-desktop-de.png"
-										alt="grocy-desktop"
-										title="grocy-desktop"
+										alt="Grocy Desktop"
+										title="Grocy Desktop"
 										class="feature-image img-fluid"></a>
 							</div>
 						</div>

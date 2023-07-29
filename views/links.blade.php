@@ -82,7 +82,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>Securing grocy-desktop for the internet with a nginx reverse proxy</h5>
+				<h5>Securing Grocy Desktop for the internet with a nginx reverse proxy</h5>
 				<a class="small"
 					href="https://github.com/grocy/grocy-desktop/issues/17#issuecomment-668591402"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://github.com/grocy/grocy-desktop/issues/17#issuecomment-668591402</a>
