@@ -19,7 +19,7 @@
 	<meta name="author"
 		content="Bernd Bestel (bernd@berrnd.de)">
 	<link rel="icon"
-		href="/img/grocy_icon.svg">
+		href="/img/grocy_icon.svg?v={{ $version }}">
 
 	<title>@yield('title')</title>
 
@@ -34,7 +34,7 @@
 	<meta property="og:site_name"
 		content="Grocy">
 	<meta property="og:image"
-		content="https://grocy.info/img/screenshot.png">
+		content="https://grocy.info/img/screenshot.png?v={{ $version }}">
 
 	<meta name="twitter:card"
 		content="summary_large_image">
@@ -47,7 +47,7 @@
 	<meta name="twitter:creator"
 		content="@BerndBestel">
 	<meta name="twitter:image"
-		content="https://grocy.info/img/screenshot.png">
+		content="https://grocy.info/img/screenshot.png?v={{ $version }}">
 
 	<link href="/packages/bootstrap/dist/css/bootstrap.min.css?v={{ $version }}"
 		rel="stylesheet">
@@ -67,7 +67,7 @@
 	<nav class="navbar navbar-expand-md navbar-light mb-2">
 		<div class="container">
 			<a class="navbar-brand py-2"
-				href="/"><img src="/img/grocy_logo.svg"
+				href="/"><img src="/img/grocy_logo.svg?v={{ $version }}"
 					alt="Grocy logo"
 					title="Grocy logo"
 					height="30"></a>
