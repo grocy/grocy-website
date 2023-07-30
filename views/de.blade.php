@@ -138,20 +138,20 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1 class="bold">grocy-android</h1>
-								<p class="lead major-info">Grocy on your smartphone - with barcode scanning and batch processing.</p>
+								<h1 class="bold">Grocy Android</h1>
+								<p class="lead major-info">Grocy auf deinem Smartphone - mit Barcodeerkennung und intuitiver Stapelverarbeitung.</p>
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy"
 										target="_blank">
 										<img src="/img/play-store-badge-de.png"
 											class="img-fluid w-25"
-											alt="grocy-android on Google Play">
+											alt="Grocy Android on Google Play">
 									</a>
 									<a href="https://f-droid.org/de/packages/xyz.zedler.patrick.grocy/"
 										target="_blank">
 										<img src="/img/fdroid-badge.png"
 											class="img-fluid w-25"
-											alt="grocy-android on F-Droid">
+											alt="Grocy Android on F-Droid">
 									</a>
 								</p>
 								<p>
@@ -164,8 +164,8 @@
 							<div class="col-xs-12 col-lg-6">
 								<a class="lightbox"
 									href="/img/grocy-android.png"><img src="/img/grocy-android.png"
-										alt="grocy-android"
-										title="grocy-android"
+										alt="Grocy Android"
+										title="Grocy Android"
 										class="feature-image img-fluid"></a>
 							</div>
 						</div>
@@ -288,7 +288,7 @@
 			class="col-xs-12 col-lg-6">
 			<h2 class="bold d-inline-block sketch-underline">Mach mit / Kontakt</h2>
 			<p class="lead major-info">
-				Unterhalte dich mit anderen Grocy Benutzern im subreddit oder melde Fehler / schlage neue Ideen im Issue Tracker auf GitHub vor.
+				Unterhalte dich mit anderen Grocy Benutzern im Subreddit oder melde Fehler / schlage neue Ideen im Issue Tracker auf GitHub vor.
 			</p>
 			<p class="lead major-info">
 				<a class="btn btn-danger"
@@ -373,7 +373,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Wirf weniger weg</h3>
-			<p class="lead major-info">Behalte immer im Überblick, was als nächstes abläuft.</p>
+			<p class="lead major-info">Behalte immer im Überblick, was als nächstes fällig ist.</p>
 		</div>
 	</section>
 
@@ -424,7 +424,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Kochbuch ist so 2016</h3>
-			<p class="lead major-info">Rezepte übersichtlich und klar.</p>
+			<p class="lead major-info">Rezepte schick und übersichtlich.</p>
 		</div>
 	</section>
 
@@ -458,7 +458,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Verwalte deine Haushaltsgeräte/-Ausstattung</h3>
-			<p class="lead major-info">Habe Bedienungsanleitungen und wichtige Informationen zur Hand, wenn sie benötigt werden - nie mehr vergeblich suchen.</p>
+			<p class="lead major-info">Habe Bedienungsanleitungen und wichtige Informationen zur Hand, wenn sie benötigt werden - nie mehr vergeblich danach suchen.</p>
 		</div>
 	</section>
 
@@ -509,7 +509,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Verwalte deine Akkus</h3>
-			<p class="lead major-info">Benutze aufladbare Batterien für alles im Haushalt und halte sie fit, weil du weißt, wo welcher Akku gerade im Einsatz ist und wann und wie oft er zuletzt aufgeladen wurde.</p>
+			<p class="lead major-info">Heutzutage haben wir unzählige Akkus in unserem Haushalt. Um sie in einem guten Zustand zu halten, ist es gut zu wissen, wann sie zuletzt geladen wurden.</p>
 		</div>
 	</section>
 
@@ -526,7 +526,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Benutzerdefinierte Felder/Objekte/Listen</h3>
-			<p class="lead major-info">Zu jeder Entität (wie Produkte oder Hausarbeiten) können beliebige benutzerdefinierte Felder hinzugefügt werden. Du kannst sogar komplett eigene Objekte erstellen, um alles bequem zentral verwalten zu könnnen.</p>
+			<p class="lead major-info">Zu jeder Entität (wie Produkte oder Hausarbeiten) können beliebige benutzerdefinierte Felder hinzugefügt werden. Du kannst sogar komplett eigene Objekte/Listen erstellen, um alles bequem zentral verwalten zu könnnen.</p>
 		</div>
 	</section>
 
@@ -542,8 +542,8 @@
 					class="feature-image img-fluid mt-1"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold d-inline-block sketch-underline">Night-Mode inklusive</h3>
-			<p class="lead major-info">Weil wir alle es lieben, zumindest manchmal. Natürlich kann der Nachtmodus auch automatisch bei Sonnenuntergang aktiviert werden (konfigurierbarer Zeitbereich).</p>
+			<h3 class="bold d-inline-block sketch-underline">Nachtmodus (selbstverständlich)</h3>
+			<p class="lead major-info">Der Nachtmodus wird automatisch verwendet, wenn dein Gerät das standardmäßig bevorzugt und kann alternativ auch automatisch bei Sonnenuntergang aktiviert werden (konfigurierbarer Zeitbereich).</p>
 		</div>
 	</section>
 
@@ -577,11 +577,11 @@
 		class="row align-items-center d-flex">
 		<div class="col">
 			<h3 class="bold d-inline-block sketch-underline">Integration und individuelle Anpassbarkeit</h3>
-			<p class="lead major-info">Ein (RESTful) API für alles, siehe das <a href="https://demo.grocy.info/api"
-					target="_blank">integrierte Swagger UI (/api)</a></p>
-			<p class="lead major-info">Feature flags um alles, was du nicht brauchst, ausschalten bzw. ausblenden zu können (z. B. Hausarbeiten, alles was zu zum Preis tracking gehört, etc.)</p>
+			<p class="lead major-info">Eine (RESTful) API für alles, siehe das <a href="https://demo.grocy.info/api"
+					target="_blank">integrierte Swagger UI (/api)</a>.</p>
+			<p class="lead major-info">Feature flags um alles, was du nicht brauchst, ausschalten bzw. ausblenden zu können (z. B. Hausarbeiten, alles was zu zum Preis tracking gehört, etc.).</p>
 			<p class="lead major-info"><a href="https://github.com/grocy/grocy#adding-your-own-css-or-js-without-to-have-to-modify-the-application-itself"
-					target="_blank">Eigenes CSS and JS</a> um wirklich alles bis ins kleinste Detail anpassen zu können</p>
+					target="_blank">Eigenes CSS and JS</a> um wirklich alles bis ins kleinste Detail anpassen zu können.</p>
 		</div>
 	</section>
 
@@ -592,7 +592,7 @@
 		<div class="col">
 			<h2 class="bold d-inline-block sketch-underline">Und noch vieles mehr</h2>
 			<p class="lead major-info">Grocy wird ständig weiterentwickelt täglich von mir und vielen anderen benutzt.</p>
-			<p class="lead major-info">Wenn dir etwas fehlt, erstelle gerne einfach einen <a href="https://github.com/grocy/grocy/issues/new?title=Feature%20Request%3A%20"
+			<p class="lead major-info">Wenn dir etwas fehlt, erstelle gerne einfach einen <a href="https://github.com/grocy/grocy/issues/new?labels=enhancement&template=feature-request.md&title=Feature+Request%3A+"
 					target="_blank">Feature Request</a> auf GitHub - evtl. wird es innerhalb von Stunden umgesetzt, denn deine Ideen sind meine Motiviation. :)</p>
 		</div>
 	</section>
@@ -604,7 +604,7 @@
 		<div class="col">
 			<h2 class="bold d-inline-block sketch-underline">Sag Danke</h2>
 			<p class="lead major-info">
-				Grocy ist eines meiner Hobbys und ich arbeite gerne daran. Es ist allerdings größtenteils eine One-Man-Show und Freizeit ist ja oft auch nur eingeschränkt verfügbar.
+				Grocy ist eines meiner Hobbys und ich arbeite gerne daran. Aber da es eben ein Hobby ist, hängt die Weiterentwicklung von (meiner) Freizeit und Lust ab - heißt es kann manchmal auch mal etwas dauern.
 			</p>
 			<p class="lead major-info mb-0">
 				Mitarbeit beim Projekt wäre also das, was Grocy am meisten hilft.

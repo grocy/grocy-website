@@ -129,7 +129,7 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h1 class="bold">Grocy Desktop</h1>
-								<p class="lead major-info">Run Grocy without having to manage a webserver, just like a normal (windows) desktop application.</p>
+								<p class="lead major-info">Run Grocy without having to manage a webserver, just like a normal (Windows) desktop application.</p>
 								<p class="mb-2">
 									<a class="btn btn-primary"
 										href="https://releases.grocy.info/latest-desktop"
@@ -164,20 +164,20 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1 class="bold">grocy-android</h1>
+								<h1 class="bold">Grocy Android</h1>
 								<p class="lead major-info">Grocy on your smartphone - with barcode scanning and batch processing.</p>
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy"
 										target="_blank">
 										<img src="/img/play-store-badge-en.png"
 											class="img-fluid w-25"
-											alt="grocy-android on Google Play">
+											alt="Grocy Android on Google Play">
 									</a>
 									<a href="https://f-droid.org/de/packages/xyz.zedler.patrick.grocy/"
 										target="_blank">
 										<img src="/img/fdroid-badge.png"
 											class="img-fluid w-25"
-											alt="grocy-android on F-Droid">
+											alt="Grocy Android on F-Droid">
 									</a>
 								</p>
 								<p>
@@ -190,8 +190,8 @@
 							<div class="col-xs-12 col-lg-6">
 								<a class="lightbox"
 									href="/img/grocy-android.png"><img src="/img/grocy-android.png"
-										alt="grocy-android"
-										title="grocy-android"
+										alt="Grocy Android"
+										title="Grocy Android"
 										class="feature-image img-fluid"></a>
 							</div>
 						</div>
@@ -399,7 +399,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Waste less</h3>
-			<p class="lead major-info">Always know what's expiring next.</p>
+			<p class="lead major-info">Always know what's due next.</p>
 		</div>
 	</section>
 
@@ -535,7 +535,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Manage your batteries</h3>
-			<p class="lead major-info">Use rechargable batteries for everything to protect our environment and keep them in a good shape by knowing when you charged them last.</p>
+			<p class="lead major-info">Nowadays we have countless batteries in our home. Keep them in a good shape by knowing when you charged them last.</p>
 		</div>
 	</section>
 
@@ -568,8 +568,8 @@
 					class="feature-image img-fluid mt-1"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">
-			<h3 class="bold d-inline-block sketch-underline">Night mode included</h3>
-			<p class="lead major-info">Because we all love it, at least sometimes. Of course night mode can be also activated automatically when the sun sets (configurable time range).</p>
+			<h3 class="bold d-inline-block sketch-underline">Night mode (of course)</h3>
+			<p class="lead major-info">Night mode is automatically used when your device prefers that by default and can be alternatively also activated automatically when the sun sets (configurable time range).</p>
 		</div>
 	</section>
 
@@ -586,7 +586,7 @@
 		</div>
 		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Made for every device</h3>
-			<p class="lead major-info">Whether on a smartphone or any other device, only a browser is needed - e. g. install any low-cost-low-power device in your kitchen and you have a very comfortable 24/7 Grocy terminal.</p>
+			<p class="lead major-info">Whether on a smartphone or any other device, only a browser is needed - e.g. install any low-cost-low-power device in your kitchen and you have a very comfortable 24/7 Grocy terminal.</p>
 		</div>
 		<div class="col">
 			<a class="lightbox"
@@ -604,10 +604,10 @@
 		<div class="col">
 			<h3 class="bold d-inline-block sketch-underline">Integration and customization</h3>
 			<p class="lead major-info">A (RESTful) API for everything, see the <a href="https://demo.grocy.info/api"
-					target="_blank">integrated Swagger UI on /api</a></p>
-			<p class="lead major-info">Feature flags to disable/hide things you don't need (e. g. hide chores, everything related to price tracking, etc.)</p>
+					target="_blank">integrated Swagger UI on /api</a>.</p>
+			<p class="lead major-info">Feature flags to disable/hide things you don't need (e.g. hide chores, everything related to price tracking, etc.).</p>
 			<p class="lead major-info"><a href="https://github.com/grocy/grocy#adding-your-own-css-or-js-without-to-have-to-modify-the-application-itself"
-					target="_blank">Custom CSS and JS</a> to ultimately customize everything down to the smallest detail</p>
+					target="_blank">Custom CSS and JS</a> to ultimately customize everything down to the smallest detail.</p>
 		</div>
 	</section>
 
@@ -618,7 +618,7 @@
 		<div class="col">
 			<h2 class="bold d-inline-block sketch-underline">And so much more</h2>
 			<p class="lead major-info">Grocy is constantly evolving and daily used by me and many others.</p>
-			<p class="lead major-info">When you miss something, feel free to <a href="https://github.com/grocy/grocy/issues/new?title=Feature%20Request%3A%20"
+			<p class="lead major-info">When you miss something, feel free to <a href="https://github.com/grocy/grocy/issues/new?labels=enhancement&template=feature-request.md&title=Feature+Request%3A+"
 					target="_blank">open a feature request</a> on GitHub - maybe it will be added within hours, because your ideas are my motivation. :)</p>
 		</div>
 	</section>
@@ -630,7 +630,7 @@
 		<div class="col">
 			<h2 class="bold d-inline-block sketch-underline">Say thanks</h2>
 			<p class="lead major-info">
-				Grocy is one of my hobbies and I enjoy working on it. It's mostly a one-man-show and free-time is often a rare resource.
+				Grocy is one of my hobbies and I enjoy working on it. But since it is a hobby, development depends on (my) free time and desire - means it can sometimes take a while.
 			</p>
 			<p class="lead major-info mb-0">
 				So contributing to the project would be the thing which helps Grocy most.
@@ -640,7 +640,7 @@
 					target="_blank">Transifex</a>) or helping spread the word (e.g. by writing an article about it) is just as helpful.
 			</p>
 			<p class="lead major-info mb-0">
-				If you still want to say thanks by buying me a coffee, beer or pizza instead, feel free to do so - here are some options:
+				If you still want to say thanks by inviting me for a coffee, a beer or a pizza instead, you're welcome to do so - here are some options:
 			<ul class="major-info list-unstyled">
 				<li class="my-2">
 					<a href="https://www.paypal.com/donate/?hosted_button_id=VPYJD5SL488PS"

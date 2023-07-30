@@ -23,10 +23,7 @@
 						Teilweise technisch bedingt können personenbezogene Daten verarbeitet werden.
 					</p>
 					<p>
-						IT, Open Source, #ownyourdata und alles was dazu gehört ist meine Leidenschaft, ein verantwortungsbewusster
-						Umgang mit (nicht nur) personenbezogenen Daten ist für mich daher nicht erst seit heute selbstverständlich.
-						Seit heute bzw. aufgrund der allgemein bekannten gesetzlichen Änderungen bzgl. des Themas Datenschutz ist es
-						allerdings notwendig, dies alles immer wieder neu nachfolgend im Detail zu erzählen.
+						IT, Open Source, #ownyourdata und alles was dazu gehört ist meine Leidenschaft, ein verantwortungsbewusster Umgang mit (nicht nur) personenbezogenen Daten ist für mich schon immer selbstverständlich.
 					</p>
 				</section>
 				<section id="anbieter">

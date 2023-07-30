@@ -175,6 +175,15 @@
 			<h2 class="bold d-inline-block sketch-underline">Video tutorials</h2>
 
 			<div>
+				<h5>Grocy auf Synology</h5>
+				<a class="small"
+					href="https://www.youtube.com/watch?v=ddSEkfT95eI"
+					target="_blank"><i class="fa-brands fa-youtube"></i> https://www.youtube.com/watch?v=ddSEkfT95eI</a>
+			</div>
+
+			<hr class="my-3 py-0">
+
+			<div>
 				<h5>BitBastelei #485 - Grocy: Übersicht im Kühlschrank</h5>
 				<a class="small"
 					href="https://www.youtube.com/watch?v=q0U--z_1vio"

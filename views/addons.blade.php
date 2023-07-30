@@ -66,7 +66,7 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>grocy-android</h5>
+				<h5>Grocy Android</h5>
 				Grocy on your smartphone - with barcode scanning and batch processing<br>
 				<a class="btn btn-secondary btn-sm"
 					href="https://github.com/patzly/grocy-android"
