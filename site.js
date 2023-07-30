@@ -1,7 +1,7 @@
 $(".feature-list h3").each(function(i, el)
 {
 	var h3 = $(el);
-	h3.append(' <i class="fa-solid fa-link anchor-link-icon"></i>');
+
 	h3.wrap($("<a />").addClass("discrete-link").attr("href", "#" + $(this).closest("section").attr("id")));
 });
 
