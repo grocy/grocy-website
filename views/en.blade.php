@@ -93,7 +93,7 @@
 
 				<div class="col-xs-12 col-lg-5 mt-3 mt-lg-0">
 					<a class="lightbox"
-						href="/img/stock-en.png"><img src="/img/stock-en.png"
+						href="/img/stock-en.png"><img src="/img/__thumbs/stock-en.png"
 							alt="Grocy Dashboard"
 							title="Grocy Dashboard"
 							class="feature-image img-fluid"></a>
@@ -137,7 +137,7 @@
 									or
 									<a href="https://www.microsoft.com/store/apps/9nwb1trnnksf?cid=storebadge&ocid=badge"
 										target="_blank">
-										<img src="/img/microsoft-store-badge-en.png"
+										<img src="/img/__thumbs/microsoft-store-badge-en.png"
 											class="img-fluid w-25"
 											alt="Grocy Desktop on the Microsoft Store">
 									</a>
@@ -151,7 +151,7 @@
 
 							<div class="col-xs-12 col-lg-6">
 								<a class="lightbox"
-									href="/img/grocy-desktop-en.png"><img src="/img/grocy-desktop-en.png"
+									href="/img/grocy-desktop-en.png"><img src="/img/__thumbs/grocy-desktop-en.png"
 										alt="Grocy Desktop"
 										title="Grocy Desktop"
 										class="feature-image img-fluid"></a>
@@ -169,13 +169,13 @@
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy"
 										target="_blank">
-										<img src="/img/play-store-badge-en.png"
+										<img src="/img/__thumbs/play-store-badge-en.png"
 											class="img-fluid w-25"
 											alt="Grocy Android on Google Play">
 									</a>
 									<a href="https://f-droid.org/de/packages/xyz.zedler.patrick.grocy/"
 										target="_blank">
-										<img src="/img/fdroid-badge.png"
+										<img src="/img/__thumbs/fdroid-badge.png"
 											class="img-fluid w-25"
 											alt="Grocy Android on F-Droid">
 									</a>
@@ -189,7 +189,7 @@
 
 							<div class="col-xs-12 col-lg-6">
 								<a class="lightbox"
-									href="/img/grocy-android.png"><img src="/img/grocy-android.png"
+									href="/img/grocy-android.png"><img src="/img/__thumbs/grocy-android.png"
 										alt="Grocy Android"
 										title="Grocy Android"
 										class="feature-image img-fluid"></a>
@@ -207,7 +207,7 @@
 								<p class="mb-2">
 									<a href="https://apps.apple.com/app/grocy-mobile/id1567803209"
 										target="_blank">
-										<img src="/img/app-store-badge-en.png"
+										<img src="/img/__thumbs/app-store-badge-en.png"
 											class="img-fluid w-25"
 											alt="Grocy Mobile on the App Store">
 									</a>
@@ -221,7 +221,7 @@
 
 							<div class="col-xs-12 col-lg-6">
 								<a class="lightbox"
-									href="/img/grocy-swiftui.png"><img src="/img/grocy-swiftui.png"
+									href="/img/grocy-swiftui.png"><img src="/img/__thumbs/grocy-swiftui.png"
 										alt="Grocy Mobile"
 										title="Grocy Mobile"
 										class="feature-image img-fluid"></a>
@@ -239,7 +239,7 @@
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=de.bulling.barcodebuddyscanner"
 										target="_blank">
-										<img src="/img/play-store-badge-en.png"
+										<img src="/img/__thumbs/play-store-badge-en.png"
 											class="img-fluid w-25"
 											alt="Barcode Buddy on Google Play">
 									</a>
@@ -253,7 +253,7 @@
 
 							<div class="col-xs-12 col-lg-6">
 								<a class="lightbox"
-									href="/img/barcode-buddy.png"><img src="/img/barcode-buddy.png"
+									href="/img/barcode-buddy.png"><img src="/img/__thumbs/barcode-buddy.png"
 										alt="Barcode Buddy"
 										title="Barcode Buddy"
 										class="feature-image img-fluid"></a>
@@ -346,7 +346,7 @@
 		class="row align-items-center d-flex">
 		<div class="col">
 			<a class="lightbox"
-				href="/img/purchase-en.png"><img src="/img/purchase-en.png"
+				href="/img/purchase-en.png"><img src="/img/__thumbs/purchase-en.png"
 					alt="Grocy purchase tracking form"
 					title="Grocy purchase tracking form"
 					class="feature-image img-fluid"></a>
@@ -361,7 +361,7 @@
 		</div>
 		<div class="col">
 			<a class="lightbox"
-				href="/img/browser-barcode-scanning.png"><img src="/img/browser-barcode-scanning.png"
+				href="/img/browser-barcode-scanning.png"><img src="/img/__thumbs/browser-barcode-scanning.png"
 					alt="Grocy browser barcode scanning"
 					title="Grocy browser barcode scanning"
 					class="feature-image img-fluid"></a>
@@ -374,7 +374,7 @@
 		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/shoppinglist-en.png"><img src="/img/shoppinglist-en.png"
+				href="/img/shoppinglist-en.png"><img src="/img/__thumbs/shoppinglist-en.png"
 					alt="Grocy shopping list"
 					title="Grocy shopping list"
 					class="feature-image img-fluid"></a>
@@ -392,7 +392,7 @@
 		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/products-en.png"><img src="/img/products-en.png"
+				href="/img/products-en.png"><img src="/img/__thumbs/products-en.png"
 					alt="Grocy stock overview"
 					title="Grocy stock overview"
 					class="feature-image img-fluid"></a>
@@ -426,7 +426,7 @@
 		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/recipes-en.png"><img src="/img/recipes-en.png"
+				href="/img/recipes-en.png"><img src="/img/__thumbs/recipes-en.png"
 					alt="Grocy recipes list"
 					title="Grocy recipes list"
 					class="feature-image img-fluid"></a>
@@ -443,7 +443,7 @@
 		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/recipedetail-en.png"><img src="/img/recipedetail-en.png"
+				href="/img/recipedetail-en.png"><img src="/img/__thumbs/recipedetail-en.png"
 					alt="Grocy recipe detail"
 					title="Grocy recipe detail"
 					class="feature-image img-fluid"></a>
@@ -460,7 +460,7 @@
 		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/mealplan-en.png"><img src="/img/mealplan-en.png"
+				href="/img/mealplan-en.png"><img src="/img/__thumbs/mealplan-en.png"
 					alt="Grocy meal planning"
 					title="Grocy meal planning"
 					class="feature-image img-fluid"></a>
@@ -477,7 +477,7 @@
 		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/equipment-en.png"><img src="/img/equipment-en.png"
+				href="/img/equipment-en.png"><img src="/img/__thumbs/equipment-en.png"
 					alt="Grocy equipment overview"
 					title="Grocy equipment overview"
 					class="feature-image img-fluid"></a>
@@ -494,7 +494,7 @@
 		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/chores-en.png"><img src="/img/chores-en.png"
+				href="/img/chores-en.png"><img src="/img/__thumbs/chores-en.png"
 					alt="Grocy household chores overview"
 					title="Grocy household chores overview"
 					class="feature-image img-fluid"></a>
@@ -511,7 +511,7 @@
 		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/tasks-en.png"><img src="/img/tasks-en.png"
+				href="/img/tasks-en.png"><img src="/img/__thumbs/tasks-en.png"
 					alt="Grocy tasks overview"
 					title="Grocy tasks overview"
 					class="feature-image img-fluid"></a>
@@ -528,7 +528,7 @@
 		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/batteries-en.png"><img src="/img/batteries-en.png"
+				href="/img/batteries-en.png"><img src="/img/__thumbs/batteries-en.png"
 					alt="Grocy batteries overview"
 					title="Grocy batteries overview"
 					class="feature-image img-fluid"></a>
@@ -545,7 +545,7 @@
 		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/userfields-en.png"><img src="/img/userfields-en.png"
+				href="/img/userfields-en.png"><img src="/img/__thumbs/userfields-en.png"
 					alt="Grocy user defined objects/lists"
 					title="Grocy user defined objects/lists"
 					class="feature-image img-fluid"></a>
@@ -562,7 +562,7 @@
 		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/nightmode-en.png"><img src="/img/nightmode-en.png"
+				href="/img/nightmode-en.png"><img src="/img/__thumbs/nightmode-en.png"
 					alt="Grocy in night mode"
 					title="Grocy in night mode"
 					class="feature-image img-fluid mt-1"></a>
@@ -579,7 +579,7 @@
 		class="row align-items-center d-flex">
 		<div class="col">
 			<a class="lightbox"
-				href="/img/smartphone-shopping-list-en.jpg"><img src="/img/smartphone-shopping-list-en.jpg"
+				href="/img/smartphone-shopping-list-en.jpg"><img src="/img/__thumbs/smartphone-shopping-list-en.jpg"
 					alt="Grocy shopping list on a smartphone"
 					title="Grocy shopping list on a smartphone"
 					class="feature-image feature-image-small img-fluid mt-1"></a>
@@ -590,7 +590,7 @@
 		</div>
 		<div class="col">
 			<a class="lightbox"
-				href="/img/kitchen-terminal-en.jpg"><img src="/img/kitchen-terminal-en.jpg"
+				href="/img/kitchen-terminal-en.jpg"><img src="/img/__thumbs/kitchen-terminal-en.jpg"
 					alt="Grocy terminal in the kitchen"
 					title="Grocy terminal in the kitchen"
 					class="feature-image feature-image-small img-fluid mt-1"></a>
