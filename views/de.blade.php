@@ -519,7 +519,7 @@
 		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/userobjects-de.png"><img src="/img/userobjects-de.png"
+				href="/img/userfields-de.png"><img src="/img/userfields-de.png"
 					alt="Grocy Benutzerdefinierte Felder"
 					title="Grocy Benutzerdefinierte Felder"
 					class="feature-image img-fluid"></a>

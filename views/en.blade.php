@@ -545,7 +545,7 @@
 		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/userobjects-en.png"><img src="/img/userobjects-en.png"
+				href="/img/userfields-en.png"><img src="/img/userfields-en.png"
 					alt="Grocy user defined objects/lists"
 					title="Grocy user defined objects/lists"
 					class="feature-image img-fluid"></a>
