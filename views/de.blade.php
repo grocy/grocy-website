@@ -240,7 +240,7 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1 class="bold">Home Assistant Add-On</h1>
+								<h1 class="bold">Home Assistant Add-on</h1>
 								<p class="lead major-info">Use Grocy fully integrated into Home Assistant.</p>
 								<p class="mb-2">
 									<a class="btn btn-sm btn-secondary"
@@ -258,8 +258,8 @@
 							<div class="col-xs-12 col-lg-6">
 								<a class="lightbox"
 									href="/img/hassio-addon.gif?v={{ $version }}"><img src="/img/hassio-addon.gif?v={{ $version }}"
-										alt="Home Assistant Add-On"
-										title="Home Assistant Add-On"
+										alt="Home Assistant Add-on"
+										title="Home Assistant Add-on"
 										class="feature-image img-fluid"></a>
 							</div>
 						</div>
@@ -327,7 +327,7 @@
 		</div>
 		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Einkäufe erfassen</h3>
-			<p class="lead major-info">Eine für Barcodescanner vorbereitete Oberfläche macht es einfach, Einkäufe einfach und vor allem schnell zu erfassen. Damit weißt du immer, was gerade Zuhause vorrätig ist.</p>
+			<p class="lead major-info">Eine für Barcodescanner vorbereitete Oberfläche macht es einfach, Einkäufe intuitiv und effizient zu erfassen. Damit weißt du immer, was gerade Zuhause vorrätig ist.</p>
 			<p class="lead major-info">
 				Es ist auch möglich, Barcodes direkt im Webbrowser mit der Gerätekamera zu scannen (<a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc"
 					target="_blank"><i class="fa-brands fa-youtube"></i> Kurze Video-Demo</a>).
@@ -492,7 +492,7 @@
 		</div>
 		<div class="col pt-4 pt-md-0">
 			<h3 class="bold d-inline-block sketch-underline">Behalte den Überblick über deine Aufgaben</h3>
-			<p class="lead major-info">Nur eine ganz normale To-Do Liste.<br>So wie ich sowas (und evtl. auch du) mag.</p>
+			<p class="lead major-info">Nur eine ganz normale To-Do Liste.<br>So wie ich sowas (und vielleicht auch du) mag.</p>
 		</div>
 	</section>
 
@@ -579,7 +579,7 @@
 			<h3 class="bold d-inline-block sketch-underline">Integration und individuelle Anpassbarkeit</h3>
 			<p class="lead major-info">Eine (RESTful) API für alles, siehe das <a href="https://demo.grocy.info/api"
 					target="_blank">integrierte Swagger UI (/api)</a>.</p>
-			<p class="lead major-info">Feature flags um alles, was du nicht brauchst, ausschalten bzw. ausblenden zu können (z. B. Hausarbeiten, alles was zu zum Preis tracking gehört, etc.).</p>
+			<p class="lead major-info">Feature flags um alles, was du nicht brauchst, ausschalten bzw. ausblenden zu können (z. B. Hausarbeiten, alles was mit der Preisverfolgung zu tun hat, etc.).</p>
 			<p class="lead major-info"><a href="https://github.com/grocy/grocy#adding-your-own-css-or-js-without-to-have-to-modify-the-application-itself"
 					target="_blank">Eigenes CSS and JS</a> um wirklich alles bis ins kleinste Detail anpassen zu können.</p>
 		</div>
@@ -591,7 +591,7 @@
 		class="row">
 		<div class="col">
 			<h2 class="bold d-inline-block sketch-underline">Und noch vieles mehr</h2>
-			<p class="lead major-info">Grocy wird ständig weiterentwickelt täglich von mir und vielen anderen benutzt.</p>
+			<p class="lead major-info">Grocy wird ständig weiterentwickelt und täglich von mir und vielen anderen benutzt.</p>
 			<p class="lead major-info">Wenn dir etwas fehlt, erstelle gerne einfach einen <a href="https://github.com/grocy/grocy/issues/new?labels=enhancement&template=feature-request.md&title=Feature+Request%3A+"
 					target="_blank">Feature Request</a> auf GitHub - evtl. wird es innerhalb von Stunden umgesetzt, denn deine Ideen sind meine Motiviation. :)</p>
 		</div>

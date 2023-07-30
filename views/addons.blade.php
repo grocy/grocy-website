@@ -28,7 +28,7 @@
 			<div>
 				<h5>Grocy Desktop</h5>
 				Run Grocy without having to manage a webserver, just like a normal (Windows) desktop application<br>
-				<a class="btn btn-secondary btn-sm"
+				<a class="btn btn-secondary btn-sm mt-2"
 					href="https://github.com/grocy/grocy-desktop"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>
@@ -36,39 +36,9 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>grocy-docker</h5>
-				ERP beyond your fridge - now containerized<br>
-				<a class="btn btn-secondary btn-sm"
-					href="https://github.com/grocy/grocy-docker"
-					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-			</div>
-
-			<hr class="my-3 py-0">
-
-			<div>
-				<h5>linuxserver/docker-grocy (LinuxServer.io)</h5>
-				A container for Grocy - the ERP application for your kitchen<br>
-				<a class="btn btn-secondary btn-sm"
-					href="https://github.com/linuxserver/docker-grocy"
-					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-			</div>
-
-			<hr class="my-3 py-0">
-
-			<div>
-				<h5>k8s-grocy</h5>
-				Run Grocy on a Kubernetes Cluster<br>
-				<a class="btn btn-secondary btn-sm"
-					href="https://git.sr.ht/~johnhamelink/k8s-grocy/"
-					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Source</a>
-			</div>
-
-			<hr class="my-3 py-0">
-
-			<div>
 				<h5>Grocy Android</h5>
 				Grocy on your smartphone - with barcode scanning and batch processing<br>
-				<a class="btn btn-secondary btn-sm"
+				<a class="btn btn-secondary btn-sm mt-2"
 					href="https://github.com/patzly/grocy-android"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>
@@ -78,7 +48,7 @@
 			<div>
 				<h5>Grocy Mobile</h5>
 				Native interface for Grocy on Apple devices (iOS, macOS)<br>
-				<a class="btn btn-secondary btn-sm"
+				<a class="btn btn-secondary btn-sm mt-2"
 					href="https://github.com/supergeorg/Grocy-SwiftUI"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>
@@ -88,7 +58,7 @@
 			<div>
 				<h5>Barcode Buddy</h5>
 				A barcode scanning helper / lookup tool for Grocy<br>
-				<a class="btn btn-secondary btn-sm"
+				<a class="btn btn-secondary btn-sm mt-2"
 					href="https://github.com/Forceu/barcodebuddy"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>
@@ -96,20 +66,60 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>Recipe Buddy</h5>
-				Recipe Buddy is a tool that enables the easy adding of recipes to Grocy through web scraping<br>
-				<a class="btn btn-secondary btn-sm"
-					href="https://github.com/georgegebbett/recipe-buddy"
+				<h5>Home Assistant Add-on</h5>
+				Home Assistant add-on for Grocy<br>
+				<a class="btn btn-secondary btn-sm mt-2"
+					href="https://github.com/hassio-addons/addon-grocy"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>
 
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>Home Assistant Add-On</h5>
-				Home Assistant add-on for Grocy<br>
-				<a class="btn btn-secondary btn-sm"
-					href="https://github.com/hassio-addons/addon-grocy"
+				<h5>grocy-docker</h5>
+				ERP beyond your fridge - now containerized<br>
+				<a class="btn btn-secondary btn-sm mt-2"
+					href="https://github.com/grocy/grocy-docker"
+					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+			</div>
+
+			<hr class="my-3 py-0">
+
+			<div>
+				<h5>linuxserver/docker-grocy (LinuxServer.io)</h5>
+				A container for Grocy - the ERP application for your kitchen<br>
+				<a class="btn btn-secondary btn-sm mt-2"
+					href="https://github.com/linuxserver/docker-grocy"
+					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+			</div>
+
+			<hr class="my-3 py-0">
+
+			<div>
+				<h5>custom-components/grocy</h5>
+				Custom Grocy integration for Home Assistant<br>
+				<a class="btn btn-secondary btn-sm mt-2"
+					href="https://github.com/custom-components/grocy"
+					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+			</div>
+
+			<hr class="my-3 py-0">
+
+			<div>
+				<h5>k8s-grocy</h5>
+				Run Grocy on a Kubernetes Cluster<br>
+				<a class="btn btn-secondary btn-sm mt-2"
+					href="https://git.sr.ht/~johnhamelink/k8s-grocy/"
+					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Source</a>
+			</div>
+
+			<hr class="my-3 py-0">
+
+			<div>
+				<h5>Recipe Buddy</h5>
+				Recipe Buddy is a tool that enables the easy adding of recipes to Grocy through web scraping<br>
+				<a class="btn btn-secondary btn-sm mt-2"
+					href="https://github.com/georgegebbett/recipe-buddy"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>
 
@@ -118,7 +128,7 @@
 			<di>
 				<h5>Grocy iOS Shortcut (RoutineHub)</h5>
 				Complete tasks on the fly<br>
-				<a class="btn btn-secondary btn-sm"
+				<a class="btn btn-secondary btn-sm mt-2"
 					href="https://routinehub.co/shortcut/7061/"
 					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> RoutineHub</a>
 			</di>
@@ -128,7 +138,7 @@
 			<div>
 				<h5>pygrocy</h5>
 				A Grocy Python API client<br>
-				<a class="btn btn-secondary btn-sm"
+				<a class="btn btn-secondary btn-sm mt-2"
 					href="https://github.com/SebRut/pygrocy"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>
@@ -138,7 +148,7 @@
 			<div>
 				<h5>grocy-pyscanner</h5>
 				A python based barcode scanning helper<br>
-				<a class="btn btn-secondary btn-sm"
+				<a class="btn btn-secondary btn-sm mt-2"
 					href="https://github.com/grocy/grocy-pyscanner"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>
@@ -148,7 +158,7 @@
 			<div>
 				<h5>Grocy Pad</h5>
 				A magnetic shopping list interface<br>
-				<a class="btn btn-secondary btn-sm"
+				<a class="btn btn-secondary btn-sm mt-2"
 					href="https://github.com/tjhowse/grocy_pad"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>
@@ -157,7 +167,8 @@
 
 			<div>
 				<h5>Grocy for YunoHost</h5>
-				<a class="btn btn-secondary btn-sm"
+				Grocy package for YunoHost<br>
+				<a class="btn btn-secondary btn-sm mt-2"
 					href="https://github.com/YunoHost-Apps/grocy_ynh"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>

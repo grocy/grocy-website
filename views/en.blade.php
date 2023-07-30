@@ -266,7 +266,7 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1 class="bold">Home Assistant Add-On</h1>
+								<h1 class="bold">Home Assistant Add-on</h1>
 								<p class="lead major-info">Use Grocy fully integrated into Home Assistant.</p>
 								<p class="mb-2">
 									<a class="btn btn-sm btn-secondary"
@@ -284,8 +284,8 @@
 							<div class="col-xs-12 col-lg-6">
 								<a class="lightbox"
 									href="/img/hassio-addon.gif?v={{ $version }}"><img src="/img/hassio-addon.gif?v={{ $version }}"
-										alt="Home Assistant Add-On"
-										title="Home Assistant Add-On"
+										alt="Home Assistant Add-on"
+										title="Home Assistant Add-on"
 										class="feature-image img-fluid"></a>
 							</div>
 						</div>
@@ -329,7 +329,7 @@
 			class="col-xs-12 col-lg-6">
 			<h2 class="bold d-inline-block sketch-underline">Add-ons / Tools / Guides</h2>
 			<p class="lead major-info">
-				Community contributed tools, integrations, install/troubleshooting guides and other useful add-ons to make Grocy even better and more productive.
+				Community contributed tools, integrations, install/troubleshooting guides and other useful Add-ons to make Grocy even better and more productive.
 			</p>
 			<p class="lead major-info">
 				<a class="btn btn-info"
@@ -546,8 +546,8 @@
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/userfields-en.png?v={{ $version }}"><img src="/img/__thumbs/userfields-en.png?v={{ $version }}"
-					alt="Grocy user defined objects/lists"
-					title="Grocy user defined objects/lists"
+					alt="Grocy user defined fields/objects/lists"
+					title="Grocy user defined fields/objects/lists"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-md-0">

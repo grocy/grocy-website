@@ -25,7 +25,7 @@
 
 		<div class="col-xs-12 col-lg-6">
 
-			<h2 class="bold d-inline-block sketch-underline">Articles / written tutorials</h2>
+			<h2 class="bold d-inline-block sketch-underline mb-3">Articles / written tutorials</h2>
 
 			<div>
 				<h5>Installing Bleeding Edge Grocy on Raspberry Pi OS (Debian 11)</h5>
@@ -172,7 +172,7 @@
 
 		<div class="col-xs-12 col-lg-6">
 
-			<h2 class="bold d-inline-block sketch-underline">Video tutorials</h2>
+			<h2 class="bold d-inline-block sketch-underline mb-3">Video tutorials</h2>
 
 			<div>
 				<h5>Grocy auf Synology</h5>
