@@ -257,7 +257,7 @@
 
 							<div class="col-xs-12 col-lg-6">
 								<a class="lightbox"
-									href="/img/hassio-addon.gif?v={{ $version }}"><img src="/img/hassio-addon.gif?v={{ $version }}"
+									href="/img/hassio-addon.gif?v={{ $version }}"><img src="/img/__thumbs/hassio-addon.gif?v={{ $version }}"
 										alt="Home Assistant Add-on"
 										title="Home Assistant Add-on"
 										class="feature-image img-fluid"></a>
@@ -383,7 +383,7 @@
 		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/dateinput-de.gif?v={{ $version }}"><img src="/img/dateinput-de.gif?v={{ $version }}"
+				href="/img/dateinput-de.gif?v={{ $version }}"><img src="/img/__thumbs/dateinput-de.gif?v={{ $version }}"
 					alt="Grocy Eingabeformular"
 					title="Grocy Eingabeformular"
 					class="feature-image img-fluid"></a>
