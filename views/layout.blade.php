@@ -51,15 +51,15 @@
 	<meta name="twitter:image"
 		content="https://grocy.info/img/screenshot.png">
 
-	<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css?v={{ $version }}"
+	<link href="/packages/bootstrap/dist/css/bootstrap.min.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/node_modules/simplelightbox/dist/simple-lightbox.min.css?v={{ $version }}"
+	<link href="/packages/simplelightbox/dist/simple-lightbox.min.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/node_modules/flag-icon-css/css/flag-icons.min.css?v={{ $version }}"
+	<link href="/packages/flag-icon-css/css/flag-icons.min.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/node_modules/@fontsource/poppins/latin.css?v={{ $version }}"
+	<link href="/packages/@fontsource/poppins/latin.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/node_modules/@fontsource/news-cycle/latin.css?v={{ $version }}"
+	<link href="/packages/@fontsource/news-cycle/latin.css?v={{ $version }}"
 		rel="stylesheet">
 	<link href="/site.css?v={{ $version }}"
 		rel="stylesheet">
@@ -122,10 +122,10 @@
 		</div>
 	</footer>
 
-	<script src="/node_modules/jquery/dist/jquery.min.js?v={{ $version }}"></script>
-	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js?v={{ $version }}"></script>
-	<script src="/node_modules/@fortawesome/fontawesome-free/js/all.js?v={{ $version }}"></script>
-	<script src="/node_modules/simplelightbox/dist/simple-lightbox.jquery.min.js?v={{ $version }}"></script>
+	<script src="/packages/jquery/dist/jquery.min.js?v={{ $version }}"></script>
+	<script src="/packages/bootstrap/dist/js/bootstrap.min.js?v={{ $version }}"></script>
+	<script src="/packages/@fortawesome/fontawesome-free/js/all.js?v={{ $version }}"></script>
+	<script src="/packages/simplelightbox/dist/simple-lightbox.jquery.min.js?v={{ $version }}"></script>
 	<script src="/site.js?v={{ $version }}"></script>
 	<script>
 		var _paq = window._paq = window._paq || [];

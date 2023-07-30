@@ -18,7 +18,7 @@ call html-minifier-terser "site.css" --collapse-whitespace --remove-comments --m
 call terser "site.js" --compress --mangle --rename --output ".deploy\site.js"
 
 xcopy "vendor\*.*" ".deploy\vendor\" /E
-xcopy "node_modules\*.*" ".deploy\node_modules\" /E
-del ".deploy\node_modules\.yarn-integrity"
+xcopy "packages\*.*" ".deploy\packages\" /E
+del ".deploy\packages\.yarn-integrity"
 
 popd

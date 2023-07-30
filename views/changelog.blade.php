@@ -4,7 +4,7 @@
 @section('lang', 'en')
 
 @section('headerAdditional')
-<link href="/node_modules/@fontsource/fira-mono/latin.css?v={{ $version }}"
+<link href="/packages/@fontsource/fira-mono/latin.css?v={{ $version }}"
 	rel="stylesheet">
 <link rel="canonical"
 	href="https://grocy.info/changelog">
