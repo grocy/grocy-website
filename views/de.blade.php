@@ -300,7 +300,7 @@
 			</p>
 		</div>
 		<div id="addons-intro"
-			class="col-xs-12 col-lg-6">
+			class="col-xs-12 col-lg-6 mt-5 mt-lg-0">
 			<h2 class="bold d-inline-block sketch-underline">Add-ons / Tools / Guides</h2>
 			<p class="lead major-info">
 				Von der Community beigesteuerte Tools, Integrationen, Installations-/Fehlersuche-Guides und andere nützliche Helferlein, die Grocy noch besser und produktiver machen.
@@ -325,7 +325,7 @@
 					title="Grocy Einkaufs-Erfassungsformular"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
+		<div class="col-xs-12 col-lg-5 pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Einkäufe erfassen</h3>
 			<p class="lead major-info">Eine für Barcodescanner vorbereitete Oberfläche macht es einfach, Einkäufe intuitiv und effizient zu erfassen. Damit weißt du immer, was gerade Zuhause vorrätig ist.</p>
 			<p class="lead major-info">
@@ -353,7 +353,7 @@
 					title="Grocy Einkausfzettel"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Automatisiere & Optimiere deinen Einkaufszettel</h3>
 			<p class="lead major-info">Definiere Mindestbestände für deine Lieblingsprodukte und frage dich nie wieder im Supermarkt "habe ich noch genug Nudeln daheim?".</p>
 			<p class="lead major-info">Gruppiere Produkte nach Sortiment um den Weg im Supermarkt zu optimieren - nie mehr ständig von einem zum anderen Ende springen müssen.</p>
@@ -371,7 +371,7 @@
 					title="Grocy Bestandsübersicht"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Wirf weniger weg</h3>
 			<p class="lead major-info">Behalte immer im Überblick, was als nächstes fällig ist.</p>
 		</div>
@@ -388,7 +388,7 @@
 					title="Grocy Eingabeformular"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Durchdachte Eingabeformulare</h3>
 			<p class="lead major-info">Eine Hand, 3 Sekunden, kein Problem - Eingabefehler ausgeschlossen.</p>
 		</div>
@@ -405,7 +405,7 @@
 					title="Grocy Rezeptliste"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Rezepte mit Intelligenz</h3>
 			<p class="lead major-info">Pflege deine Rezepte und sehe auf einen Blick, ob alles Benötigte Zuhause vorrätig ist. Natürlich kann alles nicht vorhandene auch automatisch auf den Einkaufszettel übernommen werden.</p>
 		</div>
@@ -422,7 +422,7 @@
 					title="Grocy Rezeptansicht"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Kochbuch ist so 2016</h3>
 			<p class="lead major-info">Rezepte schick und übersichtlich.</p>
 		</div>
@@ -439,7 +439,7 @@
 					title="Grocy Speiseplan"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Speiseplan Like a Pro</h3>
 			<p class="lead major-info">Plane deine täglichen Mahlzeiten anhand deiner Rezepte und packe alles nicht vorhandene mit einem Klick auf den Einkaufszettel.</p>
 		</div>
@@ -456,7 +456,7 @@
 					title="Grocy Ausstattungsübersicht"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Verwalte deine Haushaltsgeräte/-Ausstattung</h3>
 			<p class="lead major-info">Habe Bedienungsanleitungen und wichtige Informationen zur Hand, wenn sie benötigt werden - nie mehr vergeblich danach suchen.</p>
 		</div>
@@ -473,7 +473,7 @@
 					title="Grocy Hausarbeitenübersicht"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Erfasse deine Hausarbeiten</h3>
 			<p class="lead major-info">Mache dir keinen Kopf mehr über "oh, wann hab ich zuletzt ... gemacht?", schaue einfach nach.</p>
 		</div>
@@ -490,7 +490,7 @@
 					title="Grocy Aufgabenübersicht"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Behalte den Überblick über deine Aufgaben</h3>
 			<p class="lead major-info">Nur eine ganz normale To-Do Liste.<br>So wie ich sowas (und vielleicht auch du) mag.</p>
 		</div>
@@ -507,7 +507,7 @@
 					title="Grocy Batterieübersicht"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Verwalte deine Akkus</h3>
 			<p class="lead major-info">Heutzutage haben wir unzählige Akkus in unserem Haushalt. Um sie in einem guten Zustand zu halten, ist es gut zu wissen, wann sie zuletzt geladen wurden.</p>
 		</div>
@@ -524,7 +524,7 @@
 					title="Grocy Benutzerdefinierte Felder"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Benutzerdefinierte Felder/Objekte/Listen</h3>
 			<p class="lead major-info">Zu jeder Entität (wie Produkte oder Hausarbeiten) können beliebige benutzerdefinierte Felder hinzugefügt werden. Du kannst sogar komplett eigene Objekte/Listen erstellen, um alles bequem zentral verwalten zu könnnen.</p>
 		</div>
@@ -541,7 +541,7 @@
 					title="Grocy im Night-Mode"
 					class="feature-image img-fluid mt-1"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Nachtmodus (selbstverständlich)</h3>
 			<p class="lead major-info">Der Nachtmodus wird automatisch verwendet, wenn dein Gerät das standardmäßig bevorzugt und kann alternativ auch automatisch bei Sonnenuntergang aktiviert werden (konfigurierbarer Zeitbereich).</p>
 		</div>
@@ -558,7 +558,7 @@
 					title="Grocy Einkaufszettel auf einem Smartphone"
 					class="feature-image feature-image-small img-fluid mt-1"></a>
 		</div>
-		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
+		<div class="col-xs-12 col-lg-5 pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Läuft auf jedem Gerät</h3>
 			<p class="lead major-info">Egal ob auf dem Smartphone oder jedem anderem Gerät, nur ein Browser wird benötigt - baue dir z. B. ein günstiges und sparsames Tablet in die Küche und du hast ein super komfortables 24/7 Grocy Terminal.</p>
 		</div>

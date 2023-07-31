@@ -170,7 +170,7 @@
 			</div>
 		</div>
 
-		<div class="col-xs-12 col-lg-6">
+		<div class="col-xs-12 col-lg-6 mt-5 mt-lg-0">
 
 			<h2 class="bold d-inline-block sketch-underline mb-3">Video tutorials</h2>
 

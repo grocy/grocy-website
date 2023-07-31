@@ -326,7 +326,7 @@
 			</p>
 		</div>
 		<div id="addons-intro"
-			class="col-xs-12 col-lg-6">
+			class="col-xs-12 col-lg-6 mt-5 mt-lg-0">
 			<h2 class="bold d-inline-block sketch-underline">Add-ons / Tools / Guides</h2>
 			<p class="lead major-info">
 				Community contributed tools, integrations, install/troubleshooting guides and other useful Add-ons to make Grocy even better and more productive.
@@ -351,7 +351,7 @@
 					title="Grocy purchase tracking form"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
+		<div class="col-xs-12 col-lg-5 pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Track your purchases</h3>
 			<p class="lead major-info">A barcode reader ready interface makes this a easy and quick task and you always know what you currently have at home.</p>
 			<p class="lead major-info">
@@ -379,7 +379,7 @@
 					title="Grocy shopping list"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Automate & optimize your shopping list</h3>
 			<p class="lead major-info">Define minimum stock amounts of your loved products and never think about "do I need noodles or are there enough at home?".</p>
 			<p class="lead major-info">Group products by assortments to optimize your way in the supermarket - never jump from one end to the other again and again.</p>
@@ -397,7 +397,7 @@
 					title="Grocy stock overview"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Waste less</h3>
 			<p class="lead major-info">Always know what's due next.</p>
 		</div>
@@ -414,7 +414,7 @@
 					title="Grocy input productivity"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Input forms made for productivity</h3>
 			<p class="lead major-info">One hand, 3 seconds, no problem - errors impossible.</p>
 		</div>
@@ -431,7 +431,7 @@
 					title="Grocy recipes list"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Recipes with intelligence</h3>
 			<p class="lead major-info">Maintain your recipes and see at a glance whether everything you need is in stock at home. Of course, everything that is not available can also be automatically added to the shopping list.</p>
 		</div>
@@ -448,7 +448,7 @@
 					title="Grocy recipe detail"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Cookbook is so 2016</h3>
 			<p class="lead major-info">Recipes clear and concise.</p>
 		</div>
@@ -465,7 +465,7 @@
 					title="Grocy meal planning"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Meal planning like a Pro</h3>
 			<p class="lead major-info">Plan your daily meals based on your recipes and put everything needed and not at home with one click on the shopping list.</p>
 		</div>
@@ -482,7 +482,7 @@
 					title="Grocy equipment overview"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Manage your household equipment/devices</h3>
 			<p class="lead major-info">Keep all the instruction manuals and important information about your devices in one place to have them at hand when needed.</p>
 		</div>
@@ -499,7 +499,7 @@
 					title="Grocy household chores overview"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Track your household chores</h3>
 			<p class="lead major-info">Think less about "oh, when have I done last..." and stay organized easier.</p>
 		</div>
@@ -516,7 +516,7 @@
 					title="Grocy tasks overview"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Keep track of your tasks</h3>
 			<p class="lead major-info">Just another to do list.<br>How I (and maybe also you) like it.</p>
 		</div>
@@ -533,7 +533,7 @@
 					title="Grocy batteries overview"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Manage your batteries</h3>
 			<p class="lead major-info">Nowadays we have countless batteries in our home. Keep them in a good shape by knowing when you charged them last.</p>
 		</div>
@@ -550,7 +550,7 @@
 					title="Grocy user defined fields/objects/lists"
 					class="feature-image img-fluid"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Custom fields/objects/lists</h3>
 			<p class="lead major-info">To any entity (like products or chores) any custom fields can be attached. Ultimately, you can create completely own objects/lists to keep track of everything in one place.</p>
 		</div>
@@ -567,7 +567,7 @@
 					title="Grocy in night mode"
 					class="feature-image img-fluid mt-1"></a>
 		</div>
-		<div class="col pt-4 pt-md-0">
+		<div class="col pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Night mode (of course)</h3>
 			<p class="lead major-info">Night mode is automatically used when your device prefers that by default and can be alternatively also activated automatically when the sun sets (configurable time range).</p>
 		</div>
@@ -584,7 +584,7 @@
 					title="Grocy shopping list on a smartphone"
 					class="feature-image feature-image-small img-fluid mt-1"></a>
 		</div>
-		<div class="col-xs-12 col-lg-5 pt-4 pt-md-0">
+		<div class="col-xs-12 col-lg-5 pt-4 pt-lg-0">
 			<h3 class="bold d-inline-block sketch-underline">Made for every device</h3>
 			<p class="lead major-info">Whether on a smartphone or any other device, only a browser is needed - e.g. install any low-cost-low-power device in your kitchen and you have a very comfortable 24/7 Grocy terminal.</p>
 		</div>
