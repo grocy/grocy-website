@@ -14,30 +14,35 @@ AppFactory::setContainer(new DI\Container());
 $app = AppFactory::create();
 
 $container = $app->getContainer();
-$container->set('view', function (Container $container) {
+$container->set('view', function (Container $container)
+{
 	return new Slim\Views\Blade(__DIR__ . '/views', __DIR__ . '/data/viewcache');
 });
 
 // Routes
-$app->group('', function (RouteCollectorProxy $group) {
+$app->group('', function (RouteCollectorProxy $group)
+{
 	$view = $this->get('view');
 
 	$version = str_replace(["\r", "\n"], '', file_get_contents(__DIR__ . '/version.txt'));
 	$view->set('version', $version);
 
-	$group->get('/', function (Request $request, Response $response, array $args) use ($view) {
+	$group->get('/', function (Request $request, Response $response, array $args) use ($view)
+	{
 		return $view->render($response, 'en', [
 			'grocyVersionInfo' => json_decode(file_get_contents(__DIR__ . '/data/grocyreleasesymlinks/version.json', true))
 		]);
 	});
 
-	$group->get('/de', function (Request $request, Response $response, array $args) use ($view) {
+	$group->get('/de', function (Request $request, Response $response, array $args) use ($view)
+	{
 		return $view->render($response, 'de', [
 			'grocyVersionInfo' => json_decode(file_get_contents(__DIR__ . '/data/grocyreleasesymlinks/version.json', true))
 		]);
 	});
 
-	$group->get('/changelog', function (Request $request, Response $response, array $args) use ($view) {
+	$group->get('/changelog', function (Request $request, Response $response, array $args) use ($view)
+	{
 		$changelogItems = GetChangelogItems();
 
 		$changelog = [
@@ -51,7 +56,8 @@ $app->group('', function (RouteCollectorProxy $group) {
 		]);
 	});
 
-	$group->get('/changelog/feed', function (Request $request, Response $response, array $args) {
+	$group->get('/changelog/feed', function (Request $request, Response $response, array $args)
+	{
 		$feedCacheFilePath = __DIR__ . '/data/static/changelog/feed/index.html';
 
 		if (file_exists($feedCacheFilePath))
@@ -91,21 +97,25 @@ $app->group('', function (RouteCollectorProxy $group) {
 		return $response->withHeader('Content-Type', 'application/rss+xml');
 	});
 
-	$group->get('/addons', function (Request $request, Response $response, array $args) use ($view) {
+	$group->get('/addons', function (Request $request, Response $response, array $args) use ($view)
+	{
 		return $view->render($response, 'addons');
 	});
 
-	$group->get('/links', function (Request $request, Response $response, array $args) use ($view) {
+	$group->get('/links', function (Request $request, Response $response, array $args) use ($view)
+	{
 		return $view->render($response, 'links');
 	});
 
-	$group->get('/impressum', function (Request $request, Response $response, array $args) use ($view) {
+	$group->get('/impressum', function (Request $request, Response $response, array $args) use ($view)
+	{
 		return $view->render($response, 'impressum', [
 			'noindex' => true
 		]);
 	});
 
-	$group->get('/datenschutz', function (Request $request, Response $response, array $args) use ($view) {
+	$group->get('/datenschutz', function (Request $request, Response $response, array $args) use ($view)
+	{
 		return $view->render($response, 'datenschutz', [
 			'noindex' => true
 		]);
@@ -146,7 +156,8 @@ function GetChangelogItems()
 	}
 
 	// Sort changelog items to have the changelog descending by newest version
-	usort($changelogItems, function ($a, $b) {
+	usort($changelogItems, function ($a, $b)
+	{
 		if ($a['release_number'] == $b['release_number'])
 		{
 			return 0;
