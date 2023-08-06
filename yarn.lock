@@ -3,24 +3,24 @@
 
 
 "@fontsource/fira-mono@^5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-5.0.5.tgz#c1752daacf4b94ab9dc40812b2e205c1620cd28d"
-  integrity sha512-R5HaONNjI8zzZgjATOrtDhhl58U19OslqNOanPpiHqXV8XWKmFqRF1hIekrWemLfpSTK1WO3wyNcFMZMwkKhlA==
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-5.0.8.tgz#3222020d963e71890f244333cdf98755c919eff6"
+  integrity sha512-8OJiUK2lzJjvDlkmamEfhtpL1cyFApg1Pk4kE5Pw5UTf1ETF3Yy/pprgwV5I+LQPDjuFvinsinT9xSUZ2b/zuQ==
 
 "@fontsource/news-cycle@^5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-5.0.5.tgz#25c0438979b1ca7ae1af8d8344a084abf3ba8829"
-  integrity sha512-E5odUGoxBrNB+p7sSDnPDy8Ei9mLTH8kb/WfkPLIj5bBXIqXhLhJIvhWEJ3Jb0fnyd99Wf2+FWgXkl6RstycPA==
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-5.0.8.tgz#d3b7d290a403ce557e3798ea31ae9b777f055cca"
+  integrity sha512-2+KV9r8uLr2pQ+Vudet77TwXbO2fOj8iOcnFJol+m1gq1I0ou/Jig6qOkGvc7eM9CuwUVpLhXUWBDQgfYc0vng==
 
 "@fontsource/poppins@^5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-5.0.5.tgz#6a198e164f89c916ad80e1798deddb6837a0cdeb"
-  integrity sha512-Y/AGmD6iavfobRb7f2l49q0dQSyisvRrUfJ7F0AWOlTNFty8bbnPBbg+5Qsq5EN6xWaIAn++50aLfOCEe7zu3w==
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-5.0.8.tgz#a1c5540aedb3719a36eba5c7c5dfaa3aed3c9f80"
+  integrity sha512-P8owfYWluoUY5Nyzk4gT/L6LmLmseP6ezFWhj6VBUa5pRIdnCvNJpoQ6i/vhekjtJOfqX6nKlB+LCttoUl2GQQ==
 
 "@fortawesome/fontawesome-free@^6.2.1":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.4.0.tgz#1ee0c174e472c84b23cb46c995154dc383e3b4fe"
-  integrity sha512-0NyytTlPJwB/BF5LtRV8rrABDbe3TdTXqNB3PdZ+UUUZAEIrdOJdmABqKjt4AXwIoJNaRVVZEXxpNrqvE1GAYQ==
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.4.2.tgz#36b6a9cb5ffbecdf89815c94d0c0ffa489ac5ecb"
+  integrity sha512-m5cPn3e2+FDCOgi1mz0RexTUvvQibBebOUlUlW0+YrMjDTPkiJ6VTKukA1GRsvRw+12KyJndNjj0O4AgTxm2Pg==
 
 bootstrap@^4.5.3:
   version "4.6.2"
