@@ -16,6 +16,7 @@
 		]
 	},
 	"config": {
-		"platform-check": false
+		"platform-check": false,
+		"optimize-autoloader": true
 	}
 }
