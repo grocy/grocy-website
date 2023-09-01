@@ -8,9 +8,9 @@
   integrity sha512-8OJiUK2lzJjvDlkmamEfhtpL1cyFApg1Pk4kE5Pw5UTf1ETF3Yy/pprgwV5I+LQPDjuFvinsinT9xSUZ2b/zuQ==
 
 "@fontsource/news-cycle@^5.0.5":
-  version "5.0.8"
-  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-5.0.8.tgz#d3b7d290a403ce557e3798ea31ae9b777f055cca"
-  integrity sha512-2+KV9r8uLr2pQ+Vudet77TwXbO2fOj8iOcnFJol+m1gq1I0ou/Jig6qOkGvc7eM9CuwUVpLhXUWBDQgfYc0vng==
+  version "5.0.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-5.0.11.tgz#7e12e2fc4b8c3cbbe302b72b3849fbe4177d0c9b"
+  integrity sha512-Et6h++Wd5WqQCPxeMBVWBtG3MIY/CtTRccg900/sysWtqQFooFX15ZAjXuZx0NFb38m/u+aXKNxZJ35LDB7iQA==
 
 "@fontsource/poppins@^5.0.5":
   version "5.0.8"
@@ -27,17 +27,17 @@ bootstrap@^4.5.3:
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.2.tgz#8e0cd61611728a5bf65a3a2b8d6ff6c77d5d7479"
   integrity sha512-51Bbp/Uxr9aTuy6ca/8FbFloBUJZLHwnhTcnjIeRn2suQWsWzcuJhGjKDB5eppVte/8oCdOL3VuwxvZDUggwGQ==
 
-flag-icon-css@^4.1.7:
-  version "4.1.7"
-  resolved "https://registry.yarnpkg.com/flag-icon-css/-/flag-icon-css-4.1.7.tgz#5471197f9ab965a3603b3e0face31dd513fec289"
-  integrity sha512-AFjSU+fv98XbU0vnTQ32vcLj89UEr1MhwDFcooQv14qWJCjg9fGZzfh9BVyDhAhIOZW/pGmJmq38RqpgPaeybQ==
+flag-icons@^6.11.0:
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/flag-icons/-/flag-icons-6.11.0.tgz#5179bb98c08253a9e408b494a302d69b7bdfcc20"
+  integrity sha512-oK+QhV5UMWq+lmyOnfXUfVhSgHy29gQ0gQpmORdNP6ucAsKzIGm39ncvyThJyvt76Au2qsepDTE9waHRuaYPUw==
 
 jquery@^3.5.1:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.0.tgz#fe2c01a05da500709006d8790fe21c8a39d75612"
-  integrity sha512-umpJ0/k8X0MvD1ds0P9SfowREz2LenHsQaxSohMZ5OMNEU2r0tf8pdeEFTHMFxWVxKNyU9rTtK3CWzUCTKJUeQ==
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
+  integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
 
 simplelightbox@^2.7.0:
-  version "2.14.1"
-  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.14.1.tgz#9fa0f41e4599e49b8dc2f92f8dc01cdca04bed4e"
-  integrity sha512-REeHJetP+vq4hbKDkTf8apu7jAYOHws7PWc1j30O0q79NMIrg9g72smCyKWNTFyZtWdEd7WEu9DIClaG42s3Xg==
+  version "2.14.2"
+  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.14.2.tgz#b6d92bddc2ecfcd0300a92cef54286103f977e2b"
+  integrity sha512-6Pm85SEs4sseY/Jf7AeXs8hbxQFv3CV2dXWF+8aZ2T4Rtl//WfVIGWkLTCUZX5hO8kIgHvf//xOjBwmZfx9hjA==

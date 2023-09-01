@@ -21,11 +21,11 @@
 		<li class=" nav-item dropdown ml-auto">
 			<a class="nav-link dropdown-toggle text-primary"
 				href="#"
-				data-toggle="dropdown"><i class="flag-icon flag-icon-de"></i> Deutsch</a>
+				data-toggle="dropdown"><i class="fi fi-de"></i> Deutsch</a>
 
 			<div class="dropdown-menu">
 				<a class="dropdown-item"
-					href="https://grocy.info/"><i class="flag-icon flag-icon-us"></i> Englisch</a>
+					href="https://grocy.info/"><i class="fi fi-us"></i> Englisch</a>
 			</div>
 		</li>
 	</ul>

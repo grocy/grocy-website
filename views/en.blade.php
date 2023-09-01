@@ -47,11 +47,11 @@
 		<li class=" nav-item dropdown ml-auto">
 			<a class="nav-link dropdown-toggle text-primary"
 				href="#"
-				data-toggle="dropdown"><i class="flag-icon flag-icon-us"></i> English</a>
+				data-toggle="dropdown"><i class="fi fi-us"></i> English</a>
 
 			<div class="dropdown-menu">
 				<a class="dropdown-item"
-					href="https://grocy.info/de"><i class="flag-icon flag-icon-de"></i> German</a>
+					href="https://grocy.info/de"><i class="fi fi-de"></i> German</a>
 			</div>
 		</li>
 	</ul>

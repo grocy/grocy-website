@@ -53,7 +53,7 @@
 		rel="stylesheet">
 	<link href="/packages/simplelightbox/dist/simple-lightbox.min.css?v={{ $version }}"
 		rel="stylesheet">
-	<link href="/packages/flag-icon-css/css/flag-icons.min.css?v={{ $version }}"
+	<link href="/packages/flag-icons/css/flag-icons.min.css?v={{ $version }}"
 		rel="stylesheet">
 	<link href="/packages/@fontsource/poppins/latin.css?v={{ $version }}"
 		rel="stylesheet">
