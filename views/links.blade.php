@@ -28,6 +28,15 @@
 			<h2 class="bold d-inline-block sketch-underline mb-3">Articles / written tutorials</h2>
 
 			<div>
+				<h5>Keep Your Cupboard Contents Fresh With Grocy on Raspberry Pi</h5>
+				<a class="small"
+					href="https://www.makeuseof.com/raspberry-pi-keep-cupboard-contents-fresh-grocy/"
+					target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> https://www.makeuseof.com/raspberry-pi-keep-cupboard-contents-fresh-grocy/e</a>
+			</div>
+
+			<hr class="my-3 py-0">
+
+			<div>
 				<h5>Installing Bleeding Edge Grocy on Raspberry Pi OS (Debian 11)</h5>
 				<a class="small"
 					href="https://othmanalikhan.github.io/installing-grocy-on-a-raspberry-pi-with-apache"
