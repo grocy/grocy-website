@@ -8,9 +8,9 @@
   integrity sha512-8OJiUK2lzJjvDlkmamEfhtpL1cyFApg1Pk4kE5Pw5UTf1ETF3Yy/pprgwV5I+LQPDjuFvinsinT9xSUZ2b/zuQ==
 
 "@fontsource/news-cycle@^5.0.5":
-  version "5.0.11"
-  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-5.0.11.tgz#7e12e2fc4b8c3cbbe302b72b3849fbe4177d0c9b"
-  integrity sha512-Et6h++Wd5WqQCPxeMBVWBtG3MIY/CtTRccg900/sysWtqQFooFX15ZAjXuZx0NFb38m/u+aXKNxZJ35LDB7iQA==
+  version "5.0.18"
+  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-5.0.18.tgz#8c170ed6e51109cc3d0929eed26c2e3a59d52371"
+  integrity sha512-Xxv6OTxwl5Ezzudmt4ImXX++6mpljMrLv/mwoXUGNVyjI5vwtvO2vKZgFGDaj/cFGdjvsPfSlwOES96OsYfq8A==
 
 "@fontsource/poppins@^5.0.5":
   version "5.0.8"
@@ -18,9 +18,9 @@
   integrity sha512-P8owfYWluoUY5Nyzk4gT/L6LmLmseP6ezFWhj6VBUa5pRIdnCvNJpoQ6i/vhekjtJOfqX6nKlB+LCttoUl2GQQ==
 
 "@fortawesome/fontawesome-free@^6.2.1":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.4.2.tgz#36b6a9cb5ffbecdf89815c94d0c0ffa489ac5ecb"
-  integrity sha512-m5cPn3e2+FDCOgi1mz0RexTUvvQibBebOUlUlW0+YrMjDTPkiJ6VTKukA1GRsvRw+12KyJndNjj0O4AgTxm2Pg==
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.5.1.tgz#55cc8410abf1003b726324661ce5b0d1c10de258"
+  integrity sha512-CNy5vSwN3fsUStPRLX7fUYojyuzoEMSXPl7zSLJ8TgtRfjv24LOnOWKT2zYwaHZCJGkdyRnTmstR0P+Ah503Gw==
 
 bootstrap@^4.5.3:
   version "4.6.2"
@@ -28,9 +28,9 @@ bootstrap@^4.5.3:
   integrity sha512-51Bbp/Uxr9aTuy6ca/8FbFloBUJZLHwnhTcnjIeRn2suQWsWzcuJhGjKDB5eppVte/8oCdOL3VuwxvZDUggwGQ==
 
 flag-icons@^6.11.0:
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/flag-icons/-/flag-icons-6.11.0.tgz#5179bb98c08253a9e408b494a302d69b7bdfcc20"
-  integrity sha512-oK+QhV5UMWq+lmyOnfXUfVhSgHy29gQ0gQpmORdNP6ucAsKzIGm39ncvyThJyvt76Au2qsepDTE9waHRuaYPUw==
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/flag-icons/-/flag-icons-6.15.0.tgz#9b9ea631f408ff41844872d1d7df9bd020d4c76d"
+  integrity sha512-ARo9Q+aATZEjyjveeec9e+orx+xLWUBdOX9baOKoGqDzMbvZ65ghPhaHbVt5T7ZB+Q4OFsB4Hr+eQnpV8Q+dLA==
 
 jquery@^3.5.1:
   version "3.7.1"
