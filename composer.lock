@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdaee36d7a159123e15fa5540baa9dc8",
+    "content-hash": "33ab69cd6b2441c2fd4c7e6a3d9fcd21",
     "packages": [
         {
             "name": "berrnd/slim-blade-view",
@@ -4508,7 +4508,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.1"
+        "php": ">=8.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
