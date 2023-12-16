@@ -644,7 +644,10 @@
 			<ul class="major-info list-unstyled">
 				<li class="my-2">
 					<a href="https://www.paypal.com/donate/?hosted_button_id=VPYJD5SL488PS"
-						target="_blank"><i class="fa-brands fa-paypal"></i> PayPal</a>
+						target="_blank"
+						rel="nofollow">
+						<i class="fa-brands fa-paypal"></i> PayPal
+					</a>
 				</li>
 			</ul>
 			</p>
