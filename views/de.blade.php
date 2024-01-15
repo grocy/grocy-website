@@ -109,7 +109,7 @@
 										href="https://releases.grocy.info/latest-desktop"
 										target="_blank"><i class="fa-solid fa-download"></i> Download <span class="small">(klassische Installation)</span></a>
 									oder
-									<a href="https://www.microsoft.com/store/apps/9nwb1trnnksf?cid=storebadge&ocid=badge"
+									<a href="https://apps.microsoft.com/detail/9NWB1TRNNKSF"
 										target="_blank">
 										<img src="/img/__thumbs/microsoft-store-badge-de.png?v={{ $version }}"
 											class="img-fluid w-25"
