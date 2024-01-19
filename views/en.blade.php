@@ -135,9 +135,9 @@
 										href="https://releases.grocy.info/latest-desktop"
 										target="_blank"><i class="fa-solid fa-download"></i> Download <span class="small">(classic installer)</span></a>
 									or
-									<a href="https://apps.microsoft.com/detail/9NWB1TRNNKSF"
+									<a href="https://apps.microsoft.com/detail/9NWB1TRNNKSF?launch=true&mode=full&hl=en-us&gl=US"
 										target="_blank">
-										<img src="/img/__thumbs/microsoft-store-badge-en.png?v={{ $version }}"
+										<img src="/img/badges/microsoft-store-badge-en.svg?v={{ $version }}"
 											class="img-fluid w-25"
 											alt="Grocy Desktop on the Microsoft Store">
 									</a>
@@ -167,15 +167,15 @@
 								<h1 class="bold">Grocy Android</h1>
 								<p class="lead major-info">Grocy on your smartphone - with barcode scanning and batch processing.</p>
 								<p class="mb-2">
-									<a href="https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy"
+									<a href="https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy&hl=en"
 										target="_blank">
-										<img src="/img/__thumbs/play-store-badge-en.png?v={{ $version }}"
+										<img src="/img/badges/google-play-badge-en.png?v={{ $version }}"
 											class="img-fluid w-25"
 											alt="Grocy Android on Google Play">
 									</a>
 									<a href="https://f-droid.org/de/packages/xyz.zedler.patrick.grocy/"
 										target="_blank">
-										<img src="/img/__thumbs/fdroid-badge.png?v={{ $version }}"
+										<img src="/img/badges/f-droid-badge-en.svg?v={{ $version }}"
 											class="img-fluid w-25"
 											alt="Grocy Android on F-Droid">
 									</a>
@@ -205,9 +205,9 @@
 								<h1 class="bold">Grocy Mobile</h1>
 								<p class="lead major-info">Native interface for Grocy on Apple devices (iOS, macOS).</p>
 								<p class="mb-2">
-									<a href="https://apps.apple.com/app/grocy-mobile/id1567803209"
+									<a href="https://apps.apple.com/us/app/id1567803209"
 										target="_blank">
-										<img src="/img/__thumbs/app-store-badge-en.png?v={{ $version }}"
+										<img src="/img/badges/app-store-badge-en.svg?v={{ $version }}"
 											class="img-fluid w-25"
 											alt="Grocy Mobile on the App Store">
 									</a>
@@ -237,9 +237,9 @@
 								<h1 class="bold">Barcode Buddy</h1>
 								<p class="lead major-info">A barcode scanning helper / lookup tool for Grocy.</p>
 								<p class="mb-2">
-									<a href="https://play.google.com/store/apps/details?id=de.bulling.barcodebuddyscanner"
+									<a href="https://play.google.com/store/apps/details?id=de.bulling.barcodebuddyscanner&hl=en"
 										target="_blank">
-										<img src="/img/__thumbs/play-store-badge-en.png?v={{ $version }}"
+										<img src="/img/badges/google-play-badge-en.png?v={{ $version }}"
 											class="img-fluid w-25"
 											alt="Barcode Buddy on Google Play">
 									</a>
