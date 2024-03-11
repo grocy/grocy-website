@@ -9,6 +9,7 @@ mkdir ".deploy\data\viewcache"
 
 xcopy "index.php" ".deploy\"
 xcopy "sitemap.xml" ".deploy\"
+xcopy "robots.txt" ".deploy\"
 xcopy "StaticFileCacheMiddleware.php" ".deploy\"
 xcopy "version.txt" ".deploy\"
 xcopy "views\*.*" ".deploy\views\" /E

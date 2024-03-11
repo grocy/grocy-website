@@ -5,7 +5,7 @@
 
 @section('headerAdditional')
 <meta name="description"
-	content="ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion. Created by Bernd Bestel.">
+	content="Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion. Created by Bernd Bestel.">
 
 <link rel="canonical"
 	href="https://grocy.info">
@@ -13,29 +13,87 @@
 	hreflang="de"
 	href="https://grocy.info/de">
 
+<meta property="og:type"
+	content="website">
+<meta property="og:title"
+	content="@yield('title')">
+<meta property="og:description"
+	content="Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.">
+<meta property="og:site_name"
+	content="Grocy">
+<meta property="og:image"
+	content="https://grocy.info/img/screenshot.png?v={{ $version }}">
+
+<meta name="twitter:card"
+	content="summary">
+<meta name="twitter:title"
+	content="@yield('title')">
+<meta name="twitter:description"
+	content="Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.">
+<meta name="twitter:site"
+	content="@grocy_erp">
+<meta name="twitter:creator"
+	content="@BerndBestel">
+<meta name="twitter:image"
+	content="https://grocy.info/img/screenshot.png?v={{ $version }}">
+
 <script type="application/ld+json">
 	{
-	"@context": "http://schema.org/",
-	"@type": "SoftwareApplication",
-	"applicationCategory": "ERP",
-	"screenshot": "https://grocy.info/img/screenshot.png?v={{ $version }}",
-	"softwareVersion": "{{ $grocyVersionInfo->Version }}",
-	"author": "https://berrnd.de",
-	"dateCreated": "2017-04-15",
-	"dateModified": "{{ $grocyVersionInfo->ReleaseDate }}",
-	"isAccessibleForFree": "true",
-	"keywords": "ERP",
-	"license": "https://opensource.org/licenses/MIT",
-	"description": "ERP beyond your fridge",
-	"image": {
-		"@type": "ImageObject",
-		"contentUrl": "https://grocy.info/img/screenshot.png?v={{ $version }}"
-	},
-	"name": "Grocy",
-	"sameAs": {
-		"@type": "Thing",
-		"mainEntityOfPage": "https://github.com/grocy/grocy"
-	}
+	"@context": "https://schema.org",
+	"@graph": [{
+			"@type": "WebSite",
+			"@id": "https://grocy.info/#/schema/WebSite",
+			"url": "https://grocy.info/",
+			"name": "Grocy - ERP beyond your fridge",
+			"publisher": {
+				"@type": "Person",
+				"@id": "https://berrnd.de/#/schema/Organization",
+				"url": "https://berrnd.de/",
+				"name": "Bernd Bestel"
+			}
+		}, {
+			"@type": "WebPage",
+			"@id": "https://grocy.info/",
+			"url": "https://grocy.info/",
+			"name": "Grocy - ERP beyond your fridge",
+			"description": "Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.",
+			"inLanguage": "en",
+			"isPartOf": {
+				"@id": "https://grocy.info/#/schema/WebSite"
+			},
+			"breadcrumb": {
+				"@type": "BreadcrumbList",
+				"@id": "https://grocy.info/#/schema/BreadcrumbList",
+				"itemListElement": {
+					"@type": "ListItem",
+					"position": 1,
+					"name": "Grocy"
+				}
+			},
+			"about": {
+				"@type": "SoftwareApplication",
+				"@id": "https://grocy.info/#/schema/Organization",
+				"name": "Grocy",
+				"description": "Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.",
+				"applicationCategory": "ERP",
+				"screenshot": "https://grocy.info/img/screenshot.png?v={{ $version }}",
+				"inLanguage": "en",
+				"softwareVersion": "{{ $grocyVersionInfo->Version }}",
+				"author": {
+					"@type": "Person",
+					"@id": "https://berrnd.de/#/schema/Organization",
+					"url": "https://berrnd.de/",
+					"name": "Bernd Bestel"
+				},
+				"dateCreated": "2017-04-15",
+				"dateModified": "{{ $grocyVersionInfo->ReleaseDate }}",
+				"keywords": "ERP, Grocy",
+				"license": "https://opensource.org/licenses/MIT",
+				"releaseNotes": "https://grocy.info/changelog",
+				"sameAs": "https://github.com/grocy/grocy"
+			}
+		}
+	]
 }
 </script>
 @stop

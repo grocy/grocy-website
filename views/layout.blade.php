@@ -25,30 +25,6 @@
 
 	@yield('headerAdditional')
 
-	<meta property="og:type"
-		content="website">
-	<meta property="og:title"
-		content="@yield('title')">
-	<meta property="og:description"
-		content="ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.">
-	<meta property="og:site_name"
-		content="Grocy">
-	<meta property="og:image"
-		content="https://grocy.info/img/screenshot.png?v={{ $version }}">
-
-	<meta name="twitter:card"
-		content="summary_large_image">
-	<meta name="twitter:title"
-		content="@yield('title')">
-	<meta name="twitter:description"
-		content="ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.">
-	<meta name="twitter:site"
-		content="@grocy_erp">
-	<meta name="twitter:creator"
-		content="@BerndBestel">
-	<meta name="twitter:image"
-		content="https://grocy.info/img/screenshot.png?v={{ $version }}">
-
 	<link href="/packages/bootstrap/dist/css/bootstrap.min.css?v={{ $version }}"
 		rel="stylesheet">
 	<link href="/packages/simplelightbox/dist/simple-lightbox.min.css?v={{ $version }}"

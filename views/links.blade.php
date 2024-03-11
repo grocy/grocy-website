@@ -4,8 +4,89 @@
 @section('lang', 'en')
 
 @section('headerAdditional')
+<meta name="description"
+	content="A list of community contributed help- and troubleshooting guides and other articles about Grocy.">
+
 <link rel="canonical"
 	href="https://grocy.info/links">
+
+<meta property="og:type"
+	content="website">
+<meta property="og:title"
+	content="@yield('title')">
+<meta property="og:description"
+	content="A list of community contributed help- and troubleshooting guides and other articles about Grocy.">
+<meta property="og:site_name"
+	content="Grocy">
+<meta property="og:image"
+	content="https://grocy.info/img/screenshot.png?v={{ $version }}">
+
+<meta name="twitter:card"
+	content="summary">
+<meta name="twitter:title"
+	content="@yield('title')">
+<meta name="twitter:description"
+	content="A list of community contributed help- and troubleshooting guides and other articles about Grocy.">
+<meta name="twitter:site"
+	content="@grocy_erp">
+<meta name="twitter:creator"
+	content="@BerndBestel">
+<meta name="twitter:image"
+	content="https://grocy.info/img/screenshot.png?v={{ $version }}">
+
+<script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@graph": [{
+			"@type": "WebSite",
+			"@id": "https://grocy.info/#/schema/WebSite",
+			"url": "https://grocy.info/",
+			"name": "Grocy - ERP beyond your fridge",
+			"publisher": {
+				"@type": "Person",
+				"@id": "https://berrnd.de/#/schema/Organization",
+				"url": "https://berrnd.de/",
+				"name": "Bernd Bestel"
+			}
+		}, {
+			"@type": "WebPage",
+			"@id": "https://grocy.info/links",
+			"url": "https://grocy.info/links",
+			"name": "@yield('title')",
+			"description": "A list of community contributed help- and troubleshooting guides and other articles about Grocy.",
+			"isPartOf": {
+				"@id": "https://grocy.info/#/schema/WebSite"
+			},
+			"breadcrumb": {
+				"@type": "BreadcrumbList",
+				"@id": "https://grocy.info/#/schema/BreadcrumbList",
+				"itemListElement": [{
+						"@type": "ListItem",
+						"position": 1,
+						"item": "https://grocy.info/",
+						"name": "Grocy"
+					}, {
+						"@type": "ListItem",
+						"position": 2,
+						"item": "https://grocy.info/links",
+						"name": "Links"
+					}
+				]
+			},
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://grocy.info/links"
+			},
+			"author": {
+				"@type": "Person",
+				"@id": "https://berrnd.de/#/schema/Organization",
+				"url": "https://berrnd.de/",
+				"name": "Bernd Bestel"
+			}
+		}
+	]
+}
+</script>
 @stop
 
 @section('content')
