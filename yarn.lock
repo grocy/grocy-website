@@ -3,19 +3,19 @@
 
 
 "@fontsource/fira-mono@^5.0.5":
-  version "5.0.8"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-5.0.8.tgz#3222020d963e71890f244333cdf98755c919eff6"
-  integrity sha512-8OJiUK2lzJjvDlkmamEfhtpL1cyFApg1Pk4kE5Pw5UTf1ETF3Yy/pprgwV5I+LQPDjuFvinsinT9xSUZ2b/zuQ==
+  version "5.0.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-5.0.12.tgz#7ecaf0715af3249e69657566567322538dfbaf87"
+  integrity sha512-1uFRjqCcxVv4F31PjyLm8o4oNlT5ywwh6OwcDGkZbafOeFZHXekvholS9IlfZkRsZvVhSbFRHT/5iDib4KTtpg==
 
 "@fontsource/news-cycle@^5.0.5":
-  version "5.0.18"
-  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-5.0.18.tgz#8c170ed6e51109cc3d0929eed26c2e3a59d52371"
-  integrity sha512-Xxv6OTxwl5Ezzudmt4ImXX++6mpljMrLv/mwoXUGNVyjI5vwtvO2vKZgFGDaj/cFGdjvsPfSlwOES96OsYfq8A==
+  version "5.0.19"
+  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-5.0.19.tgz#3fde22e04d58ffe913ea6ed01e6cf6d0dee9b6a9"
+  integrity sha512-+/X6FYNzYHkRqb208AvuLiRwv9OZ0WlBUiI1PfDTfSv8TrtOXDq0UIJ0X30mU7iVSFBeuFADQwB0ImcvQd8t7w==
 
 "@fontsource/poppins@^5.0.5":
-  version "5.0.8"
-  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-5.0.8.tgz#a1c5540aedb3719a36eba5c7c5dfaa3aed3c9f80"
-  integrity sha512-P8owfYWluoUY5Nyzk4gT/L6LmLmseP6ezFWhj6VBUa5pRIdnCvNJpoQ6i/vhekjtJOfqX6nKlB+LCttoUl2GQQ==
+  version "5.0.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-5.0.12.tgz#f1e53d2a6b987cf7f186114f9711aba0c66d3848"
+  integrity sha512-0qzBxtIJLh82iMJ9pCXKYwGs1zyS+jyUmwVJ59+JdYnEaFVkDsxVOk9yDWfVOs14ALUneodU2m5YSGma6dCYCw==
 
 "@fortawesome/fontawesome-free@^6.2.1":
   version "6.5.1"
