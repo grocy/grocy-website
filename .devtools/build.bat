@@ -14,7 +14,7 @@ xcopy "version.txt" ".deploy\"
 xcopy "views\*.*" ".deploy\views\" /E
 xcopy "img\*.*" ".deploy\img\" /E
 
-call html-minifier-terser "site.css" --collapse-whitespace --remove-comments --minify-css true --output ".deploy\site.css"
+call cleancss "site.css" -o ".deploy\site.css"
 call terser "site.js" --compress --mangle --rename --output ".deploy\site.js"
 
 xcopy "vendor\*.*" ".deploy\vendor\" /E
