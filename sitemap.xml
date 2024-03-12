@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
 		<loc>https://grocy.info</loc>
-		<xhtml:link rel="alternate" hreflang="en" href="https://grocy.info/"/>
-		<xhtml:link rel="alternate" hreflang="de" href="https://grocy.info/de"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://grocy.info/" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://grocy.info/de" />
 	</url>
 	<url>
 		<loc>https://grocy.info/changelog</loc>
