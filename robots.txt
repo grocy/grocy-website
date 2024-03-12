@@ -1,5 +1,6 @@
 User-agent: *
-Disallow: /impressum
-Disallow: /datenschutz
+Disallow: /data/
+Disallow: /img/__thumbs/
+Disallow: /img/badges/
 
 Sitemap: https://grocy.info/sitemap.xml
