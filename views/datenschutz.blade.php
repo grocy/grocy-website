@@ -54,13 +54,13 @@
 				<section id="serverstandort">
 					<h3>Serverstandort</h3>
 					<p>
-						Diese Seite wird auf eigener, selbst betriebener bzw. angemieteter Infrastruktur, in Deutschland betrieben.
+						Diese Seite wird auf eigener, selbst betriebener bzw. angemieteter, Infrastruktur in Deutschland betrieben.
 					</p>
 				</section>
 				<section id="drittanbieter">
 					<h3>Eingebundene externe Inhalte von Drittanbietern</h3>
 					<p>
-						Auf dieser Seite sind keinerlei externe Inhalte eingebunden
+						Auf dieser Seite sind keinerlei Inhalte von Drittanbietern eingebunden.
 					</p>
 				</section>
 				<section id="cookies">
