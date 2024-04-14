@@ -83,7 +83,7 @@
 				</div>
 
 				<div class="pt-3">
-					Grocy is a project by <a href="https://berrnd.de"
+					Grocy is a hobby project by <a href="https://berrnd.de"
 						target="_blank">Bernd Bestel</a>
 					<br>
 					Created with passion since 2017 and hosted on <a href="https://berrnd.net"
