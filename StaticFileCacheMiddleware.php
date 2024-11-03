@@ -4,6 +4,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
 use Psr\Http\Message\ResponseInterface as Response;
 use WyriHaximus\HtmlCompress\Factory;
+use voku\helper\HtmlMin;
 
 class StaticFileCacheMiddleware
 {
@@ -28,7 +29,12 @@ class StaticFileCacheMiddleware
 		@mkdir($folder, 0777, true);
 
 		$staticFilePath = $folder . '/index.html';
-		$htmlCompressor = Factory::constructSmallest();
+
+		$htmlMin = new HtmlMin();
+		$htmlMin->doOptimizeViaHtmlDomParser(true);
+		$htmlMin->doRemoveWhitespaceAroundTags(true);
+		$htmlMin->doRemoveOmittedHtmlTags(false);
+		$htmlCompressor = Factory::constructSmallest()->withHtmlMin($htmlMin);
 
 		// Don't compress the changelog feed (RSS/XML)
 		$data = $response->getBody();
