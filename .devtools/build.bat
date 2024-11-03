@@ -12,6 +12,7 @@ xcopy "sitemap.xml" ".deploy\"
 xcopy "robots.txt" ".deploy\"
 xcopy "StaticFileCacheMiddleware.php" ".deploy\"
 xcopy "version.txt" ".deploy\"
+xcopy "favicon.ico" ".deploy\"
 xcopy "views\*.*" ".deploy\views\" /E
 xcopy "img\*.*" ".deploy\img\" /E
 

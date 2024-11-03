@@ -19,7 +19,8 @@
 	<meta name="author"
 		content="Bernd Bestel (bernd@berrnd.de)">
 	<link rel="icon"
-		href="/img/grocy_icon.svg?v={{ $version }}">
+		type="image/x-icon"
+		href="/favicon.ico?v={{ $version }}">
 
 	<title>@yield('title')</title>
 
