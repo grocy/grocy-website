@@ -124,7 +124,7 @@
 
 				<div class="col-xs-12 col-lg-7">
 					<h1 class="bold">ERP beyond your fridge</h1>
-					<p class="lead grandmajor-info">Grocy is a web-based self-hosted groceries & household management solution for your home.</p>
+					<p class="lead grandmajor-info mb-2">Grocy is a web-based self-hosted groceries & household management solution for your home.</p>
 					<p class="lead major-info">Open Source. Built with passion.</p>
 					<p class="mb-2">
 						<a class="btn btn-primary btn-lg"

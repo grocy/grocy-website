@@ -131,7 +131,7 @@
 
 				<div class="col-xs-12 col-lg-7">
 					<h1 class="bold">ERP für deinen Kühlschrank</h1>
-					<p class="lead grandmajor-info">Grocy ist eine selbst gehostete Webanwendung zur Lebensmittel- und Haushaltsverwaltung.</p>
+					<p class="lead grandmajor-info mb-2">Grocy ist eine selbst gehostete Webanwendung zur Lebensmittel- und Haushaltsverwaltung.</p>
 					<p class="lead major-info">Open Source. Built with passion.</p>
 					<p class="mb-2">
 						<a class="btn btn-primary btn-lg"
