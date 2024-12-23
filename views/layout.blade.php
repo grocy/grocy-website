@@ -90,7 +90,7 @@
 					Created with passion since 2017 and hosted on <a href="https://berrnd.net"
 						target="_blank">Bernds IT Infrastructure</a>
 					<br>
-					Life runs on code
+					Life runs on Code
 				</div>
 
 			</div>
