@@ -397,7 +397,7 @@
 				Von der Community beigesteuerte Tools, Integrationen, Installations-/Fehlersuche-Guides und andere nützliche Helferlein, die Grocy noch besser und produktiver machen.
 			</p>
 			<p class="lead fs-2">
-				<a class="btn btn-info"
+				<a class="btn btn-info mb-2 mb-sm-0"
 					href="/addons"><i class="fas fa-puzzle-piece"></i> Add-ons and other tools</a>
 				<a class="btn btn-info"
 					href="/links"><i class="fas fa-list"></i> Tutorials and other guides</a>
@@ -676,7 +676,7 @@
 		</div>
 	</section>
 
-	<hr>
+	<hr class="small">
 
 	<section id="more"
 		class="row">
@@ -688,7 +688,7 @@
 		</div>
 	</section>
 
-	<hr>
+	<hr class="small">
 
 	<section id="say-thanks"
 		class="row">

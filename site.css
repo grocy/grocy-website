@@ -107,6 +107,11 @@ main hr {
 	max-width: 290px;
 }
 
+main hr.small {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
 footer {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 11px;
@@ -165,6 +170,10 @@ a.lightbox:hover img,
 
 .sl-overlay {
 	background: #000
+}
+
+.sl-wrapper .sl-close {
+	color: #fff;
 }
 
 .lightbox:hover .lightbox-magnifying-glass {
