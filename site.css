@@ -1,10 +1,10 @@
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 code,
 pre {
-	font-family: 'Fira Mono', monospace;
+	font-family: 'PT Mono', monospace;
 }
 
 .navbar-light {
@@ -32,8 +32,6 @@ pre {
 .jumbotron {
 	border-radius: 0;
 	border: none;
-	background-color: #595555;
-	color: #ffffff;
 }
 
 .card {
@@ -50,46 +48,29 @@ pre {
 	flex-grow: 0;
 }
 
-a {
-	color: #4c994c;
-	transition: all 0.3s;
+a:not(.btn) {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-underline-offset: 0.2rem;
 }
 
-a:hover {
-	color: #337ab7;
-	text-decoration: none;
-	transition: all 0.3s;
-}
-
-a:focus {
-	color: #ab2230;
-	text-decoration: none;
-	transition: all 0.3s;
+a:not(.btn):hover {
+	text-decoration: underline !important;
 }
 
 a.discrete-link,
-a.nav-link {
+a.nav-link,
+a.nav-link:hover,
+a.dropdown-item,
+a.dropdown-item:hover {
 	color: inherit !important;
-}
-
-a.discrete-link:hover,
-a.nav-link:hover {
-	color: #337ab7 !important;
-	text-decoration: none;
-}
-
-a.discrete-link:focus,
-a.nav-link:focus {
-	color: #ab2230 !important;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 footer a {
-	color: #7d7d7d;
-}
-
-.bold {
-	font-weight: 500;
+	color: #7d7d7d !important;
+	text-decoration: none !important;
 }
 
 section .feature-image {
@@ -108,30 +89,29 @@ section .feature-image {
 	}
 }
 
-.sketch-underline {
-	background: url("/img/sketch_line.svg") 0 100% no-repeat;
-	background-size: 100% 0.2rem;
-	padding-bottom: 0.2rem !important;
-	background-position: center bottom;
+.headline,
+.feature-list h2,
+.feature-list h3 {
+	padding-bottom: 0.2rem;
+	text-decoration: underline;
+	text-decoration-color: #337ab7;
+	text-decoration-thickness: 0.12em;
 }
 
 main hr {
 	border-top: 1px solid #e5e5e5;
-	margin-top: 45px;
+	margin-top: 40px;
 	margin-bottom: 0;
-	padding-bottom: 45px;
+	padding-bottom: 40px;
 	width: 75%;
 	max-width: 290px;
 }
 
 footer {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+	letter-spacing: -0.04em;
 	color: #a7a7a7;
-	font-size: 11px;
-	font-family: 'News Cycle', sans-serif;
-}
-
-.legal-navigation {
-	font-size: 11px;
 }
 
 .legal-navigation ul {
@@ -148,25 +128,24 @@ footer {
 	content: ' | ';
 }
 
-.grandmajor-info {
+.fs-1 {
 	font-size: 21px;
 }
 
-.major-info {
+.fs-2 {
 	font-size: 18px;
 }
 
-.minor-info {
+.fs-3 {
 	font-size: 14px;
 }
 
-.grandminor-info {
+.fs-4 {
 	font-size: 12px;
 }
 
 :target {
-	background-clip: content-box;
-	background-color: #feffe2;
+	border: 0.5em solid #ffff00;
 }
 
 a.lightbox:hover img,

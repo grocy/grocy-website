@@ -4,7 +4,7 @@
 @section('lang', 'en')
 
 @section('headerAdditional')
-<link href="/packages/@fontsource/fira-mono/latin.css?v={{ $version }}"
+<link href="/packages/@fontsource/pt-mono/latin.css?v={{ $version }}"
 	rel="stylesheet">
 
 <meta name="description"
@@ -102,8 +102,8 @@
 	<div class="row align-items-center">
 
 		<div class="col-xs-12 col-lg-8 offset-lg-2">
-			<h1 class="bold d-inline-block sketch-underline">Changelog & Release History</h1>
-			<h5 class="bold d-block"><a href="https://grocy.info/changelog/feed"><i class="fa-solid fa-rss"></i> Feed</h5></a>
+			<h1 class="headline">Changelog & Release History</h1>
+			<h5 class="d-block"><i class="fas fa-rss"></i> <a href="/changelog/feed">Feed</h5></a>
 		</div>
 
 	</div>
@@ -123,7 +123,7 @@
 						href="#">Preview version <span class="small">(<span class="font-italic">not yet released</span>)</span></a>
 				</div>
 				<div class="collapse">
-					<div class="card-body text-left major-info pb-0 px-3 border-danger">
+					<div class="card-body text-left fs-2 pb-0 px-3 border-danger">
 						{!! $commonMarkConverter->convert($changelogItem['body']) !!}
 					</div>
 					<div class="card-body pt-0">
@@ -146,7 +146,7 @@
 						href="#">Version <span class="font-weight-bold">{{ $changelogItem['version'] }}</span> released on <span class="font-weight-bold">{{ $changelogItem['release_date'] }}</span></a>
 				</div>
 				<div class="collapse @if($changelogItem['release_number'] >= $changelog['newest_release_number'] - 4) show @endif">
-					<div class="card-body text-left major-info pb-0 px-3">
+					<div class="card-body text-left fs-2 pb-0 px-3">
 						{!! $commonMarkConverter->convert($changelogItem['body']) !!}
 					</div>
 					<div class="card-body pt-0">

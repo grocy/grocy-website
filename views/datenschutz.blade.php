@@ -13,16 +13,14 @@
 
 	<section class="row align-items-center">
 		<div class="col">
-			<h1 class="bold pb-3">Datenschutz</h1>
+			<h1 class="pb-3">Datenschutz</h1>
 
-			<div class="lead minor-info pb-3">
+			<div class="lead fs-3 pb-3">
 				<section id="allgemein"
-					class="major-info">
+					class="fs-2">
 					<p>
 						Die Nutzung dieser Seite ist generell ohne Angabe von personenbezogenen Daten möglich.
 						Teilweise technisch bedingt können personenbezogene Daten verarbeitet werden.
-					</p>
-					<p>
 						IT, Open Source, #ownyourdata und alles was dazu gehört ist meine Leidenschaft, ein verantwortungsbewusster Umgang mit (nicht nur) personenbezogenen Daten ist für mich schon immer selbstverständlich.
 					</p>
 				</section>

@@ -2,42 +2,42 @@
 # yarn lockfile v1
 
 
-"@fontsource/fira-mono@^5.0.5":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-5.1.0.tgz#2ac0c8f7bf917fbbcae6b1e80242315ab1e7e054"
-  integrity sha512-6+nftSKApXyN0I9FC5GJuG5TUCh+in5OehtrXRIsHJvq38Pm//oA1kZZYNdXv99JYzLzJ3lzsTAavmS+xGLGDw==
+"@fontsource/inter@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-5.1.1.tgz#401803b6ac4c877f5be94088aa89147ed5a2bd85"
+  integrity sha512-weN3E+rq0Xb3Z93VHJ+Rc7WOQX9ETJPTAJ+gDcaMHtjft67L58sfS65rAjC5tZUXQ2FdZ/V1/sSzCwZ6v05kJw==
 
-"@fontsource/news-cycle@^5.0.5":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@fontsource/news-cycle/-/news-cycle-5.1.0.tgz#e6a308e3d3941cd25415896bf7d16ee1e5261428"
-  integrity sha512-rEG/Q0Bq9XlTPC7Rgl6jXTGGoCDJnjodtnIlPWmC6GBTWqXI5eCvCLhLF+tQ2M3U0oLn0B+3K5l1xV6DhNox+Q==
+"@fontsource/pt-mono@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/pt-mono/-/pt-mono-5.1.1.tgz#ede4ce66f4c766a0f0c7e3218df6f01c2ecbbd61"
+  integrity sha512-kgavFIBxilfEyzanxkNokpWEjnSl+54fCs/eac8ivGwQdp/s8ujGJI3gaf6dyzIraYCqsh4avcgGdQ5aWxIGLg==
 
-"@fontsource/poppins@^5.0.5":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-5.1.0.tgz#919205f53d99ec4751a945057ef525f06681df8a"
-  integrity sha512-tpLXlnNi2fwQjiipvuj4uNFHCdoLA8izRsKdoexZuEzjx0r/g1aKLf4ta6lFgF7L+/+AFdmaXFlUwwvmDzYH+g==
+"@fontsource/pt-sans@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/pt-sans/-/pt-sans-5.1.1.tgz#1fb69d896c06636ab95ca2dee44a0a89d6fb81c0"
+  integrity sha512-bDvDgbc8Dmr6iaR0tE1v1jwTFZsM2vXenjzY93N4g7NfJUIplqUthvtvCXlj5JRVS7SW/PXP7UOe7+G9UYz6OA==
 
-"@fortawesome/fontawesome-free@^6.2.1":
+"@fortawesome/fontawesome-free@^6.7.2":
   version "6.7.2"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.7.2.tgz#8249de9b7e22fcb3ceb5e66090c30a1d5492b81a"
   integrity sha512-JUOtgFW6k9u4Y+xeIaEiLr3+cjoUPiAuLXoyKOJSia6Duzb7pq+A76P9ZdPDoAoxHdHzq6gE9/jKBGXlZT8FbA==
 
-bootstrap@^4.5.3:
+bootstrap@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.2.tgz#8e0cd61611728a5bf65a3a2b8d6ff6c77d5d7479"
   integrity sha512-51Bbp/Uxr9aTuy6ca/8FbFloBUJZLHwnhTcnjIeRn2suQWsWzcuJhGjKDB5eppVte/8oCdOL3VuwxvZDUggwGQ==
 
-flag-icons@^6.11.0:
-  version "6.15.0"
-  resolved "https://registry.yarnpkg.com/flag-icons/-/flag-icons-6.15.0.tgz#9b9ea631f408ff41844872d1d7df9bd020d4c76d"
-  integrity sha512-ARo9Q+aATZEjyjveeec9e+orx+xLWUBdOX9baOKoGqDzMbvZ65ghPhaHbVt5T7ZB+Q4OFsB4Hr+eQnpV8Q+dLA==
+flag-icons@^7.2.3:
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/flag-icons/-/flag-icons-7.2.3.tgz#b67f379fa0ef28c4e605319a78035131bdd8ced7"
+  integrity sha512-X2gUdteNuqdNqob2KKTJTS+ZCvyWeLCtDz9Ty8uJP17Y4o82Y+U/Vd4JNrdwTAjagYsRznOn9DZ+E/Q52qbmqg==
 
-jquery@^3.5.1:
+jquery@^3.7.1:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
   integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
 
-simplelightbox@^2.7.0:
+simplelightbox@^2.14.3:
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.14.3.tgz#de00b70509fc5087cf2eacb7b275a55b7a5eaf49"
   integrity sha512-k2MxHsoRoFDPumO7KTPyqvUPtXAnykCuEZ5xQ7YN8Jq4XF+QLyhWVblXLRCYMRp4+TiNR7PCrcpocW7oQmgSQQ==

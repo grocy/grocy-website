@@ -28,13 +28,19 @@
 
 	<link href="/packages/bootstrap/dist/css/bootstrap.min.css?v={{ $version }}"
 		rel="stylesheet">
+	<link href="/packages/@fontsource/inter/latin.css?v={{ $version }}"
+		rel="stylesheet">
+	<link href="/packages/@fontsource/pt-sans/latin.css?v={{ $version }}"
+		rel="stylesheet">
+	<link href="/packages/@fortawesome/fontawesome-free/css/fontawesome.min.css?v={{ $version }}"
+		rel="stylesheet">
+	<link href="/packages/@fortawesome/fontawesome-free/css/solid.min.css?v={{ $version }}"
+		rel="stylesheet">
+	<link href="/packages/@fortawesome/fontawesome-free/css/brands.min.css?v={{ $version }}"
+		rel="stylesheet">
 	<link href="/packages/simplelightbox/dist/simple-lightbox.min.css?v={{ $version }}"
 		rel="stylesheet">
 	<link href="/packages/flag-icons/css/flag-icons.min.css?v={{ $version }}"
-		rel="stylesheet">
-	<link href="/packages/@fontsource/poppins/latin.css?v={{ $version }}"
-		rel="stylesheet">
-	<link href="/packages/@fontsource/news-cycle/latin.css?v={{ $version }}"
 		rel="stylesheet">
 	<link href="/site.css?v={{ $version }}"
 		rel="stylesheet">
@@ -99,7 +105,6 @@
 
 	<script src="/packages/jquery/dist/jquery.min.js?v={{ $version }}"></script>
 	<script src="/packages/bootstrap/dist/js/bootstrap.min.js?v={{ $version }}"></script>
-	<script src="/packages/@fortawesome/fontawesome-free/js/all.js?v={{ $version }}"></script>
 	<script src="/packages/simplelightbox/dist/simple-lightbox.jquery.min.js?v={{ $version }}"></script>
 	<script src="/site.js?v={{ $version }}"></script>
 	<script>

@@ -1,11 +1,9 @@
 $(".feature-list h3").each(function(i, el)
 {
-	var h3 = $(el);
-
-	h3.wrap($("<a />").addClass("discrete-link").attr("href", "#" + $(this).closest("section").attr("id")));
+	$(el).wrap($("<a />").addClass("discrete-link").attr("href", "#" + $(this).closest("section").attr("id")));
 });
 
-$(".lightbox").append('<i class="lightbox-magnifying-glass text-primary fa-solid fa-magnifying-glass"></i>');
+$(".lightbox").append('<i class="lightbox-magnifying-glass text-primary fas fa-magnifying-glass"></i>');
 
 if ($(".lightbox").length > 0)
 {

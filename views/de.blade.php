@@ -116,7 +116,7 @@
 
 			<div class="dropdown-menu">
 				<a class="dropdown-item"
-					href="https://grocy.info/"><i class="fi fi-us"></i> Englisch</a>
+					href="/"><i class="fi fi-us"></i> Englisch</a>
 			</div>
 		</li>
 	</ul>
@@ -125,33 +125,33 @@
 
 @section('content')
 <header>
-	<div class="jumbotron mb-1 py-5">
+	<div class="jumbotron bg-dark text-white mb-1 py-5">
 		<div class="container">
 			<div class="row align-items-center d-flex">
 
 				<div class="col-xs-12 col-lg-7">
-					<h1 class="bold">ERP für deinen Kühlschrank</h1>
-					<p class="lead grandmajor-info mb-2">Grocy ist eine selbst gehostete Webanwendung zur Lebensmittel- und Haushaltsverwaltung.</p>
-					<p class="lead major-info">Open Source. Built with passion.</p>
+					<h1>ERP für deinen Kühlschrank</h1>
+					<p class="lead fs-1 mb-2">Grocy ist eine selbst gehostete Webanwendung zur Lebensmittel- und Haushaltsverwaltung.</p>
+					<p class="lead fs-2">Open Source. Built with passion.</p>
 					<p class="mb-2">
 						<a class="btn btn-primary btn-lg"
 							href="https://releases.grocy.info/latest"
-							target="_blank"><i class="fa-solid fa-download"></i> Download</a>
+							target="_blank"><i class="fas fa-download"></i> Download</a>
 						<a class="btn btn-success btn-lg"
 							href="https://de.demo.grocy.info"
-							target="_blank"><i class="fa-solid fa-eye"></i> Demo</a>
+							target="_blank"><i class="fas fa-eye"></i> Demo</a>
 					</p>
 					<p class="mb-1">
 						<a class="btn btn-secondary btn-sm"
-							href="/changelog"><i class="fa-solid fa-right-left"></i> Changelog</a>
+							href="/changelog"><i class="fas fa-right-left"></i> Changelog</a>
 						<a class="btn btn-secondary btn-sm"
 							href="https://github.com/grocy/grocy#how-to-install"
-							target="_blank"><i class="fa-solid fa-info"></i> Install guide</a>
+							target="_blank"><i class="fas fa-info"></i> Install guide</a>
 						<a class="btn btn-secondary btn-sm"
 							href="https://github.com/grocy/grocy"
-							target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
+							target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 					</p>
-					<p class="font-weight-light font-italic grandminor-info pt-1">
+					<p class="font-weight-light font-italic fs-4 pt-1">
 						Aktuelle Version: {{ $grocyVersionInfo->Version }} (veröffentlicht am {{ date('d.m.Y', strtotime($grocyVersionInfo->ReleaseDate)) }})
 					</p>
 				</div>
@@ -193,12 +193,12 @@
 						class="carousel-item active">
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
-								<h1 class="bold">Grocy Desktop</h1>
-								<p class="lead major-info">Benutze Grocy ohne einen Webserver verwalten zu müssen - wie eine normale (Windows) Desktop-Anwendung.</p>
+								<h1>Grocy Desktop</h1>
+								<p class="lead fs-2">Benutze Grocy ohne einen Webserver verwalten zu müssen - wie eine normale (Windows) Desktop-Anwendung.</p>
 								<p class="mb-2">
 									<a class="btn btn-primary"
 										href="https://releases.grocy.info/latest-desktop"
-										target="_blank"><i class="fa-solid fa-download"></i> Download <span class="small">(klassische Installation)</span></a>
+										target="_blank"><i class="fas fa-download"></i> Download <span class="small">(klassische Installation)</span></a>
 									oder
 									<a href="https://apps.microsoft.com/detail/9NWB1TRNNKSF?launch=true&mode=full&hl=de&gl=DE"
 										target="_blank">
@@ -210,7 +210,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/grocy/grocy-desktop"
-										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -229,8 +229,8 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1 class="bold">Grocy Android</h1>
-								<p class="lead major-info">Grocy auf deinem Smartphone - mit Barcodeerkennung und intuitiver Stapelverarbeitung.</p>
+								<h1>Grocy Android</h1>
+								<p class="lead fs-2">Grocy auf deinem Smartphone - mit Barcodeerkennung und intuitiver Stapelverarbeitung.</p>
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy&hl=de"
 										target="_blank">
@@ -248,7 +248,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/patzly/grocy-android"
-										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -267,8 +267,8 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1 class="bold">Grocy Mobile</h1>
-								<p class="lead major-info">Native interface for Grocy on Apple devices (iOS, macOS).</p>
+								<h1>Grocy Mobile</h1>
+								<p class="lead fs-2">Native interface for Grocy on Apple devices (iOS, macOS).</p>
 								<p class="mb-2">
 									<a href="https://apps.apple.com/de/app/id1567803209"
 										target="_blank">
@@ -280,7 +280,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/supergeorg/Grocy-SwiftUI"
-										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -299,8 +299,8 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1 class="bold">Barcode Buddy</h1>
-								<p class="lead major-info">A barcode scanning helper / lookup tool for Grocy.</p>
+								<h1>Barcode Buddy</h1>
+								<p class="lead fs-2">A barcode scanning helper / lookup tool for Grocy.</p>
 								<p class="mb-2">
 									<a href="https://play.google.com/store/apps/details?id=de.bulling.barcodebuddyscanner&hl=de"
 										target="_blank">
@@ -312,7 +312,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/Forceu/barcodebuddy"
-										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -331,18 +331,18 @@
 						<div class="row align-items-center d-flex">
 							<div class="col-xs-12 col-lg-6">
 								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1 class="bold">Home Assistant Add-on</h1>
-								<p class="lead major-info">Use Grocy fully integrated into Home Assistant.</p>
+								<h1>Home Assistant Add-on</h1>
+								<p class="lead fs-2">Use Grocy fully integrated into Home Assistant.</p>
 								<p class="mb-2">
 									<a class="btn btn-sm btn-secondary"
 										href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422"
-										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Home Assistant Community Forum Thread</a>
+										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Home Assistant Community Forum Thread</a>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/hassio-addons/addon-grocy/blob/master/grocy/DOCS.md"
-										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Documentation</a>
+										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Documentation</a>
 									<a class="btn btn-sm btn-secondary mt-1"
 										href="https://github.com/hassio-addons/addon-grocy"
-										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -377,30 +377,30 @@
 	<section class="row">
 		<div id="getting-in-touch"
 			class="col-xs-12 col-lg-6">
-			<h2 class="bold d-inline-block sketch-underline">Mach mit / Kontakt</h2>
-			<p class="lead major-info">
-				Unterhalte dich mit anderen Grocy Benutzern im Subreddit oder melde Fehler / schlage neue Ideen im Issue Tracker auf GitHub vor.
+			<h2>Mach mit / Kontakt</h2>
+			<p class="lead fs-2">
+				Unterhalte dich mit anderen Grocy Benutzern auf Reddit oder melde Fehler / schlage neue Ideen im Issue Tracker auf GitHub vor.
 			</p>
-			<p class="lead major-info">
+			<p class="lead fs-2">
 				<a class="btn btn-danger"
 					href="https://www.reddit.com/r/grocy"
-					target="_blank"><i class="fa-brands fa-reddit"></i> r/grocy</a>
+					target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
 				<a class="btn btn-dark"
 					href="https://github.com/grocy/grocy/issues"
-					target="_blank"><i class="fa-brands fa-github"></i> grocy/grocy</a>
+					target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
 			</p>
 		</div>
 		<div id="addons-intro"
 			class="col-xs-12 col-lg-6 mt-5 mt-lg-0">
-			<h2 class="bold d-inline-block sketch-underline">Add-ons / Tools / Guides</h2>
-			<p class="lead major-info">
+			<h2>Add-ons / Tools / Guides</h2>
+			<p class="lead fs-2">
 				Von der Community beigesteuerte Tools, Integrationen, Installations-/Fehlersuche-Guides und andere nützliche Helferlein, die Grocy noch besser und produktiver machen.
 			</p>
-			<p class="lead major-info">
+			<p class="lead fs-2">
 				<a class="btn btn-info"
-					href="https://grocy.info/addons"><i class="fa-solid fa-puzzle-piece"></i> Community contributed Add-ons and other tools</a>
-				<a class="btn btn-info mt-2"
-					href="https://grocy.info/links"><i class="fa-solid fa-list"></i> Community contributed help and other guides</a>
+					href="/addons"><i class="fas fa-puzzle-piece"></i> Add-ons and other tools</a>
+				<a class="btn btn-info"
+					href="/links"><i class="fas fa-list"></i> Tutorials and other guides</a>
 			</p>
 		</div>
 	</section>
@@ -417,11 +417,11 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col-xs-12 col-lg-5 pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Einkäufe erfassen</h3>
-			<p class="lead major-info">Eine für Barcodescanner vorbereitete Oberfläche macht es einfach, Einkäufe intuitiv und effizient zu erfassen. Damit weißt du immer, was gerade Zuhause vorrätig ist.</p>
-			<p class="lead major-info">
-				Es ist auch möglich, Barcodes direkt im Webbrowser mit der Gerätekamera zu scannen (<a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc"
-					target="_blank"><i class="fa-brands fa-youtube"></i> Kurze Video-Demo</a>).
+			<h3>Einkäufe erfassen</h3>
+			<p class="lead fs-2">Eine für Barcodescanner vorbereitete Oberfläche macht es einfach, Einkäufe intuitiv und effizient zu erfassen. Damit weißt du immer, was gerade Zuhause vorrätig ist.</p>
+			<p class="lead fs-2">
+				Es ist auch möglich, Barcodes direkt im Webbrowser mit der Gerätekamera zu scannen (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc"
+					target="_blank">Kurze Video-Demo</a>).
 			</p>
 		</div>
 		<div class="col">
@@ -445,9 +445,9 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Automatisiere & Optimiere deinen Einkaufszettel</h3>
-			<p class="lead major-info">Definiere Mindestbestände für deine Lieblingsprodukte und frage dich nie wieder im Supermarkt "habe ich noch genug Nudeln daheim?".</p>
-			<p class="lead major-info">Gruppiere Produkte nach Sortiment um den Weg im Supermarkt zu optimieren - nie mehr ständig von einem zum anderen Ende springen müssen.</p>
+			<h3>Automatisiere & Optimiere deinen Einkaufszettel</h3>
+			<p class="lead fs-2">Definiere Mindestbestände für deine Lieblingsprodukte und frage dich nie wieder im Supermarkt "habe ich noch genug Nudeln daheim?".</p>
+			<p class="lead fs-2">Gruppiere Produkte nach Sortiment um den Weg im Supermarkt zu optimieren - nie mehr ständig von einem zum anderen Ende springen müssen.</p>
 		</div>
 	</section>
 
@@ -463,8 +463,8 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Wirf weniger weg</h3>
-			<p class="lead major-info">Behalte immer im Überblick, was als nächstes fällig ist.</p>
+			<h3>Wirf weniger weg</h3>
+			<p class="lead fs-2">Behalte immer im Überblick, was als nächstes fällig ist.</p>
 		</div>
 	</section>
 
@@ -480,8 +480,8 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Durchdachte Eingabeformulare</h3>
-			<p class="lead major-info">Eine Hand, 3 Sekunden, kein Problem - Eingabefehler ausgeschlossen.</p>
+			<h3>Durchdachte Eingabeformulare</h3>
+			<p class="lead fs-2">Eine Hand, 3 Sekunden, kein Problem - Eingabefehler ausgeschlossen.</p>
 		</div>
 	</section>
 
@@ -497,8 +497,8 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Rezepte mit Intelligenz</h3>
-			<p class="lead major-info">Pflege deine Rezepte und sehe auf einen Blick, ob alles Benötigte Zuhause vorrätig ist. Natürlich kann alles nicht vorhandene auch automatisch auf den Einkaufszettel übernommen werden.</p>
+			<h3>Rezepte mit Intelligenz</h3>
+			<p class="lead fs-2">Pflege deine Rezepte und sehe auf einen Blick, ob alles Benötigte Zuhause vorrätig ist. Natürlich kann alles nicht vorhandene auch automatisch auf den Einkaufszettel übernommen werden.</p>
 		</div>
 	</section>
 
@@ -514,8 +514,8 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Kochbuch ist so 2016</h3>
-			<p class="lead major-info">Rezepte schick und übersichtlich.</p>
+			<h3>Kochbuch ist so 2016</h3>
+			<p class="lead fs-2">Rezepte schick und übersichtlich.</p>
 		</div>
 	</section>
 
@@ -531,8 +531,8 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Speiseplan Like a Pro</h3>
-			<p class="lead major-info">Plane deine täglichen Mahlzeiten anhand deiner Rezepte und packe alles nicht vorhandene mit einem Klick auf den Einkaufszettel.</p>
+			<h3>Speiseplan Like a Pro</h3>
+			<p class="lead fs-2">Plane deine täglichen Mahlzeiten anhand deiner Rezepte und packe alles nicht vorhandene mit einem Klick auf den Einkaufszettel.</p>
 		</div>
 	</section>
 
@@ -548,8 +548,8 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Verwalte deine Haushaltsgeräte/-Ausstattung</h3>
-			<p class="lead major-info">Habe Bedienungsanleitungen und wichtige Informationen zur Hand, wenn sie benötigt werden - nie mehr vergeblich danach suchen.</p>
+			<h3>Verwalte deine Haushaltsgeräte/-Ausstattung</h3>
+			<p class="lead fs-2">Habe Bedienungsanleitungen und wichtige Informationen zur Hand, wenn sie benötigt werden - nie mehr vergeblich danach suchen.</p>
 		</div>
 	</section>
 
@@ -565,8 +565,8 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Erfasse deine Hausarbeiten</h3>
-			<p class="lead major-info">Mache dir keinen Kopf mehr über "oh, wann hab ich zuletzt ... gemacht?", schaue einfach nach.</p>
+			<h3>Erfasse deine Hausarbeiten</h3>
+			<p class="lead fs-2">Mache dir keinen Kopf mehr über "oh, wann hab ich zuletzt ... gemacht?", schau einfach nach.</p>
 		</div>
 	</section>
 
@@ -582,8 +582,8 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Behalte den Überblick über deine Aufgaben</h3>
-			<p class="lead major-info">Nur eine ganz normale To-Do Liste.<br>So wie ich sowas (und vielleicht auch du) mag.</p>
+			<h3>Behalte den Überblick über deine Aufgaben</h3>
+			<p class="lead fs-2">Nur eine ganz normale To-Do Liste.<br>So wie ich sowas (und vielleicht auch du) mag.</p>
 		</div>
 	</section>
 
@@ -599,8 +599,8 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Verwalte deine Akkus</h3>
-			<p class="lead major-info">Heutzutage haben wir unzählige Akkus in unserem Haushalt. Um sie in einem guten Zustand zu halten, ist es gut zu wissen, wann sie zuletzt geladen wurden.</p>
+			<h3>Verwalte deine Akkus</h3>
+			<p class="lead fs-2">Heutzutage haben wir unzählige Akkus in unserem Haushalt. Um sie in einem guten Zustand zu halten, ist es gut zu wissen, wann sie zuletzt geladen wurden.</p>
 		</div>
 	</section>
 
@@ -616,8 +616,8 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Benutzerdefinierte Felder/Objekte/Listen</h3>
-			<p class="lead major-info">Zu jeder Entität (wie Produkte oder Hausarbeiten) können beliebige benutzerdefinierte Felder hinzugefügt werden. Du kannst sogar komplett eigene Objekte/Listen erstellen, um alles bequem zentral verwalten zu könnnen.</p>
+			<h3>Benutzerdefinierte Felder/Objekte/Listen</h3>
+			<p class="lead fs-2">Zu jeder Entität (wie Produkte oder Hausarbeiten) können beliebige benutzerdefinierte Felder hinzugefügt werden. Du kannst sogar komplett eigene Objekte/Listen erstellen, um alles bequem zentral verwalten zu könnnen.</p>
 		</div>
 	</section>
 
@@ -633,8 +633,8 @@
 					class="feature-image img-fluid mt-1"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Nachtmodus (selbstverständlich)</h3>
-			<p class="lead major-info">Der Nachtmodus wird automatisch verwendet, wenn dein Gerät das standardmäßig bevorzugt und kann alternativ auch automatisch bei Sonnenuntergang aktiviert werden (konfigurierbarer Zeitbereich).</p>
+			<h3>Nachtmodus</h3>
+			<p class="lead fs-2">Der Nachtmodus wird automatisch verwendet, wenn dein Gerät das standardmäßig bevorzugt und kann alternativ auch automatisch bei Sonnenuntergang aktiviert werden (konfigurierbarer Zeitbereich).</p>
 		</div>
 	</section>
 
@@ -650,8 +650,8 @@
 					class="feature-image feature-image-small img-fluid mt-1"></a>
 		</div>
 		<div class="col-xs-12 col-lg-5 pt-4 pt-lg-0">
-			<h3 class="bold d-inline-block sketch-underline">Läuft auf jedem Gerät</h3>
-			<p class="lead major-info">Egal ob auf dem Smartphone oder jedem anderem Gerät, nur ein Browser wird benötigt - baue dir z. B. ein günstiges und sparsames Tablet in die Küche und du hast ein super komfortables 24/7 Grocy Terminal.</p>
+			<h3>Läuft auf jedem Gerät</h3>
+			<p class="lead fs-2">Egal ob auf dem Smartphone oder jedem anderem Gerät, nur ein Browser wird benötigt - baue dir z. B. ein günstiges und sparsames Tablet in die Küche und du hast ein super komfortables 24/7 Grocy Terminal.</p>
 		</div>
 		<div class="col">
 			<a class="lightbox"
@@ -667,12 +667,12 @@
 	<section id="integration-and-customization"
 		class="row align-items-center d-flex">
 		<div class="col">
-			<h3 class="bold d-inline-block sketch-underline">Integration und individuelle Anpassbarkeit</h3>
-			<p class="lead major-info">Eine (RESTful) API für alles, siehe das <a href="https://demo.grocy.info/api"
+			<h3>Integration und individuelle Anpassbarkeit</h3>
+			<p class="lead fs-2">Eine (RESTful) API für alles, siehe das <a href="https://demo.grocy.info/api"
 					target="_blank">integrierte Swagger UI (/api)</a>.</p>
-			<p class="lead major-info">Feature flags um alles, was du nicht brauchst, ausschalten bzw. ausblenden zu können (z. B. Hausarbeiten, alles was mit der Preisverfolgung zu tun hat, etc.).</p>
-			<p class="lead major-info"><a href="https://github.com/grocy/grocy#adding-your-own-css-or-js-without-to-have-to-modify-the-application-itself"
-					target="_blank">Eigenes CSS and JS</a> um wirklich alles bis ins kleinste Detail anpassen zu können.</p>
+			<p class="lead fs-2">Feature Flags um alles, was du nicht brauchst, ausschalten bzw. ausblenden zu können (z. B. Hausarbeiten, alles was mit der Preisverfolgung zu tun hat, etc.).</p>
+			<p class="lead fs-2"><a href="https://github.com/grocy/grocy#adding-your-own-css-or-js-without-to-have-to-modify-the-application-itself"
+					target="_blank">Eigenes CSS and JS</a> um wirklich alles bis ins kleinste Detail anpassen zu können, unter Beibehaltung der Updatefähigkeit.</p>
 		</div>
 	</section>
 
@@ -681,10 +681,10 @@
 	<section id="more"
 		class="row">
 		<div class="col">
-			<h2 class="bold d-inline-block sketch-underline">Und noch vieles mehr</h2>
-			<p class="lead major-info">Grocy wird ständig weiterentwickelt und täglich von mir und vielen anderen benutzt.</p>
-			<p class="lead major-info">Wenn dir etwas fehlt, erstelle gerne einfach einen <a href="https://github.com/grocy/grocy/issues/new?labels=enhancement&template=feature-request.md&title=Feature+Request%3A+"
-					target="_blank">Feature Request</a> auf GitHub - evtl. wird es innerhalb von Stunden umgesetzt, denn deine Ideen sind meine Motiviation. :)</p>
+			<h2>Und noch vieles mehr</h2>
+			<p class="lead fs-2">Grocy wird ständig weiterentwickelt und täglich von mir und vielen anderen benutzt.</p>
+			<p class="lead fs-2">Wenn dir etwas fehlt, erstelle gerne einfach einen <a href="https://github.com/grocy/grocy/issues/new?labels=enhancement&template=feature-request.md&title=Feature+Request%3A+"
+					target="_blank">Feature Request</a> auf GitHub - evtl. wird es innerhalb von Stunden umgesetzt, denn deine Ideen sind meine Motiviation. 😄</p>
 		</div>
 	</section>
 
@@ -693,31 +693,32 @@
 	<section id="say-thanks"
 		class="row">
 		<div class="col">
-			<h2 class="bold d-inline-block sketch-underline">Sag Danke</h2>
-			<p class="lead major-info">
+			<h2>Sag Danke</h2>
+			<p class="lead fs-2">
 				Grocy ist eines meiner Hobbys und ich arbeite gerne daran. Aber da es eben ein Hobby ist, hängt die Weiterentwicklung von (meiner) Freizeit und Lust ab - heißt es kann manchmal auch mal etwas dauern.
 			</p>
-			<p class="lead major-info mb-0">
+			<p class="lead fs-2 mb-0">
 				Mitarbeit beim Projekt wäre also das, was Grocy am meisten hilft.
 			</p>
-			<p class="lead minor-info">
+			<p class="lead fs-3">
 				Das muss nicht unbedingt Code sein - das Erstellen von Dokumentation / Tutorials für Grocy, Hilfe bei der Übersetzung von Grocy in deine Sprache (kann auf <a href="https://www.transifex.com/grocy/grocy"
 					target="_blank">Transifex</a> gemacht werden) oder helfen Grocy zu verbreiten (z. B. indem du einen Artikel darüber schreibst) ist genauso hilfreich.
 			</p>
-			<p class="lead major-info mb-0">
+			<p class="lead fs-2 mb-0">
 				Wenn du dich dennoch bedanken willst, indem du mich auf einen Kaffee, ein Bier oder eine Pizza einlädst, kannst du das natürlich gerne tun - hier sind einige Möglichkeiten dafür:
-			<ul class="major-info list-unstyled">
+			<ul class="fs-2 list-unstyled">
 				<li class="my-2">
-					<a href="https://www.paypal.com/donate/?hosted_button_id=UPPXVE63EK3L2"
+					<a class="btn btn-primary"
+						href="https://www.paypal.com/donate/?hosted_button_id=UPPXVE63EK3L2"
 						target="_blank"
 						rel="nofollow">
-						<i class="fa-brands fa-paypal"></i> PayPal
+						<i class="fab fa-paypal"></i> PayPal
 					</a>
 				</li>
 			</ul>
 			</p>
-			<p class="lead major-info">
-				Danke dir! <i class="fa-solid fa-heart"></i>
+			<p class="lead fs-2">
+				Danke dir! <i class="fas fa-heart"></i>
 			</p>
 		</div>
 	</section>

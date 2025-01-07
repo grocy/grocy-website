@@ -1,14 +1,14 @@
 {
 	"require": {
 		"php": ">=8.2",
-		"slim/slim": "^4.0",
-		"slim/psr7": "^1.0",
-		"slim/http": "^1.0",
-		"php-di/php-di": "^7.0",
-		"berrnd/slim-blade-view": "^1.0.0",
-		"league/commonmark": "^2.3.8",
-		"laminas/laminas-feed": "^2.20.0",
-		"wyrihaximus/html-compress": "^4.2"
+		"slim/slim": "^4.14.0",
+		"slim/psr7": "^1.7.0",
+		"slim/http": "^1.4.0",
+		"php-di/php-di": "^7.0.7",
+		"berrnd/slim-blade-view": "^1.1.0",
+		"league/commonmark": "^2.6.1",
+		"laminas/laminas-feed": "^2.23.0",
+		"wyrihaximus/html-compress": "^4.3.0"
 	},
 	"autoload": {
 		"files": [

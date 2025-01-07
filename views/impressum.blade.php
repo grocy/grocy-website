@@ -13,9 +13,9 @@
 
 	<section class="row align-items-center">
 		<div class="col">
-			<h1 class="bold pb-3">Impressum</h1>
+			<h1 class="pb-3">Impressum</h1>
 
-			<p class="lead major-info">
+			<p class="lead fs-2">
 				Angaben gemäß § 5 TMG für die Webseiten unter den folgenden Domains:<br>
 				grocy.info<br>
 				demo.grocy.info<br>
