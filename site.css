@@ -211,6 +211,10 @@ a.lightbox:hover img,
 	height: 600px;
 }
 
+.carousel-indicators li {
+	opacity: 0.25;
+}
+
 @media (min-width: 992px) {
 	.coursel-inner-container {
 		height: 323px;

@@ -3,7 +3,7 @@ $(".feature-list h3").each(function(i, el)
 	$(el).wrap($("<a />").addClass("discrete-link").attr("href", "#" + $(this).closest("section").attr("id")));
 });
 
-$(".lightbox").append('<i class="lightbox-magnifying-glass text-dark fas fa-magnifying-glass"></i>');
+$(".lightbox").append('<i class="lightbox-magnifying-glass text-dark fa-solid fa-magnifying-glass"></i>');
 
 if ($(".lightbox").length > 0)
 {

@@ -55,13 +55,6 @@
 					title="Grocy logo"
 					height="30"></a>
 
-			<button class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#languageNavbar">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
 			@yield('navAdditional')
 		</div>
 	</nav>

@@ -103,7 +103,7 @@
 
 		<div class="col-xs-12 col-lg-8 offset-lg-2">
 			<h1 class="headline">Changelog & Release History</h1>
-			<h5 class="d-block"><i class="fas fa-rss"></i> <a href="/changelog/feed">Feed</h5></a>
+			<h5 class="d-block"><i class="fa-solid fa-rss"></i> <a href="/changelog/feed">Feed</h5></a>
 		</div>
 
 	</div>

@@ -99,18 +99,11 @@
 @stop
 
 @section('navAdditional')
-<div class="collapse navbar-collapse"
-	id="languageNavbar">
-	<ul class="navbar-nav ml-auto">
-		<li class=" nav-item dropdown ml-auto">
-			<a class="nav-link dropdown-toggle text-primary"
-				href="#"
-				data-toggle="dropdown"><i class="fi fi-us"></i> English</a>
-
-			<div class="dropdown-menu">
-				<a class="dropdown-item"
-					href="/de"><i class="fi fi-de"></i> German</a>
-			</div>
+<div id="languageNavbar">
+	<ul class="navbar-nav nav-pills ml-auto">
+		<li class="nav-item ml-auto">
+			<a class="nav-link"
+				href="/de"><i class="fi fi-de"></i> German</a>
 		</li>
 	</ul>
 </div>
