@@ -406,13 +406,13 @@
 			<h3>Track your purchases</h3>
 			<p class="lead fs-2">A barcode reader ready interface makes this a easy and quick task and you always know what you currently have at home.</p>
 			<p class="lead fs-2">
-				It's also possible to scan barcodes directly in the web browser using the device camera (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc"
+				It's also possible to scan barcodes directly in the web browser using the device camera (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=veezFX4X1JU"
 					target="_blank">Quick video demo</a>).
 			</p>
 		</div>
 		<div class="col">
 			<a class="lightbox"
-				href="/img/browser-barcode-scanning.png?v={{ $version }}"><img src="/img/__thumbs/browser-barcode-scanning.png?v={{ $version }}"
+				href="/img/browser-barcode-scanning-en.png?v={{ $version }}"><img src="/img/__thumbs/browser-barcode-scanning-en.png?v={{ $version }}"
 					alt="Grocy browser barcode scanning"
 					title="Grocy browser barcode scanning"
 					class="feature-image img-fluid"></a>
@@ -460,7 +460,7 @@
 		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/dateinput-en.gif?v={{ $version }}"><img src="/img/__thumbs/dateinput-en.gif?v={{ $version }}"
+				href="/img/dateinput-en.gif?v={{ $version }}"><img src="/img/dateinput-en.gif?v={{ $version }}"
 					alt="Grocy input productivity"
 					title="Grocy input productivity"
 					class="feature-image img-fluid"></a>
@@ -473,8 +473,27 @@
 
 	<hr>
 
-	<section id="recipes"
+	<section id="barcode-lookup"
 		class="row align-items-center d-flex">
+		<div class="col-xs-12 col-lg-6">
+			<a class="lightbox"
+				href="/img/productpicker-workflow-en.png?v={{ $version }}"><img src="/img/__thumbs/productpicker-workflow-en.png?v={{ $version }}"
+					alt="Grocy product picker workflows"
+					title="Grocy product picker workflows"
+					class="feature-image img-fluid"></a>
+		</div>
+		<div class="col pt-4 pt-lg-0">
+			<h3>Add new products on the fly</h3>
+			<p class="lead fs-2">Barcodes can be looked up using external services (<a href="https://world.openfoodfacts.org/"
+					target="_blank">Open Food Facts</a> is built-in; any service can be added using Plugins) to add new products in no time at all (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=-moXPA-VvGc"
+					target="_blank">Quick video demo</a>).</p>
+		</div>
+	</section>
+
+	<hr>
+
+	<section id="recipes"
+		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/recipes-en.png?v={{ $version }}"><img src="/img/__thumbs/recipes-en.png?v={{ $version }}"
@@ -484,14 +503,15 @@
 		</div>
 		<div class="col pt-4 pt-lg-0">
 			<h3>Recipes with intelligence</h3>
-			<p class="lead fs-2">Maintain your recipes and see at a glance whether everything you need is in stock at home. Of course, everything that is not available can also be automatically added to the shopping list.</p>
+			<p class="lead fs-2">Maintain your recipes and see at a glance whether everything you need is in stock at home. Of course everything that is not available can also be automatically added to the shopping list.</p>
+			<p class="lead fs-2">A "Due Score" indicates which recipes are good for using up stock items that are due soon or already overdue, to help not waste them.</p>
 		</div>
 	</section>
 
 	<hr>
 
 	<section id="recipe-details"
-		class="row align-items-center d-flex flex-row-reverse">
+		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/recipedetail-en.png?v={{ $version }}"><img src="/img/__thumbs/recipedetail-en.png?v={{ $version }}"
@@ -500,7 +520,7 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3>Cookbook is so 2016</h3>
+			<h3>Kitchen productivity</h3>
 			<p class="lead fs-2">Recipes clear and concise.</p>
 		</div>
 	</section>
@@ -508,7 +528,7 @@
 	<hr>
 
 	<section id="meal-planning"
-		class="row align-items-center d-flex">
+		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/mealplan-en.png?v={{ $version }}"><img src="/img/__thumbs/mealplan-en.png?v={{ $version }}"
@@ -525,7 +545,7 @@
 	<hr>
 
 	<section id="equipment"
-		class="row align-items-center d-flex flex-row-reverse">
+		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/equipment-en.png?v={{ $version }}"><img src="/img/__thumbs/equipment-en.png?v={{ $version }}"
@@ -542,7 +562,7 @@
 	<hr>
 
 	<section id="chores"
-		class="row align-items-center d-flex">
+		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/chores-en.png?v={{ $version }}"><img src="/img/__thumbs/chores-en.png?v={{ $version }}"
@@ -559,7 +579,7 @@
 	<hr>
 
 	<section id="tasks"
-		class="row align-items-center d-flex flex-row-reverse">
+		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/tasks-en.png?v={{ $version }}"><img src="/img/__thumbs/tasks-en.png?v={{ $version }}"
@@ -576,7 +596,7 @@
 	<hr>
 
 	<section id="batteries"
-		class="row align-items-center d-flex">
+		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/batteries-en.png?v={{ $version }}"><img src="/img/__thumbs/batteries-en.png?v={{ $version }}"
@@ -593,7 +613,7 @@
 	<hr>
 
 	<section id="user-defined-fields"
-		class="row align-items-center d-flex flex-row-reverse">
+		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/userfields-en.png?v={{ $version }}"><img src="/img/__thumbs/userfields-en.png?v={{ $version }}"
@@ -610,7 +630,7 @@
 	<hr>
 
 	<section id="night-mode"
-		class="row align-items-center d-flex">
+		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/nightmode-en.png?v={{ $version }}"><img src="/img/__thumbs/nightmode-en.png?v={{ $version }}"
@@ -687,7 +707,7 @@
 				So contributing to the project would be the thing which helps Grocy most.
 			</p>
 			<p class="lead fs-3">
-				This doesn't have to be code - creating documentation / tutorials for Grocy, helping translate Grocy into your language (can be done on <a href="https://www.transifex.com/grocy/grocy"
+				This doesn't have to be code - creating documentation / tutorials for Grocy, helping translate Grocy into your language (can be done on <a href="https://explore.transifex.com/grocy/grocy"
 					target="_blank">Transifex</a>) or helping spread the word (e.g. by writing an article about it) is just as helpful.
 			</p>
 			<p class="lead fs-2 mb-0">

@@ -413,13 +413,13 @@
 			<h3>Einkäufe erfassen</h3>
 			<p class="lead fs-2">Eine für Barcodescanner vorbereitete Oberfläche macht es einfach, Einkäufe intuitiv und effizient zu erfassen. Damit weißt du immer, was gerade Zuhause vorrätig ist.</p>
 			<p class="lead fs-2">
-				Es ist auch möglich, Barcodes direkt im Webbrowser mit der Gerätekamera zu scannen (<i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/watch?v=Y5YH6IJFnfc"
+				Es ist auch möglich, Barcodes direkt im Webbrowser mit der Gerätekamera zu scannen (<i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/watch?v=veezFX4X1JU"
 					target="_blank">Kurze Video-Demo</a>).
 			</p>
 		</div>
 		<div class="col">
 			<a class="lightbox"
-				href="/img/browser-barcode-scanning.png?v={{ $version }}"><img src="/img/__thumbs/browser-barcode-scanning.png?v={{ $version }}"
+				href="/img/browser-barcode-scanning-de.png?v={{ $version }}"><img src="/img/__thumbs/browser-barcode-scanning-de.png?v={{ $version }}"
 					alt="Grocy Barcode scannen im Browser"
 					title="Grocy Barcode scannen im Browser"
 					class="feature-image img-fluid"></a>
@@ -467,21 +467,40 @@
 		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
-				href="/img/dateinput-de.gif?v={{ $version }}"><img src="/img/__thumbs/dateinput-de.gif?v={{ $version }}"
+				href="/img/dateinput-de.gif?v={{ $version }}"><img src="/img/dateinput-de.gif?v={{ $version }}"
 					alt="Grocy Eingabeformular"
 					title="Grocy Eingabeformular"
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
 			<h3>Durchdachte Eingabeformulare</h3>
-			<p class="lead fs-2">Eine Hand, 3 Sekunden, kein Problem - Eingabefehler ausgeschlossen.</p>
+			<p class="lead fs-2">Eine Hand, 3 Sekunden, gar kein Problem - Eingabefehler ausgeschlossen.</p>
+		</div>
+	</section>
+
+	<hr>
+
+	<section id="barcode-lookup"
+		class="row align-items-center d-flex">
+		<div class="col-xs-12 col-lg-6">
+			<a class="lightbox"
+				href="/img/productpicker-workflow-de.png?v={{ $version }}"><img src="/img/__thumbs/productpicker-workflow-de.png?v={{ $version }}"
+					alt="Grocy Produkt-Picker Workflows"
+					title="Grocy Produkt-Picker Workflowss"
+					class="feature-image img-fluid"></a>
+		</div>
+		<div class="col pt-4 pt-lg-0">
+			<h3>Füge neue Produkte im Handumdrehen hinzu</h3>
+			<p class="lead fs-2">Barcodes können mit Hilfe von externen Diensten nachgeschlagen werden (<a href="https://de.openfoodfacts.org/"
+					target="_blank">Open Food Facts</a> ist eingebaut; jeder Dienst kann durch Plugins hinzugefügt werden) um neue Produkte ohne wirklichen Zeitaufwand hinzuzufügen (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=-moXPA-VvGc"
+					target="_blank">Kurze Video-Demo</a>).</p>
 		</div>
 	</section>
 
 	<hr>
 
 	<section id="recipes"
-		class="row align-items-center d-flex">
+		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/recipes-de.png?v={{ $version }}"><img src="/img/__thumbs/recipes-de.png?v={{ $version }}"
@@ -492,13 +511,14 @@
 		<div class="col pt-4 pt-lg-0">
 			<h3>Rezepte mit Intelligenz</h3>
 			<p class="lead fs-2">Pflege deine Rezepte und sehe auf einen Blick, ob alles Benötigte Zuhause vorrätig ist. Natürlich kann alles nicht vorhandene auch automatisch auf den Einkaufszettel übernommen werden.</p>
+			<p class="lead fs-2">"Fälligkeitspunkte" zeigen an, welche Rezepte sich gut eignen, um bald fällige oder bereits überfällige Vorräte aufzubrauchen, damit sie nicht verschwendet werden.</p>
 		</div>
 	</section>
 
 	<hr>
 
 	<section id="recipe-details"
-		class="row align-items-center d-flex flex-row-reverse">
+		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/recipedetail-de.png?v={{ $version }}"><img src="/img/__thumbs/recipedetail-de.png?v={{ $version }}"
@@ -507,7 +527,7 @@
 					class="feature-image img-fluid"></a>
 		</div>
 		<div class="col pt-4 pt-lg-0">
-			<h3>Kochbuch ist so 2016</h3>
+			<h3>Produktivität in der Küche</h3>
 			<p class="lead fs-2">Rezepte schick und übersichtlich.</p>
 		</div>
 	</section>
@@ -515,7 +535,7 @@
 	<hr>
 
 	<section id="meal-planning"
-		class="row align-items-center d-flex">
+		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/mealplan-de.png?v={{ $version }}"><img src="/img/__thumbs/mealplan-de.png?v={{ $version }}"
@@ -532,7 +552,7 @@
 	<hr>
 
 	<section id="equipment"
-		class="row align-items-center d-flex flex-row-reverse">
+		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/equipment-de.png?v={{ $version }}"><img src="/img/__thumbs/equipment-de.png?v={{ $version }}"
@@ -549,7 +569,7 @@
 	<hr>
 
 	<section id="chores"
-		class="row align-items-center d-flex">
+		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/chores-de.png?v={{ $version }}"><img src="/img/__thumbs/chores-de.png?v={{ $version }}"
@@ -566,7 +586,7 @@
 	<hr>
 
 	<section id="tasks"
-		class="row align-items-center d-flex flex-row-reverse">
+		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/tasks-de.png?v={{ $version }}"><img src="/img/__thumbs/tasks-de.png?v={{ $version }}"
@@ -583,7 +603,7 @@
 	<hr>
 
 	<section id="batteries"
-		class="row align-items-center d-flex">
+		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/batteries-de.png?v={{ $version }}"><img src="/img/__thumbs/batteries-de.png?v={{ $version }}"
@@ -600,7 +620,7 @@
 	<hr>
 
 	<section id="user-defined-fields"
-		class="row align-items-center d-flex flex-row-reverse">
+		class="row align-items-center d-flex">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/userfields-de.png?v={{ $version }}"><img src="/img/__thumbs/userfields-de.png?v={{ $version }}"
@@ -617,7 +637,7 @@
 	<hr>
 
 	<section id="night-mode"
-		class="row align-items-center d-flex">
+		class="row align-items-center d-flex flex-row-reverse">
 		<div class="col-xs-12 col-lg-6">
 			<a class="lightbox"
 				href="/img/nightmode-de.png?v={{ $version }}"><img src="/img/__thumbs/nightmode-de.png?v={{ $version }}"
@@ -694,7 +714,7 @@
 				Mitarbeit beim Projekt wäre also das, was Grocy am meisten hilft.
 			</p>
 			<p class="lead fs-3">
-				Das muss nicht unbedingt Code sein - das Erstellen von Dokumentation / Tutorials für Grocy, Hilfe bei der Übersetzung von Grocy in deine Sprache (kann auf <a href="https://www.transifex.com/grocy/grocy"
+				Das muss nicht unbedingt Code sein - das Erstellen von Dokumentation / Tutorials für Grocy, Hilfe bei der Übersetzung von Grocy in deine Sprache (kann auf <a href="https://explore.transifex.com/grocy/grocy"
 					target="_blank">Transifex</a> gemacht werden) oder helfen Grocy zu verbreiten (z. B. indem du einen Artikel darüber schreibst) ist genauso hilfreich.
 			</p>
 			<p class="lead fs-2 mb-0">
