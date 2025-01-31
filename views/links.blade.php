@@ -109,11 +109,21 @@
 			<h2 class="headline mb-3">Articles / written tutorials</h2>
 
 			<div>
+				<h5>Debian/NGINX/PHP-FPM reference configuration of the official Grocy demo instances (incl. reverse proxy)</h5>
+				<i class="fa-solid fa-arrow-up-right-from-square"></i>
+				<a class="small"
+					href="https://www.reddit.com/r/grocy/comments/15lm1he"
+					target="_blank">https://www.reddit.com/r/grocy/comments/15lm1he</a>
+			</div>
+
+			<hr class="my-3 py-0">
+
+			<div>
 				<h5>Keep Your Cupboard Contents Fresh With Grocy on Raspberry Pi</h5>
 				<i class="fa-solid fa-arrow-up-right-from-square"></i>
 				<a class="small"
 					href="https://www.makeuseof.com/raspberry-pi-keep-cupboard-contents-fresh-grocy/"
-					target="_blank">https://www.makeuseof.com/raspberry-pi-keep-cupboard-contents-fresh-grocy/e</a>
+					target="_blank">https://www.makeuseof.com/raspberry-pi-keep-cupboard-contents-fresh-grocy/</a>
 			</div>
 
 			<hr class="my-3 py-0">
@@ -214,16 +224,6 @@
 				<a class="small"
 					href="https://github.com/grocy/grocy/issues/649"
 					target="_blank">https://github.com/grocy/grocy/issues/649</a>
-			</div>
-
-			<hr class="my-3 py-0">
-
-			<div>
-				<h5>Example nginx/PHP-FPM config from the official demo instance (incl. reverse proxy)</h5>
-				<i class="fa-solid fa-arrow-up-right-from-square"></i>
-				<a class="small"
-					href="https://github.com/grocy/grocy-docker/issues/15#issuecomment-486579894"
-					target="_blank">https://github.com/grocy/grocy-docker/issues/15#issuecomment-486579894</a>
 			</div>
 
 			<hr class="my-3 py-0">

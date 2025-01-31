@@ -170,6 +170,8 @@
 				data-slide-to="3"></li>
 			<li data-target="#top-addons-carousel"
 				data-slide-to="4"></li>
+			<li data-target="#top-addons-carousel"
+				data-slide-to="5"></li>
 		</ol>
 		<div class="carousel-inner">
 			<div class="container alert alert-dark rounded-0">
@@ -205,6 +207,58 @@
 									href="/img/grocy-desktop-en.png?v={{ $version }}"><img src="/img/__thumbs/grocy-desktop-en.png?v={{ $version }}"
 										alt="Grocy Desktop"
 										title="Grocy Desktop"
+										class="feature-image img-fluid"></a>
+							</div>
+						</div>
+					</div>
+
+					<div id="docker"
+						class="carousel-item">
+						<div class="row align-items-center d-flex">
+							<div class="col">
+								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
+								<h1>LinuxServer.io Docker Image</h1>
+								<p class="lead fs-2">A container for Grocy - the ERP application for your kitchen.</p>
+								<p class="mb-2">
+									<a class="btn btn-sm btn-secondary"
+										href="https://hub.docker.com/r/linuxserver/grocy"
+										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Docker Hub</a>
+									<a class="btn btn-sm btn-secondary"
+										href="https://docs.linuxserver.io/images/docker-grocy/"
+										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Documentation</a>
+									<a class="btn btn-sm btn-secondary"
+										href="https://github.com/linuxserver/docker-grocy"
+										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div id="homeassistant"
+						class="carousel-item">
+						<div class="row align-items-center d-flex">
+							<div class="col-xs-12 col-lg-6">
+								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
+								<h1>Home Assistant Add-on</h1>
+								<p class="lead fs-2">Use Grocy fully integrated into Home Assistant.</p>
+								<p class="mb-2">
+									<a class="btn btn-sm btn-secondary"
+										href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422"
+										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Home Assistant Community Forum Thread</a>
+									<a class="btn btn-sm btn-secondary"
+										href="https://github.com/hassio-addons/addon-grocy/blob/master/grocy/DOCS.md"
+										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Documentation</a>
+									<a class="btn btn-sm btn-secondary mt-1"
+										href="https://github.com/hassio-addons/addon-grocy"
+										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+								</p>
+							</div>
+
+							<div class="col-xs-12 col-lg-6">
+								<a class="lightbox"
+									href="/img/hassio-addon.gif?v={{ $version }}"><img src="/img/__thumbs/hassio-addon.gif?v={{ $version }}"
+										alt="Home Assistant Add-on"
+										title="Home Assistant Add-on"
 										class="feature-image img-fluid"></a>
 							</div>
 						</div>
@@ -307,36 +361,6 @@
 									href="/img/barcode-buddy.png?v={{ $version }}"><img src="/img/__thumbs/barcode-buddy.png?v={{ $version }}"
 										alt="Barcode Buddy"
 										title="Barcode Buddy"
-										class="feature-image img-fluid"></a>
-							</div>
-						</div>
-					</div>
-
-					<div id="homeassistant"
-						class="carousel-item">
-						<div class="row align-items-center d-flex">
-							<div class="col-xs-12 col-lg-6">
-								<h6 class="my-0"><span class="badge badge-info">Community contribution</span></h6>
-								<h1>Home Assistant Add-on</h1>
-								<p class="lead fs-2">Use Grocy fully integrated into Home Assistant.</p>
-								<p class="mb-2">
-									<a class="btn btn-sm btn-secondary"
-										href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422"
-										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Home Assistant Community Forum Thread</a>
-									<a class="btn btn-sm btn-secondary"
-										href="https://github.com/hassio-addons/addon-grocy/blob/master/grocy/DOCS.md"
-										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Documentation</a>
-									<a class="btn btn-sm btn-secondary mt-1"
-										href="https://github.com/hassio-addons/addon-grocy"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
-								</p>
-							</div>
-
-							<div class="col-xs-12 col-lg-6">
-								<a class="lightbox"
-									href="/img/hassio-addon.gif?v={{ $version }}"><img src="/img/__thumbs/hassio-addon.gif?v={{ $version }}"
-										alt="Home Assistant Add-on"
-										title="Home Assistant Add-on"
 										class="feature-image img-fluid"></a>
 							</div>
 						</div>

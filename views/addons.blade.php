@@ -157,16 +157,6 @@
 			<hr class="my-3 py-0">
 
 			<div>
-				<h5>grocy-docker</h5>
-				ERP beyond your fridge - now containerized<br>
-				<a class="btn btn-secondary btn-sm mt-2"
-					href="https://github.com/grocy/grocy-docker"
-					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-			</div>
-
-			<hr class="my-3 py-0">
-
-			<div>
 				<h5>linuxserver/docker-grocy (LinuxServer.io)</h5>
 				A container for Grocy - the ERP application for your kitchen<br>
 				<a class="btn btn-secondary btn-sm mt-2"
