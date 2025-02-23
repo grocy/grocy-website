@@ -8,10 +8,7 @@
 
 	@if(isset($noindex))
 	<meta name="robots"
-		content="noindex,nofollow,noodp,noydir">
-	@else
-	<meta name="robots"
-		content="noodp,noydir">
+		content="noindex">
 	@endif
 	<meta name="format-detection"
 		content="telephone=no">
