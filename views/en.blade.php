@@ -682,6 +682,9 @@
 		<div class="col-xs-12 col-lg-5 pt-4 pt-lg-0">
 			<h3>Made for every device</h3>
 			<p class="lead fs-2">Whether on a smartphone or any other device, only a Browser is needed - e.g. install any low-cost-low-power device in your kitchen and you have a very comfortable 24/7 Grocy terminal.</p>
+			<p class="lead fs-2">Grocy's web frontend is responsive and an "installable web app" (PWA, without providing any offline usage capabilities), that provides a pretty native mobile app-like experience without the need for additional tools (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=L38drVZfwHs"
+					target="_blank">Android/Firefox demo</a>, <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=rjLdXUFDNuk"
+					target="_blank">Android/Chrome demo</a>).</p>
 		</div>
 		<div class="col">
 			<a class="lightbox"

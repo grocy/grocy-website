@@ -689,6 +689,9 @@
 		<div class="col-xs-12 col-lg-5 pt-4 pt-lg-0">
 			<h3>Läuft auf jedem Gerät</h3>
 			<p class="lead fs-2">Egal ob auf dem Smartphone oder jedem anderem Gerät, nur ein Browser wird benötigt - baue dir z. B. ein günstiges und sparsames Tablet in die Küche und du hast ein super komfortables 24/7 Grocy Terminal.</p>
+			<p class="lead fs-2">Grocys Web-Frontend ist responsive und eine „installierbare Web-App“ (PWA, ohne Offline-Funktionen), das bietet eine ziemlich native mobile-App-like Erfahrung, ohne dass zusätzliche Tools benötigt werden (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=L38drVZfwHs"
+					target="_blank">Android/Firefox Demo</a>, <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=rjLdXUFDNuk"
+					target="_blank">Android/Chrome Demo</a>).</p>
 		</div>
 		<div class="col">
 			<a class="lightbox"
