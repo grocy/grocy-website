@@ -210,7 +210,7 @@
 				<h5>pygrocy</h5>
 				A Grocy Python API client<br>
 				<a class="btn btn-secondary btn-sm mt-2"
-					href="https://github.com/SebRut/pygrocy"
+					href="https://github.com/flipper/pygrocy2"
 					target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 			</div>
 
