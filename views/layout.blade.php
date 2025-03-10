@@ -10,8 +10,6 @@
 	<meta name="robots"
 		content="noindex">
 	@endif
-	<meta name="format-detection"
-		content="telephone=no">
 
 	<meta name="author"
 		content="Bernd Bestel (bernd@berrnd.de)">
