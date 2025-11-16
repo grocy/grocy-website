@@ -737,7 +737,7 @@
 		<div class="col">
 			<h2>Sag Danke</h2>
 			<p class="lead fs-2">
-				Findest du Grocy nützlich und hat es dir vielleicht schon viel Zeit bei der Organisation deines Kühlschrank oder Haushalts erspart? Das freut mich!
+				Findest du Grocy nützlich und hat es dir vielleicht sogar schon viel Zeit bei der Organisation deines Kühlschranks oder Haushalts erspart? Das freut mich!
 			</p>
 			<p class="lead fs-2">
 				In Grocy, als eins meiner Hobbyprojekte, fließt endlos viel Leidenschaft und Freizeit. Mich als kleines Dankeschön auf einen Kaffee, ein Bier oder sogar ein 3-Gänge-Menü einzuladen ist eine nette Geste und vielleicht genau die Motivation, die das nächste geile Feature bereits morgen Realität werden lässt - hier sind einige Möglichkeiten dafür:
