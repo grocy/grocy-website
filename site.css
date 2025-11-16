@@ -149,6 +149,10 @@ footer {
 	font-size: 12px;
 }
 
+.lh-sm {
+	line-height: 1.25 !important;
+}
+
 :target {
 	border: 0.5em solid #ffff00;
 }

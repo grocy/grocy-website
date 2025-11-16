@@ -737,28 +737,31 @@
 		<div class="col">
 			<h2>Sag Danke</h2>
 			<p class="lead fs-2">
-				Grocy ist eines meiner Hobbys und ich arbeite gerne daran. Aber da es eben ein Hobby ist, hängt die Weiterentwicklung von (meiner) Freizeit und Lust ab - heißt es kann manchmal auch mal etwas dauern.
+				Findest du Grocy nützlich und hat es dir vielleicht schon viel Zeit bei der Organisation deines Kühlschrank oder Haushalts erspart? Das freut mich!
 			</p>
-			<p class="lead fs-2 mb-0">
-				Mitarbeit beim Projekt wäre also das, was Grocy am meisten hilft.
+			<p class="lead fs-2">
+				In Grocy, als eins meiner Hobbyprojekte, fließt endlos viel Leidenschaft und Freizeit. Mich als kleines Dankeschön auf einen Kaffee, ein Bier oder sogar ein 3-Gänge-Menü einzuladen ist eine nette Geste und vielleicht genau die Motivation, die das nächste geile Feature bereits morgen Realität werden lässt - hier sind einige Möglichkeiten dafür:
 			</p>
-			<p class="lead fs-3">
-				Das muss nicht unbedingt Code sein - das Erstellen von Dokumentation / Tutorials für Grocy, Hilfe bei der Übersetzung von Grocy in deine Sprache (kann auf <a href="https://explore.transifex.com/grocy/grocy"
-					target="_blank">Transifex</a> gemacht werden) oder helfen Grocy zu verbreiten (z. B. indem du einen Artikel darüber schreibst) ist genauso hilfreich.
-			</p>
-			<p class="lead fs-2 mb-0">
-				Wenn du dich dennoch bedanken willst, indem du mich auf einen Kaffee, ein Bier oder eine Pizza einlädst, kannst du das natürlich gerne tun - hier sind einige Möglichkeiten dafür:
 			<ul class="fs-2 list-unstyled">
-				<li class="my-2">
+				<li class="mt-2">
 					<a class="btn btn-primary"
 						href="https://www.paypal.com/donate/?hosted_button_id=UPPXVE63EK3L2"
 						target="_blank"
 						rel="nofollow">
 						<i class="fa-brands fa-paypal"></i> PayPal
 					</a>
+					<div class="fs-6 text-secondary lh-sm"><small><small class="font-weight-light">PayPal Konto, Visa/Mastercard etc.</small></small></div>
+				</li>
+				<li class="my-3">
+					<a class="btn btn-primary"
+						href="https://donate.stripe.com/5kQ9AN5MR9KVf0V5aL3oA00"
+						target="_blank"
+						rel="nofollow">
+						<i class="fa-brands fa-stripe-s"></i> Stripe
+					</a>
+					<div class="fs-6 text-secondary lh-sm"><small><small class="font-weight-light">Google/Apple/Amazon Pay, SEPA-Lastschrift, andere regionale Zahlungsmethoden</small></small></div>
 				</li>
 			</ul>
-			</p>
 			<p class="lead fs-2">
 				Danke dir! <i class="fa-solid fa-heart"></i>
 			</p>

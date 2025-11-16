@@ -730,28 +730,31 @@
 		<div class="col">
 			<h2>Say thanks</h2>
 			<p class="lead fs-2">
-				Grocy is one of my hobbies and I enjoy working on it. But since it's a hobby, development depends on (my) free time and desire - means it can sometimes take a while.
+				Do you find Grocy useful, and has it maybe already saved you a lot of time organizing your fridge or household? That's nice to hear!
 			</p>
-			<p class="lead fs-2 mb-0">
-				So contributing to the project would be the thing which helps Grocy most.
+			<p class="lead fs-2">
+				I put an endless amount of passion and spare time into Grocy as one of my hobby projects. So inviting me for a coffee, a beer, or even a three-course meal as a small thank you is a nice gesture and perhaps just the motivation that makes the next awesome feature a reality tomorrow - here are some options:
 			</p>
-			<p class="lead fs-3">
-				This doesn't have to be code - creating documentation / tutorials for Grocy, helping translate Grocy into your language (can be done on <a href="https://explore.transifex.com/grocy/grocy"
-					target="_blank">Transifex</a>) or helping spread the word (e.g. by writing an article about it) is just as helpful.
-			</p>
-			<p class="lead fs-2 mb-0">
-				If you still want to say thanks by inviting me for a coffee, a beer or a pizza instead, you're welcome to do so - here are some options:
 			<ul class="fs-2 list-unstyled">
-				<li class="my-2">
+				<li class="mt-2">
 					<a class="btn btn-primary"
 						href="https://www.paypal.com/donate/?hosted_button_id=VPYJD5SL488PS"
 						target="_blank"
 						rel="nofollow">
-						<i class="fab fa-paypal"></i> PayPal
+						<i class="fa-brands fa-paypal"></i> PayPal
 					</a>
+					<div class="fs-6 text-secondary lh-sm"><small><small class="font-weight-light">PayPal Account, Visa/Mastercard etc.</small></small></div>
+				</li>
+				<li class="my-3">
+					<a class="btn btn-primary"
+						href="https://donate.stripe.com/eVq9ANejng9j7ytav53oA01"
+						target="_blank"
+						rel="nofollow">
+						<i class="fa-brands fa-stripe-s"></i> Stripe
+					</a>
+					<div class="fs-6 text-secondary lh-sm"><small><small class="font-weight-light">Google/Apple/Amazon Pay, SEPA Direct Debit, other regional payment methods</small></small></div>
 				</li>
 			</ul>
-			</p>
 			<p class="lead fs-2">
 				Thank you! <i class="fas fa-heart"></i>
 			</p>
