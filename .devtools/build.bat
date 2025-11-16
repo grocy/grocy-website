@@ -7,11 +7,10 @@ mkdir ".deploy\data\grocyreleasesymlinks"
 mkdir ".deploy\data\static"
 mkdir ".deploy\data\viewcache"
 
-xcopy "index.php" ".deploy\"
+powershell -Command "(gc 'index.php') -Replace '{VERSION}', (git rev-parse --short HEAD) | Out-File -encoding UTF8 '.deploy\index.php'"
 xcopy "sitemap.xml" ".deploy\"
 xcopy "robots.txt" ".deploy\"
 xcopy "StaticFileCacheMiddleware.php" ".deploy\"
-xcopy "version.txt" ".deploy\"
 xcopy "favicon.ico" ".deploy\"
 xcopy "views\*.*" ".deploy\views\" /E
 xcopy "img\*.*" ".deploy\img\" /E
