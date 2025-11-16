@@ -37,6 +37,7 @@
 <meta name="twitter:image"
 	content="https://grocy.info/img/screenshot.png?v={{ $version }}">
 
+@verbatim
 <script type="application/ld+json">
 	{
 	"@context": "https://schema.org",
@@ -76,9 +77,9 @@
 				"name": "Grocy",
 				"description": "Grocy is a web-based self-hosted groceries & household management solution for your home. Open Source. Built with passion.",
 				"applicationCategory": "ERP",
-				"screenshot": "https://grocy.info/img/screenshot.png?v={{ $version }}",
+				"screenshot": "https://grocy.info/img/screenshot.png?v=<?php echo $version;?>",
 				"inLanguage": "en",
-				"softwareVersion": "{{ $grocyVersionInfo->Version }}",
+				"softwareVersion": "<?php echo $grocyVersionInfo->Version;?>",
 				"author": {
 					"@type": "Person",
 					"@id": "https://berrnd.de/#/schema/Organization",
@@ -86,7 +87,7 @@
 					"name": "Bernd Bestel"
 				},
 				"dateCreated": "2017-04-15",
-				"dateModified": "{{ $grocyVersionInfo->ReleaseDate }}",
+				"dateModified": "<?php echo $grocyVersionInfo->ReleaseDate;?>",
 				"keywords": "ERP, Grocy",
 				"license": "https://opensource.org/licenses/MIT",
 				"releaseNotes": "https://grocy.info/changelog",
@@ -96,6 +97,7 @@
 	]
 }
 </script>
+@endverbatim
 @stop
 
 @section('navAdditional')

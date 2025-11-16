@@ -23,10 +23,11 @@ xcopy "vendor\*.*" ".deploy\vendor\" /E
 xcopy "packages\*.*" ".deploy\packages\" /E
 del ".deploy\packages\.yarn-integrity"
 rd /s /q ".deploy\packages\@fortawesome\fontawesome-free\js"
-rd /s /q ".deploy\packages\@fortawesome\fontawesome-free\less"
 rd /s /q ".deploy\packages\@fortawesome\fontawesome-free\metadata"
 rd /s /q ".deploy\packages\@fortawesome\fontawesome-free\scss"
 rd /s /q ".deploy\packages\@fortawesome\fontawesome-free\sprites"
+rd /s /q ".deploy\packages\@fortawesome\fontawesome-free\sprites-full"
 rd /s /q ".deploy\packages\@fortawesome\fontawesome-free\svgs"
+rd /s /q ".deploy\packages\@fortawesome\fontawesome-free\svgs-full"
 
 popd

@@ -34,6 +34,7 @@
 <meta name="twitter:image"
 	content="https://grocy.info/img/screenshot.png?v={{ $version }}">
 
+@verbatim
 <script type="application/ld+json">
 	{
 	"@context": "https://schema.org",
@@ -87,6 +88,7 @@
 	]
 }
 </script>
+@endverbatim
 @stop
 
 @section('content')

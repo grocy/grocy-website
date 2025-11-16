@@ -3,24 +3,24 @@
 
 
 "@fontsource/inter@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-5.1.1.tgz#401803b6ac4c877f5be94088aa89147ed5a2bd85"
-  integrity sha512-weN3E+rq0Xb3Z93VHJ+Rc7WOQX9ETJPTAJ+gDcaMHtjft67L58sfS65rAjC5tZUXQ2FdZ/V1/sSzCwZ6v05kJw==
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-5.2.8.tgz#10c95d877d972c7de5bd4592309d42fb6a5e1a5b"
+  integrity sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg==
 
 "@fontsource/pt-mono@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/pt-mono/-/pt-mono-5.1.1.tgz#ede4ce66f4c766a0f0c7e3218df6f01c2ecbbd61"
-  integrity sha512-kgavFIBxilfEyzanxkNokpWEjnSl+54fCs/eac8ivGwQdp/s8ujGJI3gaf6dyzIraYCqsh4avcgGdQ5aWxIGLg==
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/pt-mono/-/pt-mono-5.2.8.tgz#9624663b8079714dcfa2084e35eae632d112c5e6"
+  integrity sha512-rJCYN8NRBQbT6Xvj42JBj7kLuuAV7LXfV2udQc5+2QT8pWXCz9iUb7gHDEvtb6zoljzOLPS+E3IBllSMzwazNg==
 
 "@fontsource/pt-sans@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/pt-sans/-/pt-sans-5.1.1.tgz#1fb69d896c06636ab95ca2dee44a0a89d6fb81c0"
-  integrity sha512-bDvDgbc8Dmr6iaR0tE1v1jwTFZsM2vXenjzY93N4g7NfJUIplqUthvtvCXlj5JRVS7SW/PXP7UOe7+G9UYz6OA==
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/pt-sans/-/pt-sans-5.2.8.tgz#7734053eff60df27751bf97453ef7cbe42b44aaa"
+  integrity sha512-b8nBGHMVwfe21IWqERlMrzIs+L/Vm3QNGbnET3H1vfclAScWExbN17N/z/dJcyPgvrcenbJDv1H3f5hTAEbcVQ==
 
-"@fortawesome/fontawesome-free@^6.7.2":
-  version "6.7.2"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.7.2.tgz#8249de9b7e22fcb3ceb5e66090c30a1d5492b81a"
-  integrity sha512-JUOtgFW6k9u4Y+xeIaEiLr3+cjoUPiAuLXoyKOJSia6Duzb7pq+A76P9ZdPDoAoxHdHzq6gE9/jKBGXlZT8FbA==
+"@fortawesome/fontawesome-free@^7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-7.1.0.tgz#8eb76278515341720aa74485266f8be121089529"
+  integrity sha512-+WxNld5ZCJHvPQCr/GnzCTVREyStrAJjisUPtUxG5ngDA8TMlPnKp6dddlTpai4+1GNmltAeuk1hJEkBohwZYA==
 
 bootstrap@^4.6.2:
   version "4.6.2"
@@ -28,9 +28,9 @@ bootstrap@^4.6.2:
   integrity sha512-51Bbp/Uxr9aTuy6ca/8FbFloBUJZLHwnhTcnjIeRn2suQWsWzcuJhGjKDB5eppVte/8oCdOL3VuwxvZDUggwGQ==
 
 flag-icons@^7.2.3:
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/flag-icons/-/flag-icons-7.3.2.tgz#c5ffaf25fb2be97498703a068fa699416bca9629"
-  integrity sha512-QkaZ6Zvai8LIjx+UNAHUJ5Dhz9OLZpBDwCRWxF6YErxIcR16jTkIFm3bFu54EkvKQy4+wicW+Gm7/0631wVQyQ==
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/flag-icons/-/flag-icons-7.5.0.tgz#66462df3e8bc5ef3a283322a46bb9dde1b290505"
+  integrity sha512-kd+MNXviFIg5hijH766tt+3x76ele1AXlo4zDdCxIvqWZhKt4T83bOtxUOOMlTx/EcFdUMH5yvQgYlFh1EqqFg==
 
 jquery@^3.7.1:
   version "3.7.1"
