@@ -124,20 +124,20 @@
 					<p class="mb-2">
 						<a class="btn btn-primary btn-lg"
 							href="https://releases.grocy.info/latest"
-							target="_blank"><i class="fas fa-download"></i> Download</a>
+							target="_blank"><i class="fa-solid fa-download"></i> Download</a>
 						<a class="btn btn-success btn-lg"
 							href="https://en.demo.grocy.info"
-							target="_blank"><i class="fas fa-eye"></i> Demo</a>
+							target="_blank"><i class="fa-solid fa-eye"></i> Demo</a>
 					</p>
 					<p class="mb-1">
 						<a class="btn btn-secondary btn-sm"
-							href="/changelog"><i class="fas fa-right-left"></i> Changelog</a>
+							href="/changelog"><i class="fa-solid fa-right-left"></i> Changelog</a>
 						<a class="btn btn-secondary btn-sm"
 							href="https://github.com/grocy/grocy#how-to-install"
-							target="_blank"><i class="fas fa-info"></i> Install guide</a>
+							target="_blank"><i class="fa-solid fa-info"></i> Install guide</a>
 						<a class="btn btn-secondary btn-sm"
 							href="https://github.com/grocy/grocy"
-							target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+							target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 					</p>
 					<p class="font-weight-light font-italic fs-4 pt-1">
 						Current version: {{ $grocyVersionInfo->Version }} (released on {{ date('m/d/Y', strtotime($grocyVersionInfo->ReleaseDate)) }})
@@ -188,7 +188,7 @@
 								<p class="mb-2">
 									<a class="btn btn-primary"
 										href="https://releases.grocy.info/latest-desktop"
-										target="_blank"><i class="fas fa-download"></i> Download <span class="small">(classic installer)</span></a>
+										target="_blank"><i class="fa-solid fa-download"></i> Download <span class="small">(classic installer)</span></a>
 									or
 									<a href="https://apps.microsoft.com/detail/9NWB1TRNNKSF?launch=true&mode=full&hl=en-us&gl=US"
 										target="_blank">
@@ -200,7 +200,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/grocy/grocy-desktop"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -224,13 +224,13 @@
 								<p class="mb-2">
 									<a class="btn btn-sm btn-secondary"
 										href="https://hub.docker.com/r/linuxserver/grocy"
-										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Docker Hub</a>
+										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Docker Hub</a>
 									<a class="btn btn-sm btn-secondary"
 										href="https://docs.linuxserver.io/images/docker-grocy/"
-										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Documentation</a>
+										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Documentation</a>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/linuxserver/docker-grocy"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 						</div>
@@ -246,13 +246,13 @@
 								<p class="mb-2">
 									<a class="btn btn-sm btn-secondary"
 										href="https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422"
-										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Home Assistant Community Forum Thread</a>
+										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Home Assistant Community Forum Thread</a>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/hassio-addons/addon-grocy/blob/master/grocy/DOCS.md"
-										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Documentation</a>
+										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Documentation</a>
 									<a class="btn btn-sm btn-secondary mt-1"
 										href="https://github.com/hassio-addons/addon-grocy"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -290,7 +290,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/patzly/grocy-android"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -322,7 +322,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/supergeorg/Grocy-SwiftUI"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -354,7 +354,7 @@
 								<p>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/Forceu/barcodebuddy"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 
@@ -396,10 +396,10 @@
 			<p class="lead fs-2">
 				<a class="btn btn-danger"
 					href="https://www.reddit.com/r/grocy"
-					target="_blank"><i class="fab fa-reddit"></i> r/grocy</a>
+					target="_blank"><i class="fa-brands fa-reddit"></i> r/grocy</a>
 				<a class="btn btn-dark"
 					href="https://github.com/grocy/grocy/issues"
-					target="_blank"><i class="fab fa-github"></i> grocy/grocy</a>
+					target="_blank"><i class="fa-brands fa-github"></i> grocy/grocy</a>
 			</p>
 		</div>
 		<div id="addons-intro"
@@ -410,9 +410,9 @@
 			</p>
 			<p class="lead fs-2">
 				<a class="btn btn-info mb-2 mb-sm-0"
-					href="/addons"><i class="fas fa-puzzle-piece"></i> Add-ons and other tools</a>
+					href="/addons"><i class="fa-solid fa-puzzle-piece"></i> Add-ons and other tools</a>
 				<a class="btn btn-info"
-					href="/links"><i class="fas fa-list"></i> Tutorials and other guides</a>
+					href="/links"><i class="fa-solid fa-list"></i> Tutorials and other guides</a>
 			</p>
 		</div>
 	</section>
@@ -432,7 +432,7 @@
 			<h3>Track your purchases</h3>
 			<p class="lead fs-2">A barcode reader ready interface makes this a easy and quick task and you always know what you currently have at home.</p>
 			<p class="lead fs-2">
-				It's also possible to scan barcodes directly in the web browser using the device camera (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=veezFX4X1JU"
+				It's also possible to scan barcodes directly in the web browser using the device camera (<i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/watch?v=veezFX4X1JU"
 					target="_blank">Quick video demo</a>).
 			</p>
 		</div>
@@ -511,7 +511,7 @@
 		<div class="col pt-4 pt-lg-0">
 			<h3>Add new products on the fly</h3>
 			<p class="lead fs-2">Barcodes can be looked up using external services (<a href="https://world.openfoodfacts.org/"
-					target="_blank">Open Food Facts</a> is built-in; any service can be added using Plugins) to add new products in no time at all (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=-moXPA-VvGc"
+					target="_blank">Open Food Facts</a> is built-in; any service can be added using Plugins) to add new products in no time at all (<i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/watch?v=-moXPA-VvGc"
 					target="_blank">Quick video demo</a>).</p>
 		</div>
 	</section>
@@ -684,8 +684,8 @@
 		<div class="col-xs-12 col-lg-5 pt-4 pt-lg-0">
 			<h3>Made for every device</h3>
 			<p class="lead fs-2">Whether on a smartphone or any other device, only a Browser is needed - e.g. install any low-cost-low-power device in your kitchen and you have a very comfortable 24/7 Grocy terminal.</p>
-			<p class="lead fs-2">Grocy's web frontend is responsive and an "installable web app" (PWA, without providing any offline usage capabilities), that provides a pretty native mobile app-like experience without the need for additional tools (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=L38drVZfwHs"
-					target="_blank">Android/Firefox demo</a>, <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=rjLdXUFDNuk"
+			<p class="lead fs-2">Grocy's web frontend is responsive and an "installable web app" (PWA, without providing any offline usage capabilities), that provides a pretty native mobile app-like experience without the need for additional tools (<i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/watch?v=L38drVZfwHs"
+					target="_blank">Android/Firefox demo</a>, <i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/watch?v=rjLdXUFDNuk"
 					target="_blank">Android/Chrome demo</a>).</p>
 		</div>
 		<div class="col">
@@ -756,7 +756,7 @@
 				</li>
 			</ul>
 			<p class="lead fs-2">
-				Thank you! <i class="fas fa-heart"></i>
+				Thank you! <i class="fa-solid fa-heart"></i>
 			</p>
 		</div>
 	</section>

@@ -231,13 +231,13 @@
 								<p class="mb-2">
 									<a class="btn btn-sm btn-secondary"
 										href="https://hub.docker.com/r/linuxserver/grocy"
-										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Docker Hub</a>
+										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Docker Hub</a>
 									<a class="btn btn-sm btn-secondary"
 										href="https://docs.linuxserver.io/images/docker-grocy/"
-										target="_blank"><i class="fas fa-arrow-up-right-from-square"></i> Documentation</a>
+										target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Documentation</a>
 									<a class="btn btn-sm btn-secondary"
 										href="https://github.com/linuxserver/docker-grocy"
-										target="_blank"><i class="fab fa-github"></i> Source on GitHub</a>
+										target="_blank"><i class="fa-brands fa-github"></i> Source on GitHub</a>
 								</p>
 							</div>
 						</div>
@@ -518,7 +518,7 @@
 		<div class="col pt-4 pt-lg-0">
 			<h3>Füge neue Produkte im Handumdrehen hinzu</h3>
 			<p class="lead fs-2">Barcodes können mit Hilfe von externen Diensten nachgeschlagen werden (<a href="https://de.openfoodfacts.org/"
-					target="_blank">Open Food Facts</a> ist eingebaut; jeder Dienst kann durch Plugins hinzugefügt werden) um neue Produkte ohne wirklichen Zeitaufwand hinzuzufügen (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=-moXPA-VvGc"
+					target="_blank">Open Food Facts</a> ist eingebaut; jeder Dienst kann durch Plugins hinzugefügt werden) um neue Produkte ohne wirklichen Zeitaufwand hinzuzufügen (<i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/watch?v=-moXPA-VvGc"
 					target="_blank">Kurze Video-Demo</a>).</p>
 		</div>
 	</section>
@@ -691,8 +691,8 @@
 		<div class="col-xs-12 col-lg-5 pt-4 pt-lg-0">
 			<h3>Läuft auf jedem Gerät</h3>
 			<p class="lead fs-2">Egal ob auf dem Smartphone oder jedem anderem Gerät, nur ein Browser wird benötigt - baue dir z. B. ein günstiges und sparsames Tablet in die Küche und du hast ein super komfortables 24/7 Grocy Terminal.</p>
-			<p class="lead fs-2">Grocys Web-Frontend ist responsive und eine „installierbare Web-App“ (PWA, ohne Offline-Funktionen), das bietet eine ziemlich native mobile-App-like Erfahrung, ohne dass zusätzliche Tools benötigt werden (<i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=L38drVZfwHs"
-					target="_blank">Android/Firefox Demo</a>, <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=rjLdXUFDNuk"
+			<p class="lead fs-2">Grocys Web-Frontend ist responsive und eine „installierbare Web-App“ (PWA, ohne Offline-Funktionen), das bietet eine ziemlich native mobile-App-like Erfahrung, ohne dass zusätzliche Tools benötigt werden (<i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/watch?v=L38drVZfwHs"
+					target="_blank">Android/Firefox Demo</a>, <i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/watch?v=rjLdXUFDNuk"
 					target="_blank">Android/Chrome Demo</a>).</p>
 		</div>
 		<div class="col">
