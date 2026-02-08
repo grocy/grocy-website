@@ -1,0 +1,1 @@
+If you think something on https://grocy.info is wrong, or that something should be added or removed, feel free to contribute whatever you want, but please do not expect it to be implemented immediately or at all.
